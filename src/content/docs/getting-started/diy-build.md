@@ -39,7 +39,7 @@ Choose one of these cases:
 ### Optional Upgrades
 
 | Component | Price | Link | Why Upgrade? |
-|-----------|-------|------|--------------|
+|-----------|-------|------|-----------:|
 | **Raspberry Pi 5 (8GB)** | $80 | [Amazon](https://a.co/d/h6j9GHp) | More headroom for future features |
 
 ## Assembly Guide

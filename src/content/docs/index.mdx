@@ -1,126 +1,63 @@
 ---
-title: RV Link - RV-C to Home Assistant
-description: RV Link bridges RV‑C CAN networks with Home Assistant using Node‑RED and an MQTT CAN bridge.
+title: RV Link
+description: Connect your RV to Home Assistant for complete control and monitoring
 template: splash
 hero:
-  tagline: Connect Your RV to Home Assistant. Control and monitor your systems from a beautiful, modern dashboard.
+  title: Connect Your RV to Home Assistant
+  tagline: Auto-discovery, real-time monitoring, and beautiful dashboards—all local, all open source.
+  image:
+    file: ../../assets/dashboards/rvlink/view_0.png
   actions:
-    - text: Learn How it Works
+    - text: Get Started
       link: /getting-started/introduction/
       icon: right-arrow
       variant: primary
-    - text: Get a Unit
-      link: /purchase/
+    - text: View Gallery
+      link: /gallery/
       icon: external
-head:
-  - tag: meta
-    attrs:
-      property: og:title
-      content: RV Link - RV-C to Home Assistant
-  - tag: meta
-    attrs:
-      property: og:description
-      content: Control and monitor your RV's systems from Home Assistant. Auto-discovery, real-time monitoring, and customizable dashboards.
-  - tag: meta
-    attrs:
-      property: og:image
-      content: https://rvlink.app/img/social-card.jpg
-  - tag: meta
-    attrs:
-      property: og:type
-      content: website
-  - tag: meta
-    attrs:
-      property: og:url
-      content: https://rvlink.app/
-  - tag: meta
-    attrs:
-      name: twitter:card
-      content: summary_large_image
-  - tag: meta
-    attrs:
-      name: twitter:title
-      content: RV Link - RV-C to Home Assistant
-  - tag: meta
-    attrs:
-      name: twitter:description
-      content: Control and monitor your RV's systems from Home Assistant. Auto-discovery, real-time monitoring, and customizable dashboards.
-  - tag: meta
-    attrs:
-      name: twitter:image
-      content: https://rvlink.app/img/social-card.jpg
+      variant: minimal
 ---
 
-import { Card, CardGrid } from "@astrojs/starlight/components";
-import { Image } from 'astro:assets';
-import logo from '../../assets/logo.png';
-import view0 from '../../assets/dashboards/rvlink/view_0.png';
-import assembly1 from '../../assets/assembly/assembly_1.jpg';
+import { Card, CardGrid } from '@astrojs/starlight/components';
 
-<div style="text-align: center; margin: 3rem auto; max-width: 600px;">
-  <Image
-    src={logo}
-    alt="RV Link Logo"
-    width={400}
-  />
-</div>
-
-## Why Choose RV Link?
+## Everything You Need
 
 <CardGrid>
   <Card title="Total Control" icon="setting">
-    Manage your lights, shades, locks, pumps, and HVAC systems from a single
-    interface, whether you're inside the coach or miles away.
+    Manage lights, shades, locks, pumps, and HVAC systems from a single interface. Works completely locally—no cloud dependency required.
   </Card>
-  <Card title="Real-Time Monitoring" icon="magnifier">
-    Keep an eye on tank levels, battery voltage, charger/inverter status, and
-    generator performance with at-a-glance dashboards.
+  
+  <Card title="Real-Time Monitoring" icon="information">
+    Live updates for tank levels, battery voltage, solar input, and generator status. Set alerts for critical thresholds.
   </Card>
-  <Card title="Open & Extensible" icon="puzzle">
-    Built on open-source software, RV Link is fully customizable. Add support
-    for new devices or integrate with other smart home platforms.
+  
+  <Card title="Auto-Discovery" icon="puzzle">
+    Automatically finds all RV-C devices on your network. No manual configuration needed—just connect and go.
   </Card>
-</CardGrid>
-
-## Key Features
-
-- **Auto-Discovery:** Automatically finds compatible RV-C devices and creates Home Assistant entities.
-- **Bidirectional Communication:** Read real-time status from your RV and send commands back to control devices.
-- **Comprehensive Device Support:** Works with a wide range of standard RV-C devices.
-- **Reliable & Offline-Capable:** Runs entirely inside your RV.
-- **DIY Friendly:** Detailed guides for building the hardware.
-
-## How It Works
-
-1. **CAN Bridge Hardware:** Raspberry Pi with CAN HAT connects to RV-C network.
-2. **CAN to MQTT Software:** Reads messages and publishes to MQTT.
-3. **Node-RED Processing:** Decodes data for Home Assistant.
-4. **Home Assistant Integration:** Auto-configures entities via MQTT Discovery.
-
-[See the Full Architecture](/getting-started/introduction/)
-
-## Gallery Preview
-
-<CardGrid>
-  <Card title="Dashboards">
-    <Image src={view0} alt="Dashboard" />
-  </Card>
-  <Card title="Hardware">
-    <Image src={assembly1} alt="Hardware" />
+  
+  <Card title="Open Source" icon="github">
+    Built on Home Assistant, Node-RED, and MQTT. Fully customizable and extensible to fit your needs.
   </Card>
 </CardGrid>
 
-<div style="text-align: center; margin-top: 2rem;">
-  [View Full Gallery](/gallery/)
-</div>
-
-## Ready to Get Started?
+## Choose Your Path
 
 <CardGrid>
-  <Card title="Build It Yourself" icon="pencil">
-    [Hardware Guide](/hardware/assembly/)
+  <Card title="Pre-Assembled Kit" icon="star">
+    Buy a ready-to-use unit, fully tested and configured.
+    
+    [Learn More →](/purchase/)
   </Card>
-  <Card title="Buy Pre-Assembled" icon="cart">
-    [Purchase](/purchase/)
+  
+  <Card title="DIY Build" icon="pencil">
+    Build your own hardware with our detailed guides and pre-configured software image.
+    
+    [Build Guide →](/getting-started/diy-build/)
+  </Card>
+  
+  <Card title="Manual Install" icon="laptop">
+    Complete control over your installation. Perfect for tinkerers.
+    
+    [Advanced Setup →](/getting-started/manual-install/)
   </Card>
 </CardGrid>
