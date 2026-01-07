@@ -1,6 +1,8 @@
 ---
 title: Choose Your Path
 description: Compare the three ways to get RV-Link and choose the best option for your skill level and goals.
+sidebar:
+  order: 3
 ---
 
 RV-Link offers three installation paths. Choose the one that fits your comfort level, timeline, and budget.

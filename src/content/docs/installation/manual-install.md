@@ -1,6 +1,8 @@
 ---
 title: "Full Manual Installation"
 description: "Advanced installation guide for manually setting up Mosquitto, CAN-to-MQTT Bridge, and Node-RED on Home Assistant OS."
+sidebar:
+  order: 2
 ---
 
 This guide is for advanced users who want complete control over their installation or are installing RV Link onto an existing Home Assistant instance (e.g., on a NUC or Yellow).

@@ -1,6 +1,8 @@
 ---
 title: CAN Connection Guide
 description: "Guide to physically connecting RV-Link hardware to your RV's CAN bus network including safety precautions, locating ports, and verification."
+sidebar:
+  order: 4
 ---
 
 :::caution[Safety First]

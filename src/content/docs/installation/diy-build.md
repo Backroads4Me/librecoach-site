@@ -1,6 +1,8 @@
 ---
 title: "DIY Build Guide"
 description: "Step-by-step guide to building your own RV-Link hardware and flashing the pre-configured Home Assistant OS image."
+sidebar:
+  order: 1
 ---
 
 Build your own RV-Link hardware and flash our pre-configured Home Assistant OS image. This is the perfect balance between hands-on building and convenience.

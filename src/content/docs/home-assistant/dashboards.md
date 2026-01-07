@@ -1,6 +1,8 @@
 ---
 title: "Creating Custom Dashboards"
 description: "Create custom Home Assistant dashboards for your RV with examples, YAML configurations, and community-shared layouts."
+sidebar:
+  order: 1
 ---
 
 Once you've [identified your switches](/installation/identifying-switches/), it's time to create beautiful, functional dashboards tailored to your RV's layout.

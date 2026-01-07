@@ -1,6 +1,8 @@
 ---
 title: "What is RV-Link?"
 description: "RV-Link bridges your RV's CAN bus to Home Assistant, enabling control and monitoring of lights, climate, tanks, and power systems."
+sidebar:
+  order: 1
 ---
 
 RV-Link is an open-source platform that transforms your RV into a modern, intelligent vehicle. It bridges the gap between your RV's industrial "RV-C" network and the consumer-friendly world of Home Assistant.

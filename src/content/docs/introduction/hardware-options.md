@@ -1,6 +1,8 @@
 ---
 title: Hardware Options
 description: Build it yourself or join the waitlist for a pre-assembled unit.
+sidebar:
+  order: 2
 ---
 
 RV Link is an open source project. You have two ways to get the hardware.

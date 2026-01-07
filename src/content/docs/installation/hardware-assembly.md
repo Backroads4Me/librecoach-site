@@ -1,6 +1,8 @@
 ---
 title: "Hardware Assembly Guide"
 description: "Detailed hardware assembly instructions with photos for building RV-Link using Raspberry Pi 5, CAN HAT, and NVMe components."
+sidebar:
+  order: 3
 ---
 
 Follow this step-by-step guide to assemble your RV-Link hardware. Take your time—proper assembly ensures reliable operation.

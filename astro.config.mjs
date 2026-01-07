@@ -33,21 +33,11 @@ export default defineConfig({
       sidebar: [
         {
           label: 'Introduction',
-          items: [
-            { label: 'What is RV-Link?', slug: 'introduction/what-is-rvlink' },
-            { label: 'Hardware Options', slug: 'introduction/hardware-options' },
-            { label: 'Choose Your Path', slug: 'introduction/choose-your-path' },
-          ],
+          autogenerate: { directory: 'introduction' },
         },
         {
           label: 'Installation Guide',
-          items: [
-            { label: 'DIY Build', slug: 'installation/diy-build' },
-            { label: 'Manual Install', slug: 'installation/manual-install' },
-            { label: 'Hardware Assembly', slug: 'installation/hardware-assembly' },
-            { label: 'Connect to RV CAN Bus', slug: 'installation/can-connection' },
-            { label: 'Identify Your Switches', slug: 'installation/identifying-switches' },
-          ],
+          autogenerate: { directory: 'installation' },
         },
         {
           label: 'Home Assistant Setup',
