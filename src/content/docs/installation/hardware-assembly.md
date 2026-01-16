@@ -1,11 +1,11 @@
 ---
 title: "Hardware Assembly Guide"
-description: "Detailed hardware assembly instructions with photos for building RV-Link using Raspberry Pi 5, CAN HAT, and NVMe components."
+description: "Detailed hardware assembly instructions with photos for building Libre Coach using Raspberry Pi 5, CAN HAT, and NVMe components."
 sidebar:
   order: 3
 ---
 
-Follow this step-by-step guide to assemble your RV-Link hardware. Take your time—proper assembly ensures reliable operation.
+Follow this step-by-step guide to assemble your Libre Coach hardware. Take your time—proper assembly ensures reliable operation.
 
 ## Required Tools
 
@@ -191,4 +191,4 @@ Your hardware is now assembled! Continue to:
 - Verify fan is connected and spinning
 - Check that heatsink makes contact with thermal pads
 
-Need help? Ask on the [forum](https://forum.rvlink.app)!
+Need help? Ask on the [forum](https://forum.LibreCoach.com)!

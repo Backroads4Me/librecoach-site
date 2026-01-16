@@ -24,13 +24,13 @@ The unique ID of a device.
 *   If you have two water pumps, they use the same PGN (Status), but different Instances (Pump 1 vs Pump 2).
 
 ### Integration
-A piece of code that connects Home Assistant to a service or device. RV Link provides the integration between HA and your RV-C network.
+A piece of code that connects Home Assistant to a service or device. Libre Coach provides the integration between HA and your RV-C network.
 
 ### Lovelace / Dashboard
 The User Interface of Home Assistant. Cards, buttons, and gauges live here.
 
 ### MQTT (Message Queuing Telemetry Transport)
-The messaging protocol RV Link uses internally. 
+The messaging protocol Libre Coach uses internally. 
 *   **Bridge**: Reads CAN bus -> Publishes MQTT.
 *   **Node-RED**: Listens to MQTT -> Updates Home Assistant.
 

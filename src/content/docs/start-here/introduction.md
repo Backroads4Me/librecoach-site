@@ -1,13 +1,13 @@
 ---
-title: "Welcome to RV-Link"
-description: "Introduction to RV-Link featuring three installation paths: pre-assembled kit, DIY build, or full manual installation."
+title: "Welcome to Libre Coach"
+description: "Introduction to Libre Coach featuring three installation paths: pre-assembled kit, DIY build, or full manual installation."
 ---
 
-RV-Link transforms your RV into a smart home by bridging your RV's RV-C (Controller Area Network) to Home Assistant. Control and monitor everything from lights and shades to tanks and batteries—all from your phone or tablet.
+Libre Coach transforms your RV into a smart home by bridging your RV's RV-C (Controller Area Network) to Home Assistant. Control and monitor everything from lights and shades to tanks and batteries—all from your phone or tablet.
 
 ## What You'll Get
 
-- **Automatic Device Discovery**: RV-Link finds all RV-C devices on your network and creates Home Assistant entities automatically
+- **Automatic Device Discovery**: Libre Coach finds all RV-C devices on your network and creates Home Assistant entities automatically
 - **Real-Time Control**: Toggle switches, adjust thermostats, and control pumps instantly
 - **Comprehensive Monitoring**: Track tank levels, battery voltage, charger status, and energy flow
 - **Customizable Dashboards**: Create beautiful interfaces tailored to your RV
@@ -34,12 +34,12 @@ We are gauging interest in a batch of pre-built units. Join the waitlist if you 
 
 ## What's Next?
 
-- Learn more about [What is RV-Link](/start-here/what-is-rvlink/) and how it works
+- Learn more about [What is Libre Coach](/start-here/what-is-librecoach/) and how it works
 - Understand [RV-C Networks](/concepts/rvc-network/) and what devices are supported
-- Join the [Community Forum](https://forum.rvlink.app) to see what others are building
+- Join the [Community Forum](https://forum.LibreCoach.com) to see what others are building
 
 ## Need Help?
 
-- Visit our [Community Forum](https://forum.rvlink.app) for support
+- Visit our [Community Forum](https://forum.LibreCoach.com) for support
 - Check the [Troubleshooting Guide](/troubleshooting/common-issues/)
 - Report bugs on [GitHub](https://github.com/Backroads4Me)

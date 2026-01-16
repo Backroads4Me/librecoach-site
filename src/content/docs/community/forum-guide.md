@@ -1,9 +1,9 @@
 ---
 title: Forum Guide
-description: "How to use the RV Link community forum effectively: asking for help, sharing your work, and connecting with other RVers."
+description: "How to use the Libre Coach community forum effectively: asking for help, sharing your work, and connecting with other RVers."
 ---
 
-The [RV Link Forum](https://forum.rvlink.app) is the heartbeat of our community. It's where we troubleshoot, show off, and dream up new features.
+The [Libre Coach Forum](https://forum.LibreCoach.com) is the heartbeat of our community. It's where we troubleshoot, show off, and dream up new features.
 
 ## What You'll Find
 
@@ -28,7 +28,7 @@ When posting in **Support**, please include:
 
 1.  **RV Details**: Year, Make, Model (e.g., *2022 Tiffin Allegro Bus 45OPP*)
 2.  **Hardware**: Pi Model, CAN HAT type (e.g., *Pi 4, Waveshare RS485/CAN HAT*)
-3.  **Software**: Home Assistant version, RV Link version.
+3.  **Software**: Home Assistant version, Libre Coach version.
 4.  **The Problem**: "I expected X, but Y happened."
 5.  **Logs**: Copy relevant lines from the Add-on logs.
 

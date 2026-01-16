@@ -1,11 +1,11 @@
 ---
 title: "DIY Build Guide"
-description: "Step-by-step guide to building your own RV-Link hardware and flashing the pre-configured Home Assistant OS image."
+description: "Step-by-step guide to building your own Libre Coach hardware and flashing the pre-configured Home Assistant OS image."
 sidebar:
   order: 1
 ---
 
-Build your own RV-Link hardware and flash our pre-configured Home Assistant OS image. This is the perfect balance between hands-on building and convenience.
+Build your own Libre Coach hardware and flash our pre-configured Home Assistant OS image. This is the perfect balance between hands-on building and convenience.
 
 ## Overview
 
@@ -65,20 +65,20 @@ Follow our detailed [Hardware Assembly Guide](/installation/hardware-assembly/) 
 
 ### Step 1: Download the Pre-Configured Image
 
-Download the latest RV-Link HAOS image from GitHub Releases:
+Download the latest Libre Coach HAOS image from GitHub Releases:
 
-**[Download Latest Image](https://github.com/Backroads4Me/rv-link-haos-image/releases/latest)**
+**[Download Latest Image](https://github.com/Backroads4Me/libre-coach-haos-image/releases/latest)**
 
 Direct download link (always gets the latest version):
 ```
-https://github.com/Backroads4Me/rv-link-haos-image/releases/latest/download/rvlink-haos-pi5.img.zst
+https://github.com/Backroads4Me/libre-coach-haos-image/releases/latest/download/librecoach-haos-pi5.img.zst
 ```
 
 The image includes:
 - ✅ Home Assistant OS (latest stable)
 - ✅ Mosquitto MQTT broker (pre-configured)
 - ✅ CAN-to-MQTT Bridge add-on (configured for can0)
-- ✅ Node-RED with RV-Link flows (imported and ready)
+- ✅ Node-RED with Libre Coach flows (imported and ready)
 - ✅ All add-ons configured and tested
 
 **File size**: Approximately 2-4GB compressed
@@ -88,7 +88,7 @@ Each release includes a `SHA256SUMS.txt` file. Download it and verify your image
 
 **Windows (PowerShell):**
 ```powershell
-Get-FileHash rvlink-haos-pi5-*.img.zst -Algorithm SHA256
+Get-FileHash librecoach-haos-pi5-*.img.zst -Algorithm SHA256
 ```
 
 **Linux/Mac:**
@@ -144,14 +144,14 @@ You'll need to configure WiFi through the Home Assistant OS interface:
 4. Once connected, you can disconnect Ethernet (though we recommend keeping it connected)
 :::
 
-## Verify RV-Link is Running
+## Verify Libre Coach is Running
 
 1. In Home Assistant, go to **Settings** → **Add-ons**
 2. You should see:
    - Mosquitto broker (running)
    - CAN-to-MQTT Bridge (running)
    - Node-RED (running)
-   - RV-Link (stopped - this is normal, it's an orchestrator)
+   - Libre Coach (stopped - this is normal, it's an orchestrator)
 
 3. Go to **Settings** → **Devices & Services** → **MQTT**
 4. You should start seeing auto-discovered devices appearing as you use switches in your RV
@@ -160,11 +160,11 @@ You'll need to configure WiFi through the Home Assistant OS interface:
 
 - [Identify your switches](/installation/identifying-switches/) by toggling them in your RV
 - [Create custom dashboards](/home-assistant/dashboards/) tailored to your needs
-- [Join the community](https://forum.rvlink.app) to share your dashboard configuration
+- [Join the community](https://forum.LibreCoach.com) to share your dashboard configuration
 
 ## Troubleshooting
 
-If you run into issues, check our [Troubleshooting Guide](/troubleshooting/common-issues/) or ask for help on the [forum](https://forum.rvlink.app).
+If you run into issues, check our [Troubleshooting Guide](/troubleshooting/common-issues/) or ask for help on the [forum](https://forum.LibreCoach.com).
 
 Common issues:
 - **Can't access Home Assistant**: Make sure you're on the same network, try `http://homeassistant.local:8123` or find the Pi's IP address

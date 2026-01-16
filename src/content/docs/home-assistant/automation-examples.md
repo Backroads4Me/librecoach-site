@@ -5,7 +5,7 @@ sidebar:
   order: 2
 ---
 
-One of the biggest benefits of RV Link is the ability to automate your rig. Instead of just pressing buttons on a screen, your RV can react to its environment, protect itself, and make your camping experience smoother.
+One of the biggest benefits of Libre Coach is the ability to automate your rig. Instead of just pressing buttons on a screen, your RV can react to its environment, protect itself, and make your camping experience smoother.
 
 Here are tested automation examples you can copy into your Home Assistant configuration.
 
@@ -250,7 +250,7 @@ action:
 
 ## Sharing Your Automations
 
-Have you created a clever clever automation? [Share it on our Forum](https://forum.rvlink.app)!
+Have you created a clever clever automation? [Share it on our Forum](https://forum.LibreCoach.com)!
 *   Post the YAML code (please remove any sensitive info/secrets).
 *   Explain the "Why" - what problem did it solve?
 *   Tell us which sensors/hardware you used.

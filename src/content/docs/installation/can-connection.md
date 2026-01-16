@@ -1,6 +1,6 @@
 ---
 title: CAN Connection Guide
-description: "Guide to physically connecting RV-Link hardware to your RV's CAN bus network including safety precautions, locating ports, and verification."
+description: "Guide to physically connecting Libre Coach hardware to your RV's CAN bus network including safety precautions, locating ports, and verification."
 sidebar:
   order: 4
 ---
@@ -34,7 +34,7 @@ You are looking for a **Block Terminal** or a **Diagnostic Port**.
 *   **Twisted Pair Wiring**: RV-C uses a twisted pair of wires (usually white/blue or green/yellow) for communication.
 
 :::tip[Community Help]
-Can't find your port? Take a photo of your electrical bay and post it in the [Device locations](https://forum.rvlink.app) section of our forum. The community has documented locations for many makes/models.
+Can't find your port? Take a photo of your electrical bay and post it in the [Device locations](https://forum.LibreCoach.com) section of our forum. The community has documented locations for many makes/models.
 :::
 
 ## Connection Methods
@@ -47,7 +47,7 @@ This is the easiest and safest method if you have an open port available.
 
 **What you need:**
 *   A cable that matches your RV's port type (often DB9 to RJ12/Molex).
-*   Your RV-Link device (Raspberry Pi + CAN HAT).
+*   Your Libre Coach device (Raspberry Pi + CAN HAT).
 
 **Steps:**
 1.  Verify the pinout of your RV's port (check manual or use a multimeter to find CAN-H/CAN-L).
@@ -93,10 +93,10 @@ Some newer RVs expose RV-C data via an onboard diagnostic port similar to a car.
 Once connected, it's time to test communication.
 
 1.  **Power On**: Turn on your RV battery disconnect and shore power.
-2.  **Boot RV-Link**: Power up your Raspberry Pi.
+2.  **Boot Libre Coach**: Power up your Raspberry Pi.
 3.  **Check Logs**:
     *   Open Home Assistant.
-    *   Go to **Settings > Add-ons > RV-Link > Logs**.
+    *   Go to **Settings > Add-ons > Libre Coach > Logs**.
     *   Look for a message saying "CAN Interface Up" or "candump" output showing data flowing.
 
 **Successful Output Example:**

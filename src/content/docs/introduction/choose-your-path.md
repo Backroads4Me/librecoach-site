@@ -1,11 +1,11 @@
 ---
 title: Choose Your Path
-description: Compare the three ways to get RV-Link and choose the best option for your skill level and goals.
+description: Compare the three ways to get Libre Coach and choose the best option for your skill level and goals.
 sidebar:
   order: 3
 ---
 
-RV-Link offers three installation paths. Choose the one that fits your comfort level, timeline, and budget.
+Libre Coach offers three installation paths. Choose the one that fits your comfort level, timeline, and budget.
 
 ## Quick Comparison
 
@@ -19,7 +19,7 @@ RV-Link offers three installation paths. Choose the one that fits your comfort l
 
 ### What You Get
 - Fully assembled Raspberry Pi 5 system
-- Pre-flashed with latest RV-Link software
+- Pre-flashed with latest Libre Coach software
 - Tested and verified before shipping
 - Custom case included
 - Just connect and configure WiFi
@@ -73,7 +73,7 @@ RV-Link offers three installation paths. Choose the one that fits your comfort l
 2. Assemble hardware
 3. Manually install Home Assistant OS
 4. Install and configure each add-on individually
-5. Import RV-Link flows into Node-RED
+5. Import Libre Coach flows into Node-RED
 6. Connect to your RV
 
 ### Pros
@@ -123,7 +123,7 @@ RV-Link offers three installation paths. Choose the one that fits your comfort l
 
 ## What Happens After Installation?
 
-Regardless of which path you choose, the end result is the same: a fully functional RV-Link system. After installation, you'll:
+Regardless of which path you choose, the end result is the same: a fully functional Libre Coach system. After installation, you'll:
 
 1. **Connect to your RV's CAN bus** ([CAN Connection Guide](/installation/can-connection/))
 2. **Identify your devices** by toggling switches ([Identifying Switches](/installation/identifying-switches/))
@@ -134,4 +134,4 @@ Regardless of which path you choose, the end result is the same: a fully functio
 
 ## Need Help Deciding?
 
-Ask the community on our [forum](https://forum.rvlink.app) - many users have shared their experiences with each path and can help you decide based on your specific situation.
+Ask the community on our [forum](https://forum.LibreCoach.com) - many users have shared their experiences with each path and can help you decide based on your specific situation.

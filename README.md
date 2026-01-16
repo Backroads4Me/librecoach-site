@@ -1,10 +1,10 @@
-# RV-Link Site
+# Libre Coach Site
 
-The documentation and website for RV-Link, a project bridging RV-C CAN networks with Home Assistant.
+The documentation and website for Libre Coach, a project bridging RV-C CAN networks with Home Assistant.
 
 ## Overview
 
-This site connects the hardware (Raspberry Pi + CAN HAT) and software (Home Assistant + Node-RED) aspects of the RV-Link project into a cohesive guide.
+This site connects the hardware (Raspberry Pi + CAN HAT) and software (Home Assistant + Node-RED) aspects of the Libre Coach project into a cohesive guide.
 
 It is built with [Astro](https://astro.build) and the [Starlight](https://starlight.astro.build) documentation theme.
 

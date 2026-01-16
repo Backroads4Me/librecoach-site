@@ -1,9 +1,9 @@
 ---
 title: Contributing Guide
-description: "How to contribute to RV Link: Code, Documentation, Testing, and Community Support."
+description: "How to contribute to Libre Coach: Code, Documentation, Testing, and Community Support."
 ---
 
-First off, thank you for considering contributing to RV Link! It's people like you that make open source tools great.
+First off, thank you for considering contributing to Libre Coach! It's people like you that make open source tools great.
 
 ## Ways to Contribute (No Code Required!)
 
@@ -11,16 +11,16 @@ You don't need to know Python or JavaScript to help.
 
 *   **Documentation**: Find typos, clarify confusing steps, or add missing sections.
 *   **Testing**: Test new releases on your specific hardware and report issues.
-*   **Support**: Help other users in the [Community Forum](https://forum.rvlink.app).
+*   **Support**: Help other users in the [Community Forum](https://forum.LibreCoach.com).
 *   **Showcases**: Share your dashboard screenshots and automation ideas.
 *   **Sponsor**: [Buy us a coffee](https://buymeacoffee.com/Backroads4me) or become a [GitHub Sponsor](https://github.com/sponsors/Backroads4me).
 
 ## Code Contributions
 
 ### Repository Structure
-*   **[rv-link-addon](https://github.com/Backroads4Me/rv-link-addon)**: The main Home Assistant Add-on repository. Contains the Dockerfile, bash scripts, and configuration logic.
-*   **[rv-link-site](https://github.com/Backroads4Me/rv-link-site)**: This documentation website (Astro Starlight).
-*   **[rv-link-node-red](https://github.com/Backroads4Me/rv-link-node-red)**: The core logic flows and decoding libraries.
+*   **[libre-coach-addon](https://github.com/Backroads4Me/libre-coach-addon)**: The main Home Assistant Add-on repository. Contains the Dockerfile, bash scripts, and configuration logic.
+*   **[libre-coach-site](https://github.com/Backroads4Me/libre-coach-site)**: This documentation website (Astro Starlight).
+*   **[libre-coach-node-red](https://github.com/Backroads4Me/libre-coach-node-red)**: The core logic flows and decoding libraries.
 
 ### Development Setup
 1.  **Fork** the repository you want to work on.
@@ -39,7 +39,7 @@ You don't need to know Python or JavaScript to help.
 This site is built with **Astro** and the **Starlight** theme. It's fast, markdown-based, and easy to run locally.
 
 ### Running the Docs Locally
-1.  Clone the repo: `git clone https://github.com/Backroads4Me/rv-link-site`
+1.  Clone the repo: `git clone https://github.com/Backroads4Me/libre-coach-site`
 2.  Install dependencies: `npm install` (or `pnpm install`)
 3.  Start dev server: `npm run dev`
 4.  Open `http://localhost:4321`

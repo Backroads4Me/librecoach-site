@@ -12,31 +12,31 @@ Once you've [identified your switches](/installation/identifying-switches/), it'
 Check out examples from the community:
 
 ### Lighting Dashboard
-![Lighting dashboard](../../../assets/dashboards/rvlink/view_0.png)
+![Lighting dashboard](../../../assets/dashboards/librecoach/view_0.png)
 *Lighting controls organized by room and zone*
 
 ### Shades Dashboard
-![Shades dashboard](../../../assets/dashboards/rvlink/view_1.png)
+![Shades dashboard](../../../assets/dashboards/librecoach/view_1.png)
 *Shade controls for all windows and skylights*
 
 ### Locks Dashboard
-![Locks dashboard](../../../assets/dashboards/rvlink/view_2.png)
+![Locks dashboard](../../../assets/dashboards/librecoach/view_2.png)
 *Door locks and security controls*
 
 ### Floor Heat Dashboard
-![Floor heat dashboard](../../../assets/dashboards/rvlink/view_3.png)
+![Floor heat dashboard](../../../assets/dashboards/librecoach/view_3.png)
 *Floor heating zones and temperature control*
 
 ### Water and Tanks Dashboard
-![Water and tanks dashboard](../../../assets/dashboards/rvlink/view_4.png)
+![Water and tanks dashboard](../../../assets/dashboards/librecoach/view_4.png)
 *Tank levels and water system controls*
 
 ### Battery Dashboard
-![Battery dashboard](../../../assets/dashboards/rvlink/view_5.png)
+![Battery dashboard](../../../assets/dashboards/librecoach/view_5.png)
 *Battery monitoring and state of charge*
 
 ### Energy Flow Dashboard
-![Energy flow dashboard](../../../assets/dashboards/rvlink/view_6.png)
+![Energy flow dashboard](../../../assets/dashboards/librecoach/view_6.png)
 *Real-time energy flow visualization*
 
 ## Creating Your First Dashboard
@@ -263,7 +263,7 @@ Apply custom color schemes to match your RV or personal style. See [Home Assista
 
 ### Finding Dashboards for Your RV
 
-1. Visit the [RV-Link Forum](https://forum.rvlink.app)
+1. Visit the [Libre Coach Forum](https://forum.LibreCoach.com)
 2. Navigate to your RV manufacturer's category (e.g., Newmar, Tiffin, Entegra)
 3. Browse posts tagged with your model and year
 4. Download YAML files shared by other users
@@ -311,4 +311,4 @@ Help grow the community by sharing your dashboard:
 ## What's Next?
 
 - Set up [automations](/home-assistant/automation-examples/) to make your RV smarter
-- Share your dashboard on the [forum](https://forum.rvlink.app)
+- Share your dashboard on the [forum](https://forum.LibreCoach.com)

@@ -5,18 +5,19 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://rvlink.app",
+  site: "https://LibreCoach.com",
 
   integrations: [
     starlight({
-      title: "RV Link",
+      title: "Libre Coach",
+      favicon: "/favicon.ico",
       logo: {
         src: "./src/assets/logo.svg",
         replacesTitle: true,
       },
       lastUpdated: true,
       editLink: {
-        baseUrl: "https://github.com/Backroads4Me/rv-link-site/edit/main/",
+        baseUrl: "https://github.com/Backroads4Me/libre-coach-site/edit/main/",
       },
       social: [
         {
@@ -27,7 +28,7 @@ export default defineConfig({
         {
           icon: "discourse",
           label: "Community Forum",
-          href: "https://forum.rvlink.app",
+          href: "https://forum.LibreCoach.com",
         },
       ],
       sidebar: [

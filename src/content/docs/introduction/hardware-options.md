@@ -5,7 +5,7 @@ sidebar:
   order: 2
 ---
 
-RV Link is an open source project. You have two ways to get the hardware.
+Libre Coach is an open source project. You have two ways to get the hardware.
 
 ## Path 1: DIY (Build It Yourself)
 
@@ -31,7 +31,7 @@ We are gauging interest in a small batch of pre-assembled, "plug-and-play" units
 
 I am currently collecting names to see if there is enough demand to order parts for a batch.
 
-**[Email me at ted@rvlink.app](mailto:ted@rvlink.app?subject=RV%20Link%20Interest)** with:
+**[Email me at ted@LibreCoach.com](mailto:ted@LibreCoach.com?subject=Libre%20Coach%20Interest)** with:
 1.  Your RV Year/Make/Model.
 2.  If you would want a "Pro" install (we configure it for you) or just the hardware.
 
@@ -44,4 +44,4 @@ If you have a high-end coach and want a "turn-key" system installed and configur
 *   **Remote Commissioning**: I log in remotely and set up your dashboard.
 *   **Custom Integration**: Adding non-standard devices (Victron, Lithionics, etc.).
 
-[Contact me](mailto:ted@rvlink.app?subject=RV%20Link%20Consulting) to discuss your project.
+[Contact me](mailto:ted@LibreCoach.com?subject=Libre%20Coach%20Consulting) to discuss your project.

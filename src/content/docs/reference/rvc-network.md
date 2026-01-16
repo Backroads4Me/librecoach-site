@@ -52,7 +52,7 @@ Data: Instance=5, Status=ON, Brightness=100%
 
 ## Supported Device Types
 
-RV-C supports a wide variety of device types. RV-Link can interface with most of them:
+RV-C supports a wide variety of device types. Libre Coach can interface with most of them:
 
 ### Lighting
 - DC dimmers
@@ -123,7 +123,7 @@ The two critical wires are:
 - **CAN-H** (CAN High)
 - **CAN-L** (CAN Low)
 
-Some RVs also provide power on other pins, but RV-Link doesn't use those—it's powered separately.
+Some RVs also provide power on other pins, but Libre Coach doesn't use those—it's powered separately.
 
 ### Finding the Connection Point
 
@@ -137,7 +137,7 @@ Look for a connector labeled "CAN", "RV-C", or a spare port on your existing con
 
 ## Bit Rate
 
-RV-C networks typically operate at **250 kbps** (250,000 bits per second). This is the default in RV-Link.
+RV-C networks typically operate at **250 kbps** (250,000 bits per second). This is the default in Libre Coach.
 
 Some older RVs may use 125 kbps. If devices aren't being discovered, try changing the bitrate in the CAN-to-MQTT Bridge configuration.
 
@@ -158,16 +158,16 @@ Some older RVs may use 125 kbps. If devices aren't being discovered, try changin
 - **Electrical noise**: Route CAN cable away from high-power wires
 - **Bad cable**: Replace with a quality shielded cable
 
-### Device Works Physically But Not in RV-Link
+### Device Works Physically But Not in Libre Coach
 
 - **Not RV-C compliant**: Some RV devices use proprietary protocols
-- **Unsupported DGN**: The device may use a message type RV-Link doesn't yet support
+- **Unsupported DGN**: The device may use a message type Libre Coach doesn't yet support
 - **Wrong instance number**: The device may be configured with an unusual instance ID
 
-Report unsupported devices on the [forum](https://forum.rvlink.app) to help improve RV-Link!
+Report unsupported devices on the [forum](https://forum.LibreCoach.com) to help improve Libre Coach!
 
 ## Learn More
 
 - [RV-C Official Specification](https://www.rv-c.com/) (technical, for advanced users)
-- [System Architecture](/reference/system-architecture/) - How RV-Link processes RV-C messages
-- [Forum](https://forum.rvlink.app) - Ask questions and share experiences
+- [System Architecture](/reference/system-architecture/) - How Libre Coach processes RV-C messages
+- [Forum](https://forum.LibreCoach.com) - Ask questions and share experiences

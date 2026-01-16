@@ -5,11 +5,11 @@ sidebar:
   order: 5
 ---
 
-After installing RV-Link, your RV-C switches will be auto-discovered and appear in Home Assistant as generic entities like `switch_1`, `switch_2`, etc. This guide helps you identify what each switch controls.
+After installing Libre Coach, your RV-C switches will be auto-discovered and appear in Home Assistant as generic entities like `switch_1`, `switch_2`, etc. This guide helps you identify what each switch controls.
 
 ## The Challenge
 
-RV-Link can detect that switches exist on your RV-C network, but it has no way of knowing what those switches control. Is `switch_5` the patio light or the bedroom fan? Only you can determine that by testing.
+Libre Coach can detect that switches exist on your RV-C network, but it has no way of knowing what those switches control. Is `switch_5` the patio light or the bedroom fan? Only you can determine that by testing.
 
 ## The Process
 
@@ -98,7 +98,7 @@ This documentation will be helpful for:
 
 ## Other Device Types
 
-Switches aren't the only devices that RV-Link discovers:
+Switches aren't the only devices that Libre Coach discovers:
 
 ### Tank Sensors
 Tank sensors appear as `sensor.tank_fresh_water`, `sensor.tank_grey_water`, etc. These are usually self-explanatory.
@@ -125,7 +125,7 @@ Once you've identified all your switches, consider sharing your configuration wi
 ### How to Share
 
 1. Export your dashboard YAML (see [Creating Dashboards](dashboards))
-2. Create a post on the [forum](https://forum.rvlink.app) in your RV manufacturer's category
+2. Create a post on the [forum](https://forum.LibreCoach.com) in your RV manufacturer's category
 3. Include:
    - Your RV make, model, and year
    - Screenshots of your dashboard
@@ -136,7 +136,7 @@ Once you've identified all your switches, consider sharing your configuration wi
 
 Before starting from scratch, check if someone with your RV model has already shared their configuration:
 
-1. Visit the [forum](https://forum.rvlink.app)
+1. Visit the [forum](https://forum.LibreCoach.com)
 2. Browse to your RV manufacturer's category
 3. Search for your model and year
 4. Download the YAML and import it into Home Assistant
@@ -144,7 +144,7 @@ Before starting from scratch, check if someone with your RV model has already sh
 ## Troubleshooting
 
 ### No switches appear
-- Verify RV-Link is running (check add-on status)
+- Verify Libre Coach is running (check add-on status)
 - Ensure CAN cable is connected to your RV
 - Check CAN-to-MQTT Bridge logs
 - Verify Mosquitto and Node-RED are running
@@ -170,4 +170,4 @@ Now that you've identified your switches, you can:
 
 - [Create custom dashboards](/home-assistant/dashboards/) tailored to your RV layout
 - [Set up automations](/home-assistant/automation-examples/) (e.g., "Good Night" turns off all lights)
-- Share your configuration on the [forum](https://forum.rvlink.app)
+- Share your configuration on the [forum](https://forum.LibreCoach.com)

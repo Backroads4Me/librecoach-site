@@ -1,21 +1,21 @@
 ---
 title: System Architecture
-description: "A deep dive into how RV Link bridges the physical world of RV-C with the digital world of Home Assistant."
+description: "A deep dive into how Libre Coach bridges the physical world of RV-C with the digital world of Home Assistant."
 ---
 
-RV Link is not just a UI; it is a full-stack integration platform. This document outlines the technical architecture, explaining how data moves from a physical wire in your wall to a button on your phone.
+Libre Coach is not just a UI; it is a full-stack integration platform. This document outlines the technical architecture, explaining how data moves from a physical wire in your wall to a button on your phone.
 
 ## System Overview
 
-At a high level, RV Link acts as a translator. It listens to the "industrial" language of your RV (CAN bus/RV-C) and translates it into the "consumer" language of Smart Homes (MQTT/Home Assistant).
+At a high level, Libre Coach acts as a translator. It listens to the "industrial" language of your RV (CAN bus/RV-C) and translates it into the "consumer" language of Smart Homes (MQTT/Home Assistant).
 
 ### High-Level Block Diagram
 
-![RV-Link System Architecture](../../../assets/architecture-diagram.png)
+![Libre Coach System Architecture](../../../assets/architecture-diagram.png)
 
 ## Hardware Layer
 
-The foundation of RV Link is commodity hardware that is easy to source and replace.
+The foundation of Libre Coach is commodity hardware that is easy to source and replace.
 
 ### Raspberry Pi 5
 We chose the Pi 5 (or Pi 4/CM4) for its ubiquitous support and GPIO capabilities. It runs the entire software stack. 
@@ -46,7 +46,7 @@ This simple service does one thing:
 *   **Read MQTT**: It subscribes to `rv/can/tx` and writes those frames back to the wire.
 
 ### 4. The Brain: Node-RED
-This is where the magic happens. The "RV Link App" is essentially a sophisticated set of Node-RED flows.
+This is where the magic happens. The "Libre Coach App" is essentially a sophisticated set of Node-RED flows.
 *   **Decoders**: It parses the raw HEX data into human-readable values (e.g., "Tank Level: 45%").
 *   **Auto-Discovery**: It watches for new device signatures. When it sees a light module, it tells Home Assistant "Hey, I found a light, please create a switch entity for it."
 *   **Logic**: It handles complex interactions that raw HA automations might find difficult.

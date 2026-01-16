@@ -1,9 +1,9 @@
 ---
 title: "Common Issues and Solutions"
-description: "Solutions to common RV-Link issues including CAN connection problems, device discovery failures, and WiFi connectivity."
+description: "Solutions to common Libre Coach issues including CAN connection problems, device discovery failures, and WiFi connectivity."
 ---
 
-Having trouble with RV-Link? Check these common issues and solutions before posting on the forum.
+Having trouble with Libre Coach? Check these common issues and solutions before posting on the forum.
 
 ## Installation Issues
 
@@ -86,7 +86,7 @@ Having trouble with RV-Link? Check these common issues and solutions before post
 2. **Wait**: Discovery can take time as devices wake up and send status
 3. **Check DGN support**: Some device types may not be supported yet
 4. **Check instance numbers**: Devices may be using unusual instance IDs
-5. **Post on forum**: Share which devices are missing to help improve RV-Link
+5. **Post on forum**: Share which devices are missing to help improve Libre Coach
 
 ### Duplicate or "Ghost" Entities
 
@@ -134,7 +134,7 @@ Having trouble with RV-Link? Check these common issues and solutions before post
 
 ### WiFi Disconnects
 
-**Symptom**: RV-Link loses WiFi connection frequently
+**Symptom**: Libre Coach loses WiFi connection frequently
 
 **Solutions**:
 
@@ -230,7 +230,7 @@ Having trouble with RV-Link? Check these common issues and solutions before post
 
 1. **Check Node-RED storage**: Flows are stored in `/config/node-red/`
 2. **Restore from backup**: Use Home Assistant backup to restore
-3. **Reimport flows**: Import from the RV-Link repository
+3. **Reimport flows**: Import from the Libre Coach repository
 4. **Check logs**: Look for errors during Node-RED startup
 5. **Post on forum**: This shouldn't happen—report it!
 
@@ -262,7 +262,7 @@ Before asking for help, collect:
 ### 2. Search the Forum
 
 Someone may have already solved your issue:
-- [Forum](https://forum.rvlink.app)
+- [Forum](https://forum.LibreCoach.com)
 - Search for error messages or symptoms
 
 ### 3. Ask for Help
@@ -302,7 +302,7 @@ Home Assistant has built-in backup:
 
 ### Join the Community
 
-- [Forum](https://forum.rvlink.app) - Stay informed and get help
+- [Forum](https://forum.LibreCoach.com) - Stay informed and get help
 - [GitHub](https://github.com/Backroads4Me) - Follow development
 - [GitHub Sponsors](https://github.com/sponsors/Backroads4me) - Monthly support
 - [Buy Me a Coffee](https://buymeacoffee.com/Backroads4me) - One-time support
