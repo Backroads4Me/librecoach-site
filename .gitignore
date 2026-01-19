@@ -27,5 +27,4 @@ pnpm-debug.log*
 !.env.example
 
 .claude/
-CONTENT_OUTLINE.md
-IMPLEMENTATION_PLAN.md
+CLAUDE.md

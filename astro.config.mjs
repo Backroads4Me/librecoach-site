@@ -3,6 +3,7 @@ import { defineConfig } from "astro/config";
 import Icons from "starlight-plugin-icons";
 import UnoCSS from "unocss/astro";
 import cloudflare from "@astrojs/cloudflare";
+import starlightThemeSix from "@six-tech/starlight-theme-six";
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,6 +14,12 @@ export default defineConfig({
     Icons({
       starlight: {
         title: "Libre Coach",
+        plugins: [
+          starlightThemeSix({
+            //optional
+            footerText: "Libre Coach - Smarthome Control for Your RV | [GitHub](https://github.com/Backroads4Me) | [Community Forum](https://forum.LibreCoach.com)",
+          }),
+        ],
         customCss: ["./src/styles/custom.css"],
         components: {
           Card: "starlight-plugin-icons/components/Card.astro",

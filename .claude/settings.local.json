@@ -13,7 +13,8 @@
       "mcp__filesystem__move_file",
       "mcp__filesystem__edit_file",
       "WebFetch(domain:docs.rettend.me)",
-      "WebFetch(domain:unocss.dev)"
+      "WebFetch(domain:unocss.dev)",
+      "WebFetch(domain:six-tech.github.io)"
     ]
   }
 }

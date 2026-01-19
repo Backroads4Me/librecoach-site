@@ -92,7 +92,17 @@ Shade     Usage
    ========================================== */
 
 /* Header Branding */
-/* .site-title, 
+/* .site-title,
 .header a {
   color: var(--sl-color-accent) !important;
 } */
+
+/* Constrain splash page content to match header width */
+main {
+  width: 100%;
+  max-width: 1680px;
+  margin-inline: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+

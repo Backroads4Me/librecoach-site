@@ -2,20 +2,28 @@
 title: Home
 description: Connect your RV to Home Assistant for complete control and monitoring
 template: splash
-hero:
-  title: "Libre Coach: Turn your motorhome into a smarthome"
-  tagline: Smart control for your RV.  Mobile access, auto-discovery, real-time monitoring, and beautiful dashboards—all local, all open source.
-  image:
-    file: ../../assets/logo.png
-  actions:
-    - text: Get Started
-      link: /introduction/what-is-librecoach/
-      icon: right-arrow
-      variant: primary
 ---
 
 import { CardGrid } from "@astrojs/starlight/components";
 import Card from "starlight-plugin-icons/components/Card.astro";
+import { HeroX } from "@six-tech/starlight-theme-six/components";
+import heroImage from "../../assets/logo.png";
+
+<HeroX
+  title="Libre Coach"
+  tagline="Smart control for your RV. Mobile access, auto-discovery, real-time monitoring, and beautiful dashboards—all local, all open source."
+  image={{
+    background: heroImage,
+    backgroundSize: "auto 80%",
+    backgroundPosition: "70% center",
+    contentPosition: "middle-left"
+  }}
+  px="4rem"
+  height="400px"
+  actions={[
+    { text: "Get Started", link: "/introduction/what-is-librecoach/", icon: "right-arrow", variant: "primary" }
+  ]}
+/>
 
 ## Everything You Need
 
