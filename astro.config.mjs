@@ -10,7 +10,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Libre Coach",
-      favicon: "/favicon-32x32.png",
+      favicon: "/favicon-64x64.png",
       logo: {
         src: "./src/assets/logo.svg",
         replacesTitle: true,
