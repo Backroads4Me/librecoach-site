@@ -3,10 +3,10 @@ title: Home
 description: Connect your RV to Home Assistant for complete control and monitoring
 template: splash
 hero:
-  title: Connect Your RV to Home Assistant
-  tagline: Auto-discovery, real-time monitoring, and beautiful dashboards—all local, all open source.
+  title: Libre Coach: Turn your motorhome into a smarthome
+  tagline: Smart control for your RV.  Mobile access, auto-discovery, real-time monitoring, and beautiful dashboards—all local, all open source.
   image:
-    file: ../../assets/dashboards/librecoach/view_0.png
+    file: ../../assets/logo.png
   actions:
     - text: Get Started
       link: /introduction/what-is-librecoach/
@@ -14,46 +14,46 @@ hero:
       variant: primary
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid } from "@astrojs/starlight/components";
 
 ## Everything You Need
 
 <CardGrid>
-  <Card title="Total Control" icon="setting">
-    Manage lights, shades, locks, pumps, and HVAC systems from a single interface. Works completely locally—no cloud dependency required.
+  <Card title="Total Control" icon="mdi:mobile-phone-text">
+    Manage lights, shades, locks, pumps, and other systems from a single
+    interface. Works completely locally—no cloud dependency required.
   </Card>
-  
-  <Card title="Real-Time Monitoring" icon="information">
-    Live updates for tank levels, battery voltage, solar input, and generator status. Set alerts for critical thresholds.
+
+  <Card title="Real-Time Monitoring" icon="seti:smarty">
+    Live updates for tank levels, battery voltage, temperature, and sensor
+    status. Set alerts for critical thresholds.
   </Card>
-  
+
   <Card title="Auto-Discovery" icon="puzzle">
-    Automatically finds all RV-C devices on your network. No manual configuration needed—just connect and go.
+    Automatically finds all RV-C devices on your network. Works with any RV-C
+    enabled RV.
   </Card>
-  
-  <Card title="Open Source" icon="github">
-    Built on Home Assistant, Node-RED, and MQTT. Fully customizable and extensible to fit your needs.
+
+  <Card title="Open Source" icon="mdi:open-source-initiative">
+    Built on Home Assistant, Node-RED, and MQTT. Fully customizable and
+    extensible to fit your needs.
   </Card>
 </CardGrid>
 
 ## Choose Your Path
 
 <CardGrid>
-  <Card title="DIY Build" icon="pencil">
+  <Card title="DIY Build" icon="mdi:build">
     Build your own hardware with our detailed guides and pre-configured software image.
 
     [Build Guide →](/installation/diy-build/)
+
   </Card>
 
-  <Card title="Manual Install" icon="laptop">
-    Complete control over your installation. Perfect for tinkerers.
-
-    [Advanced Setup →](/installation/manual-install/)
-  </Card>
-
-  <Card title="Pre-Assembled Kit (Waitlist)" icon="star">
+  <Card title="Pre-Assembled Kit (Waitlist)" icon="mdi:package-variant">
     Join the waitlist for a ready-to-use unit, fully tested and configured.
 
     [Join Waitlist →](/introduction/hardware-options/)
+
   </Card>
 </CardGrid>
