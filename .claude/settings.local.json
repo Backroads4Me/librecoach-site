@@ -14,7 +14,8 @@
       "mcp__filesystem__edit_file",
       "WebFetch(domain:docs.rettend.me)",
       "WebFetch(domain:unocss.dev)",
-      "WebFetch(domain:six-tech.github.io)"
+      "WebFetch(domain:six-tech.github.io)",
+      "WebFetch(domain:www.npmjs.com)"
     ]
   }
 }

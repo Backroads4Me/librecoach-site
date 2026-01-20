@@ -34,6 +34,7 @@ content:
       fields:
         - title
         - description
+        - sidebar.label
         - sidebar
         - draft
     fields:
@@ -45,6 +46,9 @@ content:
         label: Description
         type: text
         required: true
+      - name: slug
+        label: URL Slug (optional)
+        type: string
       - name: sidebar
         label: Sidebar Settings
         type: object
@@ -64,7 +68,14 @@ content:
                 type: string
               - name: variant
                 label: Badge Style
-                type: string
+                type: select
+                options:
+                  - note
+                  - tip
+                  - caution
+                  - danger
+                  - success
+                  - default
       - name: draft
         label: Draft (hide from production)
         type: boolean
@@ -93,6 +104,7 @@ content:
       fields:
         - title
         - description
+        - sidebar.label
         - sidebar
         - draft
     fields:
@@ -104,6 +116,9 @@ content:
         label: Description
         type: text
         required: true
+      - name: slug
+        label: URL Slug (optional)
+        type: string
       - name: sidebar
         label: Sidebar Settings
         type: object
@@ -123,7 +138,14 @@ content:
                 type: string
               - name: variant
                 label: Badge Style
-                type: string
+                type: select
+                options:
+                  - note
+                  - tip
+                  - caution
+                  - danger
+                  - success
+                  - default
       - name: draft
         label: Draft (hide from production)
         type: boolean
@@ -152,6 +174,7 @@ content:
       fields:
         - title
         - description
+        - sidebar.label
         - sidebar
         - draft
     fields:
@@ -163,6 +186,9 @@ content:
         label: Description
         type: text
         required: true
+      - name: slug
+        label: URL Slug (optional)
+        type: string
       - name: sidebar
         label: Sidebar Settings
         type: object
@@ -182,7 +208,14 @@ content:
                 type: string
               - name: variant
                 label: Badge Style
-                type: string
+                type: select
+                options:
+                  - note
+                  - tip
+                  - caution
+                  - danger
+                  - success
+                  - default
       - name: draft
         label: Draft (hide from production)
         type: boolean
@@ -211,6 +244,7 @@ content:
       fields:
         - title
         - description
+        - sidebar.label
         - sidebar
         - draft
     fields:
@@ -222,6 +256,9 @@ content:
         label: Description
         type: text
         required: true
+      - name: slug
+        label: URL Slug (optional)
+        type: string
       - name: sidebar
         label: Sidebar Settings
         type: object
@@ -241,7 +278,14 @@ content:
                 type: string
               - name: variant
                 label: Badge Style
-                type: string
+                type: select
+                options:
+                  - note
+                  - tip
+                  - caution
+                  - danger
+                  - success
+                  - default
       - name: draft
         label: Draft (hide from production)
         type: boolean
@@ -270,6 +314,7 @@ content:
       fields:
         - title
         - description
+        - sidebar.label
         - sidebar
         - draft
     fields:
@@ -281,6 +326,9 @@ content:
         label: Description
         type: text
         required: true
+      - name: slug
+        label: URL Slug (optional)
+        type: string
       - name: sidebar
         label: Sidebar Settings
         type: object
@@ -300,7 +348,14 @@ content:
                 type: string
               - name: variant
                 label: Badge Style
-                type: string
+                type: select
+                options:
+                  - note
+                  - tip
+                  - caution
+                  - danger
+                  - success
+                  - default
       - name: draft
         label: Draft (hide from production)
         type: boolean
@@ -329,6 +384,7 @@ content:
       fields:
         - title
         - description
+        - sidebar.label
         - sidebar
         - draft
     fields:
@@ -340,6 +396,9 @@ content:
         label: Description
         type: text
         required: true
+      - name: slug
+        label: URL Slug (optional)
+        type: string
       - name: sidebar
         label: Sidebar Settings
         type: object
@@ -359,7 +418,14 @@ content:
                 type: string
               - name: variant
                 label: Badge Style
-                type: string
+                type: select
+                options:
+                  - note
+                  - tip
+                  - caution
+                  - danger
+                  - success
+                  - default
       - name: draft
         label: Draft (hide from production)
         type: boolean

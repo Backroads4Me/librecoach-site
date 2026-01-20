@@ -7,21 +7,35 @@ template: splash
 import { CardGrid } from "@astrojs/starlight/components";
 import Card from "starlight-plugin-icons/components/Card.astro";
 import { HeroX } from "@six-tech/starlight-theme-six/components";
-import heroImage from "../../assets/logo.png";
+import backgroundDesktopLight from "../../assets/hero-light.svg";
+import backgroundDesktopDark from "../../assets/hero-dark.svg";
 
 <HeroX
   title="Libre Coach"
   tagline="Smart control for your RV. Mobile access, auto-discovery, real-time monitoring, and beautiful dashboards—all local, all open source."
+  titleColor="#0b85aaff"
+  height="20vh"
+  px="12rem"
+  radius="2rem"
   image={{
-    background: heroImage,
-    backgroundSize: "auto 80%",
-    backgroundPosition: "70% center",
-    contentPosition: "middle-left"
+    background: backgroundDesktopLight,
+    backgroundLight: backgroundDesktopLight,
+    backgroundDark: backgroundDesktopDark,
+    backgroundMobileLight: backgroundDesktopLight,
+    backgroundMobileDark: backgroundDesktopDark,
+    alt: "Hero background image",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    contentPosition: "middle-left",
   }}
-  px="4rem"
-  height="400px"
   actions={[
-    { text: "Get Started", link: "/introduction/what-is-librecoach/", icon: "right-arrow", variant: "primary" }
+    {
+      text: "Get Started",
+      link: "/introduction/what-is-librecoach/",
+      icon: "right-arrow",
+      variant: "primary",
+    },
   ]}
 />
 
