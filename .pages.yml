@@ -70,12 +70,18 @@ content:
                 label: Badge Style
                 type: select
                 options:
-                  - note
-                  - tip
-                  - caution
-                  - danger
-                  - success
-                  - default
+                  - label: Note
+                    value: note
+                  - label: Tip
+                    value: tip
+                  - label: Caution
+                    value: caution
+                  - label: Danger
+                    value: danger
+                  - label: Success
+                    value: success
+                  - label: Default
+                    value: default
       - name: draft
         label: Draft (hide from production)
         type: boolean
@@ -140,12 +146,18 @@ content:
                 label: Badge Style
                 type: select
                 options:
-                  - note
-                  - tip
-                  - caution
-                  - danger
-                  - success
-                  - default
+                  - label: Note
+                    value: note
+                  - label: Tip
+                    value: tip
+                  - label: Caution
+                    value: caution
+                  - label: Danger
+                    value: danger
+                  - label: Success
+                    value: success
+                  - label: Default
+                    value: default
       - name: draft
         label: Draft (hide from production)
         type: boolean
@@ -210,12 +222,18 @@ content:
                 label: Badge Style
                 type: select
                 options:
-                  - note
-                  - tip
-                  - caution
-                  - danger
-                  - success
-                  - default
+                  - label: Note
+                    value: note
+                  - label: Tip
+                    value: tip
+                  - label: Caution
+                    value: caution
+                  - label: Danger
+                    value: danger
+                  - label: Success
+                    value: success
+                  - label: Default
+                    value: default
       - name: draft
         label: Draft (hide from production)
         type: boolean
@@ -280,12 +298,18 @@ content:
                 label: Badge Style
                 type: select
                 options:
-                  - note
-                  - tip
-                  - caution
-                  - danger
-                  - success
-                  - default
+                  - label: Note
+                    value: note
+                  - label: Tip
+                    value: tip
+                  - label: Caution
+                    value: caution
+                  - label: Danger
+                    value: danger
+                  - label: Success
+                    value: success
+                  - label: Default
+                    value: default
       - name: draft
         label: Draft (hide from production)
         type: boolean
@@ -350,12 +374,18 @@ content:
                 label: Badge Style
                 type: select
                 options:
-                  - note
-                  - tip
-                  - caution
-                  - danger
-                  - success
-                  - default
+                  - label: Note
+                    value: note
+                  - label: Tip
+                    value: tip
+                  - label: Caution
+                    value: caution
+                  - label: Danger
+                    value: danger
+                  - label: Success
+                    value: success
+                  - label: Default
+                    value: default
       - name: draft
         label: Draft (hide from production)
         type: boolean
@@ -420,12 +450,18 @@ content:
                 label: Badge Style
                 type: select
                 options:
-                  - note
-                  - tip
-                  - caution
-                  - danger
-                  - success
-                  - default
+                  - label: Note
+                    value: note
+                  - label: Tip
+                    value: tip
+                  - label: Caution
+                    value: caution
+                  - label: Danger
+                    value: danger
+                  - label: Success
+                    value: success
+                  - label: Default
+                    value: default
       - name: draft
         label: Draft (hide from production)
         type: boolean
