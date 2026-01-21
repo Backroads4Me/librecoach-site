@@ -29,7 +29,7 @@ content:
     label: "📖 Introduction"
     type: collection
     path: src/content/docs/introduction
-    filename: "{slug}"
+    filename: "{title}"
     format: yaml-frontmatter
     view:
       fields:
@@ -48,9 +48,10 @@ content:
         type: text
         required: true
       - name: slug
-        label: URL Slug
+        label: URL Slug (Permanent)
         type: string
         required: true
+        help: "Changing this will change the file name and may break links."
       - name: sidebar
         label: Sidebar Settings
         type: object
@@ -96,7 +97,7 @@ content:
     label: "🛠️ Installation"
     type: collection
     path: src/content/docs/installation
-    filename: "{slug}"
+    filename: "{title}"
     format: yaml-frontmatter
     view:
       fields:
@@ -115,9 +116,10 @@ content:
         type: text
         required: true
       - name: slug
-        label: URL Slug
+        label: URL Slug (Permanent)
         type: string
         required: true
+        help: "Changing this will change the file name and may break links."
       - name: sidebar
         label: Sidebar Settings
         type: object
@@ -163,7 +165,7 @@ content:
     label: "🏠 Home Assistant Setup"
     type: collection
     path: src/content/docs/home-assistant
-    filename: "{slug}"
+    filename: "{title}"
     format: yaml-frontmatter
     view:
       fields:
@@ -182,9 +184,10 @@ content:
         type: text
         required: true
       - name: slug
-        label: URL Slug
+        label: URL Slug (Permanent)
         type: string
         required: true
+        help: "Changing this will change the file name and may break links."
       - name: sidebar
         label: Sidebar Settings
         type: object
@@ -230,7 +233,7 @@ content:
     label: "🔧 Troubleshooting"
     type: collection
     path: src/content/docs/troubleshooting
-    filename: "{slug}"
+    filename: "{title}"
     format: yaml-frontmatter
     view:
       fields:
@@ -249,9 +252,10 @@ content:
         type: text
         required: true
       - name: slug
-        label: URL Slug
+        label: URL Slug (Permanent)
         type: string
         required: true
+        help: "Changing this will change the file name and may break links."
       - name: sidebar
         label: Sidebar Settings
         type: object
@@ -297,7 +301,7 @@ content:
     label: "📚 Reference"
     type: collection
     path: src/content/docs/reference
-    filename: "{slug}"
+    filename: "{title}"
     format: yaml-frontmatter
     view:
       fields:
@@ -316,9 +320,10 @@ content:
         type: text
         required: true
       - name: slug
-        label: URL Slug
+        label: URL Slug (Permanent)
         type: string
         required: true
+        help: "Changing this will change the file name and may break links."
       - name: sidebar
         label: Sidebar Settings
         type: object
@@ -364,7 +369,7 @@ content:
     label: "👥 Community"
     type: collection
     path: src/content/docs/community
-    filename: "{slug}"
+    filename: "{title}"
     format: yaml-frontmatter
     view:
       fields:
@@ -383,9 +388,10 @@ content:
         type: text
         required: true
       - name: slug
-        label: URL Slug
+        label: URL Slug (Permanent)
         type: string
         required: true
+        help: "Changing this will change the file name and may break links."
       - name: sidebar
         label: Sidebar Settings
         type: object
