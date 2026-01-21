@@ -92,15 +92,7 @@ Internet traffic: Phone ──Cellular──► Internet
 
 * * *
 
-* * *
-
-## How to accomplish it
-
-There are three reliable ways to build a local-only Home Assistant network.
-
-* * *
-
-## Dedicated local router (recommended)
+## The recommended way to accomplish it is a dedicated local router
 
 :::tip Best balance of simplicity, cost, and reliability. :::
 
@@ -143,28 +135,10 @@ There are three reliable ways to build a local-only Home Assistant network.
 
 * * *
 
-* * *
+## For best results
 
-* * *
+### Assign Home Assistant a static IP then use IP addresses, not hostnames
 
-## Best practices
+Instead of: [http://homeassistant.local:8123](http://homeassistant.local:8123)
 
-### Use IP addresses, not hostnames
-
-Instead of:
-
-[http://homeassistant.local:8123](http://homeassistant.local:8123)
-
-Use:
-
-http://:192.168.1.1234:8123
-
-* * *
-
-### Assign Home Assistant a static IP
-
-Prevents:
-
-*   DHCP changes
-    
-*   Lost endpoints
+Use: http://:192.168.1.1234:8123
