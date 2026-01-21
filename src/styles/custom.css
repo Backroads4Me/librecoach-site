@@ -52,3 +52,15 @@ main > .markdown-wrapper > .sl-markdown-content {
   font-size: clamp(1rem, 1.5vw, 1.25rem) !important;
   padding: clamp(0.5rem, 1vw, 0.75rem) clamp(1rem, 2vw, 1.5rem);
 }
+
+.six-hero {
+  background-image: var(--six-hero-bg) !important;
+}
+
+html[data-theme="light"] {
+  --six-hero-bg: url("/assets/hero-light.svg");
+}
+
+html[data-theme="dark"] {
+  --six-hero-bg: url("/assets/hero-dark.svg");
+}
