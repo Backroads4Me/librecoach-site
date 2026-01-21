@@ -75,4 +75,11 @@ html[data-theme="dark"] {
   box-sizing: border-box;
 }
 
+  /* Override Six theme button size */                                                                                                                                                                                               
+  a.primary {                                                                                                                                                                                                                          
+    height: 2.5rem;
+  }
 
+  a.secondary {
+    height: 2.5rem !important;
+  }

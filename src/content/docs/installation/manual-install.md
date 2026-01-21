@@ -1,5 +1,5 @@
 ---
-title: "Full Manual Installation"
+title: "Manual Installation"
 description: "Advanced installation guide for manually setting up Mosquitto, CAN-to-MQTT Bridge, and Node-RED on Home Assistant OS."
 filename: manual-install
 sidebar:
@@ -12,7 +12,7 @@ Unlike the "Pre-Configured Image" which installs the OS and all Add-ons for you,
 
 ## Prerequisites
 
-- **Assembled hardware** following the [Hardware Assembly Guide](/installation/hardware-assembly/)
+- **Assembled hardware** following the [Hardware Assembly Guide](/installation/assembly/)
 - **Home Assistant OS installed** on your NVME drive
 - **Basic understanding** of Home Assistant add-ons and YAML configuration
 - **SSH access** configured (optional but helpful)
@@ -245,8 +245,8 @@ Then reboot.
 
 ## What's Next?
 
-- [Identify your switches](/installation/identifying-switches/)
-- [Create custom dashboards](/home-assistant/dashboards/)
+- [Identify your switches](/customization/identify-switches/)
+- [Create custom dashboards](/customization/dashboards/)
 - [Join the community](https://forum.LibreCoach.com)
 
 ## Advanced Configuration

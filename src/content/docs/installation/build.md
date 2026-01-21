@@ -47,7 +47,7 @@ Choose one of these cases:
 
 ## Assembly Guide
 
-Follow our detailed [Hardware Assembly Guide](/installation/hardware-assembly/) for step-by-step instructions with photos.
+Follow our detailed [Hardware Assembly Guide](/installation/assembly/) for step-by-step instructions with photos.
 
 ### Assembly Overview
 
@@ -159,8 +159,8 @@ You'll need to configure WiFi through the Home Assistant OS interface:
 
 ## What's Next?
 
-- [Identify your switches](/installation/identifying-switches/) by toggling them in your RV
-- [Create custom dashboards](/home-assistant/dashboards/) tailored to your needs
+- [Identify your switches](/customization/identify-switches/) by toggling them in your RV
+- [Create custom dashboards](/customization/dashboards/) tailored to your needs
 - [Join the community](https://forum.LibreCoach.com) to share your dashboard configuration
 
 ## Troubleshooting

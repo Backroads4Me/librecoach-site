@@ -2,6 +2,8 @@
 title: "Common Issues and Solutions"
 description: "Solutions to common Libre Coach issues including CAN connection problems, device discovery failures, and WiFi connectivity."
 filename: common-issues
+sidebar:
+  order: 1
 ---
 
 Having trouble with Libre Coach? Check these common issues and solutions before posting on the forum.
@@ -33,7 +35,7 @@ Having trouble with Libre Coach? Check these common issues and solutions before 
 
 1. **Check hardware**: Verify CAN HAT is properly seated on GPIO pins
 2. **Check power**: Ensure power cable from PCIe adapter to CAN HAT is connected
-3. **Enable interface**: The CAN interface may need to be enabled in Host OS (see [Manual Installation Guide](/getting-started/manual-install/#enable-can-interface-in-host-os))
+3. **Enable interface**: The CAN interface may need to be enabled in Host OS (see [Manual Installation Guide](/installation/manual-install/#enable-can-interface-in-host-os))
 
 ### Add-ons Won't Start
 

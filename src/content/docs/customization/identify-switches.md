@@ -1,9 +1,9 @@
 ---
 title: "Identifying Your Switches"
 description: "Walk through your RV to identify and map auto-discovered switches to their physical controls using Home Assistant's dashboard."
-filename: idnetify-switches
+filename: identify-switches
 sidebar:
-  order: 5
+  order: 1
 ---
 
 After installing Libre Coach, your RV-C switches will be auto-discovered and appear in Home Assistant as generic entities like `switch_1`, `switch_2`, etc. This guide helps you identify what each switch controls.
@@ -169,6 +169,6 @@ Before starting from scratch, check if someone with your RV model has already sh
 
 Now that you've identified your switches, you can:
 
-- [Create custom dashboards](/home-assistant/dashboards/) tailored to your RV layout
-- [Set up automations](/home-assistant/automation-examples/) (e.g., "Good Night" turns off all lights)
+- [Create custom dashboards](dashboards) tailored to your RV layout
+- [Set up automations](automation) (e.g., "Good Night" turns off all lights)
 - Share your configuration on the [forum](https://forum.LibreCoach.com)

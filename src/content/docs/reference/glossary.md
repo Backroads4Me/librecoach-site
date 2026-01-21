@@ -2,6 +2,8 @@
 title: Glossary
 description: "Key terms and definitions for RV-C, CAN bus, and Home Assistant."
 filename: glossary
+sidebar:
+  order: 3
 ---
 
 ### CAN Bus (Controller Area Network)

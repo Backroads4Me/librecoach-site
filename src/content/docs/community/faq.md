@@ -3,7 +3,7 @@ title: Frequently Asked Questions
 description: "Common questions about Libre Coach, including the name, compatibility, and project goals."
 filename: faq
 sidebar:
-  order: 1
+  order: 3
 ---
 
 ## About the Project

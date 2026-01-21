@@ -2,6 +2,8 @@
 title: System Architecture
 description: "A deep dive into how Libre Coach bridges the physical world of RV-C with the digital world of Home Assistant."
 filename: system-architecture
+sidebar:
+  order: 1
 ---
 
 Libre Coach is not just a UI; it is a full-stack integration platform. This document outlines the technical architecture, explaining how data moves from a physical wire in your wall to a button on your phone.

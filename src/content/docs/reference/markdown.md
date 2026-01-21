@@ -18,7 +18,7 @@ sidebar:
     variant: success
 # Pagination overrides
 prev:
-  link: /getting-started/
+  link: /installation/build/
   label: Getting Started
 next:
   link: /advanced/
@@ -51,7 +51,7 @@ Standard Markdown text formatting works as expected:
 
 External links: [Libre Coach GitHub](https://github.com/Backroads4Me)
 
-Internal links: [See the Getting Started guide](/getting-started/)
+Internal links: [See the Getting Started guide](/start-here/what-is-libre-coach/)
 
 Links with titles: [Home Assistant](https://www.home-assistant.io/ "The open-source home automation platform")
 
@@ -151,7 +151,7 @@ You can include:
 - Bullet points
 - **Bold** and *italic* text
 - `inline code`
-- [Links](/getting-started/)
+- [Links](/start-here/what-is-libre-coach/)
 
 And even code blocks:
 

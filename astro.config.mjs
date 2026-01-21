@@ -49,16 +49,20 @@ export default defineConfig({
         ],
         sidebar: [
           {
-            label: "Introduction",
-            autogenerate: { directory: "introduction" },
+            label: "Start Here",
+            autogenerate: { directory: "start-here" },
           },
           {
-            label: "Installation Guide",
+            label: "Installation",
             autogenerate: { directory: "installation" },
           },
           {
-            label: "Home Assistant Setup",
-            autogenerate: { directory: "home-assistant" },
+            label: "Customization",
+            autogenerate: { directory: "customization" },
+          },
+          {
+            label: "Community",
+            autogenerate: { directory: "community" },
           },
           {
             label: "Reference",
@@ -67,10 +71,6 @@ export default defineConfig({
           {
             label: "Troubleshooting",
             autogenerate: { directory: "troubleshooting" },
-          },
-          {
-            label: "Community",
-            autogenerate: { directory: "community" },
           },
         ],
       },

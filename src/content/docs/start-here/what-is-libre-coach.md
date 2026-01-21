@@ -64,12 +64,29 @@ Your job is simply to "claim" them.
 3.  You rename it to "Kitchen Light".
 4.  Done. You now have a smart kitchen light.
 
-## Ready to Start?
+## Three Ways to Get Started
 
-You have three paths to RV freedom:
+Choose the path that fits your comfort level and goals:
 
-1.  **[Pre-Assembled Kit](/introduction/hardware-options/)**: The "It Just Works" option. We build and test the hardware for you.
-2.  **[DIY Build Guide](/installation/diy-build/)**: Source your own parts (~$150-200) and build it yourself.
-3.  **[Manual Install](/installation/manual-install/)**: For the pros who want to install the software on their existing hardware.
+### 1. DIY Build + Pre-Configured Image
+Build your own hardware following our detailed assembly guide, then flash our custom Home Assistant OS image. Best balance of hands-on experience and convenience.
 
-[Compare All Options →](/introduction/choose-your-path/)
+[DIY Build Guide →](/installation/build/)
+
+### 2. Full Manual Installation
+Build the hardware and manually install each Home Assistant add-on. Complete control for tinkerers who want to understand every component or install on existing hardware.
+
+[Manual Installation Guide →](/installation/manual-install/)
+
+### 3. Pre-Assembled Kit (Waitlist)
+We are gauging interest in a batch of pre-built units. Join the waitlist if you prefer a plug-and-play solution.
+
+[Learn More →](/start-here/choose-your-path/#path-3-pre-assembled-kit-waitlist)
+
+[Compare All Options →](/start-here/choose-your-path/)
+
+## Need Help?
+
+- Visit our [Community Forum](https://forum.LibreCoach.com) for support
+- Check the [Troubleshooting Guide](/troubleshooting/common-issues/)
+- Report bugs on [GitHub](https://github.com/Backroads4Me)

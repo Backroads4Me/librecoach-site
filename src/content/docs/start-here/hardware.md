@@ -3,7 +3,7 @@ title: Hardware Options
 description: Build it yourself or join the waitlist for a pre-assembled unit.
 filename: hardware
 sidebar:
-  order: 2
+  order: 3
 ---
 
 Libre Coach is an open source project. You have two ways to get the hardware.
@@ -14,7 +14,7 @@ This is the fastest way to get started. You order standard parts from Amazon/Ali
 
 *   **Cost**: ~$150 - $200
 *   **Difficulty**: Medium (requires flashing SD card/NVMe and some assembly)
-*   **Guide**: [View the Bill of Materials & Assembly Guide](/getting-started/diy-build/)
+*   **Guide**: [View the Bill of Materials & Assembly Guide](/installation/build/)
 
 ## Path 2: Pre-Assembled Unit (Waitlist)
 
