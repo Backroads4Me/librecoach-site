@@ -4,45 +4,14 @@ media:
   output: src/assets
 
 # ---------------------------------------
-# Reusable Components
-# ---------------------------------------
-components:
-  metadata:
-    type: object
-    fields:
-      - { name: title, label: Title, type: string, required: true }
-      - { name: description, label: Description, type: string, required: true }
-
-# ---------------------------------------
 # Content Collections
 # ---------------------------------------
 
 content:
-  - name: introduction
-    label: "📖 Introduction"
+  - name: community
+    label: "👥 Community"
     type: collection
-    path: src/content/docs/introduction
-    filename: "{primary}.md"
-    view:
-      primary: slug
-      fields: [title, slug, draft]
-    fields:
-      - { name: slug, label: URL Slug, type: string, required: true }
-      - { name: title, label: Title, type: string, required: true }
-      - { name: description, label: Description, type: string, required: true }
-      - name: sidebar
-        label: Sidebar Settings
-        type: object
-        fields:
-          - { name: order, label: Order, type: number }
-          - { name: label, label: Custom Label, type: string }
-      - { name: draft, label: Draft, type: boolean, default: false }
-      - { name: body, label: Content, type: rich-text }
-
-  - name: installation
-    label: "🛠️ Installation"
-    type: collection
-    path: src/content/docs/introduction
+    path: src/content/docs/community
     filename: "{primary}.md"
     view:
       primary: slug
@@ -63,7 +32,7 @@ content:
   - name: home-assistant
     label: "🏠 Home Assistant Setup"
     type: collection
-    path: src/content/docs/introduction
+    path: src/content/docs/home-assistant
     filename: "{primary}.md"
     view:
       primary: slug
@@ -81,8 +50,29 @@ content:
       - { name: draft, label: Draft, type: boolean, default: false }
       - { name: body, label: Content, type: rich-text }
 
-  - name: troubleshooting
-    label: "🔧 Troubleshooting"
+  - name: installation
+    label: "🛠️ Installation"
+    type: collection
+    path: src/content/docs/installation
+    filename: "{primary}.md"
+    view:
+      primary: slug
+      fields: [title, slug, draft]
+    fields:
+      - { name: slug, label: URL Slug, type: string, required: true }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: description, label: Description, type: string, required: true }
+      - name: sidebar
+        label: Sidebar Settings
+        type: object
+        fields:
+          - { name: order, label: Order, type: number }
+          - { name: label, label: Custom Label, type: string }
+      - { name: draft, label: Draft, type: boolean, default: false }
+      - { name: body, label: Content, type: rich-text }
+
+  - name: introduction
+    label: "📖 Introduction"
     type: collection
     path: src/content/docs/introduction
     filename: "{primary}.md"
@@ -105,7 +95,7 @@ content:
   - name: reference
     label: "📚 Reference"
     type: collection
-    path: src/content/docs/introduction
+    path: src/content/docs/reference
     filename: "{primary}.md"
     view:
       primary: slug
@@ -123,10 +113,31 @@ content:
       - { name: draft, label: Draft, type: boolean, default: false }
       - { name: body, label: Content, type: rich-text }
 
-  - name: community
-    label: "👥 Community"
+  - name: start-here
+    label: "🚀 Start Here"
     type: collection
-    path: src/content/docs/introduction
+    path: src/content/docs/start-here
+    filename: "{primary}.md"
+    view:
+      primary: slug
+      fields: [title, slug, draft]
+    fields:
+      - { name: slug, label: URL Slug, type: string, required: true }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: description, label: Description, type: string, required: true }
+      - name: sidebar
+        label: Sidebar Settings
+        type: object
+        fields:
+          - { name: order, label: Order, type: number }
+          - { name: label, label: Custom Label, type: string }
+      - { name: draft, label: Draft, type: boolean, default: false }
+      - { name: body, label: Content, type: rich-text }
+
+  - name: troubleshooting
+    label: "🔧 Troubleshooting"
+    type: collection
+    path: src/content/docs/troubleshooting
     filename: "{primary}.md"
     view:
       primary: slug
