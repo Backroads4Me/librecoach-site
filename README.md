@@ -12,7 +12,13 @@ It is built with [Astro](https://astro.build) and the [Starlight](https://starli
 
 Pull requests are welcome! Please ensure any new content follows the existing structure and images are added to `src/assets/`.
 
-## Sponsor
+## Support the Project
 
-**[Sponsor me on GitHub](https://github.com/sponsors/Backroads4me)** (Best for long-term support)
-**[Buy me a coffee](https://buymeacoffee.com/Backroads4me)** (Best for a quick thank-you)
+Libre Coach is free and open source. If it's helped you or saved you time, consider supporting continued development:
+
+[![Support Libre Coach](https://img.shields.io/badge/Sponsor_on_GitHub-41BDF5?style=for-the-badge&logo=github-sponsors&logoColor=white
+)](https://github.com/sponsors/Backroads4Me)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/backroads4me)
+
+
+Your support helps fund hardware testing, infrastructure costs, and those late-night coding sessions.
