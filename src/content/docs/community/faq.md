@@ -11,8 +11,6 @@ draft: false
 
 ### Why "Libre Coach"?
 
-Because it's awesome.
-
 The name combines two meaningful concepts:
 
 *   **Libre** (Spanish/French for "free") — In open source, "libre" specifically means "free as in freedom," not just "free of cost." It emphasizes that this project gives you control over your own RV systems—no vendor lock-in, no cloud dependency, no subscription fees.
