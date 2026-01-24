@@ -1,6 +1,6 @@
 ---
 title: CAN Connection Guide
-description: "Guide to physically connecting Libre Coach hardware to your RV's CAN bus network including safety precautions, locating ports, and verification."
+description: "Guide to physically connecting LibreCoach hardware to your RV's CAN bus network including safety precautions, locating ports, and verification."
 filename: can-connection
 sidebar:
   order: 4
@@ -48,7 +48,7 @@ This is the easiest and safest method if you have an open port available.
 
 **What you need:**
 *   A cable that matches your RV's port type (often DB9 to RJ12/Molex).
-*   Your Libre Coach device (Raspberry Pi + CAN HAT).
+*   Your LibreCoach device (Raspberry Pi + CAN HAT).
 
 **Steps:**
 1.  Verify the pinout of your RV's port (check manual or use a multimeter to find CAN-H/CAN-L).
@@ -94,10 +94,10 @@ Some newer RVs expose RV-C data via an onboard diagnostic port similar to a car.
 Once connected, it's time to test communication.
 
 1.  **Power On**: Turn on your RV battery disconnect and shore power.
-2.  **Boot Libre Coach**: Power up your Raspberry Pi.
+2.  **Boot LibreCoach**: Power up your Raspberry Pi.
 3.  **Check Logs**:
     *   Open Home Assistant.
-    *   Go to **Settings > Add-ons > Libre Coach > Logs**.
+    *   Go to **Settings > Add-ons > LibreCoach > Logs**.
     *   Look for a message saying "CAN Interface Up" or "candump" output showing data flowing.
 
 **Successful Output Example:**

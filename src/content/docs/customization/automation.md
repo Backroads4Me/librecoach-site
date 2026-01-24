@@ -6,7 +6,7 @@ sidebar:
   order: 3
 ---
 
-One of the biggest benefits of Libre Coach is the ability to automate your rig. Instead of just pressing buttons on a screen, your RV can react to its environment, protect itself, and make your camping experience smoother.
+One of the biggest benefits of LibreCoach is the ability to automate your rig. Instead of just pressing buttons on a screen, your RV can react to its environment, protect itself, and make your camping experience smoother.
 
 Here are tested automation examples you can copy into your Home Assistant configuration.
 

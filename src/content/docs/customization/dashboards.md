@@ -264,7 +264,7 @@ Apply custom color schemes to match your RV or personal style. See [Home Assista
 
 ### Finding Dashboards for Your RV
 
-1. Visit the [Libre Coach Forum](https://forum.LibreCoach.com)
+1. Visit the [LibreCoach Forum](https://forum.LibreCoach.com)
 2. Navigate to your RV manufacturer's category (e.g., Newmar, Tiffin, Entegra)
 3. Browse posts tagged with your model and year
 4. Download YAML files shared by other users

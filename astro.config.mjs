@@ -13,12 +13,12 @@ export default defineConfig({
     UnoCSS(),
     Icons({
       starlight: {
-        title: "Libre Coach",
+        title: "LibreCoach",
         plugins: [
           starlightThemeSix({
             //optional
             footerText:
-              "Libre Coach - Smarthome Control for Your RV | [GitHub](https://github.com/Backroads4Me) | [Community Forum](https://forum.LibreCoach.com)",
+              "LibreCoach - Smarthome Control for Your RV | [GitHub](https://github.com/Backroads4Me) | [Community Forum](https://forum.LibreCoach.com)",
           }),
         ],
         customCss: ["./src/styles/custom.css"],

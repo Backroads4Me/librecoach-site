@@ -1,12 +1,12 @@
 ---
 title: "DIY Build Guide"
-description: "Step-by-step guide to building your own Libre Coach hardware and flashing the pre-configured Home Assistant OS image."
+description: "Step-by-step guide to building your own LibreCoach hardware and flashing the pre-configured Home Assistant OS image."
 filename: build
 sidebar:
   order: 1
 ---
 
-Build your own Libre Coach hardware and flash our pre-configured Home Assistant OS image. This is the perfect balance between hands-on building and convenience.
+Build your own LibreCoach hardware and flash our pre-configured Home Assistant OS image. This is the perfect balance between hands-on building and convenience.
 
 ## Overview
 
@@ -66,7 +66,7 @@ Follow our detailed [Hardware Assembly Guide](/installation/assembly/) for step-
 
 ### Step 1: Download the Pre-Configured Image
 
-Download the latest Libre Coach HAOS image from GitHub Releases:
+Download the latest LibreCoach HAOS image from GitHub Releases:
 
 **[Download Latest Image](https://github.com/Backroads4Me/libre-coach-haos-image/releases/latest)**
 
@@ -79,7 +79,7 @@ The image includes:
 - ✅ Home Assistant OS (latest stable)
 - ✅ Mosquitto MQTT broker (pre-configured)
 - ✅ CAN-to-MQTT Bridge add-on (configured for can0)
-- ✅ Node-RED with Libre Coach flows (imported and ready)
+- ✅ Node-RED with LibreCoach flows (imported and ready)
 - ✅ All add-ons configured and tested
 
 **File size**: Approximately 2-4GB compressed
@@ -145,14 +145,14 @@ You'll need to configure WiFi through the Home Assistant OS interface:
 4. Once connected, you can disconnect Ethernet (though we recommend keeping it connected)
 :::
 
-## Verify Libre Coach is Running
+## Verify LibreCoach is Running
 
 1. In Home Assistant, go to **Settings** → **Add-ons**
 2. You should see:
    - Mosquitto broker (running)
    - CAN-to-MQTT Bridge (running)
    - Node-RED (running)
-   - Libre Coach (stopped - this is normal, it's an orchestrator)
+   - LibreCoach (stopped - this is normal, it's an orchestrator)
 
 3. Go to **Settings** → **Devices & Services** → **MQTT**
 4. You should start seeing auto-discovered devices appearing as you use switches in your RV

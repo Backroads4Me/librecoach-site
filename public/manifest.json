@@ -1,6 +1,6 @@
 {
-    "name": "Libre Coach Documentation",
-    "short_name": "Libre Coach",
+    "name": "LibreCoach Documentation",
+    "short_name": "LibreCoach",
     "description": "Smart control for your RV. Mobile access, auto-discovery, real-time monitoring, and beautiful dashboards—all local, all open source.",
     "start_url": "/",
     "scope": "/",

@@ -6,7 +6,7 @@ sidebar:
   order: 3
 ---
 
-Libre Coach is an open source project. You have two ways to get the hardware.
+LibreCoach is an open source project. You have two ways to get the hardware.
 
 ## Path 1: DIY (Build It Yourself)
 

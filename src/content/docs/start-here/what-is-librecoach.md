@@ -1,12 +1,12 @@
 ---
-title: "What is Libre Coach?"
-description: "Libre Coach bridges your RV's CAN bus to Home Assistant, enabling control and monitoring of lights, climate, tanks, and power systems."
-filename: what-is-libre-coach
+title: "What is LibreCoach?"
+description: "LibreCoach bridges your RV's CAN bus to Home Assistant, enabling control and monitoring of lights, climate, tanks, and power systems."
+filename: what-is-librecoach
 sidebar:
   order: 1
 ---
 
-Libre Coach is an open-source platform that transforms your RV into a modern, intelligent vehicle. It bridges the gap between your RV's industrial "RV-C" network and the consumer-friendly world of Home Assistant.
+LibreCoach is an open-source platform that transforms your RV into a modern, intelligent vehicle. It bridges the gap between your RV's industrial "RV-C" network and the consumer-friendly world of Home Assistant.
 
 ## The RV Tech Problem
 
@@ -17,34 +17,34 @@ If you own a modern RV, you've likely encountered the "Smart Home" that isn't sm
 3.  **Expensive Failures**: We have heard horror stories of a 5-year-old touch panel failing, with the dealer quoting $1,800 to replace it—often with a "dumb" switch panel because the original part no longer exists.
 4.  **No Integration**: Your RV doesn't know about the weather, your location, or your voice assistant. It is a digital island.
 
-## The Libre Coach Solution
+## The LibreCoach Solution
 
-Libre Coach breaks this cycle by replacing proprietary "black boxes" with open standards.
+LibreCoach breaks this cycle by replacing proprietary "black boxes" with open standards.
 
 *   **Auto-Discovery**: Plug it in, and it scans your network. It finds your switches, lights, and tanks automatically. No manual programming required.
 *   **Universal Compatibility**: It speaks fluent "RV-C"—the industry standard protocol. It doesn't need a specific template for your 2022 Tiffin Allegro; it just reads the standard language.
 *   **Modern Interface**: Ditch the laggy resistive touchscreens. Control your rig from an iPhone, iPad, Android device, or a modern web browser.
-*   **Cost Effective**: A complete Libre Coach system costs less than $200 to build yourself, compared to thousands for proprietary replacements.
+*   **Cost Effective**: A complete LibreCoach system costs less than $200 to build yourself, compared to thousands for proprietary replacements.
 
 ## Built on a Proven Foundation
 
-We didn't reinvent the wheel. Libre Coach is built on **Home Assistant**, the world's most popular open-source home automation software.
+We didn't reinvent the wheel. LibreCoach is built on **Home Assistant**, the world's most popular open-source home automation software.
 
 *   **Massive Ecosystem**: Home Assistant defines "smart". It supports over 2,500 integrations—Starlink, weather services, voice assistants (Alexa/Google), localized energy pricing, and more.
-*   **Future Proof**: Home Assistant has millions of users and significantly more momentum than any RV manufacturer's software team. Even if Libre Coach development stopped tomorrow, your foundation (Home Assistant) faces monthly updates and security patches for years to come.
+*   **Future Proof**: Home Assistant has millions of users and significantly more momentum than any RV manufacturer's software team. Even if LibreCoach development stopped tomorrow, your foundation (Home Assistant) faces monthly updates and security patches for years to come.
 *   **The Manufacturer Trap, Broken**: By moving your automation logic into Home Assistant, you own it. You can upgrade the hardware, change the software, and export your configuration. You are no longer held hostage by a closed ecosystem.
 
 ## How It Works
 
-![Libre Coach System Architecture](../../../assets/architecture-diagram.png)
+![LibreCoach System Architecture](../../../assets/architecture-diagram.png)
 
 1.  **Hardware Bridge**: A Raspberry Pi with a CAN HAT physically connects to your RV's CAN bus wiring.
 2.  **CAN-to-MQTT Bridge**: A service reads the raw industrial data and converts it to a modern message format (MQTT).
-3.  **The Core**: Libre Coach's intelligent flows decode these messages and create "Entities" in Home Assistant.
+3.  **The Core**: LibreCoach's intelligent flows decode these messages and create "Entities" in Home Assistant.
 
 ## What Can You Control?
 
-If it speaks RV-C, Libre Coach can control it:
+If it speaks RV-C, LibreCoach can control it:
 
 *   **Lighting**: Zones, Dimmers, Patio lights.
 *   **Climate**: Thermostats, Heat Pumps, Roof Fans, Floor Heat.
@@ -54,7 +54,7 @@ If it speaks RV-C, Libre Coach can control it:
 
 ## Auto-Discovery in Action
 
-When you first boot Libre Coach, it is a blank slate. As it listens to your RV's network, you will see devices pop up in real-time.
+When you first boot LibreCoach, it is a blank slate. As it listens to your RV's network, you will see devices pop up in real-time.
 
 > "I plugged it in, walked to the fridge to get a drink, and by the time I came back, it had found 47 devices."
 

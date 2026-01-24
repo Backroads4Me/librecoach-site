@@ -1,12 +1,12 @@
 ---
 title: Choose Your Path
-description: Compare the three ways to get Libre Coach and choose the best option for your skill level and goals.
+description: Compare the three ways to get LibreCoach and choose the best option for your skill level and goals.
 filename: choose-your-path
 sidebar:
   order: 2
 ---
 
-Libre Coach offers three installation paths. Choose the one that fits your comfort level, timeline, and budget.
+LibreCoach offers three installation paths. Choose the one that fits your comfort level, timeline, and budget.
 
 ## Quick Comparison
 
@@ -53,7 +53,7 @@ Libre Coach offers three installation paths. Choose the one that fits your comfo
 2. Assemble hardware
 3. Manually install Home Assistant OS
 4. Install and configure each add-on individually
-5. Import Libre Coach flows into Node-RED
+5. Import LibreCoach flows into Node-RED
 6. Connect to your RV
 
 ### Pros
@@ -83,7 +83,7 @@ Libre Coach offers three installation paths. Choose the one that fits your comfo
 
 ### What You Get
 - Fully assembled Raspberry Pi 5 system
-- Pre-flashed with latest Libre Coach software
+- Pre-flashed with latest LibreCoach software
 - Tested and verified before shipping
 - Custom case included
 - Just connect and configure WiFi
@@ -141,7 +141,7 @@ I am currently collecting names to see if there is enough demand to order parts 
 
 ## What Happens After Installation?
 
-Regardless of which path you choose, the end result is the same: a fully functional Libre Coach system. After installation, you'll:
+Regardless of which path you choose, the end result is the same: a fully functional LibreCoach system. After installation, you'll:
 
 1. **Connect to your RV's CAN bus** ([CAN Connection Guide](/installation/can-connection/))
 2. **Identify your devices** by toggling switches ([Identifying Switches](/customization/identify-switches/))

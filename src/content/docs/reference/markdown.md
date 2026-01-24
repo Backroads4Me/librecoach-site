@@ -1,6 +1,6 @@
 ---
 title: Starlight Feature Reference
-description: A comprehensive guide to all Markdown and Starlight features for Libre Coach documentation.
+description: A comprehensive guide to all Markdown and Starlight features for LibreCoach documentation.
 filename: markdown
 # Customize the table of contents
 tableOfContents:
@@ -29,7 +29,7 @@ banner:
     🎉 This page demonstrates all available Starlight features!
 ---
 
-This page serves as a live reference for all the styling and features available in **Libre Coach** documentation when using pure Markdown (`.md`) files.
+This page serves as a live reference for all the styling and features available in **LibreCoach** documentation when using pure Markdown (`.md`) files.
 
 > **Important:** Components like `<Tabs>`, `<Card>`, `<Steps>`, and `<FileTree>` require **MDX** (`.mdx`) files because they use JSX syntax. This guide covers everything available in standard Markdown.
 
@@ -49,9 +49,9 @@ Standard Markdown text formatting works as expected:
 
 ### Links
 
-External links: [Libre Coach GitHub](https://github.com/Backroads4Me)
+External links: [LibreCoach GitHub](https://github.com/Backroads4Me)
 
-Internal links: [See the Getting Started guide](/start-here/what-is-libre-coach/)
+Internal links: [See the Getting Started guide](/start-here/what-is-librecoach/)
 
 Links with titles: [Home Assistant](https://www.home-assistant.io/ "The open-source home automation platform")
 
@@ -151,7 +151,7 @@ You can include:
 - Bullet points
 - **Bold** and *italic* text
 - `inline code`
-- [Links](/start-here/what-is-libre-coach/)
+- [Links](/start-here/what-is-librecoach/)
 
 And even code blocks:
 
@@ -187,7 +187,7 @@ mqtt:
 
 - [x] Install Raspberry Pi OS
 - [x] Configure CAN interface
-- [ ] Install Libre Coach software
+- [ ] Install LibreCoach software
 - [ ] Configure Home Assistant integration
 - [ ] Test RV-C communication
 
@@ -350,7 +350,7 @@ Shell script:
 #!/bin/bash
 set -e
 
-echo "Installing Libre Coach..."
+echo "Installing LibreCoach..."
 pip install librecoach --break-system-packages
 sudo cp config/can0.conf /etc/network/interfaces.d/
 echo "Installation complete!"
@@ -378,7 +378,7 @@ Wrap long code in a collapsible section (if enabled):
 <summary>Click to expand full configuration example</summary>
 
 ```yaml title="full-config.yaml"
-# Complete Libre Coach configuration
+# Complete LibreCoach configuration
 librecoach:
   can:
     interface: can0
@@ -445,7 +445,7 @@ librecoach:
 
 ### Basic Image
 
-![Libre Coach Architecture](../../../assets/architecture-diagram.png)
+![LibreCoach Architecture](../../../assets/architecture-diagram.png)
 
 ### Image with Alt Text
 
@@ -462,7 +462,7 @@ librecoach:
 
 ### HTML Image with Sizing
 
-<img src="../../../assets/logo.png" alt="Libre Coach Logo" width="200" />
+<img src="../../../assets/logo.png" alt="LibreCoach Logo" width="200" />
 
 ---
 
@@ -485,7 +485,7 @@ librecoach:
 >
 > > "The future of RV living is intelligent, connected systems that work together."
 >
-> This philosophy drives Libre Coach development.
+> This philosophy drives LibreCoach development.
 
 ---
 
@@ -509,7 +509,7 @@ Yet another way to create a rule.
 
 ## Footnotes
 
-Libre Coach supports the RV-C protocol[^1] for communication between RV systems. The protocol uses CAN bus[^2] as its physical layer.
+LibreCoach supports the RV-C protocol[^1] for communication between RV systems. The protocol uses CAN bus[^2] as its physical layer.
 
 For Home Assistant integration, we use MQTT[^3] with auto-discovery enabled.
 
@@ -570,7 +570,7 @@ These options are for advanced users only:
 
 <div align="center">
 
-**Libre Coach**
+**LibreCoach**
 
 *Open-source RV automation*
 

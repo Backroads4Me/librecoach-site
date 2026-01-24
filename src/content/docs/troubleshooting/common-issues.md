@@ -1,12 +1,12 @@
 ---
 title: "Common Issues and Solutions"
-description: "Solutions to common Libre Coach issues including CAN connection problems, device discovery failures, and WiFi connectivity."
+description: "Solutions to common LibreCoach issues including CAN connection problems, device discovery failures, and WiFi connectivity."
 filename: common-issues
 sidebar:
   order: 1
 ---
 
-Having trouble with Libre Coach? Check these common issues and solutions before posting on the forum.
+Having trouble with LibreCoach? Check these common issues and solutions before posting on the forum.
 
 ## Installation Issues
 
@@ -89,7 +89,7 @@ Having trouble with Libre Coach? Check these common issues and solutions before 
 2. **Wait**: Discovery can take time as devices wake up and send status
 3. **Check DGN support**: Some device types may not be supported yet
 4. **Check instance numbers**: Devices may be using unusual instance IDs
-5. **Post on forum**: Share which devices are missing to help improve Libre Coach
+5. **Post on forum**: Share which devices are missing to help improve LibreCoach
 
 ### Duplicate or "Ghost" Entities
 
@@ -137,7 +137,7 @@ Having trouble with Libre Coach? Check these common issues and solutions before 
 
 ### WiFi Disconnects
 
-**Symptom**: Libre Coach loses WiFi connection frequently
+**Symptom**: LibreCoach loses WiFi connection frequently
 
 **Solutions**:
 
@@ -233,7 +233,7 @@ Having trouble with Libre Coach? Check these common issues and solutions before 
 
 1. **Check Node-RED storage**: Flows are stored in `/config/node-red/`
 2. **Restore from backup**: Use Home Assistant backup to restore
-3. **Reimport flows**: Import from the Libre Coach repository
+3. **Reimport flows**: Import from the LibreCoach repository
 4. **Check logs**: Look for errors during Node-RED startup
 5. **Post on forum**: This shouldn't happen—report it!
 

@@ -1,7 +1,7 @@
 ---
 filename: faq
 title: Frequently Asked Questions
-description: Common questions about Libre Coach, including the name,
+description: Common questions about LibreCoach, including the name,
   compatibility, and project goals.
 sidebar:
   order: 3
@@ -9,7 +9,7 @@ draft: false
 ---
 ## About the Project
 
-### Why "Libre Coach"?
+### Why "LibreCoach"?
 
 The name combines two meaningful concepts:
 
@@ -18,11 +18,11 @@ The name combines two meaningful concepts:
 *   **Coach** — A common term for motorhomes and RVs, especially Class A and luxury models. Your coach deserves software that's as capable as the vehicle itself.
     
 
-**Libre Coach = Freedom for your coach.**
+**LibreCoach = Freedom for your coach.**
 
-We believe RV owners should have full control over their own vehicles. When a manufacturer abandons their proprietary control system, you shouldn't be left with a $2,000 paperweight. Libre Coach ensures your smart RV stays smart—forever.
+We believe RV owners should have full control over their own vehicles. When a manufacturer abandons their proprietary control system, you shouldn't be left with a $2,000 paperweight. LibreCoach ensures your smart RV stays smart—forever.
 
-### Is Libre Coach really free?
+### Is LibreCoach really free?
 
 Yes, in both senses:
 
@@ -31,9 +31,9 @@ Yes, in both senses:
 *   **Free as in cost**: The software costs nothing. You only pay for the hardware (~$150-200 if you build it yourself).
     
 
-### Who is behind Libre Coach?
+### Who is behind LibreCoach?
 
-Libre Coach is a community-driven open source project. It started as a personal project to solve the "abandoned RV tech" problem and grew from there.
+LibreCoach is a community-driven open source project. It started as a personal project to solve the "abandoned RV tech" problem and grew from there.
 
 ### How can I support the project?
 
@@ -48,7 +48,7 @@ Libre Coach is a community-driven open source project. It started as a personal 
 
 ### Which RVs are compatible?
 
-Libre Coach works with any RV that uses the **RV-C protocol** on a CAN bus network. This includes most modern motorhomes from:
+LibreCoach works with any RV that uses the **RV-C protocol** on a CAN bus network. This includes most modern motorhomes from:
 
 *   Tiffin
     
@@ -71,27 +71,27 @@ Most travel trailers and fifth wheels do **not** use RV-C—they typically have 
 
 ### What if my RV doesn't use RV-C?
 
-Libre Coach is specifically designed for RV-C networks. If your RV uses a proprietary protocol (like some older Winnebago systems), it won't work directly. However, you can still use Home Assistant with other integrations for non-RV-C devices.
+LibreCoach is specifically designed for RV-C networks. If your RV uses a proprietary protocol (like some older Winnebago systems), it won't work directly. However, you can still use Home Assistant with other integrations for non-RV-C devices.
 
 ## Technical Questions
 
-### Do I need internet access for Libre Coach to work?
+### Do I need internet access for LibreCoach to work?
 
-**No.** Libre Coach runs entirely locally on your Raspberry Pi. You can control your RV even when completely off-grid with no internet connection.
+**No.** LibreCoach runs entirely locally on your Raspberry Pi. You can control your RV even when completely off-grid with no internet connection.
 
-### Can I use Libre Coach with my existing Home Assistant setup?
+### Can I use LibreCoach with my existing Home Assistant setup?
 
 Yes! If you already run Home Assistant (on a NUC, Yellow, or other hardware), you can add the CAN-to-MQTT Bridge and Node-RED flows to your existing installation. See the [Manual Installation Guide](/installation/manual-install/).
 
 ### Is it safe? Can it damage my RV?
 
-Libre Coach is a **passive listener** by default—it reads data from your RV-C network but doesn't send commands unless you explicitly trigger them. The RV-C protocol has built-in safeguards, and the physical switches in your RV always work regardless of what Libre Coach is doing.
+LibreCoach is a **passive listener** by default—it reads data from your RV-C network but doesn't send commands unless you explicitly trigger them. The RV-C protocol has built-in safeguards, and the physical switches in your RV always work regardless of what LibreCoach is doing.
 
 That said, as with any DIY project, proceed carefully and disconnect power when working on electrical systems.
 
 ### What happens if my Raspberry Pi fails?
 
-Your RV continues to function normally using its original physical controls. Libre Coach is an addition to your RV's systems, not a replacement. If the Pi dies, you simply lose the smart features until you replace it.
+Your RV continues to function normally using its original physical controls. LibreCoach is an addition to your RV's systems, not a replacement. If the Pi dies, you simply lose the smart features until you replace it.
 
 ## Getting Help
 

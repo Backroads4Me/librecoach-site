@@ -6,7 +6,7 @@ sidebar:
   order: 2
 ---
 
-This guide is for advanced users who want complete control over their installation or are installing Libre Coach onto an existing Home Assistant instance (e.g., on a NUC or Yellow).
+This guide is for advanced users who want complete control over their installation or are installing LibreCoach onto an existing Home Assistant instance (e.g., on a NUC or Yellow).
 
 Unlike the "Pre-Configured Image" which installs the OS and all Add-ons for you, this guide assumes you are maintaining each component separately. You will manually install Mosquitto, Node-RED, and the Bridge as individual Add-ons.
 
@@ -22,7 +22,7 @@ Unlike the "Pre-Configured Image" which installs the OS and all Add-ons for you,
 1. Install and configure Mosquitto MQTT broker
 2. Install and configure CAN-to-MQTT Bridge add-on
 3. Install and configure Node-RED
-4. Import Libre Coach flows into Node-RED
+4. Import LibreCoach flows into Node-RED
 5. Configure MQTT integration in Home Assistant
 
 ## Step 1: Install Mosquitto Broker
@@ -38,7 +38,7 @@ The Mosquitto broker handles MQTT communication between the CAN bridge and Node-
 ### Configuration
 
 1. Go to the **Configuration** tab
-2. Add a user for Libre Coach:
+2. Add a user for LibreCoach:
 
 ```yaml
 logins:
@@ -53,7 +53,7 @@ logins:
 ## Step 2: Install CAN-to-MQTT Bridge
 
 :::info Add-on Repository
-The CAN-to-MQTT Bridge is available in the Libre Coach add-on repository.
+The CAN-to-MQTT Bridge is available in the LibreCoach add-on repository.
 
 Add the repository: `https://github.com/Backroads4Me/ha-addons`
 
@@ -132,14 +132,14 @@ keyfile: privkey.pem
 1. Click **Open Web UI** from the add-on page
 2. You'll be prompted to set a username and password (recommended)
 
-## Step 4: Import Libre Coach Flows
+## Step 4: Import LibreCoach Flows
 
-Now you'll import the Libre Coach automation flows into Node-RED.
+Now you'll import the LibreCoach automation flows into Node-RED.
 
 ### Download the Flows
 
 :::warning Coming Soon
-The Libre Coach Node-RED flows will be available for download. They are currently in the [libre-coach-node-red repository](https://github.com/Backroads4Me/libre-coach-node-red).
+The LibreCoach Node-RED flows will be available for download. They are currently in the [libre-coach-node-red repository](https://github.com/Backroads4Me/libre-coach-node-red).
 
 For now, you can clone the repository or download the `flows.json` file directly.
 :::
@@ -261,6 +261,6 @@ If you need to monitor multiple CAN networks, you can install multiple instances
 
 ### Custom Node-RED Flows
 
-The Libre Coach flows are fully customizable. You can add your own logic, integrations, and automations within Node-RED.
+The LibreCoach flows are fully customizable. You can add your own logic, integrations, and automations within Node-RED.
 
 Need help? Ask on the [forum](https://forum.LibreCoach.com)!

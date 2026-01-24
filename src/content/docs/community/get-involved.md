@@ -1,12 +1,12 @@
 ---
 title: Get Involved
-description: "Libre Coach is an open-source project built by RVers, for RVers."
+description: "LibreCoach is an open-source project built by RVers, for RVers."
 filename: get-involved
 sidebar:
   order: 1
 ---
 
-Libre Coach is an open-source project. We are building the smart RV system we always wanted—extensible, private, and repairable.
+LibreCoach is an open-source project. We are building the smart RV system we always wanted—extensible, private, and repairable.
 
 ## Ways to Contribute (No Code Required!)
 
@@ -22,7 +22,7 @@ You don't need to know Python or JavaScript to help.
 
 ### 🚐 RV Enthusiasts
 - **Share Your Dashboard**: Your creativity inspires others. Show off your layout!
-- **Write Tutorials**: "How I set up my Starlink with Libre Coach" is a goldmine for others.
+- **Write Tutorials**: "How I set up my Starlink with LibreCoach" is a goldmine for others.
 - **Support**: Answer questions in the [Forum](https://forum.LibreCoach.com). You were a beginner once, too.
 
 ### 🛠️ Makers & Hardware Hackers
@@ -36,13 +36,13 @@ You don't need to know Python or JavaScript to help.
 
 ## Repository Structure
 
-- **[libre-coach-addon](https://github.com/Backroads4Me/libre-coach-addon)**: The main Home Assistant Add-on repository. Contains the Dockerfile, bash scripts, and configuration logic.
-- **[libre-coach-site](https://github.com/Backroads4Me/libre-coach-site)**: This documentation website (Astro Starlight).
-- **[libre-coach-node-red](https://github.com/Backroads4Me/libre-coach-node-red)**: The core logic flows and decoding libraries.
+- **[LibreCoach Add-on](https://github.com/Backroads4Me/libre-coach-addon)**: The main Home Assistant Add-on repository. Contains the Dockerfile, bash scripts, and configuration logic.
+- **[LibreCoach Site](https://github.com/Backroads4Me/libre-coach-site)**: This documentation website (Astro Starlight).
+- **[LibreCoach Node-RED](https://github.com/Backroads4Me/libre-coach-node-red)**: The core logic flows and decoding libraries.
 
 ## Support the Project
 
-If you find Libre Coach valuable and want to support its development (and coffee consumption), you can become a sponsor:
+If you find LibreCoach valuable and want to support its development (and coffee consumption), you can become a sponsor:
 
 - [**GitHub Sponsors**](https://github.com/sponsors/Backroads4me) (Monthly support)
 - [**Buy Me a Coffee**](https://buymeacoffee.com/Backroads4me) (One-time donation)
