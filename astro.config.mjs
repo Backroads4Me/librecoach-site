@@ -32,8 +32,7 @@ export default defineConfig({
         },
         lastUpdated: false,
         editLink: {
-          baseUrl:
-            "https://github.com/Backroads4Me/libre-coach-site/edit/main/",
+          baseUrl: "https://github.com/Backroads4Me/librecoach-site/edit/main/",
         },
         social: [
           {
