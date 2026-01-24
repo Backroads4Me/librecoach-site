@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "librecoach-site",
+	"name": "libre-coach-site",
 	"main": "./dist/_worker.js/index.js",
 	"compatibility_date": "2026-01-03",
 	"compatibility_flags": [
