@@ -1,9 +1,10 @@
 ---
-title: Forum Guide
-description: "How to use the LibreCoach community forum effectively: asking for help, sharing your work, and connecting with other RVers."
 filename: forum
+title: Forum Guide
+description: How to use the LibreCoach community forum effectively, asking for help, sharing your work, and connecting with other RVers.
 sidebar:
   order: 2
+draft: false
 ---
 
 The [LibreCoach Forum](https://forum.LibreCoach.com) is the heartbeat of our community. It's where we troubleshoot, show off, and dream up new features.

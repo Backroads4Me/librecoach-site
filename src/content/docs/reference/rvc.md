@@ -1,9 +1,10 @@
 ---
-title: "Understanding RV-C Networks"
-description: "Learn about RV-C networks, supported device types, message structure, termination requirements, and physical connections."
 filename: rvc
+title: Understanding RV-C Networks
+description: Learn about RV-C networks, supported device types, message structure, termination requirements, and physical connections.
 sidebar:
   order: 2
+draft: false
 ---
 
 RV-C (Recreational Vehicle Controller Area Network) is the communication protocol used in modern RVs to connect and control various systems.

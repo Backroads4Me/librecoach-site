@@ -1,9 +1,10 @@
 ---
-title: "Common Issues and Solutions"
-description: "Solutions to common LibreCoach issues including CAN connection problems, device discovery failures, and WiFi connectivity."
 filename: common-issues
+title: Common Issues and Solutions
+description: Solutions to common LibreCoach issues including CAN connection problems, device discovery failures, and WiFi connectivity.
 sidebar:
   order: 1
+draft: false
 ---
 
 Having trouble with LibreCoach? Check these common issues and solutions before posting on the forum.
@@ -35,7 +36,7 @@ Having trouble with LibreCoach? Check these common issues and solutions before p
 
 1. **Check hardware**: Verify CAN HAT is properly seated on GPIO pins
 2. **Check power**: Ensure power cable from PCIe adapter to CAN HAT is connected
-3. **Enable interface**: The CAN interface may need to be enabled in Host OS (see [Manual Installation Guide](/installation/manual-install/#enable-can-interface-in-host-os))
+3. **Enable interface**: The CAN interface may need to be enabled in Host OS (see [Build Guide](/build/software/#step-2-configure-can-hat))
 
 ### Add-ons Won't Start
 

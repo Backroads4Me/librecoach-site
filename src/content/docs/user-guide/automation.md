@@ -1,9 +1,10 @@
 ---
-title: Automation Examples
-description: "Practical Home Assistant automation examples for RVs: battery protection, travel checklists, climate control, and more."
 filename: automation
+title: Automation Examples
+description: Practical Home Assistant automation examples for RVs including battery protection, travel checklists, climate control, and more.
 sidebar:
-  order: 3
+  order: 2
+draft: false
 ---
 
 One of the biggest benefits of LibreCoach is the ability to automate your rig. Instead of just pressing buttons on a screen, your RV can react to its environment, protect itself, and make your camping experience smoother.

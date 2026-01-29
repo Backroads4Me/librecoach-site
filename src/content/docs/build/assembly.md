@@ -1,9 +1,10 @@
 ---
-title: "Hardware Assembly Guide"
-description: "Detailed hardware assembly instructions with photos for building LibreCoach using Raspberry Pi 5, CAN HAT, and NVMe components."
 filename: assembly
+title: Assembly
+description: Detailed hardware assembly instructions with photos for building LibreCoach using Raspberry Pi 5, CAN HAT, and NVMe components.
 sidebar:
-  order: 3
+  order: 2
+draft: false
 ---
 
 Follow this step-by-step guide to assemble your LibreCoach hardware. Take your time—proper assembly ensures reliable operation.
@@ -110,9 +111,10 @@ The CAN HAT has two jumpers for 120Ω termination resistors. Configure these bas
 ![CAN HAT jumper configuration](../../../assets/assembly/assembly_1.jpg)
 
 The image shows:
+
 - **Left jumper**: Incorrect position (off)
 - **Right jumper**: Correct position (resistor installed)
-:::
+  :::
 
 ### Mount the CAN HAT
 
@@ -171,23 +173,25 @@ Before powering on:
 
 Your hardware is now assembled! Continue to:
 
-- [Flash the pre-configured image](/installation/diy-build/#software-installation) (DIY path)
-- [Manual software installation](/installation/manual-install/) (Advanced path)
-- [Connect to your RV's CAN network](/installation/can-connection/)
+- [Software Installation](/build/software/) - Flash HAOS and install LibreCoach
+- [Connect to your RV's CAN network](/build/installation/)
 
 ## Troubleshooting
 
 ### Pi won't boot
+
 - Verify NVME is properly seated
 - Check that PCIe ribbon cable is secure
 - Ensure power supply is adequate (5V, 3A minimum)
 
 ### CAN HAT not detected
+
 - Verify the HAT is fully seated on the GPIO header
 - Check power cable connection from PCIe adapter
 - Review jumper settings
 
 ### Overheating
+
 - Ensure thermal pads are properly installed
 - Verify fan is connected and spinning
 - Check that heatsink makes contact with thermal pads

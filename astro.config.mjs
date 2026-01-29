@@ -18,7 +18,7 @@ export default defineConfig({
           starlightThemeSix({
             //optional
             footerText:
-              "LibreCoach - Smarthome Control for Your RV | [GitHub](https://github.com/Backroads4Me) | [Community Forum](https://forum.LibreCoach.com)",
+              "LibreCoach - Smart, Local Control for Your RV | [GitHub](https://github.com/Backroads4Me) | [Community Forum](https://forum.LibreCoach.com) | [Privacy Policy](/community/privacy/) | [Disclaimer](/community/disclaimer/)",
           }),
         ],
         customCss: ["./src/styles/custom.css"],
@@ -52,12 +52,20 @@ export default defineConfig({
             autogenerate: { directory: "start-here" },
           },
           {
-            label: "Installation",
-            autogenerate: { directory: "installation" },
+            label: "Build",
+            autogenerate: { directory: "build" },
           },
           {
-            label: "Customization",
-            autogenerate: { directory: "customization" },
+            label: "Configuration",
+            autogenerate: { directory: "configuration" },
+          },
+          {
+            label: "User Guide",
+            autogenerate: { directory: "user-guide" },
+          },
+          {
+            label: "Advanced Setup",
+            autogenerate: { directory: "advanced-setup" },
           },
           {
             label: "Community",

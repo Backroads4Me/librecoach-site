@@ -29,10 +29,10 @@ content:
       - { name: draft, label: Draft, type: boolean, default: false }
       - { name: body, label: Content, type: rich-text }
 
-  - name: home-assistant
-    label: "🏠 Home Assistant Setup"
+  - name: configuration
+    label: "⚙️ Configuration"
     type: collection
-    path: src/content/docs/home-assistant
+    path: src/content/docs/configuration
     filename: "{filename}.md"
     view:
       primary: filename
@@ -50,10 +50,10 @@ content:
       - { name: draft, label: Draft, type: boolean, default: false }
       - { name: body, label: Content, type: rich-text }
 
-  - name: installation
-    label: "🛠️ Installation"
+  - name: build
+    label: "🛠️ Build"
     type: collection
-    path: src/content/docs/installation
+    path: src/content/docs/build
     filename: "{filename}.md"
     view:
       primary: filename
@@ -71,10 +71,31 @@ content:
       - { name: draft, label: Draft, type: boolean, default: false }
       - { name: body, label: Content, type: rich-text }
 
-  - name: introduction
-    label: "📖 Introduction"
+  - name: user-guide
+    label: "📖 User Guide"
     type: collection
-    path: src/content/docs/introduction
+    path: src/content/docs/user-guide
+    filename: "{filename}.md"
+    view:
+      primary: filename
+      fields: [filename, title, draft]
+    fields:
+      - { name: filename, label: Filename, type: string, required: true }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: description, label: Description, type: string, required: true }
+      - name: sidebar
+        label: Sidebar Settings
+        type: object
+        fields:
+          - { name: order, label: Order, type: number }
+          - { name: label, label: Custom Label, type: string }
+      - { name: draft, label: Draft, type: boolean, default: false }
+      - { name: body, label: Content, type: rich-text }
+
+  - name: advanced-setup
+    label: "🔌 Advanced Setup"
+    type: collection
+    path: src/content/docs/advanced-setup
     filename: "{filename}.md"
     view:
       primary: filename

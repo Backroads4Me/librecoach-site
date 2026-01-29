@@ -1,92 +1,156 @@
 ---
-title: "What is LibreCoach?"
-description: "LibreCoach bridges your RV's CAN bus to Home Assistant, enabling control and monitoring of lights, climate, tanks, and power systems."
 filename: what-is-librecoach
+title: What is LibreCoach?
+description: LibreCoach brings Home Assistant to your RV, enabling management of lights, climate, tanks, and power systems.
 sidebar:
   order: 1
+draft: false
 ---
 
-LibreCoach is an open-source platform that transforms your RV into a modern, intelligent vehicle. It bridges the gap between your RV's industrial "RV-C" network and the consumer-friendly world of Home Assistant.
+LibreCoach turns your RV into a truly smart vehicle — one that you control and can evolve over time. It connects your RV’s **RV-C (CAN bus)** network (Firefly, Spyder, etc.) to **Home Assistant**, bringing lighting, climate, tanks, slides, and power systems into a modern, open, and extensible platform.
+
+_Note:_ Older or fully analog RVs may not be compatible. LibreCoach does **not** replace your factory systems. It listens first, integrates safely, and only sends commands when you choose to.
+
+---
 
 ## The RV Tech Problem
 
-If you own a modern RV, you've likely encountered the "Smart Home" that isn't smart at all.
+If you own a modern RV, you’ve probably met the so-called “smart coach” — and discovered how quickly it stops being smart.
 
-1.  **Fragmentation**: You have a panel for lights, a different panel for the inverter, a separate display for tanks, and maybe a clunky app that only works when you are inside the coach.
-2.  **Abandonment**: RV manufacturers are notorious for abandoning proprietary tech. When the company that made your touchscreen goes out of business, you are left with a system that can never be updated or replaced.
-3.  **Expensive Failures**: We have heard horror stories of a 5-year-old touch panel failing, with the dealer quoting $1,800 to replace it—often with a "dumb" switch panel because the original part no longer exists.
-4.  **No Integration**: Your RV doesn't know about the weather, your location, or your voice assistant. It is a digital island.
+1. **Fragmentation**  
+   Lights, tanks, inverter, and climate all live on separate panels or apps that barely talk to each other.
+
+2. **Abandonment**  
+   RV manufacturers routinely drop support for proprietary systems. When the touchscreen fails or the company disappears, updates stop forever.
+
+3. **Expensive Failures**  
+   A failed 5-year-old control panel can mean a $1,800 dealer quote — often replaced with a downgraded, non-smart panel because the original part no longer exists.
+
+4. **No Context or Automation**  
+   Your RV doesn’t know the weather, your location, battery prices, or your routines. It reacts only when you press a button.
+
+Your RV becomes a digital island — isolated, fragile, and expensive to maintain.
+
+---
 
 ## The LibreCoach Solution
 
-LibreCoach breaks this cycle by replacing proprietary "black boxes" with open standards.
+LibreCoach breaks this cycle by replacing proprietary black boxes with **open standards** and **software you control**.
 
-*   **Auto-Discovery**: Plug it in, and it scans your network. It finds your switches, lights, and tanks automatically. No manual programming required.
-*   **Universal Compatibility**: It speaks fluent "RV-C"—the industry standard protocol. It doesn't need a specific template for your 2022 Tiffin Allegro; it just reads the standard language.
-*   **Modern Interface**: Ditch the laggy resistive touchscreens. Control your rig from an iPhone, iPad, Android device, or a modern web browser.
-*   **Cost Effective**: A complete LibreCoach system costs less than $200 to build yourself, compared to thousands for proprietary replacements.
+- **Auto-Discovery**  
+  Plug it in and power up. LibreCoach listens to the RV-C network and automatically discovers lights, switches, tanks, and controllers — no manual templates required.
+
+- **Standards-First Compatibility**  
+  LibreCoach speaks native RV-C, the industry-standard CAN protocol. It works across decades of RVs — from a 2015 Winnebago to a 2023 Tiffin.
+
+- **Modern Interface Everywhere**  
+  Control your rig from an iPhone, iPad, Android device, wall tablet, or any modern web browser.
+
+- **Radically Cost Effective**  
+  A complete DIY LibreCoach system typically costs **under $300**, compared to thousands for proprietary replacements that still lock you in.
+
+---
 
 ## Built on a Proven Foundation
 
-We didn't reinvent the wheel. LibreCoach is built on **Home Assistant**, the world's most popular open-source home automation software.
+LibreCoach is built on **Home Assistant**, the world’s most popular open-source home automation platform.
 
-*   **Massive Ecosystem**: Home Assistant defines "smart". It supports over 2,500 integrations—Starlink, weather services, voice assistants (Alexa/Google), localized energy pricing, and more.
-*   **Future Proof**: Home Assistant has millions of users and significantly more momentum than any RV manufacturer's software team. Even if LibreCoach development stopped tomorrow, your foundation (Home Assistant) faces monthly updates and security patches for years to come.
-*   **The Manufacturer Trap, Broken**: By moving your automation logic into Home Assistant, you own it. You can upgrade the hardware, change the software, and export your configuration. You are no longer held hostage by a closed ecosystem.
+- **Massive Ecosystem**  
+  Over 2,500 integrations: weather services, Starlink, voice assistants (Alexa / Google), energy, GPS-based automations, and more.
+
+- **Future-Proof by Design**  
+  Home Assistant has millions of users and an active development community. Even if LibreCoach development stopped tomorrow, your system would continue receiving updates and security patches.
+
+- **Your System, Not a Vendor’s**  
+  Your automation logic lives in Home Assistant, not a vendor-locked touchscreen. You can upgrade hardware, migrate systems, export configs, and truly own your setup.
+
+---
 
 ## How It Works
 
 ![LibreCoach System Architecture](../../../assets/architecture-diagram.png)
 
-1.  **Hardware Bridge**: A Raspberry Pi with a CAN HAT physically connects to your RV's CAN bus wiring.
-2.  **CAN-to-MQTT Bridge**: A service reads the raw industrial data and converts it to a modern message format (MQTT).
-3.  **The Core**: LibreCoach's intelligent flows decode these messages and create "Entities" in Home Assistant.
+1. **Hardware Bridge**  
+   A Raspberry Pi with a CAN HAT physically connects to your RV’s CAN bus wiring.
+
+2. **CAN-to-MQTT Translation**  
+   Raw RV-C messages are converted into MQTT events.
+
+3. **LibreCoach Core**  
+   Intelligent flows decode those messages and automatically create entities inside Home Assistant.
+
+_By default, LibreCoach listens passively. You can explore and identify devices before enabling any control._
+
+---
 
 ## What Can You Control?
 
-If it speaks RV-C, LibreCoach can control it:
+If it speaks RV-C, LibreCoach can usually see it — and often control it:
 
-*   **Lighting**: Zones, Dimmers, Patio lights.
-*   **Climate**: Thermostats, Heat Pumps, Roof Fans, Floor Heat.
-*   **Dynamics**: Slides, Awnings, Jacks, Entry Steps.
-*   **Plumbing**: Water Pumps, Tank Levels (Fresh/Grey/Black/LPG).
-*   **Power**: Inverters, Chargers, Solar Controllers, Generators, Battery Management Systems (BMS).
+- **Lighting**: Interior, exterior and patio lights
+- **Climate**: Thermostats, heat pumps, roof fans, floor heat
+- **Plumbing**: Water pumps, fresh/grey/black tanks, LPG
+- **Power**: Inverters, chargers, generators
+
+_Some manufacturers expose fewer command channels than others. Visibility is almost universal; control depends on how the RV was implemented._
+
+---
 
 ## Auto-Discovery in Action
 
-When you first boot LibreCoach, it is a blank slate. As it listens to your RV's network, you will see devices pop up in real-time.
+When LibreCoach first boots, it starts as a blank slate. As it listens and learns your RV-C network, devices appear in real time.
 
-> "I plugged it in, walked to the fridge to get a drink, and by the time I came back, it had found 47 devices."
+Your workflow is intentionally simple:
 
-Your job is simply to "claim" them.
-1.  You see `switch_module_1_channel_3` turn ON in the dashboard.
-2.  You realize "Hey, I just turned on the Kitchen Light."
-3.  You rename it to "Kitchen Light".
-4.  Done. You now have a smart kitchen light.
+1. A device like `switch_3` is created
+2. You identify it as the kitchen light
+3. You rename it **Kitchen Light**
+4. Done — it’s now a fully integrated smart entity
 
-## Three Ways to Get Started
+No dealer tools. No reprogramming. No vendor dependencies.
 
-Choose the path that fits your comfort level and goals:
+---
 
-### 1. DIY Build + Pre-Configured Image
-Build your own hardware following our detailed assembly guide, then flash our custom Home Assistant OS image. Best balance of hands-on experience and convenience.
+## Two Ways to Get Started
 
-[DIY Build Guide →](/installation/build/)
+### 1. DIY Build (Recommended)
 
-### 2. Full Manual Installation
-Build the hardware and manually install each Home Assistant add-on. Complete control for tinkerers who want to understand every component or install on existing hardware.
+Build the hardware yourself using standard parts from Amazon or AliExpress. This is the fastest and most affordable way to get started.
 
-[Manual Installation Guide →](/installation/manual-install/)
+- **Cost**: ~$250 - $300
+- **Time**: 2-3 hours
+- **Difficulty**: Medium (requires basic assembly and software flashing)
 
-### 3. Pre-Assembled Kit (Waitlist)
-We are gauging interest in a batch of pre-built units. Join the waitlist if you prefer a plug-and-play solution.
+[View the Bill of Materials & Assembly Guide →](/build/overview/)
 
-[Learn More →](/start-here/choose-your-path/#path-3-pre-assembled-kit-waitlist)
+### 2. Pre-Assembled Kit (Interest Check)
 
-[Compare All Options →](/start-here/choose-your-path/)
+We are gauging interest in a small batch of pre-assembled, "plug-and-play" units. These would be hand-built, tested, and pre-flashed with the latest software.
+
+**Estimated Price**: TBD
+
+**Interested?**
+I am currently collecting names to see if there is enough demand to build a batch.
+
+**[Email me at ted@LibreCoach.com](mailto:ted@LibreCoach.com?subject=Libre%20Coach%20Interest)**
+
+_Note: This is not a commitment to buy, just an interest check._
+
+---
+
+## Consulting & Custom Installs
+
+For owners seeking a turnkey LibreCoach system or integrating non-standard devices, I take on a limited number of custom projects.
+
+- **Remote Commissioning** – Set up your dashboard and system remotely.
+- **Custom Integration** – Add devices like Victron, and other non-standard systems.
+
+[Contact me](mailto:ted@LibreCoach.com?subject=Libre%20Coach%20Consulting) to discuss your project.
+
+---
 
 ## Need Help?
 
-- Visit our [Community Forum](https://forum.LibreCoach.com) for support
+- Visit the [Community Forum](https://forum.LibreCoach.com)
 - Check the [Troubleshooting Guide](/troubleshooting/common-issues/)
-- Report bugs on [GitHub](https://github.com/Backroads4Me)
+- Report issues or contribute on <a href="https://github.com/Backroads4Me/ha-addons/tree/main/librecoach" target="_blank" rel="noopener noreferrer">GitHub</a>

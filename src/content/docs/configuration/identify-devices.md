@@ -1,9 +1,10 @@
 ---
-title: "Identifying Your Switches"
-description: "Walk through your RV to identify and map auto-discovered switches to their physical controls using Home Assistant's dashboard."
-filename: identify-switches
+filename: identify-devices
+title: Identifying Your Devices
+description: Walk through your RV to identify and map auto-discovered devices to their physical controls using Home Assistant's dashboard.
 sidebar:
-  order: 1
+  order: 2
+draft: false
 ---
 
 After installing LibreCoach, your RV-C switches will be auto-discovered and appear in Home Assistant as generic entities like `switch_1`, `switch_2`, etc. This guide helps you identify what each switch controls.

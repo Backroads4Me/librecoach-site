@@ -81,7 +81,7 @@ LibreCoach is specifically designed for RV-C networks. If your RV uses a proprie
 
 ### Can I use LibreCoach with my existing Home Assistant setup?
 
-Yes! If you already run Home Assistant (on a NUC, Yellow, or other hardware), you can add the CAN-to-MQTT Bridge and Node-RED flows to your existing installation. See the [Manual Installation Guide](/installation/manual-install/).
+Yes! If you already run Home Assistant (on a NUC, Yellow, or other hardware), you can add the CAN-to-MQTT Bridge and Node-RED flows to your existing installation. See the [Installation Guide](/build/software/).
 
 ### Is it safe? Can it damage my RV?
 

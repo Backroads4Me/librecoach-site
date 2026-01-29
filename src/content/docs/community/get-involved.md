@@ -1,9 +1,10 @@
 ---
-title: Get Involved
-description: "LibreCoach is an open-source project built by RVers, for RVers."
 filename: get-involved
+title: Get Involved
+description: LibreCoach is an open-source project built by RVers, for RVers.
 sidebar:
   order: 1
+draft: false
 ---
 
 LibreCoach is an open-source project. We are building the smart RV system we always wanted—extensible, private, and repairable.

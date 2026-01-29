@@ -1,9 +1,10 @@
 ---
-title: System Architecture
-description: "A deep dive into how LibreCoach bridges the physical world of RV-C with the digital world of Home Assistant."
 filename: system-architecture
+title: System Architecture
+description: A deep dive into how LibreCoach bridges the physical world of RV-C with the digital world of Home Assistant.
 sidebar:
   order: 1
+draft: false
 ---
 
 LibreCoach is not just a UI; it is a full-stack integration platform. This document outlines the technical architecture, explaining how data moves from a physical wire in your wall to a button on your phone.
