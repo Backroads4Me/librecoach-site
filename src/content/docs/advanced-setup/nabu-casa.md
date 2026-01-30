@@ -24,4 +24,4 @@ $6.50/month or $65/year (as of 2024)
 
 This guide is under development. Check back soon for detailed setup instructions.
 
-In the meantime, visit [Nabu Casa](https://www.nabucasa.com/) for official documentation.
+In the meantime, visit <a href="https://www.nabucasa.com/" target="_blank" rel="noopener noreferrer">Nabu Casa</a> for official documentation.

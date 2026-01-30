@@ -151,6 +151,6 @@ For owners seeking a turnkey LibreCoach system or integrating non-standard devic
 
 ## Need Help?
 
-- Visit the [Community Forum](https://forum.LibreCoach.com)
+- Visit the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">Community Forum</a>
 - Check the [Troubleshooting Guide](/troubleshooting/common-issues/)
 - Report issues or contribute on <a href="https://github.com/Backroads4Me/ha-addons/tree/main/librecoach" target="_blank" rel="noopener noreferrer">GitHub</a>

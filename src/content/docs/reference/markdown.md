@@ -44,11 +44,11 @@ Standard Markdown text formatting works as expected:
 
 ### Links
 
-External links: [LibreCoach GitHub](https://github.com/Backroads4Me)
+External links: <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">LibreCoach GitHub</a>
 
 Internal links: [See the Getting Started guide](/start-here/what-is-librecoach/)
 
-Links with titles: [Home Assistant](https://www.home-assistant.io/ "The open-source home automation platform")
+Links with titles: <a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer" title="The open-source home automation platform">Home Assistant</a>
 
 Autolinked URLs: https://librecoach.io
 
@@ -569,7 +569,7 @@ These options are for advanced users only:
 
 *Open-source RV automation*
 
-[GitHub](https://github.com/Backroads4Me) | [Documentation](https://librecoach.io)
+<a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://librecoach.io" target="_blank" rel="noopener noreferrer">Documentation</a>
 
 </div>
 

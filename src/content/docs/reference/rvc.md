@@ -168,10 +168,10 @@ Some older RVs may use 125 kbps. If devices aren't being discovered, try changin
 - **Unsupported DGN**: The device may use a message type LibreCoach doesn't yet support
 - **Wrong instance number**: The device may be configured with an unusual instance ID
 
-Report unsupported devices on the [forum](https://forum.LibreCoach.com) to help improve LibreCoach!
+Report unsupported devices on the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a> to help improve LibreCoach!
 
 ## Learn More
 
-- [RV-C Official Specification](https://www.rv-c.com/) (technical, for advanced users)
+- <a href="https://www.rv-c.com/" target="_blank" rel="noopener noreferrer">RV-C Official Specification</a> (technical, for advanced users)
 - [System Architecture](/reference/system-architecture/) - How LibreCoach processes RV-C messages
-- [Forum](https://forum.LibreCoach.com) - Ask questions and share experiences
+- <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">Forum</a> - Ask questions and share experiences

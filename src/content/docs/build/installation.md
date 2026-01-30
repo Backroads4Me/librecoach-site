@@ -3,7 +3,7 @@ filename: installation
 title: Installation
 description: Guide to physically connecting LibreCoach hardware to your RV's CAN bus network including safety precautions, locating ports, and verification.
 sidebar:
-  order: 3
+  order: 6
 draft: false
 ---
 

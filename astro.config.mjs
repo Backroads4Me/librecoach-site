@@ -18,7 +18,7 @@ export default defineConfig({
           starlightThemeSix({
             //optional
             footerText:
-              "LibreCoach - Smart, Local Control for Your RV | [GitHub](https://github.com/Backroads4Me) | [Community Forum](https://forum.LibreCoach.com) | [Privacy Policy](/community/privacy/) | [Disclaimer](/community/disclaimer/)",
+              'LibreCoach - Smart, Local Control for Your RV | <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">Community Forum</a> | <a href="/community/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> | <a href="/community/disclaimer/" target="_blank" rel="noopener noreferrer">Disclaimer</a>',
           }),
         ],
         customCss: ["./src/styles/custom.css"],

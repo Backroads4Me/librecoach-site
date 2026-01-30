@@ -20,7 +20,7 @@ MQTT Explorer is a comprehensive MQTT client that helps you understand what's ha
 
 ### Desktop Application (Recommended)
 
-[MQTT Explorer](http://mqtt-explorer.com/) is a free desktop application available for Windows, Mac, and Linux.
+<a href="http://mqtt-explorer.com/" target="_blank" rel="noopener noreferrer">MQTT Explorer</a> is a free desktop application available for Windows, Mac, and Linux.
 
 ### Home Assistant Add-on
 

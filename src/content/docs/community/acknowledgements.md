@@ -17,9 +17,9 @@ While LibreCoach does not reuse CoachProxy code, it draws inspiration from Micha
 
 We are grateful for his trailblazing work in decoding the protocol and proving that this kind of integration was possible.
 
-- [CoachProxy Website (Archive)](https://coachproxy.com/)
-- [GitHub: rvc-proxy](https://github.com/linuxkidd/rvc-proxy)
-- [GitHub: rvc-monitor-py](https://github.com/linuxkidd/rvc-monitor-py)
+- <a href="https://coachproxy.com/" target="_blank" rel="noopener noreferrer">CoachProxy Website (Archive)</a>
+- <a href="https://github.com/linuxkidd/rvc-proxy" target="_blank" rel="noopener noreferrer">GitHub: rvc-proxy</a>
+- <a href="https://github.com/linuxkidd/rvc-monitor-py" target="_blank" rel="noopener noreferrer">GitHub: rvc-monitor-py</a>
 
 ## The Foundation: Home Assistant
 
@@ -32,7 +32,7 @@ We chose this foundation because it aligns perfectly with the needs of RVers:
 
 We are indebted to the thousands of contributors who have made Home Assistant the gold standard for open-source automation.
 
-- [Home Assistant](https://www.home-assistant.io/)
+- <a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer">Home Assistant</a>
 
 ## Essential Tools
 
@@ -40,8 +40,8 @@ LibreCoach integrates several open-source projects to create a seamless RV autom
 
 ### Required Core
 
-- **[Mosquitto](https://mosquitto.org/):** The lightweight MQTT broker that acts as the "nervous system," passing messages between the RV-C bus and Home Assistant.
-- **[Node-RED](https://nodered.org/):** The visual programming tool that handles the complex logic of translating raw industrial CAN messages into smart home entities.
+- **<a href="https://mosquitto.org/" target="_blank" rel="noopener noreferrer">Mosquitto</a>:** The lightweight MQTT broker that acts as the "nervous system," passing messages between the RV-C bus and Home Assistant.
+- **<a href="https://nodered.org/" target="_blank" rel="noopener noreferrer">Node-RED</a>:** The visual programming tool that handles the complex logic of translating raw industrial CAN messages into smart home entities.
 
 ### Recommended Add-ons
 

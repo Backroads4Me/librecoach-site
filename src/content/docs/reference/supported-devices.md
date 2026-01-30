@@ -23,7 +23,7 @@ The following manufacturers commonly use RV-C in their coaches:
 | **Forest River** | Select luxury models | Community reported |
 
 :::note Community Testing
-If you've tested LibreCoach with your RV, please share your experience on the [forum](https://forum.LibreCoach.com) to help expand this list.
+If you've tested LibreCoach with your RV, please share your experience on the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a> to help expand this list.
 :::
 
 ## Supported Device Types
@@ -116,7 +116,7 @@ Help us expand this list:
 1. Test LibreCoach with your RV
 2. Document which devices work
 3. Note your RV year, make, and model
-4. Share on the [forum](https://forum.LibreCoach.com)
+4. Share on the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a>
 
 Include:
 - RV manufacturer, model, and year

@@ -3,7 +3,7 @@ filename: assembly
 title: Assembly
 description: Detailed hardware assembly instructions with photos for building LibreCoach using Raspberry Pi 5, CAN HAT, and NVMe components.
 sidebar:
-  order: 2
+  order: 4
 draft: false
 ---
 

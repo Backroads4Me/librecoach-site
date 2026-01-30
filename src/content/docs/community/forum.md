@@ -7,7 +7,7 @@ sidebar:
 draft: false
 ---
 
-The [LibreCoach Forum](https://forum.LibreCoach.com) is the heartbeat of our community. It's where we troubleshoot, show off, and dream up new features.
+The <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">LibreCoach Forum</a> is the heartbeat of our community. It's where we troubleshoot, show off, and dream up new features.
 
 ## What You'll Find
 

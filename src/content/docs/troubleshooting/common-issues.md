@@ -266,7 +266,7 @@ Before asking for help, collect:
 ### 2. Search the Forum
 
 Someone may have already solved your issue:
-- [Forum](https://forum.LibreCoach.com)
+- <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">Forum</a>
 - Search for error messages or symptoms
 
 ### 3. Ask for Help
@@ -279,7 +279,7 @@ Post in the appropriate forum category:
 ### 4. Report Bugs
 
 If you've found a bug:
-- [GitHub Issues](https://github.com/Backroads4Me)
+- <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">GitHub Issues</a>
 - Include reproduction steps
 - Include logs and version info
 
@@ -306,7 +306,7 @@ Home Assistant has built-in backup:
 
 ### Join the Community
 
-- [Forum](https://forum.LibreCoach.com) - Stay informed and get help
-- [GitHub](https://github.com/Backroads4Me) - Follow development
-- [GitHub Sponsors](https://github.com/sponsors/Backroads4me) - Monthly support
-- [Buy Me a Coffee](https://buymeacoffee.com/Backroads4me) - One-time support
+- <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">Forum</a> - Stay informed and get help
+- <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">GitHub</a> - Follow development
+- <a href="https://github.com/sponsors/Backroads4me" target="_blank" rel="noopener noreferrer">GitHub Sponsors</a> - Monthly support
+- <a href="https://buymeacoffee.com/Backroads4me" target="_blank" rel="noopener noreferrer">Buy Me a Coffee</a> - One-time support

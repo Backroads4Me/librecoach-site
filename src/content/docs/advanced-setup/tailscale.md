@@ -19,7 +19,7 @@ Tailscale creates a secure private network between your devices, allowing you to
 
 ## Prerequisites
 
-- A [Tailscale account](https://tailscale.com/) (free)
+- A <a href="https://tailscale.com/" target="_blank" rel="noopener noreferrer">Tailscale account</a> (free)
 - Tailscale app installed on your phone/computer
 - LibreCoach running with network access
 
@@ -42,7 +42,7 @@ authkey: "tskey-auth-xxxxx-xxxxxxxxxxxxxxxxx"
 ```
 
 To get an auth key:
-1. Log into [Tailscale Admin Console](https://login.tailscale.com/admin/settings/keys)
+1. Log into <a href="https://login.tailscale.com/admin/settings/keys" target="_blank" rel="noopener noreferrer">Tailscale Admin Console</a>
 2. Click **Generate auth key**
 3. Enable **Reusable** and **Ephemeral** (optional)
 4. Copy the key
@@ -54,7 +54,7 @@ To get an auth key:
 ### Verify Connection
 
 1. Check the add-on logs for successful connection
-2. In the [Tailscale Admin Console](https://login.tailscale.com/admin/machines), you should see your Home Assistant device
+2. In the <a href="https://login.tailscale.com/admin/machines" target="_blank" rel="noopener noreferrer">Tailscale Admin Console</a>, you should see your Home Assistant device
 
 ## Connecting Your Devices
 
@@ -67,7 +67,7 @@ To get an auth key:
 
 ### Computer
 
-1. Download Tailscale from [tailscale.com/download](https://tailscale.com/download)
+1. Download Tailscale from <a href="https://tailscale.com/download" target="_blank" rel="noopener noreferrer">tailscale.com/download</a>
 2. Install and sign in
 3. Access Home Assistant at the Tailscale IP
 

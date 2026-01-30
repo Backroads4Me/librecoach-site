@@ -64,4 +64,4 @@ Most add-ons follow the same installation pattern:
 
 ## Community Recommendations
 
-Have an add-on that works great with LibreCoach? Share it on the [forum](https://forum.LibreCoach.com) and we may add it to this guide!
+Have an add-on that works great with LibreCoach? Share it on the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a> and we may add it to this guide!

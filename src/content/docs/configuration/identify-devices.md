@@ -127,7 +127,7 @@ Once you've identified all your switches, consider sharing your configuration wi
 ### How to Share
 
 1. Export your dashboard YAML (see [Creating Dashboards](dashboards))
-2. Create a post on the [forum](https://forum.LibreCoach.com) in your RV manufacturer's category
+2. Create a post on the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a> in your RV manufacturer's category
 3. Include:
    - Your RV make, model, and year
    - Screenshots of your dashboard
@@ -138,7 +138,7 @@ Once you've identified all your switches, consider sharing your configuration wi
 
 Before starting from scratch, check if someone with your RV model has already shared their configuration:
 
-1. Visit the [forum](https://forum.LibreCoach.com)
+1. Visit the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a>
 2. Browse to your RV manufacturer's category
 3. Search for your model and year
 4. Download the YAML and import it into Home Assistant
@@ -172,4 +172,4 @@ Now that you've identified your switches, you can:
 
 - [Create custom dashboards](dashboards) tailored to your RV layout
 - [Set up automations](automation) (e.g., "Good Night" turns off all lights)
-- Share your configuration on the [forum](https://forum.LibreCoach.com)
+- Share your configuration on the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a>

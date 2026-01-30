@@ -3,7 +3,7 @@ filename: first-boot
 title: First Boot
 description: Initial setup, network configuration, and installing the LibreCoach add-on.
 sidebar:
-  order: 4
+  order: 5
   label: First Boot
 draft: false
 ---

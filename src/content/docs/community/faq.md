@@ -37,11 +37,11 @@ LibreCoach is a community-driven open source project. It started as a personal p
 
 ### How can I support the project?
 
-*   [**GitHub Sponsors**](https://github.com/sponsors/Backroads4me) — Monthly support
-    
-*   [**Buy Me a Coffee**](https://buymeacoffee.com/Backroads4me) — One-time donation
-    
-*   **Contribute** — Code, documentation, testing, or helping others on the [forum](https://forum.LibreCoach.com)
+*   <a href="https://github.com/sponsors/Backroads4me" target="_blank" rel="noopener noreferrer">**GitHub Sponsors**</a> — Monthly support
+
+*   <a href="https://buymeacoffee.com/Backroads4me" target="_blank" rel="noopener noreferrer">**Buy Me a Coffee**</a> — One-time donation
+
+*   **Contribute** — Code, documentation, testing, or helping others on the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a>
     
 
 ## Compatibility
@@ -97,18 +97,18 @@ Your RV continues to function normally using its original physical controls. Lib
 
 ### Where can I get support?
 
-*   [**Community Forum**](https://forum.LibreCoach.com) — Best place for questions and discussion
-    
-*   [**GitHub Issues**](https://github.com/Backroads4Me) — For bug reports and feature requests
+*   <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">**Community Forum**</a> — Best place for questions and discussion
+
+*   <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">**GitHub Issues**</a> — For bug reports and feature requests
     
 *   [**Troubleshooting Guide**](/troubleshooting/common-issues/) — Solutions to common problems
     
 
 ### I found a bug. How do I report it?
 
-1.  Check the [forum](https://forum.LibreCoach.com) to see if others have the same issue
-    
-2.  If it's a new bug, open an issue on [GitHub](https://github.com/Backroads4Me) with:
+1.  Check the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a> to see if others have the same issue
+
+2.  If it's a new bug, open an issue on <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">GitHub</a> with:
     
     *   Your RV make/model/year
         

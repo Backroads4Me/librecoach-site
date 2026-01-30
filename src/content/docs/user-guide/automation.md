@@ -252,7 +252,7 @@ action:
 
 ## Sharing Your Automations
 
-Have you created a clever clever automation? [Share it on our Forum](https://forum.LibreCoach.com)!
+Have you created a clever clever automation? <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">Share it on our Forum</a>!
 *   Post the YAML code (please remove any sensitive info/secrets).
 *   Explain the "Why" - what problem did it solve?
 *   Tell us which sensors/hardware you used.

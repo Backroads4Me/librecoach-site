@@ -221,7 +221,7 @@ When importing a dashboard from someone else, you'll need to update the entity I
 
 ### Custom Button Row Card
 
-Install the [Button Card](https://github.com/custom-cards/button-card) from HACS for highly customizable buttons.
+Install the <a href="https://github.com/custom-cards/button-card" target="_blank" rel="noopener noreferrer">Button Card</a> from HACS for highly customizable buttons.
 
 ### Picture Elements Card
 
@@ -259,13 +259,13 @@ card:
 
 ### Custom Themes
 
-Apply custom color schemes to match your RV or personal style. See [Home Assistant Themes](https://www.home-assistant.io/integrations/frontend/#themes) for more info.
+Apply custom color schemes to match your RV or personal style. See <a href="https://www.home-assistant.io/integrations/frontend/#themes" target="_blank" rel="noopener noreferrer">Home Assistant Themes</a> for more info.
 
 ## Community Dashboard Sharing
 
 ### Finding Dashboards for Your RV
 
-1. Visit the [LibreCoach Forum](https://forum.LibreCoach.com)
+1. Visit the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">LibreCoach Forum</a>
 2. Navigate to your RV manufacturer's category (e.g., Newmar, Tiffin, Entegra)
 3. Browse posts tagged with your model and year
 4. Download YAML files shared by other users
@@ -313,4 +313,4 @@ Help grow the community by sharing your dashboard:
 ## What's Next?
 
 - Set up [automations](/user-guide/automation/) to make your RV smarter
-- Share your dashboard on the [forum](https://forum.LibreCoach.com)
+- Share your dashboard on the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a>
