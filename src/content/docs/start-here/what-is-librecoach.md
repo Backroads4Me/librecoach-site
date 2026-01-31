@@ -132,7 +132,7 @@ We are gauging interest in a small batch of pre-assembled, "plug-and-play" units
 **Interested?**
 I am currently collecting names to see if there is enough demand to build a batch.
 
-**[Email me at ted@LibreCoach.com](mailto:ted@LibreCoach.com?subject=Libre%20Coach%20Interest)**
+**[Email me at hello@librecoach.com](mailto:hello@librecoach.com?subject=Libre%20Coach%20Interest)**
 
 _Note: This is not a commitment to buy, just an interest check._
 
@@ -145,7 +145,7 @@ For owners seeking a turnkey LibreCoach system or integrating non-standard devic
 - **Remote Commissioning** – Set up your dashboard and system remotely.
 - **Custom Integration** – Add devices like Victron, and other non-standard systems.
 
-[Contact me](mailto:ted@LibreCoach.com?subject=Libre%20Coach%20Consulting) to discuss your project.
+[Contact me](mailto:hello@librecoach.com?subject=Libre%20Coach%20Consulting) to discuss your project.
 
 ---
 

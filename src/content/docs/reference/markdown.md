@@ -52,7 +52,7 @@ Links with titles: <a href="https://www.home-assistant.io/" target="_blank" rel=
 
 Autolinked URLs: https://librecoach.io
 
-Email links: <support@librecoach.io>
+Email links: <hello@librecoach.com>
 
 ### Anchor Links
 
