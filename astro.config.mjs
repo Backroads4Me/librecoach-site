@@ -5,11 +5,14 @@ import UnoCSS from "unocss/astro";
 import cloudflare from "@astrojs/cloudflare";
 import starlightThemeSix from "@six-tech/starlight-theme-six";
 
+import sitemap from "@astrojs/sitemap";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://LibreCoach.com",
 
   integrations: [
+    sitemap(),
     UnoCSS(),
     Icons({
       starlight: {
@@ -18,7 +21,7 @@ export default defineConfig({
           starlightThemeSix({
             //optional
             footerText:
-              'LibreCoach - Smart, Local Control for Your RV | <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">Community Forum</a> | <a href="/community/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> | <a href="/community/disclaimer/" target="_blank" rel="noopener noreferrer">Disclaimer</a>',
+              'LibreCoach - Smart, Local Control for Your RV | <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener">GitHub</a> | <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener">Community Forum</a> | <a href="/community/privacy/" target="_blank" rel="noopener">Privacy Policy</a> | <a href="/community/disclaimer/" target="_blank" rel="noopener">Disclaimer</a>',
           }),
         ],
         customCss: ["./src/styles/custom.css"],
@@ -82,6 +85,7 @@ export default defineConfig({
         ],
       },
     }),
+    sitemap(),
   ],
 
   adapter: cloudflare({

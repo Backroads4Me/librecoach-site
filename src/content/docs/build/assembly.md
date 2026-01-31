@@ -1,7 +1,7 @@
 ---
 filename: assembly
 title: Assembly
-description: Detailed hardware assembly instructions with photos for building LibreCoach using Raspberry Pi 5, CAN HAT, and NVMe components.
+description: Detailed assembly instructions with photos for building LibreCoach.
 sidebar:
   order: 4
 draft: false
@@ -12,42 +12,18 @@ Follow this step-by-step guide to assemble your LibreCoach hardware. Take your t
 ## Required Tools
 
 - Phillips screwdriver (small)
-- Tweezers or small pliers (helpful but not required)
+- Tweezers (helpful but not required)
 - Clean, static-free workspace
-
-## Components Overview
-
-Before starting, verify you have all components:
-
-- Raspberry Pi 5 (4GB or 8GB)
-- Waveshare 2-CH CAN HAT +
-- Waveshare PCIe to M.2 Adapter Board (E)
-- NVME drive
-- Case with standoffs, screws, and thermal pads
-- Fan (usually included with case)
-- CAN cable
 
 ## Step 1: Prepare the Raspberry Pi
 
 ### Apply Thermal Pads
 
-![Thermal pads before installation](../../../assets/assembly/assembly_8.jpg)
-
-1. Remove the Raspberry Pi from its packaging
-2. Apply thermal transfer pads to the CPU and other hot components
+1. Remove the thermal pads from the Waveshare PCIe to M.2 Adapter (E) packaging
+2. Remove the backing paper and apply thermal transfer pads to the CPU (central, largest chip), the PMIC (power management chip, top left), and the Wi-Fi module (right side). Use the thinner pads for the CPU and Wi-Fi, and the thicker pad for the PMIC.
+   ![Thermal pads before installation](../../../assets/assembly/assembly_8.jpg)
 3. Remove the thin plastic backing from the thermal pads (see image below)
-
-![Removing backing from thermal pads](../../../assets/assembly/assembly_9.jpg)
-
-### Prepare Fan Connection
-
-The Raspberry Pi fan connector has a small plastic cover that must be removed.
-
-![Fan connector with cover](../../../assets/assembly/assembly_6.jpg)
-
-Gently remove the cover using tweezers or fingernail:
-
-![Fan connector with cover removed](../../../assets/assembly/assembly_7.jpg)
+   ![Removing backing from thermal pads](../../../assets/assembly/assembly_9.jpg)
 
 ## Step 2: Install PCIe to M.2 Adapter
 
@@ -81,6 +57,23 @@ Gently remove the cover using tweezers or fingernail:
 
 ![Top view of adapter installed](../../../assets/assembly/assembly_14.jpg)
 
+### Prepare Fan Connection
+
+The Raspberry Pi fan connector has a small plastic cover that must be removed.
+
+![Fan connector with cover](../../../assets/assembly/assembly_6.jpg)
+
+Gently remove the cover using tweezers or fingernail:
+
+![Fan connector with cover removed](../../../assets/assembly/assembly_7.jpg)
+
+## Step 4: Connect the Fan
+
+![Fan cable connected](../../../assets/assembly/assembly_19.jpg)
+
+1. Connect the fan cable to the fan connector on the Raspberry Pi (cover already removed)
+2. Route the cable so it won't interfere with the CAN HAT installation
+
 ## Step 3: Install Case Standoffs
 
 ![Standoffs installed in all 4 corners](../../../assets/assembly/assembly_18.jpg)
@@ -89,13 +82,6 @@ Gently remove the cover using tweezers or fingernail:
 2. These will support the Raspberry Pi inside the case
 
 ![Pi with standoffs installed](../../../assets/assembly/assembly_20.jpg)
-
-## Step 4: Connect the Fan
-
-![Fan cable connected](../../../assets/assembly/assembly_19.jpg)
-
-1. Connect the fan cable to the fan connector on the Raspberry Pi (cover already removed)
-2. Route the cable so it won't interfere with the CAN HAT installation
 
 ## Step 5: Install the CAN HAT
 

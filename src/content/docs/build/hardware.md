@@ -1,110 +1,69 @@
 ---
 filename: hardware
 title: Hardware
-description: Bill of Materials, vendor options, and hardware upgrades for LibreCoach.
+description: Bill of Materials, upgrade options, and vendors for LibreCoach.
 sidebar:
   order: 2
   label: Hardware
 draft: false
 ---
 
-## Bill of Materials
+## Hardware Options and Upgrades
 
-This guide assumes the following components.
-
-- Raspberry Pi 5 (4GB)
-- Waveshare Isolated RS485 CAN HAT B
-- Waveshare PCIe TO M.2 Board (E)
-- NVMe SSD
-- Case
-- CAN cable/wire
-- 3M connector
-
-## Detailed Vendor Options
-
-This page serves as your shopping list. We provide a **Recommended Path** (usually Amazon for speed/returns) and options for those who want to shop around.
-
-### Recommended Path (Fastest)
-
-If you just want to get building:
-
-1.  **Raspberry Pi 5 (4GB)**: <a href="https://a.co/d/bVJhbcP" target="_blank" rel="noopener noreferrer">Amazon</a>
-2.  **Waveshare Isolated RS485 CAN HAT (B)**: <a href="https://a.co/d/2XbOnAL" target="_blank" rel="noopener noreferrer">Amazon</a>
-3.  **Waveshare PCIe to M.2 Adapter (E)**: <a href="https://a.co/d/0w0WuaM" target="_blank" rel="noopener noreferrer">Amazon</a>
-4.  **NVMe SSD (256GB)**: <a href="https://a.co/d/5OO0U6x" target="_blank" rel="noopener noreferrer">Amazon</a>
-5.  **Case**: <a href="https://a.co/d/j9nWGdK" target="_blank" rel="noopener noreferrer">Amazon</a>
-6.  **CAN Cable**: <a href="https://a.co/d/9ryHfpw" target="_blank" rel="noopener noreferrer">Amazon</a>
-7.  **3M connector**: <a href="https://www.digikey.com/en/products/detail/3m/37104-A206-00E-MB/1855698?s=N4IgTCBcDaIMwHYCMAGALAWgIJhQNgxRQFEACAWQCEQBdAXyA" target="_blank" rel="noopener noreferrer">DigiKey</a> or <a href="https://www.mouser.com/ProductDetail/3M-Electronic-Solutions-Division/37104-A206-00E-MB?qs=yiCaORDwWV5aTpMGZw1tMA%3D%3D&mgh=1" target="_blank" rel="noopener noreferrer">Mouser</a>
-
-_Pricing fluctuates, but this path typically costs $200-$250._
-
----
-
-### Mix and Match
-
-Mix and match to fit your budget and timeline.
-
-#### Raspberry Pi 5 (4GB)
-
-The brain of your system. 4GB is plenty for Home Assistant.
-
-| Vendor        | Approx Price | Link                                                                                                          | Notes                       |
-| :------------ | :----------- | :------------------------------------------------------------------------------------------------------------ | :-------------------------- |
-| **Amazon**    | ~$77         | <a href="https://a.co/d/bVJhbcP" target="_blank" rel="noopener noreferrer">Buy Here</a>                       | Fast shipping, easy returns |
-| **Waveshare** | ~$83         | <a href="https://www.waveshare.com/raspberry-pi-5.htm" target="_blank" rel="noopener noreferrer">Buy Here</a> | Direct from manufacturer    |
-
-#### Isolated CAN HAT (Type B)
-
-**Critical Component**: Must be the "Isolated RS485 CAN HAT (B)".
-
-| Vendor        | Approx Price | Link                                                                                                           | Notes                       |
-| :------------ | :----------- | :------------------------------------------------------------------------------------------------------------- | :-------------------------- |
-| **Amazon**    | ~$26         | <a href="https://a.co/d/2XbOnAL" target="_blank" rel="noopener noreferrer">Buy Here</a>                        | -                           |
-| **Waveshare** | ~$22         | <a href="https://www.waveshare.com/rs485-can-hat-b.htm" target="_blank" rel="noopener noreferrer">Buy Here</a> | Cheaper but slower shipping |
-
-#### PCIe to M.2 Adapter
-
-Connects the fast NVMe drive to the Pi.
-
-| Vendor        | Approx Price | Link                                                                                                               | Notes |
-| :------------ | :----------- | :----------------------------------------------------------------------------------------------------------------- | :---- |
-| **Amazon**    | ~$22         | <a href="https://a.co/d/0w0WuaM" target="_blank" rel="noopener noreferrer">Buy Here</a>                            | -     |
-| **Waveshare** | ~$13         | <a href="https://www.waveshare.com/pcie-to-m.2-board-e.htm" target="_blank" rel="noopener noreferrer">Buy Here</a> | -     |
-
-#### NVMe SSD
-
-Much faster and more reliable than SD cards.
-
-| Vendor        | Approx Price | Link                                                                                                                               | Notes                |
-| :------------ | :----------- | :--------------------------------------------------------------------------------------------------------------------------------- | :------------------- |
-| **Amazon**    | ~$32         | <a href="https://a.co/d/c9OCTZB" target="_blank" rel="noopener noreferrer">Buy Here</a>                                            | Generic good quality |
-| **Waveshare** | ~$39         | <a href="https://www.waveshare.com/sk-nvme-2242-128g-ssd-m.2.htm?sku=27379" target="_blank" rel="noopener noreferrer">Buy Here</a> | -                    |
-
-#### Case
-
-Protect your build.
-
-| Vendor     | Approx Price | Link                                                                                                                                                       | Notes               |
-| :--------- | :----------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------ |
-| **Amazon** | ~$18         | <a href="https://a.co/d/iQtNZHq" target="_blank" rel="noopener noreferrer">Buy Here</a>                                                                    | Basic acrylic case  |
-| **KKSB**   | ~$17         | <a href="https://kksb-cases.com/collections/raspberry-pi/products/kksb-hat-case-for-raspberry-pi-5" target="_blank" rel="noopener noreferrer">Buy Here</a> | Metal, premium feel |
-
----
-
-## Options and Upgrades
-
-The Raspberry Pi ecosystem is highly flexible, and LibreCoach hardware can be built in many different ways.
+The Raspberry Pi ecosystem is highly flexible, and LibreCoach hardware could be built in many different ways.
 
 You could reduce cost by using an older-generation Pi, a different CAN HAT, or an SD card instead of NVMe. It’s even possible to run without a case or use basic, off-the-shelf cabling. On the other end of the spectrum, you could opt for more RAM and storage, alternate cases, or additional hardware for more complex builds.
 
 That said, the components recommended here were chosen deliberately: they’re high-quality, easy to assemble, readily available, and—most importantly—personally tested. This configuration aims to provide a reliable, repeatable build with minimal friction for first-time users.
 
+---
+
+## Recommend Bill of Materials
+
+We provide Amazon links purely for convenience. Other vendor options are listed below to help shop around.
+
+_Disclosure: This site uses affiliate links. If you make a purchase through these links, I may earn a small commission at no additional cost to you. As an Amazon Associate, I earn from qualifying purchases._
+
+#### The build guide assumes the following components.
+
+1.  Raspberry Pi 5 (4GB): <a href="https://amzn.to/46q7PHd" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
+2.  Waveshare Isolated RS485 CAN HAT (B): <a href="https://amzn.to/4r1H444" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
+3.  Waveshare PCIe to M.2 Adapter (E): <a href="https://amzn.to/3ZdR6D8" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
+4.  NVMe SSD (2230 or 2240 format, 128GB+): <a href="https://amzn.to/4aovvy7" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> <a href="https://amzn.to/3NQ3wP5" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
+5.  Case: <a href="https://amzn.to/3LVEvl5" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
+6.  Power Supply, USB-C 27W+: <a href="https://amzn.to/3LH7toM" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
+7.  USB NVME Enclosure: <a href="https://amzn.to/46lNDGo" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
+8.  CAN Cable: <a href="https://amzn.to/4tbb3YZ" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
+9.  3M connector: <a href="https://www.digikey.com/en/products/detail/3m/37104-A206-00E-MB/1855698" target="_blank" rel="noopener">DigiKey</a> or <a href="https://www.mouser.com/ProductDetail/3M-Electronic-Solutions-Division/37104-A206-00E-MB" target="_blank" rel="noopener">Mouser</a>
+
+#### Not necessary, but useful
+
+1. Micro HDMI to HDMI cable: <a href="https://amzn.to/4rtNvNr" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> (Allows connecting Pi to regular PC monitor)
+2. Parts kit: <a href="https://amzn.to/4abcGxd" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> (extra parts and tools)
+
+_Pricing fluctuates, but this path typically costs $200-$250._
+
+---
+
 ### Optional Upgrades
 
 Items that aren't strictly required but nice to have.
 
-| Component                | Price | Link                                                                                                                                  | Why                                 |
-| :----------------------- | :---- | :------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------- |
-| **Raspberry Pi 5 (8GB)** | ~$90  | <a href="https://a.co/d/h6j9GHp" target="_blank" rel="noopener noreferrer">Amazon</a>                                                 | Future proofing (overkill for most) |
-| **Active Cooler**        | ~$6   | <a href="https://www.waveshare.com/raspberry-pi-5-official-active-cooler.htm" target="_blank" rel="noopener noreferrer">Waveshare</a> | Keep temps down if enclosure is hot |
-| **Power Supply**         | ~$12  | <a href="https://a.co/d/icjIhay" target="_blank" rel="noopener noreferrer">Amazon</a>                                                 | Official 27W supply recommended     |
+| Component             | Price | Link                                                                                                                                                                                                                                                            | Why                             |
+| :-------------------- | :---- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------ |
+| Larger NVME drive     | ~$50+ | <a href="https://amzn.to/4aerBqy" target="_blank" rel="noopener noreferrer">256GB</a> <a href="https://amzn.to/4qavH8T" target="_blank" rel="noopener noreferrer">512GB</a> <a href="https://amzn.to/4qUwBaT" target="_blank" rel="noopener noreferrer">2TB</a> | Additional storage.             |
+| Raspberry Pi 5 (8GB)  | ~$90  | <a href="https://amzn.to/4q9FPik" target="_blank" rel="noopener noreferrer">Amazon</a>                                                                                                                                                                          | More RAM for future proofing.   |
+| Raspberry Pi 5 (16GB) | ~$160 | <a href="https://ameridroid.com/products/raspberrypi-5?variant=50055407108375" target="_blank" rel="noopener noreferrer">16GB</a>                                                                                                                               | 16GB of RAM. Overkill for most. |
+
+---
+
+### Recommended Vendors in No Particular Order
+
+- <a href="https://www.waveshare.com" target="_blank" rel="noopener">Waveshare</a>
+- <a href="https://www.pishop.us" target="_blank" rel="noopener">PiShop</a>
+- <a href="https://www.canakit.com" target="_blank" rel="noopener">CanaKit</a>
+- <a href="https://www.digikey.com/en/products/detail/raspberry-pi/SC1431/21658261" target="_blank" rel="noopener">Digikey</a>
+- <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun</a>
+- <a href="https://www.microcenter.com/product/673712/raspberry-pi-5" target="_blank" rel="noopener">MicroCenter</a>
+- <a href="https://makerbright.com/" target="_blank" rel="noopener">MakerBright</a>
+- <a href="https://ameridroid.com" target="_blank" rel="noopener">ameriDroid</a>
