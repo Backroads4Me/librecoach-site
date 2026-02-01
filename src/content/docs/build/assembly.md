@@ -47,33 +47,33 @@ Follow this step-by-step guide to assemble your LibreCoach hardware. Take your t
 
 ## Connect the Fan
 
-10. The Raspberry Pi fan connector has a small plastic cover that must be removed. Gently remove the cover using tweezers etc.
+11. The Raspberry Pi fan connector has a small plastic cover that must be removed. Gently remove the cover using tweezers etc.
     ![Removing fan connector cover](../../../assets/assembly/assembly_7.webp)
-11. Connect the fan cable to the fan connector on the Raspberry Pi
+12. Connect the fan cable to the fan connector on the Raspberry Pi
     ![Fan cable connected to Pi](../../../assets/assembly/assembly_8.webp)
 
 ### Mount the NVME Drive
 
-12. Insert your NVME drive into the M.2 slot on the Waveshare PCIe adapter at a 30-degree angle
-13. Press down gently and secure with the included screw
+13. Insert your NVME drive into the M.2 slot on the Waveshare PCIe adapter at a 30-degree angle
+14. Press down gently and secure with the included screw
     ![NVME drive secured with screw](../../../assets/assembly/assembly_9.webp)
 
 ## Secure the Pi to the case
 
 _Note: We will not use the screws or hardware that came with the CAN HAT and instead use the hardware from the case kit._
 
-14. Install the shortest standoffs to all 4 corners of the case using the shortest screws
+15. Install the shortest standoffs to all 4 corners of the case using the shortest screws
     ![Short standoffs installed in case base](../../../assets/assembly/assembly_10.webp)
-15. Place the Pi on the short standoffs and secure it with the longer female-female standoffs
+16. Place the Pi on the short standoffs and secure it with the longer female-female standoffs
     ![Raspberry Pi mounted on standoffs](../../../assets/assembly/assembly_11.webp)
 
 ## Mount the CAN HAT
 
-16. Carefully align the short stacking header that came with the case with the Pi 40 pin GPIO header. Press down gently but firmly until fully seated. Then install the tall stacking header that came with the CAN HAT on top of the short header.  
+17. Carefully align the short stacking header that came with the case with the Pi 40 pin GPIO header. Press down gently but firmly until fully seated. Then install the tall stacking header that came with the CAN HAT on top of the short header.  
     ![GPIO stacking headers installed](../../../assets/assembly/assembly_12.webp)
-17. Carefully install the CAN HAT onto the stacking header and secure with the longer male-female standoffs
+18. Carefully install the CAN HAT onto the stacking header and secure with the longer male-female standoffs
     ![CAN HAT installed on Pi](../../../assets/assembly/assembly_13.webp)
-18. Configure the 120Ω Termination Jumpers
+19. Configure the 120Ω Termination Jumpers
 
 :::note[Important]
 The CAN HAT has jumpers for 120Ω termination resistors. They arrive in the On position and we need them in the Off position. Pull the jumper off and move it to the Off position:
@@ -85,19 +85,19 @@ The CAN HAT has jumpers for 120Ω termination resistors. They arrive in the On p
 
 ### Connect NVME Additional Power Supply
 
-19. The Waveshare PCIe TO M.2 Board (E) came with a small loose two wire power cable. Using wire cutters, clip off just the tip of both wire connectors. The goal is to remove the plastic at the end without cutting the metal connector inside. Perform a test of step 21 to understand why.
+20. The Waveshare PCIe TO M.2 Board (E) came with a small loose two wire power cable. Using wire cutters, clip off just the tip of both wire connectors. The goal is to remove the plastic at the end without cutting the metal connector inside. Perform a test of step 21 to understand why.
     ![Modifying the power cable connectors](../../../assets/assembly/assembly_15.webp)
-20. Connect the small power wires via the single small connector to the NVME board as shown
+21. Connect the small power wires via the single small connector to the NVME board as shown
     ![Power cable connected to NVME adapter](../../../assets/assembly/assembly_16.webp)
-21. Connect the ends of the wires you clipped in step 19 to the GPIO pins labeled GND (black) and 5V (red). There are multiple pins of each available, it does not matter which ones are used.
+22. Connect the ends of the wires you clipped in step 19 to the GPIO pins labeled GND (black) and 5V (red). There are multiple pins of each available, it does not matter which ones are used.
     ![Power wires connected to GPIO pins](../../../assets/assembly/assembly_17.webp)
 
 ## Assemble the Case
 
-22. Remove the break out sections of the case side as shown. A small flat head screwdriver can help with the first bend of each section, then rock it back and forth until it breaks loose.
+23. Remove the break out sections of the case side as shown. A small flat head screwdriver can help with the first bend of each section, then rock it back and forth until it breaks loose.
     ![Removing case breakout sections](../../../assets/assembly/assembly_18.webp)
-23. Ensure the top standoffs are tight as the case top screws into them
-24. Assemble the case sides and attach the top using the remaining longer screws that came with the case
+24. Ensure the top standoffs are tight as the case top screws into them
+25. Assemble the case sides and attach the top using the remaining longer screws that came with the case
     ![Fully assembled enclosure](../../../assets/assembly/assembly_19.webp)
 
 ### Your hardware is now assembled!

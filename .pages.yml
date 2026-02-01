@@ -135,10 +135,10 @@ content:
       - { name: draft, label: Draft, type: boolean, default: false }
       - { name: body, label: Content, type: rich-text }
 
-  - name: troubleshooting
-    label: "🔧 Troubleshooting"
+  - name: support
+    label: "🛟 Support"
     type: collection
-    path: src/content/docs/troubleshooting
+    path: src/content/docs/support
     filename: "{filename}.md"
     view:
       primary: filename

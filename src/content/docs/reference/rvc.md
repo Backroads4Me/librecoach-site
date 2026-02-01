@@ -1,6 +1,6 @@
 ---
 filename: rvc
-title: Understanding RV-C Networks
+title: Learn About RV-C
 description: Learn about RV-C networks, supported device types, message structure, termination requirements, and physical connections.
 sidebar:
   order: 2
@@ -59,32 +59,38 @@ Data: Instance=5, Status=ON, Brightness=100%
 RV-C supports a wide variety of device types. LibreCoach can interface with most of them:
 
 ### Lighting
+
 - DC dimmers
 - On/off switches
 - Zone controllers
 - RGB LED strips
 
 ### Climate
+
 - Thermostats
 - Heat pumps
 - Furnaces
 - Fans and vents
 
 ### Window Treatments
+
 - Shades
 - Blinds
 - Awnings
 
 ### Security
+
 - Door locks
 - Sensors
 
 ### Water & Sanitation
+
 - Tank level sensors
 - Pumps
 - Water heaters
 
 ### Power Systems
+
 - Battery monitors
 - Chargers/inverters
 - Generators
@@ -93,6 +99,7 @@ RV-C supports a wide variety of device types. LibreCoach can interface with most
 - Transfer switches
 
 ### Entertainment
+
 - Audio systems (basic control)
 
 ## RV-C Termination
@@ -101,7 +108,7 @@ CAN networks require proper termination to function correctly. The bus should ha
 
 ### Waveshare CAN HAT Configuration
 
-The Waveshare CAN HAT + has jumpers to enable/disable 120Ω termination:
+The Waveshare CAN HAT has jumpers to enable/disable 120Ω termination:
 
 - **If your RV already has termination**: Remove the jumpers (no termination)
 - **If your RV needs termination**: Install one jumper (120Ω resistor)
@@ -110,6 +117,7 @@ Most modern RVs already have termination at the factory control panel, so you ty
 
 :::warning
 Incorrect termination can cause:
+
 - Intermittent communication
 - Missing messages
 - Complete communication failure
@@ -124,6 +132,7 @@ Consult your RV's documentation or an RV technician if unsure.
 RV-C uses standard 4-pin or 6-pin connectors (often RJ-11 or RJ-12 style, but check your RV).
 
 The two critical wires are:
+
 - **CAN-H** (CAN High)
 - **CAN-L** (CAN Low)
 
@@ -132,6 +141,7 @@ Some RVs also provide power on other pins, but LibreCoach doesn't use those—it
 ### Finding the Connection Point
 
 Common locations:
+
 - Behind the factory control panel
 - In the basement utility area
 - Near the main breaker panel

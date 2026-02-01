@@ -1,6 +1,6 @@
 ---
 filename: acknowledgements
-title: Acknowledgements & History
+title: Acknowledgements
 description: Recognizing the pioneers and open-source projects that made LibreCoach possible.
 sidebar:
   order: 10

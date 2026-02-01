@@ -33,4 +33,4 @@ The first step is finding where to plug in the hardware. Your RV-C network runs 
 
 Plug the 3M connector into the port and connect the screw terminals to the Pi. Once connected, the Pi should start up automatically. Return to Home Assistant.
 
-_Once satisfield with the location, secure the Pi and wires for travel._
+_Once satisfied with the location, secure the Pi and wires for travel._

@@ -1,22 +1,21 @@
 ---
 filename: faq
-title: Frequently Asked Questions
+title: FAQ
 description: Common questions about LibreCoach, including the name,
   compatibility, and project goals.
 sidebar:
-  order: 3
+  order: 2
 draft: false
 ---
+
 ## About the Project
 
 ### Why "LibreCoach"?
 
 The name combines two meaningful concepts:
 
-*   **Libre** (Spanish/French for "free") — In open source, "libre" specifically means "free as in freedom," not just "free of cost." It emphasizes that this project gives you control over your own RV systems—no vendor lock-in, no cloud dependency, no subscription fees.
-    
-*   **Coach** — A common term for motorhomes and RVs, especially Class A and luxury models. Your coach deserves software that's as capable as the vehicle itself.
-    
+- **Libre** (Spanish/French for "free") — In open source, "libre" specifically means "free as in freedom," not just "free of cost." It emphasizes that this project gives you control over your own RV systems—no vendor lock-in, no cloud dependency, no subscription fees.
+- **Coach** — A common term for motorhomes and RVs, especially Class A and luxury models. Your coach deserves software that's as capable as the vehicle itself.
 
 **LibreCoach = Freedom for your coach.**
 
@@ -26,10 +25,8 @@ We believe RV owners should have full control over their own vehicles. When a ma
 
 Yes, in both senses:
 
-*   **Free as in freedom**: The source code is open. You can inspect it, modify it, and share it.
-    
-*   **Free as in cost**: The software costs nothing. You only pay for the hardware (~$150-200 if you build it yourself).
-    
+- **Free as in freedom**: The source code is open. You can inspect it, modify it, and share it.
+- **Free as in cost**: The software costs nothing. You only pay for the hardware (~$150-200 if you build it yourself).
 
 ### Who is behind LibreCoach?
 
@@ -37,12 +34,11 @@ LibreCoach is a community-driven open source project. It started as a personal p
 
 ### How can I support the project?
 
-*   <a href="https://github.com/sponsors/Backroads4me" target="_blank" rel="noopener noreferrer">**GitHub Sponsors**</a> — Monthly support
+- <a href="https://github.com/sponsors/Backroads4me" target="_blank" rel="noopener noreferrer">**GitHub Sponsors**</a> — Monthly support
 
-*   <a href="https://buymeacoffee.com/Backroads4me" target="_blank" rel="noopener noreferrer">**Buy Me a Coffee**</a> — One-time donation
+- <a href="https://buymeacoffee.com/Backroads4me" target="_blank" rel="noopener noreferrer">**Buy Me a Coffee**</a> — One-time donation
 
-*   **Contribute** — Code, documentation, testing, or helping others on the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a>
-    
+- **Contribute** — Code, documentation, testing, or helping others on the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a>
 
 ## Compatibility
 
@@ -50,18 +46,12 @@ LibreCoach is a community-driven open source project. It started as a personal p
 
 LibreCoach works with any RV that uses the **RV-C protocol** on a CAN bus network. This includes most modern motorhomes from:
 
-*   Tiffin
-    
-*   Newmar
-    
-*   Entegra
-    
-*   Winnebago (diesel pushers)
-    
-*   Thor (some models)
-    
-*   And many others
-    
+- Tiffin
+- Newmar
+- Entegra
+- Winnebago (diesel pushers)
+- Thor (some models)
+- And many others
 
 If your RV has a "multiplex" or "smart" system with a touchscreen control panel, it likely uses RV-C.
 
@@ -97,23 +87,17 @@ Your RV continues to function normally using its original physical controls. Lib
 
 ### Where can I get support?
 
-*   <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">**Community Forum**</a> — Best place for questions and discussion
+- <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">**Community Forum**</a> — Best place for questions and discussion
 
-*   <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">**GitHub Issues**</a> — For bug reports and feature requests
-    
-*   [**Troubleshooting Guide**](/troubleshooting/common-issues/) — Solutions to common problems
-    
+- <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">**GitHub Issues**</a> — For bug reports and feature requests
+- [**Troubleshooting Guide**](/support/troubleshooting/) — Solutions to common problems
 
 ### I found a bug. How do I report it?
 
 1.  Check the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a> to see if others have the same issue
 
 2.  If it's a new bug, open an issue on <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">GitHub</a> with:
-    
-    *   Your RV make/model/year
-        
-    *   Hardware details (Pi model, CAN HAT)
-        
-    *   Steps to reproduce the issue
-        
-    *   Relevant logs
+    - Your RV make/model/year
+    - Hardware details (Pi model, CAN HAT)
+    - Steps to reproduce the issue
+    - Relevant logs

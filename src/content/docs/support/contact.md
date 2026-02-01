@@ -2,7 +2,7 @@
 title: Contact Us
 description: How to get help or get involved with the LibreCoach project.
 sidebar:
-  order: 99
+  order: 3
   label: Contact
 ---
 

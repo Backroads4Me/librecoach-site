@@ -67,7 +67,7 @@ Or manually:
 13. After installation, go to the **Info** tab and click **Start**
     ![Starting LibreCoach add-on](../../../assets/software/software_2.webp)
 14. After starting, go to the **Log** tab to monitor installation progress
-15. LibreCoach wil automatically install several components, then pause, requiring user intervention.
+15. LibreCoach will automatically install several components, then pause, requiring user intervention.
     ![LibreCoach installation log showing pause for user intervention](../../../assets/software/software_3.webp)
 16. Follow the instructions in the log and go to **Settings** → **Devices & Services**, then find **MQTT** and click **Add**
     ![Adding MQTT integration](../../../assets/software/software_4.webp)
@@ -76,8 +76,8 @@ Or manually:
 
 ## Verify Installation
 
-17. In Home Assistant, go to **Settings** → **Add-ons**
-18. You should see:
+18. In Home Assistant, go to **Settings** → **Add-ons**
+19. You should see:
     - **Mosquitto broker** (running)
     - **CAN-to-MQTT Bridge** (running)
     - **Node-RED** (running)
@@ -87,5 +87,5 @@ Or manually:
 
 ### Shutdown the Pi and connect to RV
 
-19. **Settings** → **System**, **Power Button** (top right), **Advanced options**, **Shutdown system**
+20. **Settings** → **System**, **Power Button** (top right), **Advanced options**, **Shutdown system**
     ![System shutdown options](../../../assets/software/software_6.webp)

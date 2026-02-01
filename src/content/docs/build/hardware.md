@@ -18,7 +18,7 @@ That said, the components recommended here were chosen deliberately: they’re h
 
 ---
 
-## Recommend Bill of Materials
+## Recommended Bill of Materials
 
 We provide Amazon links purely for convenience. Other vendor options are listed below to help shop around.
 
@@ -38,7 +38,7 @@ _Disclosure: This site uses affiliate links. If you make a purchase through thes
 
 #### Additional items that are useful
 
-1. Thing Gauge Wire strippers: <a href="https://amzn.to/3LN2zXj" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
+1. Thin Gauge Wire strippers: <a href="https://amzn.to/3LN2zXj" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
 2. Micro HDMI to HDMI cable: <a href="https://amzn.to/4rtNvNr" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> (allows connecting Pi to regular PC monitor)
 
 _Pricing fluctuates, but this path typically costs $200-$250._

@@ -102,7 +102,7 @@ action:
       entity_id: switch.entertainment_center
   - service: notify.notify
     data:
-      title: "🔋 Battery Low (Covervation Mode Active)"
+      title: "🔋 Battery Low (Conservation Mode Active)"
       message: "Battery at {{ states('sensor.battery_state_of_charge') }}%. Shutting down non-essentials."
 mode: single
 ```
@@ -247,13 +247,13 @@ action:
   # 3. Final Notification
   - service: notify.mobile_app_teds_iphone
     data:
-      title: "✅ Ready for Depature"
+      title: "✅ Ready for Departure"
       message: "Slides in. Jacks up. Safe travels!"
 ```
 
 ## Sharing Your Automations
 
-Have you created a clever clever automation? <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">Share it on our Forum</a>!
+Have you created a clever automation? <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">Share it on our Forum</a>!
 *   Post the YAML code (please remove any sensitive info/secrets).
 *   Explain the "Why" - what problem did it solve?
 *   Tell us which sensors/hardware you used.

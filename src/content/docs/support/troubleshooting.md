@@ -1,6 +1,6 @@
 ---
-filename: common-issues
-title: Common Issues and Solutions
+filename: troubleshooting
+title: Troubleshooting
 description: Solutions to common LibreCoach issues including CAN connection problems, device discovery failures, and WiFi connectivity.
 sidebar:
   order: 1
