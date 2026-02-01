@@ -1,9 +1,10 @@
 ---
 filename: dashboards
-title: Creating Custom Dashboards
+title: Custom Dashboards
 description: Create custom Home Assistant dashboards for your RV with examples, YAML configurations, and community-shared layouts.
 sidebar:
-  order: 1
+  order: 3
+  label: Dashboards
 draft: false
 ---
 
@@ -14,32 +15,39 @@ Once you've [identified your devices](/configuration/identify-devices/), it's ti
 Check out examples from the community:
 
 ### Lighting Dashboard
+
 ![Lighting dashboard](../../../assets/dashboards/librecoach/view_0.png)
-*Lighting controls organized by room and zone*
+_Lighting controls organized by room and zone_
 
 ### Shades Dashboard
+
 ![Shades dashboard](../../../assets/dashboards/librecoach/view_1.png)
-*Shade controls for all windows and skylights*
+_Shade controls for all windows and skylights_
 
 ### Locks Dashboard
+
 ![Locks dashboard](../../../assets/dashboards/librecoach/view_2.png)
-*Door locks and security controls*
+_Door locks and security controls_
 
 ### Floor Heat Dashboard
+
 ![Floor heat dashboard](../../../assets/dashboards/librecoach/view_3.png)
-*Floor heating zones and temperature control*
+_Floor heating zones and temperature control_
 
 ### Water and Tanks Dashboard
+
 ![Water and tanks dashboard](../../../assets/dashboards/librecoach/view_4.png)
-*Tank levels and water system controls*
+_Tank levels and water system controls_
 
 ### Battery Dashboard
+
 ![Battery dashboard](../../../assets/dashboards/librecoach/view_5.png)
-*Battery monitoring and state of charge*
+_Battery monitoring and state of charge_
 
 ### Energy Flow Dashboard
+
 ![Energy flow dashboard](../../../assets/dashboards/librecoach/view_6.png)
-*Real-time energy flow visualization*
+_Real-time energy flow visualization_
 
 ## Creating Your First Dashboard
 
@@ -81,6 +89,7 @@ For each view, add cards to display and control your devices.
 #### Common Card Types
 
 **Entities Card** - Best for lists of related controls:
+
 ```yaml
 type: entities
 title: Living Area Lights
@@ -94,6 +103,7 @@ entities:
 ```
 
 **Grid Card** - Best for button layouts:
+
 ```yaml
 type: grid
 columns: 2
@@ -107,6 +117,7 @@ cards:
 ```
 
 **Gauge Card** - Best for tank levels:
+
 ```yaml
 type: gauge
 entity: sensor.tank_fresh_water
@@ -116,6 +127,7 @@ name: Fresh Water
 ```
 
 **Energy Distribution Card** - For power flow:
+
 ```yaml
 type: energy-distribution
 entities:
@@ -178,11 +190,13 @@ views:
 Home Assistant supports two methods for creating dashboards:
 
 ### Visual Editor (Recommended for Beginners)
+
 - Click-and-drag interface
 - Easy to get started
 - Some limitations on advanced customization
 
 ### YAML Mode (Recommended for Sharing)
+
 - Full control over layout and styling
 - Easy to copy/paste and share
 - Requires learning YAML syntax
@@ -296,16 +310,19 @@ Help grow the community by sharing your dashboard:
 ## Troubleshooting
 
 ### Entity not available
+
 - Verify the entity exists in Home Assistant
 - Check if the device is online and reporting
 - Ensure spelling is correct (entity IDs are case-sensitive)
 
 ### Card won't display
+
 - Check YAML syntax for errors
 - Ensure required integrations are installed
 - Check browser console for errors (F12)
 
 ### Dashboard is slow
+
 - Reduce the number of cards/entities per view
 - Remove auto-updating cards for devices you rarely check
 - Use conditional cards to hide unnecessary elements

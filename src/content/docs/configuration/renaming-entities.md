@@ -3,8 +3,8 @@ filename: renaming-entities
 title: Renaming Entities
 description: Best practices for naming Home Assistant entities so dashboards, voice control, and automations work correctly.
 sidebar:
-  order: 3
-draft: false
+  order: 2
+  label: Renaming Entities
 ---
 
 After [identifying your devices](/configuration/identify-devices/), renaming them with meaningful names makes your system much easier to use. Good entity names improve dashboard usability, voice control accuracy, and automation readability.

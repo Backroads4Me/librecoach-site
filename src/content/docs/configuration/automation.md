@@ -3,7 +3,8 @@ filename: automation
 title: Automation Examples
 description: Practical Home Assistant automation examples for RVs including battery protection, travel checklists, climate control, and more.
 sidebar:
-  order: 2
+  order: 4
+  label: Automation
 draft: false
 ---
 

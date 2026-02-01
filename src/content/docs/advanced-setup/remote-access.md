@@ -1,6 +1,6 @@
 ---
 filename: remote-access
-title: Remote Access Overview
+title: Remote Access
 description: Compare options for accessing your LibreCoach system remotely when away from your RV.
 sidebar:
   order: 2

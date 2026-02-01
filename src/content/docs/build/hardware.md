@@ -33,14 +33,13 @@ _Disclosure: This site uses affiliate links. If you make a purchase through thes
 5.  Case: <a href="https://amzn.to/3LVEvl5" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
 6.  Power Supply: <a href="https://amzn.to/3LH7toM" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> (USB-C 27W+)
 7.  USB NVME Enclosure: <a href="https://amzn.to/46lNDGo" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
-8.  CAN Cable: <a href="https://amzn.to/4tbb3YZ" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
+8.  CAN bus Cable: <a href="https://amzn.to/4tbb3YZ" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
 9.  3M connector: <a href="https://www.digikey.com/en/products/detail/3m/37104-A206-00E-MB/1855698" target="_blank" rel="noopener">DigiKey</a> or <a href="https://www.mouser.com/ProductDetail/3M-Electronic-Solutions-Division/37104-A206-00E-MB" target="_blank" rel="noopener">Mouser</a>
 
-#### Not necessary, but useful
+#### Additional items that are useful
 
-1. Wire strippers: <a href="https://amzn.to/3LN2zXj" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> (specifically for thing gauge wire)
+1. Thing Gauge Wire strippers: <a href="https://amzn.to/3LN2zXj" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
 2. Micro HDMI to HDMI cable: <a href="https://amzn.to/4rtNvNr" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> (allows connecting Pi to regular PC monitor)
-3. Standoff kit: <a href="https://amzn.to/4tb9Occ" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> (spacers and screwdriver)
 
 _Pricing fluctuates, but this path typically costs $200-$250._
 

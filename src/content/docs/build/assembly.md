@@ -12,7 +12,9 @@ Follow this step-by-step guide to assemble your LibreCoach hardware. Take your t
 ## Required Tools
 
 - Phillips screwdriver (small)
+- Flat head screwdriver (small)
 - Wire strippers (thin gauge)
+- Pliers
 - Tweezers (helpful but not required)
 - Clean, static-free workspace
 
@@ -62,14 +64,14 @@ _Note: We will not use the screws or hardware that came with the CAN HAT and ins
 
 14. Install the shortest standoffs to all 4 corners of the case using the shortest screws
     ![Short standoffs installed in case base](../../../assets/assembly/assembly_10.webp)
-15. Place the Pi on the short standoffs and secure with the longer male-female standoffs
+15. Place the Pi on the short standoffs and secure it with the longer female-female standoffs
     ![Raspberry Pi mounted on standoffs](../../../assets/assembly/assembly_11.webp)
 
 ## Mount the CAN HAT
 
-16. Carefully align the short stack header that came with the case with the Pi 40 pin GPIO header. Press down gently but firmly until fully seated. Then install the tall stacking header that came with the CAN HAT on top of the short header.  
+16. Carefully align the short stacking header that came with the case with the Pi 40 pin GPIO header. Press down gently but firmly until fully seated. Then install the tall stacking header that came with the CAN HAT on top of the short header.  
     ![GPIO stacking headers installed](../../../assets/assembly/assembly_12.webp)
-17. Carefully install the CAN HAT onto the standoffs and the GPIO header and secure with the longer female-female standoffs
+17. Carefully install the CAN HAT onto the stacking header and secure with the longer male-female standoffs
     ![CAN HAT installed on Pi](../../../assets/assembly/assembly_13.webp)
 18. Configure the 120Ω Termination Jumpers
 

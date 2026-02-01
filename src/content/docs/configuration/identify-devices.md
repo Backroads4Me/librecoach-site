@@ -1,10 +1,10 @@
 ---
 filename: identify-devices
 title: Identifying Your Devices
-description: Walk through your RV to identify and map auto-discovered devices to their physical controls using Home Assistant's dashboard.
+description: Identify and map auto-discovered devices to their physical controls.
 sidebar:
-  order: 2
-draft: false
+  order: 1
+  label: Identify Devices
 ---
 
 After installing LibreCoach, your RV-C switches will be auto-discovered and appear in Home Assistant as generic entities like `switch_1`, `switch_2`, etc. This guide helps you identify what each switch controls.
@@ -15,7 +15,7 @@ LibreCoach can detect that switches exist on your RV-C network, but it has no wa
 
 ## The Process
 
-### Step 1: Open the Overview Dashboard
+### Open the Overview Dashboard
 
 1. In Home Assistant, go to **Settings** → **Dashboards**
 2. Find the **Overview** dashboard (this is where all auto-discovered switches appear)
@@ -73,12 +73,14 @@ Once you've identified a switch:
 Use clear, descriptive names:
 
 **Good Names:**
+
 - `Galley Light`
 - `Bedroom Fan`
 - `Patio Awning`
 - `Fresh Water Pump`
 
 **Bad Names:**
+
 - `Light 1`
 - `Switch Front`
 - `The thing`
@@ -87,13 +89,14 @@ Use clear, descriptive names:
 
 Create a spreadsheet or document mapping your RV's switches:
 
-| Entity ID | Original Name | New Name | Location | Type |
-|-----------|---------------|----------|----------|------|
-| `switch_7` | `switch_7` | Patio Light | Exterior | Light |
-| `switch_12` | `switch_12` | Galley Light | Galley | Light |
-| `switch_23` | `switch_23` | Bedroom Fan | Bedroom | Fan |
+| Entity ID   | Original Name | New Name     | Location | Type  |
+| ----------- | ------------- | ------------ | -------- | ----- |
+| `switch_7`  | `switch_7`    | Patio Light  | Exterior | Light |
+| `switch_12` | `switch_12`   | Galley Light | Galley   | Light |
+| `switch_23` | `switch_23`   | Bedroom Fan  | Bedroom  | Fan   |
 
 This documentation will be helpful for:
+
 - Sharing with the community (if you want to help others with your RV model)
 - Troubleshooting issues later
 - Recreating your setup if needed
@@ -103,15 +106,19 @@ This documentation will be helpful for:
 Switches aren't the only devices that LibreCoach discovers:
 
 ### Tank Sensors
+
 Tank sensors appear as `sensor.tank_fresh_water`, `sensor.tank_grey_water`, etc. These are usually self-explanatory.
 
 ### Thermostats
+
 Thermostats appear as `climate.thermostat_1`, `climate.thermostat_2`, etc. Walk to each thermostat and change the temperature—watch which entity updates in Home Assistant.
 
 ### Battery Monitors
+
 Battery and power devices typically have descriptive names already, but you may want to verify which battery is which (e.g., house vs. chassis).
 
 ### Shades and Awnings
+
 These may appear as `cover.shade_1`, `cover.awning_1`, etc. Activate them physically and watch the dashboard.
 
 ## Sharing Your Configuration
@@ -146,22 +153,26 @@ Before starting from scratch, check if someone with your RV model has already sh
 ## Troubleshooting
 
 ### No switches appear
+
 - Verify LibreCoach is running (check add-on status)
 - Ensure CAN cable is connected to your RV
 - Check CAN-to-MQTT Bridge logs
 - Verify Mosquitto and Node-RED are running
 
 ### Switch appears but doesn't control anything
+
 - The physical switch in your RV may be disconnected or broken
 - Check wiring in your RV
 - Verify the entity in Home Assistant is actually sending commands (check Node-RED debug)
 
 ### Multiple switches turn on at once
+
 - RV-C zone lighting: Multiple lights are grouped into a single zone
 - This is normal RV-C behavior
 - You can rename the entity to reflect the zone (e.g., "Living Area Lights")
 
 ### Entity keeps changing back
+
 - MQTT discovery may be recreating the entity
 - Set a persistent friendly name in your YAML configuration
 - Or customize the MQTT discovery message in Node-RED
