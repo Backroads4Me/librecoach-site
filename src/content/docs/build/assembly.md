@@ -22,134 +22,80 @@ Follow this step-by-step guide to assemble your LibreCoach hardware. Take your t
 
 1. Remove the thermal pads from the Waveshare PCIe to M.2 Adapter (E) packaging
 2. Remove the thin plastic backing from the thermal transfer pads and apply them to the CPU (central, largest chip), the PMIC (power management chip, bottom left), and the Wi-Fi module (right side). Use the thinner pads for the CPU and Wi-Fi, and the thicker pad for the PMIC.
-   ![Thermal pads before installation](../../../assets/assembly/assembly_1.webp)
+   ![Thermal pads installed](../../../assets/assembly/assembly_1.webp)
 
 ### Mount PCIe adapter
 
 3. Be sure to remove the thin plastic backing from the top of thermal pads first
-4. Place the PCIe adapter on on the thermal pads
+4. Place the PCIe adapter on the thermal pads
    ![Top view of adapter installed](../../../assets/assembly/assembly_2.webp)
-5. Align the PCIe adapter mounting holes on the bottom of the Raspberry Pi and secure with the included screws.
+5. Align the PCIe adapter mounting holes on the bottom of the Raspberry Pi and secure with the included screws
    ![Bottom view showing screw positions](../../../assets/assembly/assembly_3.webp)
 
 ### Connect the PCIe Ribbon
 
-5. Locate the PCIe connector on the Raspberry Pi
-6. Gently lift the black clip to open the connector
+6. Locate the PCIe connector on the Raspberry Pi
+7. Gently lift the black clip to open the connector
    ![Lifting the PCIe connector clip](../../../assets/assembly/assembly_4.webp)
-7. Insert the ribbon cable from the Waveshare adapter
-   ![PCIe ribbon fully connected](../../../assets/assembly/assembly_5.webp)
-8. Press down the black clip to secure the ribbon
-   ![PCIe ribbon fully connected](../../../assets/assembly/assembly_6.webp)
-9. The other end should be connected to the Waveshare PCIe adapter
+8. Insert the ribbon cable from the Waveshare adapter
+   ![Inserting PCIe ribbon cable](../../../assets/assembly/assembly_5.webp)
+9. Press down the black clip to secure the ribbon
+   ![Secured PCIe ribbon cable](../../../assets/assembly/assembly_6.webp)
+10. The other end should be connected to the Waveshare PCIe adapter
 
 ## Connect the Fan
 
 10. The Raspberry Pi fan connector has a small plastic cover that must be removed. Gently remove the cover using tweezers etc.
-    ![PCIe ribbon fully connected](../../../assets/assembly/assembly_7.webp)
+    ![Removing fan connector cover](../../../assets/assembly/assembly_7.webp)
 11. Connect the fan cable to the fan connector on the Raspberry Pi
-    ![PCIe ribbon fully connected](../../../assets/assembly/assembly_8.webp)
+    ![Fan cable connected to Pi](../../../assets/assembly/assembly_8.webp)
 
 ### Mount the NVME Drive
 
 12. Insert your NVME drive into the M.2 slot on the Waveshare PCIe adapter at a 30-degree angle
 13. Press down gently and secure with the included screw
-    ![PCIe ribbon fully connected](../../../assets/assembly/assembly_9.webp)
+    ![NVME drive secured with screw](../../../assets/assembly/assembly_9.webp)
 
-## Install Case Standoffs
+## Secure the Pi to the case
 
-14. Insert brass standoffs into all 4 corners of the case
-    ![PCIe ribbon fully connected](../../../assets/assembly/assembly_.webp)
+_Note: We will not use the screws or hardware that came with the CAN HAT and instead use the hardware from the case kit._
 
-## Install the CAN HAT
+14. Install the shortest standoffs to all 4 corners of the case using the shortest screws
+    ![Short standoffs installed in case base](../../../assets/assembly/assembly_10.webp)
+15. Place the Pi on the short standoffs and secure with the longer male-female standoffs
+    ![Raspberry Pi mounted on standoffs](../../../assets/assembly/assembly_11.webp)
 
-### Configure the 120Ω Termination Jumpers
+## Mount the CAN HAT
+
+16. Carefully align the short stack header that came with the case with the Pi 40 pin GPIO header. Press down gently but firmly until fully seated. Then install the tall stacking header that came with the CAN HAT on top of the short header.  
+    ![GPIO stacking headers installed](../../../assets/assembly/assembly_12.webp)
+17. Carefully install the CAN HAT onto the standoffs and the GPIO header and secure with the longer female-female standoffs
+    ![CAN HAT installed on Pi](../../../assets/assembly/assembly_13.webp)
+18. Configure the 120Ω Termination Jumpers
 
 :::note[Important]
-The CAN HAT has two jumpers for 120Ω termination resistors. Confirm they are both in the off position:
-The image shows:
+The CAN HAT has jumpers for 120Ω termination resistors. They arrive in the On position and we need them in the Off position. Pull the jumper off and move it to the Off position:
 
-- **Left jumper**: Incorrect position (off)
-- **Right jumper**: Correct position (resistor installed)
-  ![PCIe ribbon fully connected](../../../assets/assembly/assembly_.webp)
+- **Left jumper**: Incorrect position (resistor installed)
+- **Right jumper**: Correct position (off)
+  ![Termination jumper configuration](../../../assets/assembly/assembly_14.webp)
   :::
 
-### Mount the CAN HAT
+### Connect NVME Additional Power Supply
 
-1. Carefully align the CAN HAT with the 40-pin GPIO header on the Raspberry Pi
-2. Press down gently but firmly until fully seated
+19. The Waveshare PCIe TO M.2 Board (E) came with a small loose two wire power cable. Using wire cutters, clip off just the tip of both wire connectors. The goal is to remove the plastic at the end without cutting the metal connector inside. Perform a test of step 21 to understand why.
+    ![Modifying the power cable connectors](../../../assets/assembly/assembly_15.webp)
+20. Connect the small power wires via the single small connector to the NVME board as shown
+    ![Power cable connected to NVME adapter](../../../assets/assembly/assembly_16.webp)
+21. Connect the ends of the wires you clipped in step 19 to the GPIO pins labeled GND (black) and 5V (red). There are multiple pins of each available, it does not matter which ones are used.
+    ![Power wires connected to GPIO pins](../../../assets/assembly/assembly_17.webp)
 
-![PCIe ribbon fully connected](../../../assets/assembly/assembly_.webp)
+## Assemble the Case
 
-3. The HAT should sit flush on top of the standoffs
+22. Remove the break out sections of the case side as shown. A small flat head screwdriver can help with the first bend of each section, then rock it back and forth until it breaks loose.
+    ![Removing case breakout sections](../../../assets/assembly/assembly_18.webp)
+23. Ensure the top standoffs are tight as the case top screws into them
+24. Assemble the case sides and attach the top using the remaining longer screws that came with the case
+    ![Fully assembled enclosure](../../../assets/assembly/assembly_19.webp)
 
-### Connect Power from PCIe Adapter
-
-<!-- ![Power cable connected from PCIe adapter to CAN HAT](../../../assets/assembly/assembly_24.jpg) -->
-
-1. Locate the power cable from the PCIe adapter
-2. Connect it to the power input on the CAN HAT
-3. This provides stable power to the CAN interface
-
-## Step 6: Final Assembly
-
-### Place Pi in Case
-
-<!-- ![Pi installed in case](../../../assets/assembly/assembly_5.jpg) -->
-
-1. Carefully lower the assembled Pi into the case
-2. Align the mounting holes with the standoffs
-3. Secure with screws through the CAN HAT into the standoffs
-
-### Install Top Cover
-
-<!-- ![Various screws for case](../../../assets/assembly/assembly_3.jpg) -->
-
-1. Place the top cover with installed heatsink/fan onto the case
-2. Ensure the fan is oriented correctly (airflow direction)
-3. Secure with the remaining screws
-
-<!-- ![Fully assembled unit](../../../assets/assembly/assembly_21.jpg) -->
-
-## Step 7: Verify Assembly
-
-Before powering on:
-
-1. **Check all connections**:
-   - PCIe ribbon cable secure
-   - CAN HAT fully seated
-   - Fan connected
-   - Power cable from PCIe adapter to CAN HAT connected
-
-2. **Verify jumper settings** on CAN HAT
-
-3. **Inspect for loose screws or debris**
-
-## What's Next?
-
-Your hardware is now assembled! Continue to:
-
-- [Software Installation](/build/software/) - Flash HAOS and install LibreCoach
-- [Connect to your RV's CAN network](/build/installation/)
-
-## Troubleshooting
-
-### Pi won't boot
-
-- Verify NVME is properly seated
-- Check that PCIe ribbon cable is secure
-- Ensure power supply is adequate (5V, 3A minimum)
-
-### CAN HAT not detected
-
-- Verify the HAT is fully seated on the GPIO header
-- Check power cable connection from PCIe adapter
-- Review jumper settings
-
-### Overheating
-
-- Ensure thermal pads are properly installed
-- Verify fan is connected and spinning
-- Check that heatsink makes contact with thermal pads
-
-Need help? Ask on the [forum](https://forum.LibreCoach.com)!
+### Your hardware is now assembled!

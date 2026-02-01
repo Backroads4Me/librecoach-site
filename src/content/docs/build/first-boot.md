@@ -11,38 +11,40 @@ draft: false
 ## First Boot
 
 :::note[Ethernet Required]
-First boot requires a **wired ethernet** connection for initial access to Home Assistant but does not yet need to be connected to your RV. You'll configure WiFi through the Home Assistant interface, then you can disconnect ethernet.
+The initial startup requires a **wired ethernet** connection for initial access to Home Assistant. You'll configure WiFi through the Home Assistant interface, then you can disconnect ethernet. The hardware does not yet need to be connected to your RV.
 :::
 
-1. Install the NVME drive in your assembled Raspberry Pi
-2. Connect the Pi to your router via ethernet cable
-3. Power on the Raspberry Pi
-4. Wait 5-10 minutes for the initial boot and setup to complete
+1. Connect the Pi to your router via ethernet cable
+2. Connect a USB-C power supply to the Pi
+3. The Pi will likely startup when plugged in, if not, power on the Raspberry Pi using the button on the case.
+4. Wait ~5 minutes for the initial boot and setup to complete
 
 ## Access Home Assistant
 
-1. Open a web browser on a device connected to the same network
-2. Navigate to: `http://homeassistant.local:8123`
+5. Open a web browser on a device connected to the same network
+6. Navigate to: <a href="http://homeassistant.local:8123" target="_blank" rel="noopener">http://homeassistant.local:8123</a>
    - If that doesn't work, find the Pi's IP address in your router's admin page and use `http://<IP_ADDRESS>:8123`
-3. Follow the Home Assistant onboarding wizard
-4. Create your user account
+7. Follow the Home Assistant onboarding wizard
+8. Create your user account
 
-## Configure WiFi (Optional)
+## Configure WiFi (optional)
+
+_Note: A hardwired ethernet connection is more reliable if you're able._
 
 If you want to use WiFi instead of ethernet:
 
 1. Go to **Settings** → **System** → **Network**
-2. Click **Configure** next to your WiFi adapter
+2. Click **wlan0** under **Configure network interfaces**
 3. Select your WiFi network and enter the password
 4. Once connected, you can disconnect the ethernet cable
 
 ## Install LibreCoach Add-on
 
-The LibreCoach add-on automatically installs and configures all required components:
+The LibreCoach add-on automatically installs and configures the following rrequired apps:
 
-- Mosquitto MQTT broker
-- CAN-to-MQTT Bridge
 - Node-RED with LibreCoach flows pre-imported
+- CAN-to-MQTT Bridge
+- Mosquitto MQTT broker
 
 ### Add the Repository
 
@@ -67,11 +69,10 @@ Or manually:
 
 The add-on will automatically:
 
-- Install Mosquitto broker (if not present)
+- Install and configure Mosquitto broker
 - Install and configure CAN-to-MQTT Bridge
-- Install Node-RED
+- Install and configure Node-RED
 - Import the LibreCoach flows into Node-RED
-- Configure all MQTT connections
 
 ## Verify Installation
 
@@ -80,7 +81,9 @@ The add-on will automatically:
    - **Mosquitto broker** (running)
    - **CAN-to-MQTT Bridge** (running)
    - **Node-RED** (running)
-   - **LibreCoach** (may show stopped after initial setup - this is normal)
+   - **LibreCoach** (will show stopped after initial setup - this is normal)
+
+## Shutdown the Pi and connnect to RV
 
 3. Go to **Settings** → **Devices & Services** → **MQTT**
 4. Connect the CAN cable to your RV's RV-C network

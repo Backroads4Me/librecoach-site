@@ -7,6 +7,8 @@ sidebar:
 draft: false
 ---
 
+# Create wire connection
+
 :::caution[Safety First]
 **Before you begin:**
 
