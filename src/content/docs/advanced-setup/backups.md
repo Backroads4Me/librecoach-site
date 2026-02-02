@@ -4,7 +4,7 @@ title: Backup Strategies
 description: Protect your LibreCoach configuration with local and cloud backup solutions for Home Assistant.
 sidebar:
   order: 3
-draft: true
+draft: false
 ---
 
 Your LibreCoach configuration represents hours of setup work—dashboards, automations, entity names, and customizations. A good backup strategy ensures you can recover quickly from hardware failures, failed updates, or accidental changes.
@@ -82,6 +82,7 @@ backup_time_of_day: "03:00"
 ### When to Create Backups
 
 Create a backup before:
+
 - Updating Home Assistant OS
 - Updating add-ons
 - Making major configuration changes
@@ -91,6 +92,7 @@ Create a backup before:
 ### The 3-2-1 Rule
 
 For critical data, follow the 3-2-1 backup rule:
+
 - **3** copies of your data
 - **2** different storage types (SD card + cloud)
 - **1** copy off-site (cloud backup)
@@ -98,6 +100,7 @@ For critical data, follow the 3-2-1 backup rule:
 ### Test Your Backups
 
 A backup you've never tested isn't a backup—it's a hope. Periodically:
+
 1. Download a backup
 2. Note the file size (compare to previous backups)
 3. Consider doing a test restore on spare hardware
@@ -182,5 +185,5 @@ Sometimes you want to save specific pieces without a full backup.
 ## What's Next?
 
 With backups configured, consider:
-- [Remote Access](/advanced-setup/tailscale/) - Access your backups and system from anywhere
 
+- [Remote Access](/advanced-setup/tailscale/) - Access your backups and system from anywhere

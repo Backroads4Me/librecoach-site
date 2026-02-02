@@ -35,7 +35,7 @@ export default defineConfig({
           starlightThemeSix({
             //optional
             footerText:
-              'LibreCoach - Smart, Local Control for Your RV | <a href="/community/about/">About</a> | <a href="/support/contact/">Contact</a> | <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener">GitHub</a> | <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener">Community Forum</a> | <a href="/community/privacy/" target="_blank" rel="noopener">Privacy Policy</a> | <a href="/community/disclaimer/" target="_blank" rel="noopener">Disclaimer</a>',
+              'LibreCoach - Take Your RV Further • <a href="/community/about/">About</a> • <a href="https://forum.librecoach.com" target="_blank" rel="noopener">Community</a> • <a href="/community/privacy/" target="_blank" rel="noopener">Privacy Policy</a>',
           }),
         ],
         customCss: ["./src/styles/custom.css"],
@@ -49,18 +49,18 @@ export default defineConfig({
         },
         lastUpdated: false,
         editLink: {
-          baseUrl: "https://github.com/Backroads4Me/librecoach-site/edit/main/",
+          baseUrl: "https://github.com/backroads4me/librecoach-site/edit/main/",
         },
         social: [
           {
             icon: "github",
             label: "GitHub",
-            href: "https://github.com/Backroads4Me",
+            href: "https://github.com/backroads4me",
           },
           {
             icon: "discourse",
             label: "Community Forum",
-            href: "https://forum.LibreCoach.com",
+            href: "https://forum.librecoach.com",
           },
         ],
         sidebar: [

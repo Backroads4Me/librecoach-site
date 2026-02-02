@@ -279,7 +279,7 @@ Apply custom color schemes to match your RV or personal style. See <a href="http
 
 ### Finding Dashboards for Your RV
 
-1. Visit the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">LibreCoach Forum</a>
+1. Visit the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">LibreCoach Forum</a>
 2. Navigate to your RV manufacturer's category (e.g., Newmar, Tiffin, Entegra)
 3. Browse posts tagged with your model and year
 4. Download YAML files shared by other users
@@ -329,5 +329,5 @@ Help grow the community by sharing your dashboard:
 
 ## What's Next?
 
-- Set up [automations](/user-guide/automation/) to make your RV smarter
-- Share your dashboard on the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a>
+- Set up [automations](/configuration/automation/) to make your RV smarter
+- Share your dashboard on the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">forum</a>

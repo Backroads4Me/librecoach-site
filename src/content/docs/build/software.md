@@ -49,13 +49,13 @@ The LibreCoach add-on automatically installs and configures the following requir
 
 Click the button below to add the LibreCoach add-on repository:
 
-[![Open your Home Assistant instance and show the add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FBackroads4Me%2Fha-addons)
+[![Open your Home Assistant instance and show the add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fbackroads4me%2Fha-addons)
 
 Or manually:
 
 - Go to **Settings** → **Add-ons** → **Add-on Store**
 - Click the three dots (⋮) in the top right → **Repositories**
-- Add: `https://github.com/Backroads4Me/ha-addons`
+- Add: `https://github.com/backroads4me/ha-addons`
 - Click **Add** → **Close**
 
 ### Install the Add-on

@@ -4,14 +4,14 @@ title: Acknowledgements
 description: Recognizing the pioneers and open-source projects that made LibreCoach possible.
 sidebar:
   order: 10
-draft: true
+draft: false
 ---
 
-LibreCoach was built from the ground up, designed entirely in-house, but it stands on the foundation laid by pioneers in RV-C integration and open-source automation. We’re proud of our work, and grateful to those who made it possible.
+LibreCoach was built from the ground up, designed entirely in-house, yet it stands on the foundation laid by pioneers in RV-C integration and open-source automation. We’re proud of our work and grateful to those who made it possible. This page recognizes the ideas and projects that inspired LibreCoach, and the open-source tools that make it possible.
 
 ## The Pioneer: CoachProxy
 
-While LibreCoach does not reuse CoachProxy code, it draws inspiration from Michael J. Kidd’s vision of a headless RV-C bridge.
+LibreCoach was developed independently but draws inspiration from the ideas behind Michael J. Kidd’s headless RV-C bridge.
 
 **Michael J. Kidd** (known as `linuxkidd` in the community) created **CoachProxy**, a commercial hardware product years ahead of its time. His later open-sourcing of the project provided the RV and open-source communities with invaluable insight into bridging industrial RV-C networks to consumer devices.
 

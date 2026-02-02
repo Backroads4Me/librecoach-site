@@ -34,11 +34,11 @@ LibreCoach is a community-driven open source project. It started as a personal p
 
 ### How can I support the project?
 
-- <a href="https://github.com/sponsors/Backroads4me" target="_blank" rel="noopener noreferrer">**GitHub Sponsors**</a> — Monthly support
+- <a href="https://github.com/sponsors/backroads4me" target="_blank" rel="noopener noreferrer">**GitHub Sponsors**</a> — Monthly support
 
-- <a href="https://buymeacoffee.com/Backroads4me" target="_blank" rel="noopener noreferrer">**Buy Me a Coffee**</a> — One-time donation
+- <a href="https://buymeacoffee.com/backroads4me" target="_blank" rel="noopener noreferrer">**Buy Me a Coffee**</a> — One-time donation
 
-- **Contribute** — Code, documentation, testing, or helping others on the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a>
+- **Contribute** — Code, documentation, testing, or helping others on the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">forum</a>
 
 ## Compatibility
 
@@ -87,16 +87,16 @@ Your RV continues to function normally using its original physical controls. Lib
 
 ### Where can I get support?
 
-- <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">**Community Forum**</a> — Best place for questions and discussion
+- <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">**Community Forum**</a> — Best place for questions and discussion
 
-- <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">**GitHub Issues**</a> — For bug reports and feature requests
+- <a href="https://github.com/backroads4me" target="_blank" rel="noopener noreferrer">**GitHub Issues**</a> — For bug reports and feature requests
 - [**Troubleshooting Guide**](/support/troubleshooting/) — Solutions to common problems
 
 ### I found a bug. How do I report it?
 
-1.  Check the <a href="https://forum.LibreCoach.com" target="_blank" rel="noopener noreferrer">forum</a> to see if others have the same issue
+1.  Check the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">forum</a> to see if others have the same issue
 
-2.  If it's a new bug, open an issue on <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">GitHub</a> with:
+2.  If it's a new bug, open an issue on <a href="https://github.com/backroads4me" target="_blank" rel="noopener noreferrer">GitHub</a> with:
     - Your RV make/model/year
     - Hardware details (Pi model, CAN HAT)
     - Steps to reproduce the issue

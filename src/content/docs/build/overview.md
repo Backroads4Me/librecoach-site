@@ -8,9 +8,7 @@ sidebar:
 draft: false
 ---
 
-## Overview
-
-This path involves:
+The DIY Build path involves:
 
 1. Choosing and purchasing the components
 2. Assembling the hardware

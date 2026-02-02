@@ -4,7 +4,7 @@ title: Tailscale VPN
 description: Secure remote access to your LibreCoach system from anywhere using Tailscale VPN without port forwarding.
 sidebar:
   order: 4
-draft: true
+draft: false
 ---
 
 Tailscale creates a secure private network between your devices, allowing you to access your LibreCoach system from anywhere—without exposing it to the public internet or configuring port forwarding.
@@ -42,14 +42,15 @@ authkey: "tskey-auth-xxxxx-xxxxxxxxxxxxxxxxx"
 ```
 
 To get an auth key:
+
 1. Log into <a href="https://login.tailscale.com/admin/settings/keys" target="_blank" rel="noopener noreferrer">Tailscale Admin Console</a>
 2. Click **Generate auth key**
 3. Enable **Reusable** and **Ephemeral** (optional)
 4. Copy the key
 
-3. Click **Save**
-4. Go to **Info** tab and click **Start**
-5. Enable **Start on boot**
+5. Click **Save**
+6. Go to **Info** tab and click **Start**
+7. Enable **Start on boot**
 
 ### Verify Connection
 
@@ -74,6 +75,7 @@ To get an auth key:
 ### Home Assistant Companion App
 
 Update the app to use your Tailscale IP:
+
 1. Open the HA Companion app
 2. Go to **Settings** > **Companion App** > **Server**
 3. Add your Tailscale URL as an **External URL**: `http://100.x.x.x:8123`

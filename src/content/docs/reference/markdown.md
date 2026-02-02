@@ -44,7 +44,7 @@ Standard Markdown text formatting works as expected:
 
 ### Links
 
-External links: <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">LibreCoach GitHub</a>
+External links: <a href="https://github.com/backroads4me" target="_blank" rel="noopener noreferrer">LibreCoach GitHub</a>
 
 Internal links: [See the Getting Started guide](/start-here/what-is-librecoach/)
 
@@ -569,7 +569,7 @@ These options are for advanced users only:
 
 *Open-source RV automation*
 
-<a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://librecoach.io" target="_blank" rel="noopener noreferrer">Documentation</a>
+<a href="https://github.com/backroads4me" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://librecoach.io" target="_blank" rel="noopener noreferrer">Documentation</a>
 
 </div>
 

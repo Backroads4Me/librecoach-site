@@ -5,6 +5,7 @@ description: Best practices for naming Home Assistant entities so dashboards, vo
 sidebar:
   order: 2
   label: Renaming Entities
+draft: false
 ---
 
 After [identifying your devices](/configuration/identify-devices/), renaming them with meaningful names makes your system much easier to use. Good entity names improve dashboard usability, voice control accuracy, and automation readability.
@@ -14,6 +15,7 @@ After [identifying your devices](/configuration/identify-devices/), renaming the
 ### Voice Control
 
 With proper naming, you can say:
+
 - "Turn on the patio light" instead of "Turn on switch 47"
 - "Close the bedroom shade" instead of "Close cover 12"
 - "What's the fresh water level?" instead of "What's sensor 3?"
@@ -21,6 +23,7 @@ With proper naming, you can say:
 ### Dashboard Clarity
 
 Good names appear in:
+
 - Entity cards and buttons
 - History graphs
 - Logbook entries
@@ -29,6 +32,7 @@ Good names appear in:
 ### Automation Readability
 
 Compare these automation triggers:
+
 ```yaml
 # Hard to understand
 trigger:
@@ -45,37 +49,37 @@ trigger:
 
 Use this pattern: `{location}_{device_type}`
 
-| Device Type | Example Name | Entity ID |
-|-------------|--------------|-----------|
-| Light | Galley Overhead | `light.galley_overhead` |
-| Light | Bedroom Reading | `light.bedroom_reading` |
-| Shade | Living Room Window | `cover.living_room_window` |
-| Lock | Entry Door | `lock.entry_door` |
-| Tank | Fresh Water | `sensor.fresh_water_tank` |
+| Device Type | Example Name       | Entity ID                  |
+| ----------- | ------------------ | -------------------------- |
+| Light       | Galley Overhead    | `light.galley_overhead`    |
+| Light       | Bedroom Reading    | `light.bedroom_reading`    |
+| Shade       | Living Room Window | `cover.living_room_window` |
+| Lock        | Entry Door         | `lock.entry_door`          |
+| Tank        | Fresh Water        | `sensor.fresh_water_tank`  |
 
 ### Location Prefixes
 
 Consistent location prefixes help organize entities:
 
-| Location | Prefix | Examples |
-|----------|--------|----------|
-| Galley/Kitchen | `galley_` | `galley_overhead`, `galley_accent` |
-| Living Room | `living_` | `living_ceiling`, `living_shade` |
-| Bedroom | `bedroom_` | `bedroom_main`, `bedroom_reading` |
-| Bathroom | `bath_` | `bath_vanity`, `bath_exhaust` |
-| Exterior | `exterior_` | `exterior_patio`, `exterior_awning` |
-| Cockpit | `cockpit_` | `cockpit_dash`, `cockpit_overhead` |
+| Location       | Prefix      | Examples                            |
+| -------------- | ----------- | ----------------------------------- |
+| Galley/Kitchen | `galley_`   | `galley_overhead`, `galley_accent`  |
+| Living Room    | `living_`   | `living_ceiling`, `living_shade`    |
+| Bedroom        | `bedroom_`  | `bedroom_main`, `bedroom_reading`   |
+| Bathroom       | `bath_`     | `bath_vanity`, `bath_exhaust`       |
+| Exterior       | `exterior_` | `exterior_patio`, `exterior_awning` |
+| Cockpit        | `cockpit_`  | `cockpit_dash`, `cockpit_overhead`  |
 
 ### Device Type Suffixes
 
 For clarity, add descriptive suffixes:
 
-| Type | Suffix Examples |
-|------|-----------------|
+| Type   | Suffix Examples                             |
+| ------ | ------------------------------------------- |
 | Lights | `_overhead`, `_accent`, `_reading`, `_task` |
-| Shades | `_shade`, `_blind` |
-| Vents | `_vent`, `_fan` |
-| Tanks | `_tank` |
+| Shades | `_shade`, `_blind`                          |
+| Vents  | `_vent`, `_fan`                             |
+| Tanks  | `_tank`                                     |
 
 ## How to Rename Entities
 
@@ -116,6 +120,7 @@ cover.shade_module_1_instance_3:
 ```
 
 Then add to `configuration.yaml`:
+
 ```yaml title="configuration.yaml"
 homeassistant:
   customize: !include customize.yaml
@@ -168,23 +173,24 @@ If you use Alexa or Google Assistant, follow these tips:
 
 ### Voice-Friendly Examples
 
-| Bad Name | Better Name |
-|----------|-------------|
-| SW_MOD_1_47 | Patio Light |
-| Bdrm Rdng Lt | Bedroom Reading Light |
-| Ext. Awning LED Strip Zone 2 | Awning Light |
+| Bad Name                     | Better Name           |
+| ---------------------------- | --------------------- |
+| SW_MOD_1_47                  | Patio Light           |
+| Bdrm Rdng Lt                 | Bedroom Reading Light |
+| Ext. Awning LED Strip Zone 2 | Awning Light          |
 
 ## Creating a Naming Spreadsheet
 
 Before renaming, create a mapping document:
 
-| Physical Control | Original Entity ID | New Name | Area |
-|------------------|-------------------|----------|------|
-| Panel switch #3 | `light.switch_5` | Galley Overhead | Galley |
-| Panel switch #7 | `light.switch_12` | Bedroom Main | Bedroom |
-| Shade by couch | `cover.shade_3` | Living Shade | Living Room |
+| Physical Control | Original Entity ID | New Name        | Area        |
+| ---------------- | ------------------ | --------------- | ----------- |
+| Panel switch #3  | `light.switch_5`   | Galley Overhead | Galley      |
+| Panel switch #7  | `light.switch_12`  | Bedroom Main    | Bedroom     |
+| Shade by couch   | `cover.shade_3`    | Living Shade    | Living Room |
 
 This helps you:
+
 - Track what you've renamed
 - Maintain consistency
 - Share your configuration with others
@@ -214,5 +220,5 @@ This helps you:
 
 With your entities properly named, continue to:
 
-- [Create custom dashboards](/user-guide/dashboards/) - Build your control interface
-- [Set up automations](/user-guide/automation/) - Create smart behaviors
+- [Create custom dashboards](/configuration/dashboards/) - Build your control interface
+- [Set up automations](/configuration/automation/) - Create smart behaviors

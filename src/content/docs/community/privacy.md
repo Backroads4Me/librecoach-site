@@ -34,4 +34,4 @@ This documentation site may collect anonymous, aggregate usage data (such as pag
 
 ## Contact
 
-If you have questions about this policy, please open an issue on our [GitHub repository](https://github.com/Backroads4Me).
+If you have questions about this policy, please open an issue on our [GitHub repository](https://github.com/backroads4me).
