@@ -11,7 +11,7 @@ LibreCoach was built from the ground up, designed entirely in-house, yet it stan
 
 ## The Pioneer: CoachProxy
 
-LibreCoach was developed independently but draws inspiration from the ideas behind Michael J. Kidd’s headless RV-C bridge.
+LibreCoach was developed independently but draws inspiration from the ideas behind Michael J. Kidd’s CoachProxy project.
 
 **Michael J. Kidd** (known as `linuxkidd` in the community) created **CoachProxy**, a commercial hardware product years ahead of its time. His later open-sourcing of the project provided the RV and open-source communities with invaluable insight into bridging industrial RV-C networks to consumer devices.
 
@@ -34,25 +34,12 @@ We are indebted to the thousands of contributors who have made Home Assistant th
 
 - <a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer">Home Assistant</a>
 
-## Essential Tools
+## Essential Add-ons
 
-LibreCoach integrates several open-source projects to create a seamless RV automation experience. We recommend and rely on these excellent tools:
-
-### Required Core
+LibreCoach integrates several open-source Home Assistant add-ons to create a seamless RV automation experience. We recommend and rely on these excellent tools:
 
 - **<a href="https://mosquitto.org/" target="_blank" rel="noopener noreferrer">Mosquitto</a>:** The lightweight MQTT broker that acts as the "nervous system," passing messages between the RV-C bus and Home Assistant.
 - **<a href="https://nodered.org/" target="_blank" rel="noopener noreferrer">Node-RED</a>:** The visual programming tool that handles the complex logic of translating raw industrial CAN messages into smart home entities.
-
-### Recommended Add-ons
-
-While not strictly required for the core bridge, we recommend a suite of other excellent Home Assistant add-ons to enhance the LibreCoach experience:
-
-- **[Tailscale](/advanced-setup/tailscale/)** - Secure remote access without port forwarding
-- **[File Editor](/advanced-setup/file-editor/)** - Edit configuration files from your browser
-- **[Terminal & SSH](/advanced-setup/terminal-ssh/)** - Command-line access for advanced users
-- **[Google Drive Backup](/advanced-setup/backups/)** - Automatic cloud backups
-
-See our [Advanced Setup](/advanced-setup/) section for detailed guides on these and other recommended add-ons.
 
 ---
 
