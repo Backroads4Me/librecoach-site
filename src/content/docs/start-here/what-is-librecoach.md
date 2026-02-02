@@ -127,8 +127,6 @@ Build the hardware yourself using standard parts from Amazon or AliExpress. This
 
 We are gauging interest in a small batch of pre-assembled, "plug-and-play" units. These would be hand-built, tested, and pre-flashed with the latest software.
 
-**Estimated Price**: TBD
-
 **Interested?**
 I am currently collecting names to see if there is enough demand to build a batch.
 

@@ -4,7 +4,6 @@ title: HACS
 description: Access thousands of community-built integrations and frontend cards.
 sidebar:
   order: 7
-  label: HACS
 draft: false
 ---
 

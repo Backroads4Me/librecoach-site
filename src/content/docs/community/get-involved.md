@@ -7,39 +7,45 @@ sidebar:
 draft: false
 ---
 
-LibreCoach is an open-source project. We are building the smart RV system we always wanted—extensible, private, and repairable.
+LibreCoach is an open-source project that provides a smart RV system you can extend, adapt, and repair. While it’s currently maintained by a single developer, the goal is to grow a community of contributors who can improve the system, share ideas, and help others get the most out of their RVs.
 
 ## Ways to Contribute (No Code Required!)
 
-You don't need to know Python or JavaScript to help.
+You don’t need to be a programmer to make a meaningful contribution. Here are some ways you can help:
 
-- **Documentation**: Find typos, clarify confusing steps, or add missing sections.
-- **Testing**: Test new releases on your specific hardware and report issues.
-- **Support**: Help other users in the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">Community Forum</a>.
-- **Showcases**: Share your dashboard screenshots and automation ideas.
-- **Sponsor**: <a href="https://buymeacoffee.com/backroads4me" target="_blank" rel="noopener noreferrer">Buy us a coffee</a> or become a <a href="https://github.com/sponsors/backroads4me" target="_blank" rel="noopener noreferrer">GitHub Sponsor</a>.
+- **Documentation**: Spot typos, clarify confusing steps, or add missing sections.
+- **Testing**: Try new releases on your hardware and report issues.
+- **Support**: Answer questions in the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">Community Forum</a>.
+- **Showcases**: Share your dashboard screenshots, automation ideas, and setup tips.
+
+---
 
 ## How You Can Help
 
 ### 🚐 RV Enthusiasts
-- **Share Your Dashboard**: Your creativity inspires others. Show off your layout!
-- **Write Tutorials**: "How I set up my Starlink with LibreCoach" is a goldmine for others.
-- **Support**: Answer questions in the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">Forum</a>. You were a beginner once, too.
 
-### 🛠️ Makers & Hardware Hackers
-- **Case Design**: Design and print 3D cases.
-- **Port Hunters**: Document where the RV-C port is located on your specific RV model.
-- **Testing**: Verify which CAN HATs work best and test on different RV manufacturers.
+- **Share Your Dashboard**: Show off your layout! Screenshots and explanations of your dashboard help inspire and guide other users.
+- **Write Tutorials**: Document your setup, integrations, or automations. Example: “How I integrated Starlink with LibreCoach.”
+- **Support Others**: Answer questions in the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">Forum</a>. Your experience is valuable!
+- **Port Hunters**: Document where the RV-C port is located on your RV model — helps others locate it more quickly.
+
+### 🛠️ Makers
+
+- **Hardware Compatibility**: Help us build a "Verified Hardware" list. If you've used a specific CAN HAT, sensor, or other device that worked, let us know. Same for any that didn't work!
+- **Custom Builds**: Share your unique configurations or experimental solutions to help others with non-standard RVs.
+- **Installation Guides**: Help us document the "gotchas" of physical installations in different RVs.
 
 ### 👩‍💻 Developers
-- **Node-RED**: Share your flows! Create complex automations and export them for others.
-- **Frontend**: Help improve this documentation site.
 
-## Repository Structure
+Help build LibreCoach from the ground up! The project is brand new, and your ideas and skills will directly shape its direction and impact.
 
-- **<a href="https://github.com/backroads4me/libre-coach-addon" target="_blank" rel="noopener noreferrer">LibreCoach Add-on</a>**: The main Home Assistant Add-on repository. Contains the Dockerfile, bash scripts, and configuration logic.
-- **<a href="https://github.com/backroads4me/libre-coach-site" target="_blank" rel="noopener noreferrer">LibreCoach Site</a>**: This documentation website (Astro Starlight).
-- **<a href="https://github.com/backroads4me/libre-coach-node-red" target="_blank" rel="noopener noreferrer">LibreCoach Node-RED</a>**: The core logic flows and decoding libraries.
+If you see something that could be improved, want to propose a new feature, or just like tinkering with open-source RV tech, join the conversation.
+
+- **<a href="https://github.com/Backroads4Me/ha-addons" target="_blank" rel="noopener noreferrer">LibreCoach Add-on</a>**: The main Home Assistant Add-on repository — the heart of the system.
+- **<a href="https://github.com/backroads4me/libre-coach-node-red" target="_blank" rel="noopener noreferrer">LibreCoach Node-RED</a>**: Core logic flows and decoding libraries used by the add-on.
+- **<a href="https://github.com/backroads4me/libre-coach-site" target="_blank" rel="noopener noreferrer">LibreCoach Site</a>**: Documentation website built with Astro Starlight.
+
+---
 
 ## Support the Project
 
@@ -50,11 +56,7 @@ If you find LibreCoach valuable and want to support its development (and coffee 
 
 Your support helps cover test hardware and infrastructure costs.
 
-## Getting Started
-
-1. **Join the Forum**: Introduce yourself and what you are driving at <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">forum.librecoach.com</a>.
-2. **Fix a Typo**: Seriously. If you see a mistake in these docs, click "Edit this page" at the bottom. That is a valuable contribution!
-3. **Browse GitHub**: Look for issues tagged `good first issue` in our <a href="https://github.com/backroads4me" target="_blank" rel="noopener noreferrer">repositories</a>.
+---
 
 ## Code of Conduct
 

@@ -1,38 +1,39 @@
 ---
 filename: rvc
-title: Learn About RV-C
-description: Learn about RV-C networks, supported device types, message structure, termination requirements, and physical connections.
+title: About RV-C
+description: Overview of RV-C networks, messages, and compatible devices.
 sidebar:
   order: 2
 draft: false
 ---
 
-RV-C (Recreational Vehicle Controller Area Network) is the communication protocol used in modern RVs to connect and control various systems.
+RV-C (Recreational Vehicle Controller Area Network) is the communication protocol used in modern RVs to connect and control multiple systems over a single network.
 
 ## What is RV-C?
 
-RV-C is based on the CAN (Controller Area Network) protocol, originally developed for automotive applications. It allows devices in your RV to communicate with each other over a simple two-wire network.
+RV-C is based on the **Controller Area Network (CAN)** protocol, a proven network technology originally developed for automotive systems. It operates as a peer‑to‑peer bus where all nodes send and receive messages over two shared wires.
 
 ### Why RV-C?
 
-Before RV-C, each device in an RV required separate wiring to control panels. With RV-C:
+RV-C offers several advantages over traditional hard‑wired control systems:
 
-- **Simpler wiring**: Two wires can connect dozens of devices
-- **Bi-directional communication**: Devices can send status and receive commands
-- **Standardization**: Devices from different manufacturers can work together
-- **Scalability**: Easy to add new devices without rewiring
+- **Simpler wiring:** A two‑wire bus replaces complex point‑to‑point wiring.
+- **Two‑way communication:** Devices can both report status and receive control commands.
+- **Interoperability:** Standardized messages allow devices from different manufacturers to work together.
+- **Scalability:** Devices can be added to the bus without major rewiring.
 
 ## RV-C Network Topology
 
+RV-C uses a **linear bus topology** with a twisted pair of wires: CAN‑H and CAN‑L. All devices connect along this main trunk, and the bus is terminated at each end to prevent electrical reflections.
+
 ```
-                         CAN Bus (Two Wires: CAN-H and CAN-L)
-    ┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐
-    │             │             │             │             │             │
-[Controller] [Lights]    [Thermostat]  [Tank]     [Battery]  [More...]
-  Panel                                  Sensor     Monitor
+                       CAN Bus (Two Wires: CAN-H and CAN-L)
+   ┌─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐
+[Controller] [Lights] [Thermostat] [Tank Sensor] [Battery Monitor] [More...]
+
 ```
 
-All devices connect to the same two-wire bus. Messages are broadcast to all devices, but only the intended recipient acts on them.
+_Note:_ Messages are broadcast on the bus, and devices act only on those addressed to them.
 
 ## How RV-C Messages Work
 
@@ -54,134 +55,21 @@ DGN: DC_DIMMER_COMMAND_2
 Data: Instance=5, Status=ON, Brightness=100%
 ```
 
-## Supported Device Types
+## Device Types
 
-RV-C supports a wide variety of device types. LibreCoach can interface with most of them:
+The RV-C protocol is designed to standardize communication across nearly every electronic system found in a modern coach. The following categories are supported by the RV-C specification:
 
-### Lighting
+- **💡 Lighting & Electrical**: Controls for dimmer modules, RGB lighting, and binary (on/off) relay circuits.
+- **🌡️ Climate Control**: Communication between thermostats, multi-stage furnaces, heat pumps, AC units, and variable-speed fans.
+- **⚡ Power Management**: Real-time data from battery monitors, inverters, converters, and solar controllers, as well as command protocols for auto-generator start (AGS) modules.
+- **💧 Water & Sanitation**: Monitoring for fresh, gray, and black water tank levels, along with control for water pumps and sophisticated hydronic heating systems.
+- **🚐 Motorized Systems**: Operation and status reporting for slide-outs, power awnings, leveling jacks, and motorized window shades.
+- **🔒 Chassis & Security**: Integration with door locks, window sensors, and chassis-specific data such as odometer readings or engine temperatures.
 
-- DC dimmers
-- On/off switches
-- Zone controllers
-- RGB LED strips
-
-### Climate
-
-- Thermostats
-- Heat pumps
-- Furnaces
-- Fans and vents
-
-### Window Treatments
-
-- Shades
-- Blinds
-- Awnings
-
-### Security
-
-- Door locks
-- Sensors
-
-### Water & Sanitation
-
-- Tank level sensors
-- Pumps
-- Water heaters
-
-### Power Systems
-
-- Battery monitors
-- Chargers/inverters
-- Generators
-- Solar charge controllers
-- AC/DC load centers
-- Transfer switches
-
-### Entertainment
-
-- Audio systems (basic control)
-
-## RV-C Termination
-
-CAN networks require proper termination to function correctly. The bus should have a 120Ω resistor at each end of the network.
-
-### Waveshare CAN HAT Configuration
-
-The Waveshare CAN HAT has jumpers to enable/disable 120Ω termination:
-
-- **If your RV already has termination**: Remove the jumpers (no termination)
-- **If your RV needs termination**: Install one jumper (120Ω resistor)
-
-Most modern RVs already have termination at the factory control panel, so you typically **don't need** to enable termination on the CAN HAT.
-
-:::warning
-Incorrect termination can cause:
-
-- Intermittent communication
-- Missing messages
-- Complete communication failure
-
-Consult your RV's documentation or an RV technician if unsure.
-:::
-
-## Connecting to Your RV
-
-### Physical Connection
-
-RV-C uses standard 4-pin or 6-pin connectors (often RJ-11 or RJ-12 style, but check your RV).
-
-The two critical wires are:
-
-- **CAN-H** (CAN High)
-- **CAN-L** (CAN Low)
-
-Some RVs also provide power on other pins, but LibreCoach doesn't use those—it's powered separately.
-
-### Finding the Connection Point
-
-Common locations:
-
-- Behind the factory control panel
-- In the basement utility area
-- Near the main breaker panel
-- Under a dinette seat (sometimes)
-
-Look for a connector labeled "CAN", "RV-C", or a spare port on your existing control panel.
-
-## Bit Rate
-
-RV-C networks typically operate at **250 kbps** (250,000 bits per second). This is the default in LibreCoach.
-
-Some older RVs may use 125 kbps. If devices aren't being discovered, try changing the bitrate in the CAN-to-MQTT Bridge configuration.
-
-## Troubleshooting RV-C Issues
-
-### No Devices Discovered
-
-- **Check physical connection**: Verify CAN cable is properly connected
-- **Check termination**: Ensure jumpers are configured correctly
-- **Check bitrate**: Try 250k vs. 125k
-- **Check power**: Ensure your RV's 12V system is on
-- **Check bus activity**: Use Node-RED debug to see if any messages are received
-
-### Intermittent Communication
-
-- **Poor connection**: Check cable connections and crimps
-- **Incorrect termination**: Add or remove termination as needed
-- **Electrical noise**: Route CAN cable away from high-power wires
-- **Bad cable**: Replace with a quality shielded cable
-
-### Device Works Physically But Not in LibreCoach
-
-- **Not RV-C compliant**: Some RV devices use proprietary protocols
-- **Unsupported DGN**: The device may use a message type LibreCoach doesn't yet support
-- **Wrong instance number**: The device may be configured with an unusual instance ID
-
-Report unsupported devices on the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">forum</a> to help improve LibreCoach!
+---
 
 ## Learn More
 
-- <a href="https://www.rv-c.com/" target="_blank" rel="noopener noreferrer">RV-C Official Specification</a> (technical, for advanced users)
+- <a href="https://www.rvia.org/rv-c/rv-c-specification-document" target="_blank" rel="noopener noreferrer">RV-C Official Specification</a> (technical, for advanced users)
 - [System Architecture](/reference/system-architecture/) - How LibreCoach processes RV-C messages
 - <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">Forum</a> - Ask questions and share experiences

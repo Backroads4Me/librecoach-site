@@ -8,46 +8,35 @@ sidebar:
 draft: false
 ---
 
-Once you've [identified your devices](/configuration/identify-devices/), it's time to create beautiful, functional dashboards tailored to your RV's layout.
+Once you've [identified your devices](/configuration/identify-devices/), it's time to create beautiful dashboards tailored to your RV's layout.
 
-## Dashboard Gallery
+### Lighting
 
-Check out examples from the community:
+![Lighting dashboard](../../../assets/dashboards/librecoach/view_0.webp)
 
-### Lighting Dashboard
+### Shades
 
-![Lighting dashboard](../../../assets/dashboards/librecoach/view_0.png)
-_Lighting controls organized by room and zone_
+![Shades dashboard](../../../assets/dashboards/librecoach/view_1.webp)
 
-### Shades Dashboard
+### Locks
 
-![Shades dashboard](../../../assets/dashboards/librecoach/view_1.png)
-_Shade controls for all windows and skylights_
+![Locks dashboard](../../../assets/dashboards/librecoach/view_2.webp)
 
-### Locks Dashboard
+### Water and Tanks
 
-![Locks dashboard](../../../assets/dashboards/librecoach/view_2.png)
-_Door locks and security controls_
+![Water and tanks dashboard](../../../assets/dashboards/librecoach/view_4.webp)
 
-### Floor Heat Dashboard
+### Batteries
 
-![Floor heat dashboard](../../../assets/dashboards/librecoach/view_3.png)
-_Floor heating zones and temperature control_
+![Battery dashboard](../../../assets/dashboards/librecoach/view_5.webp)
 
-### Water and Tanks Dashboard
+### Energy Flow
 
-![Water and tanks dashboard](../../../assets/dashboards/librecoach/view_4.png)
-_Tank levels and water system controls_
+![Energy flow dashboard](../../../assets/dashboards/librecoach/view_6.webp)
 
-### Battery Dashboard
+### Climate
 
-![Battery dashboard](../../../assets/dashboards/librecoach/view_5.png)
-_Battery monitoring and state of charge_
-
-### Energy Flow Dashboard
-
-![Energy flow dashboard](../../../assets/dashboards/librecoach/view_6.png)
-_Real-time energy flow visualization_
+![Floor heat dashboard](../../../assets/dashboards/librecoach/view_3.webp)
 
 ## Creating Your First Dashboard
 
@@ -85,105 +74,6 @@ Create tabs for different areas:
 ### Step 4: Add Cards
 
 For each view, add cards to display and control your devices.
-
-#### Common Card Types
-
-**Entities Card** - Best for lists of related controls:
-
-```yaml
-type: entities
-title: Living Area Lights
-entities:
-  - entity: switch.overhead_lights
-    name: Overhead
-  - entity: switch.reading_lights
-    name: Reading Lights
-  - entity: switch.accent_lights
-    name: Accent
-```
-
-**Grid Card** - Best for button layouts:
-
-```yaml
-type: grid
-columns: 2
-cards:
-  - type: button
-    entity: switch.patio_light
-    name: Patio
-  - type: button
-    entity: switch.awning_light
-    name: Awning
-```
-
-**Gauge Card** - Best for tank levels:
-
-```yaml
-type: gauge
-entity: sensor.tank_fresh_water
-min: 0
-max: 100
-name: Fresh Water
-```
-
-**Energy Distribution Card** - For power flow:
-
-```yaml
-type: energy-distribution
-entities:
-  - entity: sensor.solar_power
-  - entity: sensor.battery_power
-  - entity: sensor.load_power
-```
-
-### Example: Lighting Dashboard
-
-```yaml
-views:
-  - title: Lighting
-    path: lighting
-    cards:
-      - type: vertical-stack
-        cards:
-          - type: markdown
-            content: "## Interior Lights"
-
-          - type: grid
-            columns: 3
-            cards:
-              - type: button
-                entity: switch.galley_lights
-                name: Galley
-                icon: mdi:silverware-fork-knife
-
-              - type: button
-                entity: switch.living_lights
-                name: Living
-                icon: mdi:sofa
-
-              - type: button
-                entity: switch.bedroom_lights
-                name: Bedroom
-                icon: mdi:bed
-
-      - type: vertical-stack
-        cards:
-          - type: markdown
-            content: "## Exterior Lights"
-
-          - type: grid
-            columns: 2
-            cards:
-              - type: button
-                entity: switch.patio_light
-                name: Patio
-                icon: mdi:outdoor-lamp
-
-              - type: button
-                entity: switch.entry_light
-                name: Entry
-                icon: mdi:door
-```
 
 ## Using YAML vs. Visual Editor
 
@@ -227,53 +117,9 @@ To use a dashboard shared by the community:
 7. Paste the YAML configuration
 8. Click **Save**
 
-:::warning Entity IDs Must Match
-When importing a dashboard from someone else, you'll need to update the entity IDs to match your system. For example, if their dashboard has `switch.galley_light` but yours is `switch.kitchen_light`, you'll need to find and replace those entity IDs.
+:::note[Entity IDs Must Match]
+When importing a dashboard from someone else, you'll need to update the entity IDs to match your system. For example, if their dashboard has `light.switch_12` assigned to Kitchen Lights but your Kitchen Lights are on `light.switch_33`, you'll need to find and replace those entity IDs.
 :::
-
-## Advanced Techniques
-
-### Custom Button Row Card
-
-Install the <a href="https://github.com/custom-cards/button-card" target="_blank" rel="noopener noreferrer">Button Card</a> from HACS for highly customizable buttons.
-
-### Picture Elements Card
-
-Use images of your actual RV layout with clickable controls overlaid on top:
-
-```yaml
-type: picture-elements
-image: /local/rv-floorplan.png
-elements:
-  - type: state-icon
-    entity: switch.galley_lights
-    tap_action:
-      action: toggle
-    style:
-      top: 45%
-      left: 30%
-```
-
-### Conditional Cards
-
-Show cards only when relevant:
-
-```yaml
-type: conditional
-conditions:
-  - entity: binary_sensor.generator_running
-    state: "on"
-card:
-  type: entities
-  title: Generator Status
-  entities:
-    - sensor.generator_runtime
-    - sensor.generator_load
-```
-
-### Custom Themes
-
-Apply custom color schemes to match your RV or personal style. See <a href="https://www.home-assistant.io/integrations/frontend/#themes" target="_blank" rel="noopener noreferrer">Home Assistant Themes</a> for more info.
 
 ## Community Dashboard Sharing
 
@@ -305,29 +151,3 @@ Help grow the community by sharing your dashboard:
 3. **Use icons**: Visual icons are faster to recognize than text
 4. **Test on mobile**: Most RV owners use tablets or phones
 5. **Iterate**: Your first dashboard won't be perfect—refine as you use it
-6. **Match your workflow**: Design around how you actually use your RV
-
-## Troubleshooting
-
-### Entity not available
-
-- Verify the entity exists in Home Assistant
-- Check if the device is online and reporting
-- Ensure spelling is correct (entity IDs are case-sensitive)
-
-### Card won't display
-
-- Check YAML syntax for errors
-- Ensure required integrations are installed
-- Check browser console for errors (F12)
-
-### Dashboard is slow
-
-- Reduce the number of cards/entities per view
-- Remove auto-updating cards for devices you rarely check
-- Use conditional cards to hide unnecessary elements
-
-## What's Next?
-
-- Set up [automations](/configuration/automation/) to make your RV smarter
-- Share your dashboard on the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">forum</a>

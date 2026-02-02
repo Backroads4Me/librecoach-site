@@ -1,103 +1,39 @@
 ---
 filename: glossary
 title: Glossary
-description: Key terms and definitions for RV-C, CAN bus, and Home Assistant.
+description: Key terms and definitions for RV-C, CAN bus, and Home Assistant as used in LibreCoach.
 sidebar:
   order: 3
 draft: false
 ---
 
-### CAN Bus (Controller Area Network)
-The physical wires (Twisted Pair: Yellow/Green) that carry data throughout your RV. 
-*   **Trunk**: The main long cable running front-to-back.
-*   **Drop**: A shorter cable branching off the trunk to a specific device.
+### RV-C & CAN Bus
 
-### CAN HAT
-"Hardware Attached on Top". A circuit board that sits on the Raspberry Pi pins to give it CAN bus capabilities.
+- **RV-C (Recreational Vehicle-CAN)**: The industry-standard "language" used by modern RVs. It defines what the messages actually mean.
+- **CAN (Controller Area Network)**: The underlying vehicle wiring and signaling protocol. It defines how messages are transmitted.
+- **Trunk**: The main "backbone" cable running the length of your RV.
+- **Drop**: A short cable connecting an individual device or node to the main trunk.
+- **DGN (Data Group Number)**: The primary identifier for a message type (e.g., `1FFD1` identifies a Tank Level message).
+- **Instance**: A number used to distinguish between identical devices. If you have two fresh water tanks, they share a DGN but use Instance `0` and `1`.
+- **Data Payload**: The actual values within a message (e.g., "75% full"), typically organized into 8 bytes of data.
 
-### Entity
-A specific device or sensor in Home Assistant.
-*   `light.bedroom` is an entity.
-*   `sensor.fresh_water` is an entity.
+### Home Assistant
 
-### GPIO (General Purpose Input/Output)
-The physical pins on the Raspberry Pi.
+- **Home Assistant (HA)**: The open-source smart home platform that provides the user interface and automation engine for LibreCoach.
+- **HAOS (Home Assistant Operating System)**: A purpose-built, "turnkey" operating system designed to make Home Assistant feel like a dedicated appliance rather than a complex computer project. It handles the difficult parts of system ownership—like security patches, driver updates, and database backups—automatically through a simple interface. For RVers, this provides a "set it and forget it" reliability that ensures your lights and sensors stay functional without needing to use a command line or manage individual Docker containers.
+- **Add-on**: A containerized service managed by Home Assistant (via Docker) used to extend functionality, such as LibreCoach, CAN to MQTT Bridge and Node-RED.
+- **Entity**: A single point of data or control in Home Assistant, such as `light.bedroom` or `sensor.fresh_water`.
+- **MQTT (Mosquitto)**: The lightweight messaging protocol LibreCoach uses to pass data between the CAN bridge, Node-RED, and Home Assistant.
+- **Dashboard / Lovelace**: The visual interface you use on your phone or tablet to control your RV.
+- **YAML**: The human-readable configuration language used to define settings within Home Assistant.
+- **Dashboard**: The "Display." This is the specific arrangement of buttons, gauges, and switches you interact with on your screen. You might have one "Dashboard" for your phone and a different, more detailed one for a wall-mounted tablet, both powered by Lovelace.
+- **Lovelace**: The "Framework." This is the underlying engine within Home Assistant that defines how data is rendered. It handles the logic of cards, themes, and views.
+- **Supervisor**: The "manager" inside HAOS that handles the heavy lifting—orchestrating updates, monitoring system health, and managing your Docker-based Add-ons.
 
-### Instance (or Source Address)
-The unique ID of a device. 
-*   If you have two water pumps, they use the same PGN (Status), but different Instances (Pump 1 vs Pump 2).
+### Hardware
 
-### Integration
-A piece of code that connects Home Assistant to a service or device. LibreCoach provides the integration between HA and your RV-C network.
-
-### Lovelace / Dashboard
-The User Interface of Home Assistant. Cards, buttons, and gauges live here.
-
-### MQTT (Message Queuing Telemetry Transport)
-The messaging protocol LibreCoach uses internally. 
-*   **Bridge**: Reads CAN bus -> Publishes MQTT.
-*   **Node-RED**: Listens to MQTT -> Updates Home Assistant.
-
-### PGN (Parameter Group Number)
-In RV-C, a PGN represents a specific message "Topic". 
-*   Example: `127501` is "Binary Status" (used for lights/switches).
-*   Example: `127505` is "Fluid Level" (used for tanks).
-
-### Raspberry Pi
-The credits-card sized computer that runs the whole system.
-
-### RV-C (Recreational Vehicle-CAN)
-The industry standard protocol used by modern RVs. It defines the "language" devices speak. Think of it as USB for your RV. It sits on top of the generic CAN bus hardware layer.
-
-### SPN (Suspect Parameter Number)
-Specific data fields within a PGN.
-*   If PGN is "Fluid Level", SPN might be "Level Percentage" or "Tank Capacity".
-
-### DHCP (Dynamic Host Configuration Protocol)
-A network management protocol used on IP networks where a DHCP server dynamically assigns an IP address and other network configuration parameters to each device on a network so they can communicate with other IP networks.
-
-### DGN (Data Group Number)
-The identifier in an RV-C message that tells devices *what* kind of data is being sent. 
-*   Example: `1FFF7` is "DC Source Status".
-*   LibreCoach uses the DGN to know how to decode the message (e.g. knowing that the first byte is voltage and the second is current).
-
-### HACS (Home Assistant Community Store)
-A third-party app store for Home Assistant. It allows you to easily install and update custom integrations, themes, and frontend cards that aren't included in the core Home Assistant installation.
-
-### HAT (Hardware Attached on Top)
-An add-on board for Raspberry Pi that sits on top of the GPIO pins. In LibreCoach, the CAN HAT provides the physical screw terminals to connect to the RV's wiring.
-
-### Mosquitto
-An open-source MQTT broker. It acts as the "post office" for LibreCoach.
-*   The **CAN Bridge** sends messages to Mosquitto.
-*   **Node-RED** picks them up from Mosquitto.
-*   Without it, the different parts of the software couldn't talk to each other.
-
-### NMEA 2000
-A marine communication standard also based on CAN bus. You will often see NMEA 2000 cables recommended for LibreCoach because they are high-quality, shielded, and perfect for RV-C networks.
-
-### NVMe (Non-Volatile Memory express)
-A type of fast storage drive. We recommend using an NVMe SSD instead of a MicroSD card because it is much faster and far more reliable, preventing the dreaded "SD card corruption" that often kills Raspberry Pis.
-
-### SPI (Serial Peripheral Interface)
-The internal communication method the Raspberry Pi uses to talk to the CAN HAT. You don't need to know how it works, but you'll see it mentioned in config files.
-
-### SSH (Secure Shell)
-A way to log into the Raspberry Pi's command line remotely from another computer. Used for advanced troubleshooting.
-
-### SSID (Service Set Identifier)
-Technical term for "Wi-Fi Network Name". When you scan for Wi-Fi, the list of names you see are SSIDs.
-
-### Static IP
-A fixed address for a device on your network. 
-*   Normally, routers assign random addresses (DHCP) that can change.
-*   A Static IP ensures your Pi is always at the same address (e.g., `192.168.1.50`), making it easier to find.
-
-### Tailscale
-A "zero-config" VPN that lets you access your RV from anywhere in the world securely, without needing to open ports on your router or pay for a cloud subscription.
-
-### Termination Resistor
-A 120-ohm resistor placed at *each end* of the CAN bus trunk. Essential for preventing signal reflections. If your network is "flaking out", check termination.
-
-### YAML
-"YAML Ain't Markup Language". The easy-to-read text format used for Home Assistant configuration files. It relies on indentation (spaces) to organize data.
+- **Raspberry Pi**: The small, high-performance computer that hosts LibreCoach and runs all software components.
+- **CAN HAT**: "Hardware Attached on Top." A specialized board for the Raspberry Pi that provides the physical connection to the RV-C bus.
+- **NVMe**: A fast, reliable SSD storage type recommended for use with the Raspberry Pi 5 to ensure system longevity over standard MicroSD cards.
+- **GPIO (General Purpose Input/Output)**: The physical pins on the Raspberry Pi used to interface with the CAN HAT and other sensors.
+- **SPI (Serial Peripheral Interface)**: The high-speed communication protocol the Pi uses to "talk" to the CAN HAT.

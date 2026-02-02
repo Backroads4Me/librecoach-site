@@ -455,10 +455,6 @@ librecoach:
 
 ![Raspberry Pi](https://www.raspberrypi.com/app/uploads/2022/02/COLOUR-Raspberry-Pi-Symbol-Registered.png)
 
-### HTML Image with Sizing
-
-<img src="../../../assets/logo.png" alt="LibreCoach Logo" width="200" />
-
 ---
 
 ## Blockquotes

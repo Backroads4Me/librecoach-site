@@ -3,7 +3,6 @@ title: About LibreCoach
 description: The mission and philosophy behind LibreCoach, the open-source RV automation project.
 sidebar:
   order: 1
-  label: About
 draft: false
 ---
 
