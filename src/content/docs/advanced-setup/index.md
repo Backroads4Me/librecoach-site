@@ -8,65 +8,38 @@ sidebar:
 draft: false
 ---
 
-## What's in This Section
-
-One of the primary benefits of LibreCoach is that the system is fully extensible and customizable. Once your LibreCoach system is running smoothly, you can extend it with additional add-ons and integrations. This section covers just a few of the more common enhancements that complement the core LibreCoach functionality.
-
-### Remote Access
-
-Access your RV from anywhere in the world:
-
-- **[Remote Access Overview](/advanced-setup/remote-access/)** - Compare options for accessing your RV remotely
-- **[Nabu Casa](/advanced-setup/nabu-casa/)** - Official HA cloud service for remote access, backups, and voice assistants (paid)
-- **[Tailscale VPN](/advanced-setup/tailscale/)** - Secure, remote access via VPN (free)
-
-### Backup & Recovery
-
-- **[Backup Strategies](/advanced-setup/backups/)** - Local and cloud backup solutions
-
-## Add-ons
-
-- **Add-ons** extend the functionality of LibreCoach by installing additional applications.
-- Visit <a href="https://www.home-assistant.io/addons/" target="_blank" rel="noopener">Add-ons</a> for official documentation.
-
-## Customizations (HACS)
-
-- **[HACS (Home Assistant Community Store)](/advanced-setup/hacs/)** - Access thousands of community-built integrations and frontend cards (e.g., Mushroom, Power Flow Card Plus).
-
-## Before You Begin
+One of the primary benefits of LibreCoach is that the system is fully extensible and customizable. Once your core system is running smoothly, you can extend it with additional capabilities. This section covers common enhancements that complement LibreCoach.
 
 :::note[Start Slow]
 Get comfortable with the core LibreCoach system before adding enhancements. Each add-on increases complexity and potential points of failure.
 :::
 
-### General Add-on Installation
+## Remote Access
 
-Most add-ons follow the same installation pattern:
+Access your RV from anywhere:
 
-1. Go to <a href="https://my.home-assistant.io/redirect/supervisor" class="my" target="_blank">Settings &gt; Add-ons</a>
-   [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/supervisor_store.svg)](https://my.home-assistant.io/redirect/supervisor_store/)
+- **[Remote Access Overview](/advanced-setup/remote-access/)** - Compare options for accessing your RV remotely
+- **[Nabu Casa](/advanced-setup/nabu-casa/)** - Official HA cloud service for remote access, backups, and voice assistants (paid)
+- **[Tailscale VPN](/advanced-setup/tailscale/)** - Secure, remote access via VPN (free)
 
-2. Search for the add-on name
-3. Click **Install**
-4. Configure settings on the **Configuration** tab
-5. Start the add-on
-6. Enable **Start on boot** if desired
+## Backups
 
-### Utilities
+Your LibreCoach setup reflects hours of work—dashboards, automations, and customizations. Backing it up ensures you can recover from hardware failures, updates, or mistakes.
 
-**Advanced SSH & Web Terminal** - Command-line access for advanced users
-[![Open in Home Assistant](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_ssh)
+- **[Backup Strategies](/advanced-setup/backups/)** - Local and cloud backup solutions
 
-**File Editor** - Edit configuration files from the browser
-[![Open in Home Assistant](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_configurator)
+## Add-ons
 
-**MQTT Explorer** - Debug and monitor MQTT traffic
-[![Open in Home Assistant](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=9cf1ea8f_mqtt_explorer)
+Add-ons extend LibreCoach by adding new features, integrations, or capabilities to enhance your setup.
 
+- **[Add-ons](/advanced-setup/addons/)** - Recommended add-ons for LibreCoach
 
-[![HACS](https://img.shields.io/badge/HACS-Visit%20HACS-blue)](https://hacs.xyz/)
+## HACS (Home Assistant Community Store)
 
+HACS provides access to thousands of community-created integrations, themes, and frontend enhancements to expand LibreCoach beyond the core features.
+
+- **[HACS](/advanced-setup/hacs/)** - Installation and recommended components
 
 ## Community Recommendations
 
-Have an add-on that works great with LibreCoach? Share it on the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">forum</a>!
+Have an add-on or integration that works great with LibreCoach? Share it on the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">forum</a>!

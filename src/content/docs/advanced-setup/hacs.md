@@ -1,9 +1,9 @@
 ---
 filename: hacs
-title: HACS (Home Assistant Community Store)
-description: Supercharge your LibreCoach with community-built integrations and frontend cards.
+title: HACS
+description: Access thousands of community-built integrations and frontend cards.
 sidebar:
-  order: 99
+  order: 7
   label: HACS
 draft: false
 ---
@@ -16,7 +16,7 @@ While Home Assistant provides official integrations for major devices, HACS allo
 
 ## Why Use HACS?
 
-- **Frontend Upgrades**: Install beautiful custom dashboards and cards (like Mushroom).
+- **Frontend Upgrades**: Install beautiful custom dashboards and cards (like <a href="https://github.com/piitaya/lovelace-mushroom" target="_blank" rel="noopener">Mushroom</a>).
 - **Custom Integrations**: Connect to devices that don't have official Home Assistant support yet.
 - **Easy Updates**: HACS handles downloading updates for these custom components with a single click.
 - **Discovery**: Browse and discover new ways to extend your RV's capabilities directly from your dashboard.
@@ -25,9 +25,7 @@ While Home Assistant provides official integrations for major devices, HACS allo
 
 We don't duplicate the installation instructions here because HACS is actively developed and the process can change.
 
-1.  Visit the official **[HACS Download & Installation Guide](https://hacs.xyz/docs/setup/download)**.
-2.  Follow the instructions for **Home Assistant OS** (since LibreCoach runs on HAOS).
-3.  Once installed, HACS will appear as a new tab in your sidebar.
+- Visit the <a href="https://hacs.xyz/" target="_blank" rel="noopener">Official HACS website</a> for more information.
 
 :::note
 You will need a GitHub account to set up HACS, as it downloads files directly from GitHub repositories.
@@ -35,16 +33,21 @@ You will need a GitHub account to set up HACS, as it downloads files directly fr
 
 ## Examples of What You Can Add
 
-Here are just two examples of the powerful enhancements available through HACS that many LibreCoach users love:
+Here are just two examples of the powerful enhancements available through HACS:
 
 ### 1. Mushroom Cards
 
-**[Mushroom](https://github.com/piitaya/lovelace-mushroom)** is a collection of cards for your dashboard that look modern, clean, and fit perfectly with the LibreCoach aesthetic. They are easier to configure than standard cards and are designed to be touch-friendly for mobile devices and wall tablets.
+**<a href="https://github.com/piitaya/lovelace-mushroom" target="_blank" rel="noopener">Mushroom</a>** is a collection of cards for your dashboard that look modern, clean, and fit perfectly with the LibreCoach aesthetic. They are easy to configure and designed to be touch-friendly for mobile devices and wall tablets.
 
-- **Why get it?** To build a dashboard that looks like a professional app rather than a list of switches.
+_📌 Mushroom cards are used in the LibreCoach dashboard screenshots._
 
 ### 2. Power Flow Card Plus
 
 **[Power Flow Card Plus](https://github.com/flixlix/power-flow-card-plus)** allows you to visualize your RV’s energy usage in real-time.
 
-- **Why get it?** See exactly where your power is coming from (Solar, Shore, Generator, Battery) and where it's going (Consumer loads, Battery charging). It provides a sleek, animated overview of your electrical system.
+_📌 Power Flow Card Plus is used in the LibreCoach dashboard screenshots._
+
+## What's Next?
+
+- **[Add-ons](/advanced-setup/addons/)** - Recommended utility add-ons
+- **[Backup Strategies](/advanced-setup/backups/)** - Protect your configuration

@@ -134,4 +134,4 @@ advertise_routes:
 ## What's Next?
 
 - [Backup Strategies](/advanced-setup/backups/) - Now that you have remote access, ensure backups are working
-- [Nabu Casa](/advanced-setup/nabu-casa/) - Alternative for voice assistant integration
+- [Nabu Casa](/advanced-setup/nabu-casa/) - Alternative with built-in voice assistant integration
