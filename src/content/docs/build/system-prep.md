@@ -10,21 +10,21 @@ draft: false
 
 ### Step 1: Install Home Assistant OS
 
-1. Install NVME Drive in the USB NVME Enclosure
+1. Install NVMe Drive in the USB NVMe Enclosure
    _(No need to screw it down for a permanent install.)_
 2. Connect the USB enclosure to your PC
 3. Download <a href="https://www.raspberrypi.com/software/" target="_blank" rel="noopener">Raspberry Pi Imager</a>
 4. Open Raspberry Pi Imager
 5. Click **Choose Device** → Select **Raspberry Pi 5**
 6. Click **Choose OS** → **Other specific-purpose OS** → **Home Automation** → **Home Assistant** → **Home Assistant OS (RPi 5)**
-7. Click **Choose Storage** → Select your NVME drive (double-check it's the correct drive!)
+7. Click **Choose Storage** → Select your NVMe drive (double-check it's the correct drive!)
 8. Click **Next**
 9. Click **Write**
 10. Click to confirm you understand and wait for completion
 
 ### Step 2: Enable CAN interface and drivers
 
-You must edit the `config.txt` file **before** the first boot to enable the CAN HAT. This is done while the NVME drive is still connected to your computer.
+You must edit the `config.txt` file **before** the first boot to enable the CAN HAT. This is done while the NVMe drive is still connected to your computer.
 After Step 1 completes, the disk will be automatically disconnected from the PC. You need to unplug the USB cable, then reconnect it again for this step.
 
 #### Windows Instructions
@@ -34,7 +34,7 @@ After Step 1 completes, the disk will be automatically disconnected from the PC.
    ```
    diskpart
    ```
-3. List disks and identify your NVME drive (note the size and it's almost never Disk 0):
+3. List disks and identify your NVMe drive (note the size and it's almost never Disk 0):
    ```
    list disk
    ```
@@ -88,7 +88,7 @@ After Step 1 completes, the disk will be automatically disconnected from the PC.
     ```
     exit
     ```
-17. Safely eject the NVME drive from your computer
+17. Safely eject the NVMe drive from your computer
 
 #### Mac/Linux Instructions
 

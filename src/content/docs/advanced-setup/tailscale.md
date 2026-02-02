@@ -1,6 +1,6 @@
 ---
 filename: tailscale
-title: Tailscale VPN
+title: Tailscale
 description: Secure remote access to your LibreCoach system from anywhere using Tailscale VPN without port forwarding.
 sidebar:
   order: 4

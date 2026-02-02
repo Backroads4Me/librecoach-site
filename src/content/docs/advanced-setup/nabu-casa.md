@@ -3,7 +3,7 @@ filename: nabu-casa
 title: Nabu Casa
 description: Official Home Assistant cloud service
 sidebar:
-  order: 5
+  order: 3
 draft: false
 ---
 

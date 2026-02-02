@@ -10,7 +10,7 @@ draft: false
 
 ## What's in This Section
 
-One of the primary beneifts of LibreCoach is that the system is fully extensible and customizable. Once your LibreCoach system is running smoothly, you can extend it with additional add-ons and integrations. This section covers just a few of the more common enhancements that complement the core LibreCoach functionality.
+One of the primary benefits of LibreCoach is that the system is fully extensible and customizable. Once your LibreCoach system is running smoothly, you can extend it with additional add-ons and integrations. This section covers just a few of the more common enhancements that complement the core LibreCoach functionality.
 
 ### Remote Access
 
@@ -28,6 +28,10 @@ Access your RV from anywhere in the world:
 
 - **Add-ons** extend the functionality of LibreCoach by installing additional applications.
 - Visit <a href="https://www.home-assistant.io/addons/" target="_blank" rel="noopener">Add-ons</a> for official documentation.
+
+## Customizations (HACS)
+
+- **[HACS (Home Assistant Community Store)](/advanced-setup/hacs/)** - Access thousands of community-built integrations and frontend cards (e.g., Mushroom, Power Flow Card Plus).
 
 ## Before You Begin
 

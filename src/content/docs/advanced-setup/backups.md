@@ -3,7 +3,7 @@ filename: backups
 title: Backup Strategies
 description: Protect your LibreCoach configuration with local and cloud backup solutions for Home Assistant.
 sidebar:
-  order: 3
+  order: 5
 draft: false
 ---
 
@@ -111,7 +111,7 @@ A backup you've never tested isn't a backup—it's a hope. Periodically:
 
 If you're setting up a new Pi or replacing failed hardware:
 
-1. Flash Home Assistant OS to your NVME
+1. Flash Home Assistant OS to your NVMe
 2. Boot and complete initial setup
 3. Go to **Settings** > **System** > **Backups**
 4. Click **Upload Backup** and select your backup file

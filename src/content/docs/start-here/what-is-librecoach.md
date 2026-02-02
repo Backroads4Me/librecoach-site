@@ -145,7 +145,7 @@ For owners seeking a turnkey LibreCoach system or integrating non-standard devic
 - **Remote Commissioning** – Set up your dashboard and system remotely.
 - **Custom Integration** – Add devices like Victron, and other non-standard systems.
 
-[Contact me](mailto:hello@librecoach.com?subject=Libre%20Coach%20Consulting) to discuss your project.
+[Contact me](mailto:hello@librecoach.com?subject=LibreCoach%20Consulting) to discuss your project.
 
 ---
 
