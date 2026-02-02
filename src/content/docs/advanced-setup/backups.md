@@ -4,7 +4,7 @@ title: Backup Strategies
 description: Protect your LibreCoach configuration with local and cloud backup solutions for Home Assistant.
 sidebar:
   order: 3
-draft: false
+draft: true
 ---
 
 Your LibreCoach configuration represents hours of setup work—dashboards, automations, entity names, and customizations. A good backup strategy ensures you can recover quickly from hardware failures, failed updates, or accidental changes.

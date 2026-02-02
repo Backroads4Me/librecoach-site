@@ -4,7 +4,7 @@ title: Supported Devices
 description: RV manufacturers and device types tested and supported by LibreCoach.
 sidebar:
   order: 4
-draft: false
+draft: true
 ---
 
 LibreCoach supports RVs that use the **RV-C (CAN bus) protocol**. This page documents tested manufacturers, device types, and known compatibility information.

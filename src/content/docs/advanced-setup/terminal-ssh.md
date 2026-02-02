@@ -4,7 +4,7 @@ title: Terminal & SSH
 description: Command-line access to Home Assistant OS for advanced troubleshooting and configuration.
 sidebar:
   order: 8
-draft: false
+draft: true
 ---
 
 The Terminal & SSH add-on provides command-line access to your Home Assistant system for advanced troubleshooting, maintenance, and configuration tasks.

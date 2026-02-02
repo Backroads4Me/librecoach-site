@@ -4,7 +4,7 @@ title: File Editor
 description: Edit Home Assistant configuration files directly from your browser with the File Editor add-on.
 sidebar:
   order: 7
-draft: false
+draft: true
 ---
 
 The File Editor add-on provides a web-based code editor for modifying Home Assistant configuration files without needing SSH or external tools.

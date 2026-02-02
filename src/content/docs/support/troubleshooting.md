@@ -4,7 +4,7 @@ title: Troubleshooting
 description: Solutions to common LibreCoach issues including CAN connection problems, device discovery failures, and WiFi connectivity.
 sidebar:
   order: 1
-draft: false
+draft: true
 ---
 
 Having trouble with LibreCoach? Check these common issues and solutions before posting on the forum.

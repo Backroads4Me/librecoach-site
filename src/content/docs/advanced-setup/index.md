@@ -5,7 +5,7 @@ description: Recommended add-ons, integrations, and enhancements to extend your 
 sidebar:
   order: 1
   label: Overview
-draft: false
+draft: true
 ---
 
 Once your LibreCoach system is running smoothly, you can extend it with additional add-ons and integrations. This section covers recommended enhancements that complement the core LibreCoach functionality.

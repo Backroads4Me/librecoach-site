@@ -4,7 +4,7 @@ title: Tailscale VPN
 description: Secure remote access to your LibreCoach system from anywhere using Tailscale VPN without port forwarding.
 sidebar:
   order: 4
-draft: false
+draft: true
 ---
 
 Tailscale creates a secure private network between your devices, allowing you to access your LibreCoach system from anywhere—without exposing it to the public internet or configuring port forwarding.

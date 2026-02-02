@@ -4,7 +4,7 @@ title: Acknowledgements
 description: Recognizing the pioneers and open-source projects that made LibreCoach possible.
 sidebar:
   order: 10
-draft: false
+draft: true
 ---
 
 LibreCoach was built from the ground up, designed entirely in-house, but it stands on the foundation laid by pioneers in RV-C integration and open-source automation. We’re proud of our work, and grateful to those who made it possible.

@@ -5,7 +5,7 @@ description: Common questions about LibreCoach, including the name,
   compatibility, and project goals.
 sidebar:
   order: 2
-draft: false
+draft: true
 ---
 
 ## About the Project
