@@ -1,11 +1,10 @@
 ---
 filename: faq
 title: FAQ
-description: Common questions about LibreCoach, including the name,
-  compatibility, and project goals.
+description: Common questions about LibreCoach.
 sidebar:
   order: 2
-draft: true
+draft: false
 ---
 
 ## About the Project
@@ -14,23 +13,25 @@ draft: true
 
 The name combines two meaningful concepts:
 
-- **Libre** (Spanish/French for "free") — In open source, "libre" specifically means "free as in freedom," not just "free of cost." It emphasizes that this project gives you control over your own RV systems—no vendor lock-in, no cloud dependency, no subscription fees.
+- **Libre** (Spanish/French for “free”) — In open source, “libre” means “free as in freedom,” not just “free of cost.” It gives you the freedom to **inspect, modify, and tailor** your RV systems to your needs—no vendor lock-in, no cloud dependency, no subscription fees.
 - **Coach** — A common term for motorhomes and RVs, especially Class A and luxury models. Your coach deserves software that's as capable as the vehicle itself.
 
-**LibreCoach = Freedom for your coach.**
+**LibreCoach = Your rig. Your rules.**
 
-We believe RV owners should have full control over their own vehicles. When a manufacturer abandons their proprietary control system, you shouldn't be left with a $2,000 paperweight. LibreCoach ensures your smart RV stays smart—forever.
+We believe RV owners should have full control over their vehicles. When a manufacturer abandons their proprietary control system, you shouldn't be left with a $2,000 paperweight. LibreCoach ensures your smart RV stays smart—forever.
 
 ### Is LibreCoach really free?
 
 Yes, in both senses:
 
-- **Free as in freedom**: The source code is open. You can inspect it, modify it, and share it.
-- **Free as in cost**: The software costs nothing. You only pay for the hardware (~$150-200 if you build it yourself).
+- **Freedom** — The source code is open. You can inspect it, modify it, and share it.
+- **Cost** — The software is free; you only pay for the hardware (~$250–300 if you build it yourself).
 
 ### Who is behind LibreCoach?
 
-LibreCoach is a community-driven open source project. It started as a personal project to solve the "abandoned RV tech" problem and grew from there.
+LibreCoach started as a personal project and is currently maintained by a single developer.
+
+The goal is to grow a **community-driven open source project**, where contributors can help improve the software, add integrations, and support fellow RV owners.
 
 ### How can I support the project?
 
@@ -53,15 +54,15 @@ LibreCoach works with any RV that uses the **RV-C protocol** on a CAN bus networ
 - Thor (some models)
 - And many others
 
-If your RV has a "multiplex" or "smart" system with a touchscreen control panel, it likely uses RV-C.
+If your RV uses a smart or multiplexed CAN bus system (rather than traditional mechanical switches), it likely supports RV-C.
 
 ### Will it work with my travel trailer or fifth wheel?
 
-Most travel trailers and fifth wheels do **not** use RV-C—they typically have simpler electrical systems. However, some high-end models from manufacturers like Grand Design or Keystone may have RV-C networks.
+Most travel trailers and fifth wheels do **not** use RV-C, as they usually have simpler electrical systems. However, a few higher-end models do.
 
 ### What if my RV doesn't use RV-C?
 
-LibreCoach is specifically designed for RV-C networks. If your RV uses a proprietary protocol (like some older Winnebago systems), it won't work directly. However, you can still use Home Assistant with other integrations for non-RV-C devices.
+LibreCoach is specifically designed for RV-C networks.
 
 ## Technical Questions
 
@@ -71,13 +72,13 @@ LibreCoach is specifically designed for RV-C networks. If your RV uses a proprie
 
 ### Can I use LibreCoach with my existing Home Assistant setup?
 
-Yes! If you already run Home Assistant (on a NUC, Yellow, or other hardware), you can add the CAN-to-MQTT Bridge and Node-RED flows to your existing installation. See the [Installation Guide](/build/software/).
+Yes! If you already run Home Assistant, you can add a CAN HAT, the CAN-to-MQTT Bridge and Node-RED flows to your existing installation. See the [Installation Guide](/build/software/).
 
 ### Is it safe? Can it damage my RV?
 
-LibreCoach is a **passive listener** by default—it reads data from your RV-C network but doesn't send commands unless you explicitly trigger them. The RV-C protocol has built-in safeguards, and the physical switches in your RV always work regardless of what LibreCoach is doing.
+**LibreCoach is passive by default** — it monitors your RV-C network without sending commands unless you explicitly trigger them. The RV-C protocol has built-in safeguards, and your RV’s physical switches always work regardless of what LibreCoach is doing.
 
-That said, as with any DIY project, proceed carefully and disconnect power when working on electrical systems.
+**Note:** As with any DIY project, proceed carefully and disconnect power when working on electrical systems.
 
 ### What happens if my Raspberry Pi fails?
 
@@ -87,16 +88,13 @@ Your RV continues to function normally using its original physical controls. Lib
 
 ### Where can I get support?
 
-- <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">**Community Forum**</a> — Best place for questions and discussion
-
-- <a href="https://github.com/backroads4me" target="_blank" rel="noopener noreferrer">**GitHub Issues**</a> — For bug reports and feature requests
-- [**Troubleshooting Guide**](/support/troubleshooting/) — Solutions to common problems
+The <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">**Community Forum**</a> is the best place to ask questions, share tips, and discuss LibreCoach with other RV owners.
 
 ### I found a bug. How do I report it?
 
 1.  Check the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">forum</a> to see if others have the same issue
 
-2.  If it's a new bug, open an issue on <a href="https://github.com/backroads4me" target="_blank" rel="noopener noreferrer">GitHub</a> with:
+2.  If it's a new bug, open an issue on <a href="https://github.com/Backroads4Me/ha-addons" target="_blank" rel="noopener noreferrer">GitHub</a> with:
     - Your RV make/model/year
     - Hardware details (Pi model, CAN HAT)
     - Steps to reproduce the issue
