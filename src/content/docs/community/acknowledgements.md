@@ -13,7 +13,7 @@ LibreCoach was built from the ground up, designed entirely in-house, yet it stan
 
 LibreCoach was developed independently but draws inspiration from the ideas behind Michael J. Kidd’s CoachProxy project.
 
-**Michael J. Kidd** (known as `linuxkidd` in the community) created **CoachProxy**, a commercial hardware product years ahead of its time. His later open-sourcing of the project provided the RV and open-source communities with invaluable insight into bridging industrial RV-C networks to consumer devices.
+**Michael J. Kidd** (known as `linuxkidd` on GitHub) created **CoachProxy**, a commercial hardware product years ahead of its time. His later open-sourcing of the project provided the RV and open-source communities with invaluable insight into bridging industrial RV-C networks to consumer devices.
 
 We are grateful for his trailblazing work in decoding the protocol and proving that this kind of integration was possible.
 
