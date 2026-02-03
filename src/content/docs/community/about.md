@@ -23,3 +23,11 @@ Owning a 10+ year old RV made me realize that “smart” features often stop ev
 Whether you’re a DIY enthusiast or just enjoy experimenting with tech, LibreCoach gives you additional control, insight, and flexibility. With Home Assistant at its core, you can manage lighting, climate, tanks, power systems, and more from a single, modern platform.
 
 LibreCoach isn’t just software — it’s a platform for experimentation, learning, and sharing, empowering RV owners to make their rig truly their own.
+
+### Who’s Behind LibreCoach
+
+LibreCoach was created by a full-time RVer with a mechanical engineering background and a lifelong habit of taking things apart to see how they work. After years of maintaining and modifying cars, motorcycles, boats, and RVs, that hands-on mindset gradually carried over into a career increasingly focused on software, systems, and applications—where the same instinct to understand, modify, and improve complex systems applied just as well.
+
+Living full-time in my 2014 Foretravel iH-45, I built LibreCoach out of daily use, experimentation, and a desire to bring modern, flexible automation to my RV. What started as a personal project is now open-sourced to invite other RV owners to build, improve, and experiment together.
+
+Today, LibreCoach is developed and used on the road while traveling full-time—often in places where hiking boots and bikes come out after the laptop is closed.
