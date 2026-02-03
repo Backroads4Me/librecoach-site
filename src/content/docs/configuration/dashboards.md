@@ -10,33 +10,12 @@ draft: false
 
 Once you've [identified your devices](/configuration/identify-devices/), it's time to create beautiful dashboards tailored to your RV's layout.
 
-### Lighting
+### Customized LibreCoach Dashboard
 
-![Lighting dashboard](../../../assets/dashboards/librecoach/view_0.webp)
+_Note: The dashbaord below uses additional integrations and cards. See [Advanced Setup](/advanced-setup/) to learn more._
 
-### Shades
-
-![Shades dashboard](../../../assets/dashboards/librecoach/view_1.webp)
-
-### Locks
-
-![Locks dashboard](../../../assets/dashboards/librecoach/view_2.webp)
-
-### Water and Tanks
-
-![Water and tanks dashboard](../../../assets/dashboards/librecoach/view_4.webp)
-
-### Batteries
-
-![Battery dashboard](../../../assets/dashboards/librecoach/view_5.webp)
-
-### Energy Flow
-
-![Energy flow dashboard](../../../assets/dashboards/librecoach/view_6.webp)
-
-### Climate
-
-![Floor heat dashboard](../../../assets/dashboards/librecoach/view_3.webp)
+![LibreCoach dashboard](../../../assets/dashboards/librecoach_dashboard_light.webp)
+![LibreCoach dashboard](../../../assets/dashboards/librecoach_dashboard_dark.webp)
 
 ## Creating Your First Dashboard
 

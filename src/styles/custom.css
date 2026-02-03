@@ -63,6 +63,16 @@ html[data-theme="dark"] {
   --six-hero-bg: url("/hero-dark.svg");
 }
 
+/* Hide light image in dark mode */
+[data-theme="dark"] img[src*="dashboard_light"] {
+  display: none;
+}
+
+/* Hide dark image in light mode */
+:root:not([data-theme="dark"]) img[src*="dashboard_dark"] {
+  display: none;
+}
+
 /* Override HeroX inline background */
 :where(.six-hero.six-hero-with-background) {
   background-image: var(--six-hero-bg) !important;
