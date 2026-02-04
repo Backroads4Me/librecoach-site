@@ -38,16 +38,16 @@ Having trouble with LibreCoach? Check these common issues and solutions before a
 2. **Check power**: Ensure power cable from PCIe adapter to CAN HAT is connected
 3. **Enable interface**: The CAN interface may need to be enabled in Host OS (see [Build Guide](/build/software/#step-2-configure-can-hat))
 
-### Add-ons Won't Start
+### Apps Won't Start
 
 **Symptom**: Mosquitto, Node-RED, or CAN-to-MQTT Bridge won't start
 
 **Solutions**:
 
-1. **Check logs**: Go to the add-on's Log tab for specific error messages
+1. **Check logs**: Go to the app's Log tab for specific error messages
 2. **Restart**: Sometimes a simple restart fixes startup issues
 3. **Check configuration**: Verify YAML configuration is valid (no typos, correct indentation)
-4. **Port conflicts**: Ensure no other add-ons are using the same ports
+4. **Port conflicts**: Ensure no other apps are using the same ports
 5. **Storage space**: Check that your NVME isn't full
 
 ## Discovery Issues
@@ -134,7 +134,7 @@ Having trouble with LibreCoach? Check these common issues and solutions before a
 2. **Reduce polling**: If you added custom polling, reduce frequency
 3. **Check thermal pads**: Verify heatsink is making good contact
 4. **Improve airflow**: Ensure case fan is running and has clear airflow
-5. **Consider Pi 5 8GB**: If you have the 4GB model and added many add-ons
+5. **Consider Pi 5 8GB**: If you have the 4GB model and added many apps
 
 ### WiFi Disconnects
 
@@ -198,7 +198,7 @@ Having trouble with LibreCoach? Check these common issues and solutions before a
 2. **Check thermal pads**: Verify contact between CPU and heatsink
 3. **Improve airflow**: Ensure case vents aren't blocked
 4. **Check ambient temperature**: RVs can get hot—provide additional cooling if needed
-5. **Reduce load**: Stop unnecessary add-ons or services
+5. **Reduce load**: Stop unnecessary apps or services
 
 ### CAN HAT Not Detected
 
@@ -214,9 +214,9 @@ Having trouble with LibreCoach? Check these common issues and solutions before a
 
 ## Software Issues
 
-### Add-on Update Fails
+### App Update Fails
 
-**Symptom**: Can't update an add-on, or update breaks functionality
+**Symptom**: Can't update an app, or update breaks functionality
 
 **Solutions**:
 
@@ -245,7 +245,7 @@ Having trouble with LibreCoach? Check these common issues and solutions before a
 **Solutions**:
 
 1. **Check Mosquitto**: Ensure it's running
-2. **Check credentials**: Verify username/password in all add-ons
+2. **Check credentials**: Verify username/password in all apps
 3. **Check topics**: Ensure CAN-to-MQTT and Node-RED use matching topics
 4. **Check discovery prefix**: Should be `homeassistant` (default)
 5. **Check firewall**: Some networks block MQTT ports
@@ -258,7 +258,7 @@ If you've tried these solutions and still have issues:
 
 Before asking for help, collect:
 - Home Assistant version
-- Add-on versions
+- App versions
 - Relevant logs (CAN-to-MQTT Bridge, Node-RED, Mosquitto)
 - Screenshots of errors
 - Description of what you expected vs. what happened

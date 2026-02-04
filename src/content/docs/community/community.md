@@ -41,7 +41,7 @@ When asking for help, include:
 2. **Hardware** — Pi Model, CAN HAT type (e.g., _Pi 4, Waveshare RS485/CAN HAT_)
 3. **Software** — Home Assistant and LibreCoach versions
 4. **The Problem** — Describe expectations vs. reality ("I expected X, but Y happened")
-5. **Logs** — Include relevant Add-on logs
+5. **Logs** — Include relevant app logs
 
 :::tip[Logs]
 Avoid pasting hundreds of lines. Use code blocks (```) or link to a Gist/Pastebin.

@@ -1,29 +1,29 @@
 ---
-filename: addons
-title: Add-ons
-description: Recommended Home Assistant add-ons to extend your LibreCoach system with useful utilities.
+filename: apps
+title: Apps
+description: Recommended Home Assistant apps to extend your LibreCoach system with useful utilities.
 sidebar:
   order: 6
 draft: false
 ---
 
-Add-ons extend Home Assistant by installing additional applications that run alongside your system. They provide utilities for editing files, terminal access, debugging, and more.
+Apps (formerly known as add-ons) extend Home Assistant by installing additional applications that run alongside your system. They provide utilities for editing files, terminal access, debugging, and more.
 
-Visit <a href="https://www.home-assistant.io/addons/" target="_blank" rel="noopener">Home Assistant Add-ons</a> for official documentation.
+Visit <a href="https://www.home-assistant.io/addons/" target="_blank" rel="noopener">Home Assistant Apps</a> for official documentation.
 
 ## General Installation
 
-Most add-ons follow the same installation pattern:
+Most apps follow the same installation pattern:
 
-1. Go to <a href="https://my.home-assistant.io/redirect/supervisor" class="my" target="_blank">Settings &gt; Add-ons</a>
-   [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/supervisor_store.svg)](https://my.home-assistant.io/redirect/supervisor_store/)
-2. Search for the add-on name
+1. Go to <a href="https://my.home-assistant.io/redirect/supervisor" class="my" target="_blank">Settings &gt; Apps</a>
+   [![Open your Home Assistant instance and show the app store.](https://my.home-assistant.io/badges/supervisor_store.svg)](https://my.home-assistant.io/redirect/supervisor_store/)
+2. Click **Install app** and search for the app name
 3. Click **Install**
 4. Configure settings on the **Configuration** tab
-5. Start the add-on
+5. Start the app
 6. Enable **Start on boot** if desired
 
-## Recommended Add-ons
+## Recommended Apps
 
 ### File Editor
 
@@ -40,7 +40,7 @@ Edit Home Assistant configuration files directly from your browser without needi
 
 **Setup:**
 
-1. Install the add-on
+1. Install the app
 2. Start it
 3. Enable **Show in sidebar** for easy access
 4. Click **File editor** in the sidebar to browse and edit files
@@ -70,15 +70,15 @@ Command-line access to your Home Assistant system for advanced troubleshooting, 
 
 - Run diagnostic commands
 - Access container logs
-- Manage add-ons from command line
+- Manage apps from command line
 - Execute scripts and maintenance tasks
 
 **Setup:**
 
-1. Install the add-on
+1. Install the app
 2. Go to **Configuration** tab
 3. Set a password or add your SSH public key
-4. Start the add-on
+4. Start the app
 5. Enable **Show in sidebar** for web terminal access
 
 **Configuration example:**
@@ -106,7 +106,7 @@ ha network info
 ```
 
 :::caution Security
-Use SSH keys instead of passwords when possible. Consider disabling the add-on when not in use.
+Use SSH keys instead of passwords when possible. Consider disabling the app when not in use.
 :::
 
 ---
@@ -143,29 +143,3 @@ Secure remote access to your LibreCoach system from anywhere using VPN without p
 - Free tier for personal use
 
 See the full **[Tailscale setup guide](/advanced-setup/tailscale/)** for detailed installation and configuration instructions.
-
----
-
-### Google Drive Backup
-
-Automatically upload Home Assistant backups to your Google Drive for off-site protection.
-
-**Why use it:**
-
-- Automatic scheduled backups
-- Off-site storage protects against hardware failure
-- Easy restore if you need to rebuild
-
-**Setup:**
-
-1. Search for "Google Drive Backup" in the add-on store
-2. Install and follow the authentication flow
-3. Configure backup schedule and retention
-
-See **[Backup Strategies](/advanced-setup/backups/)** for complete backup configuration guidance.
-
-## What's Next?
-
-- **[HACS](/advanced-setup/hacs/)** - Community integrations and frontend cards
-- **[Remote Access](/advanced-setup/remote-access/)** - Access your RV from anywhere
-- **[Backup Strategies](/advanced-setup/backups/)** - Protect your configuration

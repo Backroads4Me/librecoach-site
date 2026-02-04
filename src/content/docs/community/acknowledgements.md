@@ -34,9 +34,9 @@ We are indebted to the thousands of contributors who have made Home Assistant th
 
 - <a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer">Home Assistant</a>
 
-## Essential Add-ons
+## Essential Apps
 
-LibreCoach integrates several open-source Home Assistant add-ons to create a seamless RV automation experience. We recommend and rely on these excellent tools:
+LibreCoach integrates several open-source Home Assistant apps to create a seamless RV automation experience. We recommend and rely on these excellent tools:
 
 - **<a href="https://mosquitto.org/" target="_blank" rel="noopener noreferrer">Mosquitto</a>:** The lightweight MQTT broker that acts as the "nervous system," passing messages between the RV-C bus and Home Assistant.
 - **<a href="https://nodered.org/" target="_blank" rel="noopener noreferrer">Node-RED</a>:** The visual programming tool that handles the complex logic of translating raw industrial CAN messages into smart home entities.

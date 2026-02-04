@@ -39,11 +39,11 @@ Since the Raspberry Pi does not have a native CAN controller, we use a "HAT" to 
 
 ## Software Stack
 
-The software is orchestrated as a set of **Home Assistant Add-ons**. While these are technically Docker containers, they are managed entirely by the Home Assistant Supervisor for a seamless "app-like" experience.
+The software is orchestrated as a set of **Home Assistant Apps** (formerly known as add-ons). While these are technically Docker containers, they are managed entirely by the Home Assistant Supervisor for a seamless experience.
 
 ### 1. Home Assistant OS (The Foundation)
 
-We use the full OS version of Home Assistant. This provides a "Supervisor" which manages updates, networking, and add-ons. It ensures the system is resilient and "app-like" rather than just a set of scripts.
+We use the full OS version of Home Assistant. This provides a "Supervisor" which manages updates, networking, and apps. It ensures the system is resilient and appliance-like rather than just a set of scripts.
 
 ### 2. MQTT Broker (The Central Nervous System)
 
@@ -53,11 +53,11 @@ MQTT is the messaging protocol that connects the hardware to the software.
 
 ### 3. CAN-to-MQTT Bridge (The Translator)
 
-This lightweight Add-on performs the critical translation:
+This lightweight app performs the critical translation:
 
 - **Read CAN**: It listens to raw frames on the physical wire (e.g., `19FFD044 01 00...`).
-- **Publish MQTT**: It wraps those frames in JSON and publishes them to `rv/can/rx`.
-- **Write CAN**: It watches `rv/can/tx` and pushes any hex commands back onto the RV-C bus.
+- **Publish MQTT**: It wraps those frames in JSON and publishes them to `can/raw`.
+- **Write CAN**: It watches `can/send` and pushes any hex commands back onto the RV-C bus.
 
 ### 4. Node-RED (The Brain)
 
@@ -76,10 +76,10 @@ HA Core maintains the "State" of your RV and provides the user interface. It rec
 ## Data Flow Example: Turning on a Light
 
 1.  **User Action**: You tap "Bedroom Light" in the Home Assistant app.
-2.  **Command**: HA Core sends a request to the **Node-RED Add-on**.
+2.  **Command**: HA Core sends a request to the **Node-RED app**.
 3.  **Encoding**: Node-RED constructs the specific RV-C message for that light.
 4.  **Transport**: Node-RED publishes the RV-C command to MQTT.
-5.  **Bridge**: The **CAN Bridge Add-on** picks up the MQTT message and relays it to the **CAN HAT**.
+5.  **Bridge**: The **CAN to MQTT Bridge app** picks up the MQTT message and relays it to the **CAN HAT**.
 6.  **Physical Wire**: The HAT puts the signal on the physical RV-C wires.
 7.  **Execution**: The RV’s lighting module hears the command and turns on the bulb.
 8.  **Feedback**: The module broadcasts a status update; the Bridge reads it, updates MQTT, and Home Assistant confirms the light is "On" in your UI.

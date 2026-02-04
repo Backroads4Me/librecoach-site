@@ -45,8 +45,3 @@ _📌 Mushroom cards are used in the LibreCoach dashboard screenshots._
 **[Power Flow Card Plus](https://github.com/flixlix/power-flow-card-plus)** allows you to visualize your RV’s energy usage in real-time.
 
 _📌 Power Flow Card Plus is used in the LibreCoach dashboard screenshots._
-
-## What's Next?
-
-- **[Add-ons](/advanced-setup/addons/)** - Recommended utility add-ons
-- **[Backup Strategies](/advanced-setup/backups/)** - Protect your configuration

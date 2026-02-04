@@ -25,14 +25,14 @@ Tailscale creates a secure private network between your devices, allowing you to
 
 ## Installation
 
-### Install the Add-on
+### Install the App
 
-1. Go to **Settings** > **Add-ons** > **Add-on Store**
+1. Go to **Settings** > **Apps**, click **Install app**
 2. Search for "Tailscale"
 3. Click **Install**
 4. Wait for installation to complete
 
-### Configure the Add-on
+### Configure the App
 
 1. Go to the **Configuration** tab
 2. Add your Tailscale auth key:
@@ -54,7 +54,7 @@ To get an auth key:
 
 ### Verify Connection
 
-1. Check the add-on logs for successful connection
+1. Check the app logs for successful connection
 2. In the <a href="https://login.tailscale.com/admin/machines" target="_blank" rel="noopener noreferrer">Tailscale Admin Console</a>, you should see your Home Assistant device
 
 ## Connecting Your Devices
@@ -92,7 +92,7 @@ Tailscale's MagicDNS gives your devices friendly names:
 
 To access other devices on your RV network (not just Home Assistant):
 
-1. In add-on configuration, enable subnet routing:
+1. In app configuration, enable subnet routing:
 
 ```yaml
 advertise_routes:
@@ -104,11 +104,11 @@ advertise_routes:
 
 ## Troubleshooting
 
-### Add-on Won't Connect
+### App Won't Connect
 
 - Verify auth key is correct and not expired
 - Check internet connectivity
-- Review add-on logs for specific errors
+- Review app logs for specific errors
 - Try generating a new auth key
 
 ### Can't Access Home Assistant
@@ -130,8 +130,3 @@ advertise_routes:
 - Use strong passwords on your Home Assistant account
 - Consider enabling two-factor authentication
 - Review who has access to your Tailscale network
-
-## What's Next?
-
-- [Backup Strategies](/advanced-setup/backups/) - Now that you have remote access, ensure backups are working
-- [Nabu Casa](/advanced-setup/nabu-casa/) - Alternative with built-in voice assistant integration

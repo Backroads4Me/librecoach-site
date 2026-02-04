@@ -12,7 +12,7 @@ Once you've [identified your devices](/configuration/identify-devices/), it's ti
 
 ### Customized LibreCoach Dashboard
 
-_Note: The dashbaord below uses additional integrations and cards. See [Advanced Setup](/advanced-setup/) to learn more._
+_Note: The dashboard below uses additional integrations and cards. See [Advanced Setup](/advanced-setup/) to learn more._
 
 ![LibreCoach dashboard](../../../assets/dashboards/librecoach_dashboard_light.webp)
 ![LibreCoach dashboard](../../../assets/dashboards/librecoach_dashboard_dark.webp)

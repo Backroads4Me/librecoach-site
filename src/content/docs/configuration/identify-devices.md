@@ -46,7 +46,7 @@ Physical Switch          →  Home Assistant Entity  →  What It Controls
 
 - **Go methodically**: Start at the front of your RV and work toward the back
 - **Toggle twice**: Be absolutely sure of your naming
-- **Unidentified Switches**: You will likely have unidentified switches. This is normal. DO NOT switch them on and off without nowing what they are. It could be master power, dump valve, ejection seat.
+- **Unidentified Switches**: You will likely have unidentified switches. This is normal. DO NOT switch them on and off without knowing what they are. It could be master power, dump valve, ejection seat.
 
 ### Multiple switches turn on at once
 
@@ -60,7 +60,7 @@ Once you've identified a switch:
 
 1. In Home Assistant, click on the switch name, not the toggle, and it will open
 2. Click the gear icon (⚙️) in the top right
-3. Change the **Name** to something meaningful and descriptine `Kitchen Light`
+3. Change the **Name** to something meaningful like `Kitchen Light`
 4. You can also disable switches that you want to hide on this same screen.
 
 ## Sharing Your Configuration

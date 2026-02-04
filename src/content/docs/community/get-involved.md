@@ -41,8 +41,8 @@ Help build LibreCoach from the ground up! The project is brand new, and your ide
 
 If you see something that could be improved, want to propose a new feature, or just like tinkering with open-source RV tech, join the conversation.
 
-- **<a href="https://github.com/Backroads4Me/ha-addons" target="_blank" rel="noopener noreferrer">LibreCoach Add-on</a>**: The main Home Assistant Add-on repository — the heart of the system.
-- **<a href="https://github.com/backroads4me/libre-coach-node-red" target="_blank" rel="noopener noreferrer">LibreCoach Node-RED</a>**: Core logic flows and decoding libraries used by the add-on.
+- **<a href="https://github.com/Backroads4Me/ha-addons" target="_blank" rel="noopener noreferrer">LibreCoach App</a>**: The main Home Assistant app repository — the heart of the system.
+- **<a href="https://github.com/backroads4me/libre-coach-node-red" target="_blank" rel="noopener noreferrer">LibreCoach Node-RED</a>**: Core logic flows and decoding libraries used by the app.
 - **<a href="https://github.com/backroads4me/libre-coach-site" target="_blank" rel="noopener noreferrer">LibreCoach Site</a>**: Documentation website built with Astro Starlight.
 
 ---
