@@ -39,7 +39,7 @@ The goal is to grow a **community-driven open source project**, where contributo
 
 - <a href="https://buymeacoffee.com/backroads4me" target="_blank" rel="noopener noreferrer">**Buy Me a Coffee**</a> — One-time donation
 
-- **Contribute** — Code, documentation, testing, or helping others on the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">forum</a>
+- **Contribute** — Code, documentation, testing, or helping others on <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a>
 
 ## Compatibility
 
@@ -88,11 +88,11 @@ Your RV continues to function normally using its original physical controls. Lib
 
 ### Where can I get support?
 
-The <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">**Community Forum**</a> is the best place to ask questions, share tips, and discuss LibreCoach with other RV owners.
+The <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">**Discord server**</a> and <a href="https://www.facebook.com/groups/880537571244339" target="_blank" rel="noopener noreferrer">**Facebook Group**</a> are the best places to ask questions, share tips, and discuss LibreCoach with other RV owners.
 
 ### I found a bug. How do I report it?
 
-1.  Check the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">forum</a> to see if others have the same issue
+1.  Check <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> to see if others have the same issue
 
 2.  If it's a new bug, open an issue on <a href="https://github.com/Backroads4Me/ha-addons" target="_blank" rel="noopener noreferrer">GitHub</a> with:
     - Your RV make/model/year

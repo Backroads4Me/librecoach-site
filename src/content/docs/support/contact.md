@@ -11,7 +11,7 @@ The best way to get in touch is through our community spaces, where your questio
 
 ### Technical Support & Discussion
 
-For questions about building your own LibreCoach, hardware compatibility, or troubleshooting, please join us on the **[LibreCoach Community Forum](https://forum.librecoach.com)**.
+For questions about building your own LibreCoach, hardware compatibility, or troubleshooting, please join us on **[Discord](https://discord.gg/KKGNUHyaap)** or the **[Facebook Group](https://www.facebook.com/groups/880537571244339)**.
 
 ### Bug Reports & Contributions
 

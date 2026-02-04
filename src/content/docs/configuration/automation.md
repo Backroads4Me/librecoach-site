@@ -253,7 +253,7 @@ action:
 
 ## Sharing Your Automations
 
-Have you created a clever automation? <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">Share it on our Forum</a>!
+Have you created a clever automation? Share it on <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/880537571244339" target="_blank" rel="noopener noreferrer">Facebook Group</a>!
 *   Post the YAML code (please remove any sensitive info/secrets).
 *   Explain the "Why" - what problem did it solve?
 *   Tell us which sensors/hardware you used.

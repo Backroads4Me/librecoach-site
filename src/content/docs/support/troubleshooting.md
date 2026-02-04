@@ -7,7 +7,7 @@ sidebar:
 draft: true
 ---
 
-Having trouble with LibreCoach? Check these common issues and solutions before posting on the forum.
+Having trouble with LibreCoach? Check these common issues and solutions before asking for help on Discord or Facebook.
 
 ## Installation Issues
 
@@ -90,7 +90,7 @@ Having trouble with LibreCoach? Check these common issues and solutions before p
 2. **Wait**: Discovery can take time as devices wake up and send status
 3. **Check DGN support**: Some device types may not be supported yet
 4. **Check instance numbers**: Devices may be using unusual instance IDs
-5. **Post on forum**: Share which devices are missing to help improve LibreCoach
+5. **Ask on Discord**: Share which devices are missing to help improve LibreCoach
 
 ### Duplicate or "Ghost" Entities
 
@@ -160,7 +160,7 @@ Having trouble with LibreCoach? Check these common issues and solutions before p
 2. **Check zones**: Some lights are grouped into zones—one switch may control multiple lights
 3. **Check Node-RED debug**: See if any messages arrive when you toggle
 4. **Check manufacturer**: Some devices may use proprietary protocols, not RV-C
-5. **Post on forum**: Others with your RV may know the answer
+5. **Ask on Discord**: Others with your RV may know the answer
 
 ### Dashboard Import Fails
 
@@ -236,7 +236,7 @@ Having trouble with LibreCoach? Check these common issues and solutions before p
 2. **Restore from backup**: Use Home Assistant backup to restore
 3. **Reimport flows**: Import from the LibreCoach repository
 4. **Check logs**: Look for errors during Node-RED startup
-5. **Post on forum**: This shouldn't happen—report it!
+5. **Report on Discord**: This shouldn't happen—report it!
 
 ### MQTT Messages Not Received
 
@@ -263,15 +263,16 @@ Before asking for help, collect:
 - Screenshots of errors
 - Description of what you expected vs. what happened
 
-### 2. Search the Forum
+### 2. Search the Community
 
 Someone may have already solved your issue:
-- <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">Forum</a>
+- <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a>
+- <a href="https://www.facebook.com/groups/880537571244339" target="_blank" rel="noopener noreferrer">Facebook Group</a>
 - Search for error messages or symptoms
 
 ### 3. Ask for Help
 
-Post in the appropriate forum category:
+Post in the appropriate channel:
 - Include all gathered information
 - Be specific about what you've tried
 - Describe your setup (RV model, hardware, etc.)
@@ -306,7 +307,7 @@ Home Assistant has built-in backup:
 
 ### Join the Community
 
-- <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">Forum</a> - Stay informed and get help
+- <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> - Stay informed and get help
 - <a href="https://github.com/backroads4me" target="_blank" rel="noopener noreferrer">GitHub</a> - Follow development
 - <a href="https://github.com/sponsors/backroads4me" target="_blank" rel="noopener noreferrer">GitHub Sponsors</a> - Monthly support
 - <a href="https://buymeacoffee.com/backroads4me" target="_blank" rel="noopener noreferrer">Buy Me a Coffee</a> - One-time support

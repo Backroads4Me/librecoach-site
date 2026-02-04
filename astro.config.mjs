@@ -35,7 +35,7 @@ export default defineConfig({
           starlightThemeSix({
             //optional
             footerText:
-              'LibreCoach - Take Your RV Further • <a href="/community/about/">About</a> • <a href="https://forum.librecoach.com" target="_blank" rel="noopener">Community</a> • <a href="/community/privacy/" target="_blank" rel="noopener">Privacy Policy</a>',
+              'LibreCoach - Take Your RV Further • <a href="/community/about/">About</a> • <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener">Discord</a> • <a href="https://www.facebook.com/groups/880537571244339" target="_blank" rel="noopener">Facebook</a> • <a href="/community/privacy/" target="_blank" rel="noopener">Privacy Policy</a>',
           }),
         ],
         customCss: ["./src/styles/custom.css"],
@@ -55,12 +55,17 @@ export default defineConfig({
           {
             icon: "github",
             label: "GitHub",
-            href: "https://github.com/backroads4me",
+            href: "https://github.com/Backroads4Me/ha-addons",
           },
           {
-            icon: "discourse",
-            label: "Community Forum",
-            href: "https://forum.librecoach.com",
+            icon: "discord",
+            label: "Discord",
+            href: "https://discord.gg/KKGNUHyaap",
+          },
+          {
+            icon: "facebook",
+            label: "Facebook Group",
+            href: "https://www.facebook.com/groups/880537571244339",
           },
         ],
         sidebar: [

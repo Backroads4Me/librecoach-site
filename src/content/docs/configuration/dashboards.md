@@ -104,9 +104,9 @@ When importing a dashboard from someone else, you'll need to update the entity I
 
 ### Finding Dashboards for Your RV
 
-1. Visit the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">LibreCoach Forum</a>
-2. Navigate to your RV manufacturer's category (e.g., Newmar, Tiffin, Entegra)
-3. Browse posts tagged with your model and year
+1. Check <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/880537571244339" target="_blank" rel="noopener noreferrer">Facebook Group</a>
+2. Search for your RV manufacturer (e.g., Newmar, Tiffin, Entegra)
+3. Look for posts about your model and year
 4. Download YAML files shared by other users
 
 ### Sharing Your Dashboard
@@ -115,7 +115,7 @@ Help grow the community by sharing your dashboard:
 
 1. Export your dashboard YAML
 2. Take screenshots of each view
-3. Create a forum post in your RV manufacturer's category
+3. Post on <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/880537571244339" target="_blank" rel="noopener noreferrer">Facebook Group</a>
 4. Include:
    - RV make, model, and year
    - Description of your layout

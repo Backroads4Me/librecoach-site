@@ -173,7 +173,7 @@ Sometimes you want to save specific pieces without a full backup.
 - Ensure backup file isn't corrupted (re-download if from cloud)
 - Check Home Assistant OS version compatibility
 - Try restoring to a fresh installation
-- Contact the forum for help with specific errors
+- Ask for help on <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> for specific errors
 
 ### Cloud Backup Not Uploading
 
