@@ -18,9 +18,7 @@ Get comfortable with the core LibreCoach system before adding enhancements. Each
 
 Access your RV from anywhere:
 
-- **[Remote Access Overview](/advanced-setup/remote-access/)** - Compare options for accessing your RV remotely
-- **[Nabu Casa](/advanced-setup/nabu-casa/)** - Official HA cloud service for remote access, backups, and voice assistants (paid)
-- **[Tailscale VPN](/advanced-setup/tailscale/)** - Secure, remote access via VPN (free)
+- **[Remote Access](/advanced-setup/remote-access/)** - Options for accessing your RV remotely
 
 ## Backups
 

@@ -55,7 +55,7 @@ Edit Home Assistant configuration files directly from your browser without needi
 | `secrets.yaml`       | Passwords and API keys     |
 
 :::tip
-Always backup before editing critical files. YAML is whitespace-sensitive—use spaces, not tabs.
+Always backup before editing critical files.
 :::
 
 ---
@@ -68,8 +68,7 @@ Secure remote access to your LibreCoach system from anywhere using VPN without p
 
 **Why use it:**
 
-- No port forwarding required—works on restrictive RV park networks
 - Secure end-to-end encrypted connections
 - Free tier for personal use
 
-See the full **[Tailscale setup guide](/advanced-setup/tailscale/)** for detailed installation and configuration instructions.
+See the full **[Remote Access guide](/advanced-setup/remote-access/#tailscale)** for detailed installation and configuration instructions.
