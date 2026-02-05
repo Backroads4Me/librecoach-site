@@ -17,8 +17,6 @@ export default defineConfig({
     Icons({
       starlight: {
         title: "LibreCoach",
-        social: {
-        og: { image: '/og-default.png' },
         head: [
           {
             tag: "meta",
