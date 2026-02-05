@@ -6,7 +6,8 @@
 		"dev": "astro dev",
 		"start": "astro dev",
 		"build": "astro build",
-		"preview": "astro build && wrangler dev",
+		"preview": "astro build && wrangler pages dev ./dist",
+		"dev:wrangler": "wrangler dev",
 		"astro": "astro",
 		"deploy": "astro build && wrangler deploy",
 		"cf-typegen": "wrangler types"
