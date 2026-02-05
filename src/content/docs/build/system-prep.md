@@ -38,9 +38,9 @@ After Step 1 completes, the disk will be automatically disconnected from the PC.
    ```
    list disk
    ```
-4. Select the correct disk (replace X with your disk number):
+4. Select the correct disk (the examples below use 1):
    ```
-   select disk X
+   select disk 1
    ```
 5. List partitions:
    ```
@@ -54,41 +54,45 @@ After Step 1 completes, the disk will be automatically disconnected from the PC.
    ```
    assign letter=Z
    ```
-8. Open config.txt (the Notepad application should open):
+8. Exit `diskpart`:
+   ```
+   exit
+   ```
+9. Open config.txt (the Notepad application should open):
    ```
    notepad z:\config.txt
    ```
-9. Add the following lines at the end of the file, below `[all]`:
-   ```
-   # --- LibreCoach: Enable Waveshare CAN HAT ---
-   dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25,spimaxfrequency=2000000
-   ```
-10. Save and close the file
-11. Back in the command prompt, open `diskpart`:
+10. Add the following lines at the end of the file, below `[all]`:
+    ```
+    # --- LibreCoach: Enable Waveshare CAN HAT ---
+    dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25,spimaxfrequency=2000000
+    ```
+11. Save and close the file
+12. Back in the command prompt, open `diskpart`:
     ```
     diskpart
     ```
-12. Select the correct disk (replace X with your disk number):
+13. Select the correct disk (replace X with your disk number):
     ```
-    select disk X
+    select disk 1
     ```
-13. Select the partition 1 (system):
+14. Select the partition 1 (system):
     ```
     select partition 1
     ```
-14. Remove the drive letter:
+15. Remove the drive letter:
     ```
     remove letter=Z
     ```
-15. Exit diskpart:
+16. Exit diskpart:
     ```
     exit
     ```
-16. Exit command prompt:
+17. Exit command prompt:
     ```
     exit
     ```
-17. Safely eject the NVMe drive from your computer
+18. Safely eject the NVMe drive from your computer
 
 #### Mac/Linux Instructions
 
