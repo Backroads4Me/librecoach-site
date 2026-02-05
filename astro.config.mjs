@@ -1,10 +1,10 @@
 // @ts-check
 import { defineConfig } from "astro/config";
-import starlight from "@astrojs/starlight";
 import Icons from "starlight-plugin-icons";
 import UnoCSS from "unocss/astro";
 import cloudflare from "@astrojs/cloudflare";
 import starlightThemeSix from "@six-tech/starlight-theme-six";
+
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
@@ -14,89 +14,86 @@ export default defineConfig({
   integrations: [
     sitemap(),
     UnoCSS(),
-    starlight({
-      title: "LibreCoach",
-      head: [
-        {
-          tag: "meta",
-          attrs: {
-            name: "norton-safeweb-site-verification",
-            content:
-              "2CAFY2-JTFV318TRCA6HVVHXGVUKGXHZFW01BAVPJQXC4XQM-G31G3WKGL1MI-4FXXQNWN1BS41PYTT86QXOWS1IKORDUX990EUUDKXZ-XFZKZ6KW2T95YN9DL9J9LRM",
+    Icons({
+      starlight: {
+        title: "LibreCoach",
+        head: [
+          {
+            tag: "meta",
+            attrs: {
+              name: "norton-safeweb-site-verification",
+              content:
+                "2CAFY2-JTFV318TRCA6HVVHXGVUKGXHZFW01BAVPJQXC4XQM-G31G3WKGL1MI-4FXXQNWN1BS41PYTT86QXOWS1IKORDUX990EUUDKXZ-XFZKZ6KW2T95YN9DL9J9LRM",
+            },
           },
+          {
+            tag: "link",
+            attrs: { rel: "sitemap", href: "/sitemap-index.xml" },
+          },
+        ],
+        plugins: [
+          starlightThemeSix({
+            //optional
+            footerText:
+              'LibreCoach - Take Your RV Further • <a href="/community/about/">About</a> • <a href="https://forum.librecoach.com" target="_blank" rel="noopener">Community</a> • <a href="/community/privacy/" target="_blank" rel="noopener">Privacy Policy</a>',
+          }),
+        ],
+        customCss: ["./src/styles/custom.css"],
+        components: {
+          Card: "starlight-plugin-icons/components/Card.astro",
         },
-        {
-          tag: "link",
-          attrs: { rel: "sitemap", href: "/sitemap-index.xml" },
+        favicon: "/icons/favicon-64.png",
+        logo: {
+          src: "./public/logo.svg",
+          replacesTitle: false,
         },
-      ],
-      plugins: [
-        Icons(),
-        starlightThemeSix({
-          footerText:
-            'LibreCoach - Take Your RV Further • <a href="/community/about/">About</a> • <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener">Discord</a> • <a href="https://www.facebook.com/groups/880537571244339" target="_blank" rel="noopener">Facebook</a> • <a href="/community/privacy/" target="_blank" rel="noopener">Privacy Policy</a>',
-        }),
-      ],
-      customCss: ["./src/styles/custom.css"],
-      components: {
-        Card: "starlight-plugin-icons/components/Card.astro",
+        lastUpdated: false,
+        editLink: {
+          baseUrl: "https://github.com/backroads4me/librecoach-site/edit/main/",
+        },
+        social: [
+          {
+            icon: "github",
+            label: "GitHub",
+            href: "https://github.com/backroads4me",
+          },
+          {
+            icon: "discourse",
+            label: "Community Forum",
+            href: "https://forum.librecoach.com",
+          },
+        ],
+        sidebar: [
+          {
+            label: "Start Here",
+            autogenerate: { directory: "start-here" },
+          },
+          {
+            label: "Build",
+            autogenerate: { directory: "build" },
+          },
+          {
+            label: "Configuration",
+            autogenerate: { directory: "configuration" },
+          },
+          {
+            label: "Advanced Setup",
+            autogenerate: { directory: "advanced-setup" },
+          },
+          {
+            label: "Community",
+            autogenerate: { directory: "community" },
+          },
+          {
+            label: "Reference",
+            autogenerate: { directory: "reference" },
+          },
+          {
+            label: "Support",
+            autogenerate: { directory: "support" },
+          },
+        ],
       },
-      favicon: "/icons/favicon-64.png",
-      logo: {
-        src: "./public/logo.svg",
-        replacesTitle: false,
-      },
-      lastUpdated: false,
-      editLink: {
-        baseUrl: "https://github.com/backroads4me/librecoach-site/edit/main/",
-      },
-      social: [
-        {
-          icon: "github",
-          label: "GitHub",
-          href: "https://github.com/Backroads4Me/ha-addons",
-        },
-        {
-          icon: "discord",
-          label: "Discord",
-          href: "https://discord.gg/KKGNUHyaap",
-        },
-        {
-          icon: "facebook",
-          label: "Facebook Group",
-          href: "https://www.facebook.com/groups/880537571244339",
-        },
-      ],
-      sidebar: [
-        {
-          label: "Start Here",
-          autogenerate: { directory: "start-here" },
-        },
-        {
-          label: "Build",
-          autogenerate: { directory: "build" },
-        },
-        {
-          label: "Configuration",
-          autogenerate: { directory: "configuration" },
-        },
-        {
-          label: "Advanced Setup",
-          autogenerate: { directory: "advanced-setup" },
-        },
-        {
-          label: "Community",
-          autogenerate: { directory: "community" },
-        },
-        {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
-        },
-        {
-          label: "Support",
-          autogenerate: { directory: "support" },
-        },
-      ],
     }),
   ],
 
