@@ -72,4 +72,4 @@ The RV-C protocol is designed to standardize communication across nearly every e
 
 - <a href="https://www.rvia.org/rv-c/rv-c-specification-document" target="_blank" rel="noopener noreferrer">RV-C Official Specification</a> (technical, for advanced users)
 - [System Architecture](/reference/system-architecture/) - How LibreCoach processes RV-C messages
-- <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> - Ask questions and share experiences
+- <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> - Ask questions and share experiences

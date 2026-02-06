@@ -1,5 +1,5 @@
 ---
-filename: community
+filename: connect
 title: Community
 sidebar:
   order: 2
@@ -13,7 +13,7 @@ Join the LibreCoach community to ask questions, share setups, and discuss improv
 
 ### Discord Server
 
-<a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Join our Discord forum</a> for real-time chat, quick questions, and community discussions.
+<a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Join our Discord forum</a> for real-time chat, quick questions, and community discussions.
 
 ### Facebook Group
 

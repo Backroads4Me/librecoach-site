@@ -15,7 +15,7 @@ You don’t need to be a programmer to make a meaningful contribution. Here are 
 
 - **Documentation**: Spot typos, clarify confusing steps, or add missing sections.
 - **Testing**: Try new releases on your hardware and report issues.
-- **Support**: Answer questions on <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>.
+- **Support**: Answer questions on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>.
 - **Showcases**: Share your dashboard screenshots, automation ideas, and setup tips.
 
 ---
@@ -26,7 +26,7 @@ You don’t need to be a programmer to make a meaningful contribution. Here are 
 
 - **Share Your Dashboard**: Show off your layout! Screenshots and explanations of your dashboard help inspire and guide other users.
 - **Write Tutorials**: Document your setup, integrations, or automations. Example: “How I integrated Starlink with LibreCoach.”
-- **Support Others**: Answer questions on <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a>. Your experience is valuable!
+- **Support Others**: Answer questions on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a>. Your experience is valuable!
 - **Port Hunters**: Document where the RV-C port is located on your RV model — helps others locate it more quickly.
 
 ### 🛠️ Makers

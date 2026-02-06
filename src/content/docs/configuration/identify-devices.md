@@ -76,7 +76,7 @@ Once you've identified all your switches, consider sharing your configuration wi
 ### How to Share
 
 1. Export your dashboard YAML (see [Creating Dashboards](/configuration/dashboards/))
-2. Share on <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>
+2. Share on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>
 3. Include:
    - Your RV make, model, and year
    - Screenshots of your dashboard
@@ -87,6 +87,6 @@ Once you've identified all your switches, consider sharing your configuration wi
 
 Before starting from scratch, check if someone with your RV model has already shared their configuration:
 
-1. Check <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>
+1. Check <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>
 2. Search for your model and year
 3. Download the YAML and import it into Home Assistant

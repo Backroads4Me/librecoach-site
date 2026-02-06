@@ -49,7 +49,7 @@ export default defineConfig({
           starlightThemeSix({
             //optional
             footerText:
-              'LibreCoach - Take Your RV Further • <a href="/community/about/">About</a> • <a href="https://discord.gg/KKGNUHyaap?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExN20xNkE3Z3VyMDgxdEg0QnNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5gzk-uuD5UNDHndTrtJDewofzu53UNDvhBQnaUSQcWaXhOf-rD5k_NbzUIkQ_aem_RYIy00-UvEDmfihn-srFcQ" target="_blank" rel="noopener">Discord Forum</a> • <a href="/community/privacy/" target="_blank" rel="noopener">Privacy Policy</a>',
+              'LibreCoach - Take Your RV Further • <a href="/community/about/">About</a> • <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener">Discord Forum</a> • <a href="/community/privacy/" target="_blank" rel="noopener">Privacy Policy</a>',
           }),
         ],
         customCss: ["./src/styles/custom.css"],
@@ -74,7 +74,7 @@ export default defineConfig({
           {
             icon: "discord",
             label: "Discord",
-            href: "https://discord.gg/KKGNUHyaap?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExN20xNkE3Z3VyMDgxdEg0QnNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5gzk-uuD5UNDHndTrtJDewofzu53UNDvhBQnaUSQcWaXhOf-rD5k_NbzUIkQ_aem_RYIy00-UvEDmfihn-srFcQ",
+            href: "https://discord.gg/VZCAESHn2h",
           },
         ],
         sidebar: [
