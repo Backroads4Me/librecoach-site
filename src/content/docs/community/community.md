@@ -13,11 +13,11 @@ Join the LibreCoach community to ask questions, share setups, and discuss improv
 
 ### Discord Server
 
-<a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Join our Discord</a> for real-time chat, quick questions, and community discussions.
+<a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Join our Discord forum</a> for real-time chat, quick questions, and community discussions.
 
 ### Facebook Group
 
-<a href="https://www.facebook.com/groups/880537571244339" target="_blank" rel="noopener noreferrer">Join our Facebook Group</a> to connect with other RV owners using LibreCoach.
+<a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Join our Facebook Group</a> to connect with other RV owners using LibreCoach.
 
 ## What You'll Find
 

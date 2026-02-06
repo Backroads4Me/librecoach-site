@@ -267,7 +267,7 @@ Before asking for help, collect:
 
 Someone may have already solved your issue:
 - <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a>
-- <a href="https://www.facebook.com/groups/880537571244339" target="_blank" rel="noopener noreferrer">Facebook Group</a>
+- <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>
 - Search for error messages or symptoms
 
 ### 3. Ask for Help

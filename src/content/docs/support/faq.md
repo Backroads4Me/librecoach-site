@@ -88,7 +88,7 @@ Your RV continues to function normally using its original physical controls. Lib
 
 ### Where can I get support?
 
-The <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">**Discord server**</a> and <a href="https://www.facebook.com/groups/880537571244339" target="_blank" rel="noopener noreferrer">**Facebook Group**</a> are the best places to ask questions, share tips, and discuss LibreCoach with other RV owners.
+The <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">**Discord server**</a> and <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">**Facebook Group**</a> are the best places to ask questions, share tips, and discuss LibreCoach with other RV owners.
 
 ### I found a bug. How do I report it?
 

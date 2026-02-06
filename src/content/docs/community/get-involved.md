@@ -15,7 +15,7 @@ You don’t need to be a programmer to make a meaningful contribution. Here are 
 
 - **Documentation**: Spot typos, clarify confusing steps, or add missing sections.
 - **Testing**: Try new releases on your hardware and report issues.
-- **Support**: Answer questions on <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/880537571244339" target="_blank" rel="noopener noreferrer">Facebook Group</a>.
+- **Support**: Answer questions on <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>.
 - **Showcases**: Share your dashboard screenshots, automation ideas, and setup tips.
 
 ---

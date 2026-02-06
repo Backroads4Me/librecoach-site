@@ -40,4 +40,4 @@ HACS provides access to thousands of community-created integrations, themes, and
 
 ## Community Recommendations
 
-Have an app or integration that works great with LibreCoach? Share it on <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/880537571244339" target="_blank" rel="noopener noreferrer">Facebook Group</a>!
+Have an app or integration that works great with LibreCoach? Share it on <a href="https://discord.gg/KKGNUHyaap" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>!
