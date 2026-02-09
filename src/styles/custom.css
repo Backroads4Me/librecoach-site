@@ -73,6 +73,23 @@ html[data-theme="dark"] {
   display: none;
 }
 
+/* Responsive hero padding (replaces inline px prop) */
+.six-hero-content-overlay {
+  padding-inline: 1.5rem !important;
+}
+
+@media (min-width: 768px) {
+  .six-hero-content-overlay {
+    padding-inline: 6rem !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .six-hero-content-overlay {
+    padding-inline: 12rem !important;
+  }
+}
+
 /* Override HeroX inline background */
 :where(.six-hero.six-hero-with-background) {
   background-image: var(--six-hero-bg) !important;
