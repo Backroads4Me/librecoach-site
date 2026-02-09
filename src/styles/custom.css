@@ -98,6 +98,14 @@ html[data-theme="dark"] {
   }
 }
 
+@media (max-width: 660px) {
+
+  /* Progressive shift for small screens: more aggressive slide to the right */
+  .six-hero.six-hero-with-background {
+    background-position: right calc(100vw - 810px) center !important;
+  }
+}
+
 /* Override HeroX inline background */
 :where(.six-hero.six-hero-with-background) {
   background-image: var(--six-hero-bg) !important;
