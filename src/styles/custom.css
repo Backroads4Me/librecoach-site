@@ -1,5 +1,5 @@
 /* Constrain landing page content width */
-main > .markdown-wrapper > .sl-markdown-content {
+main>.markdown-wrapper>.sl-markdown-content {
   max-width: 90rem;
   margin-inline: auto;
   padding-inline: 1.5rem;
@@ -90,6 +90,14 @@ html[data-theme="dark"] {
   }
 }
 
+@media (max-width: 1024px) {
+
+  /* Shift hero image to the right to prevent overlap with text on smaller screens */
+  .six-hero.six-hero-with-background {
+    background-position: right -150px center !important;
+  }
+}
+
 /* Override HeroX inline background */
 :where(.six-hero.six-hero-with-background) {
   background-image: var(--six-hero-bg) !important;
@@ -98,15 +106,16 @@ html[data-theme="dark"] {
 .six-hero.six-hero-with-background {
   background-image: var(--six-hero-bg) !important;
   border: 2px solid var(--sl-color-gray-3);
-  border-radius: 2rem; /* match your HeroX radius */
+  border-radius: 2rem;
+  /* match your HeroX radius */
   box-sizing: border-box;
 }
 
-  /* Override Six theme button size */                                                                                                                                                                                               
-  a.primary {                                                                                                                                                                                                                          
-    height: 2.5rem;
-  }
+/* Override Six theme button size */
+a.primary {
+  height: 2.5rem;
+}
 
-  a.secondary {
-    height: 2.5rem !important;
-  }
+a.secondary {
+  height: 2.5rem !important;
+}
