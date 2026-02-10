@@ -61,6 +61,7 @@ Items that aren't strictly required but nice to have.
 
 - <a href="https://www.waveshare.com" target="_blank" rel="noopener">Waveshare</a>
 - <a href="https://www.pishop.us" target="_blank" rel="noopener">PiShop</a>
+- <a href="https://thepihut.com/" target="_blank" rel="noopener">The Pi Hut</a>
 - <a href="https://www.canakit.com" target="_blank" rel="noopener">CanaKit</a>
 - <a href="https://www.digikey.com/en/products/detail/raspberry-pi/SC1431/21658261" target="_blank" rel="noopener">Digikey</a>
 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun</a>
