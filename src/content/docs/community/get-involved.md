@@ -13,10 +13,10 @@ LibreCoach is an open-source project that provides a smart RV system you can ext
 
 You don’t need to be a programmer to make a meaningful contribution. Here are some ways you can help:
 
-- **Documentation**: Spot typos, clarify confusing steps, or add missing sections.
-- **Testing**: Try new releases on your hardware and report issues.
-- **Support**: Answer questions on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>.
-- **Showcases**: Share your dashboard screenshots, automation ideas, and setup tips.
+- **Documentation**: Fix typos, clarify confusing steps, or suggest improvements.
+- **Testing**: Try new releases on your hardware and report what works (or doesn’t).
+- **Support**: Answer questions on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook</a>.
+- **Showcases**: Share your dashboard layouts, automations, and setup idea
 
 ---
 
@@ -26,8 +26,12 @@ You don’t need to be a programmer to make a meaningful contribution. Here are 
 
 - **Share Your Dashboard**: Show off your layout! Screenshots and explanations of your dashboard help inspire and guide other users.
 - **Write Tutorials**: Document your setup, integrations, or automations. Example: “How I integrated Starlink with LibreCoach.”
-- **Support Others**: Answer questions on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a>. Your experience is valuable!
-- **Port Hunters**: Document where the RV-C port is located on your RV model — helps others locate it more quickly.
+- **Support Others**: Answer questions on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook</a> and help new users get started.
+- **Port Hunters**: Help others by documenting where the RV-C port is located on your specific RV model.
+
+:::note[Community Update]
+LibreCoach updates are not allowed to be shared on iRV2. If you’d like to help spread the word, we appreciate your support in other communities.
+:::
 
 ### 🛠️ Makers
 
