@@ -39,7 +39,7 @@ The goal is to grow a **community-driven open source project**, where contributo
 
 - <a href="https://buymeacoffee.com/backroads4me" target="_blank" rel="noopener noreferrer">**Buy Me a Coffee**</a> — One-time donation
 
-- **Contribute** — Code, documentation, testing, or helping others on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a>
+- **Contribute** — Code, documentation, testing, or helping others on the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">Forum</a> or <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a>
 
 ## Compatibility
 
@@ -88,7 +88,7 @@ Your RV continues to function normally using its original physical controls. Lib
 
 ### Where can I get support?
 
-The <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">**Discord server**</a> and <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">**Facebook Group**</a> are the best places to ask questions, share tips, and discuss LibreCoach with other RV owners.
+The <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">**LibreCoach Forum**</a>, <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">**Discord server**</a>, and <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">**Facebook Group**</a> are the best places to ask questions, share tips, and discuss LibreCoach with other RV owners.
 
 ### I found a bug. How do I report it?
 

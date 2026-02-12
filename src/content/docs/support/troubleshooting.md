@@ -7,7 +7,7 @@ sidebar:
 draft: true
 ---
 
-Having trouble with LibreCoach? Check these common issues and solutions before asking for help on Discord or Facebook.
+Having trouble with LibreCoach? Check these common issues and solutions before asking for help on the Forum, Discord, or Facebook.
 
 ## Installation Issues
 
@@ -266,6 +266,7 @@ Before asking for help, collect:
 ### 2. Search the Community
 
 Someone may have already solved your issue:
+- <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">LibreCoach Forum</a>
 - <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a>
 - <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>
 - Search for error messages or symptoms
@@ -307,6 +308,7 @@ Home Assistant has built-in backup:
 
 ### Join the Community
 
+- <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">LibreCoach Forum</a> - Ask questions and share solutions
 - <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> - Stay informed and get help
 - <a href="https://github.com/backroads4me" target="_blank" rel="noopener noreferrer">GitHub</a> - Follow development
 - <a href="https://github.com/sponsors/backroads4me" target="_blank" rel="noopener noreferrer">GitHub Sponsors</a> - Monthly support

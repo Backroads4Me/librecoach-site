@@ -15,7 +15,7 @@ You don’t need to be a programmer to make a meaningful contribution. Here are 
 
 - **Documentation**: Fix typos, clarify confusing steps, or suggest improvements.
 - **Testing**: Try new releases on your hardware and report what works (or doesn’t).
-- **Support**: Answer questions on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook</a>.
+- **Support**: Answer questions on the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">Forum</a>, <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a>, or <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook</a>.
 - **Showcases**: Share your dashboard layouts, automations, and setup idea
 
 ---
@@ -26,7 +26,7 @@ You don’t need to be a programmer to make a meaningful contribution. Here are 
 
 - **Share Your Dashboard**: Show off your layout! Screenshots and explanations of your dashboard help inspire and guide other users.
 - **Write Tutorials**: Document your setup, integrations, or automations. Example: “How I integrated Starlink with LibreCoach.”
-- **Support Others**: Answer questions on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook</a> and help new users get started.
+- **Support Others**: Answer questions on the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">Forum</a>, <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a>, or <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook</a> and help new users get started.
 - **Port Hunters**: Help others by documenting where the RV-C port is located on your specific RV model.
 
 :::note[Community Update]

@@ -49,7 +49,7 @@ export default defineConfig({
           starlightThemeSix({
             //optional
             footerText:
-              'LibreCoach - Take Your RV Further • <a href="/community/about/">About</a> • <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener">Discord Forum</a> • <a href="/community/privacy/" target="_blank" rel="noopener">Privacy Policy</a>',
+              'LibreCoach - Take Your RV Further • <a href="/community/about/">About</a> • <a href="https://forum.librecoach.com" target="_blank" rel="noopener">Community Forum</a> • <a href="/community/privacy/" target="_blank" rel="noopener">Privacy Policy</a>',
           }),
         ],
         customCss: ["./src/styles/custom.css"],
@@ -66,6 +66,11 @@ export default defineConfig({
           baseUrl: "https://github.com/backroads4me/librecoach-site/edit/main/",
         },
         social: [
+          {
+            icon: "discourse",
+            label: "Community Forum",
+            href: "https://forum.librecoach.com",
+          },
           {
             icon: "github",
             label: "GitHub",
