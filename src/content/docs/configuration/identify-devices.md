@@ -48,6 +48,17 @@ Physical Switch          →  Home Assistant Entity  →  What It Controls
 - **Toggle twice**: Be absolutely sure of your naming
 - **Unidentified Switches**: You will likely have unidentified switches. This is normal. DO NOT switch them on and off without knowing what they are. It could be master power, dump valve, ejection seat.
 
+### Teach LibreCoach Which Lights Can Dim
+
+Some of your switches may control lights that support dimming. LibreCoach can learn this automatically — you just need to show it.
+
+Once you've identified a switch that controls a dimmable light:
+
+1. Use the physical wall switch or dimmer in your RV to dim that light (not the Home Assistant toggle)
+2. LibreCoach will see the dimming command and automatically "learn" that this light supports dimming
+3. The entity in Home Assistant will update from a simple on/off switch to one capable of dimming.
+4. You may need to enable the brightness controls on the buttons in your dashboard.
+
 ### Multiple switches turn on at once
 
 - RV-C zone lighting: Multiple lights are grouped into a single zone
