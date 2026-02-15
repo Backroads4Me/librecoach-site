@@ -37,8 +37,8 @@ This page serves as a live reference for all the styling and features available 
 Standard Markdown text formatting works as expected:
 
 - **Bold text** for strong emphasis
-- *Italic text* for secondary emphasis
-- ***Bold and italic*** combined
+- _Italic text_ for secondary emphasis
+- **_Bold and italic_** combined
 - ~~Strikethrough~~ for deleted content
 - `Inline code` for variables like `CAN_BUS_ID` or `rvc2hass`
 
@@ -144,7 +144,7 @@ Asides can contain any Markdown content:
 You can include:
 
 - Bullet points
-- **Bold** and *italic* text
+- **Bold** and _italic_ text
 - `inline code`
 - [Links](/start-here/what-is-librecoach/)
 
@@ -155,6 +155,7 @@ mqtt:
   discovery: true
   discovery_prefix: homeassistant
 ```
+
 :::
 
 ---
@@ -212,11 +213,11 @@ Starlight uses Expressive Code for enhanced code block rendering with automatic 
 ```javascript
 // JavaScript example
 const bridge = new RVCBridge({
-  canInterface: 'can0',
-  mqttBroker: 'mqtt://localhost'
+  canInterface: "can0",
+  mqttBroker: "mqtt://localhost",
 });
 
-bridge.on('message', (dgn, data) => {
+bridge.on("message", (dgn, data) => {
   console.log(`Received DGN: ${dgn}`);
 });
 ```
@@ -331,7 +332,7 @@ from librecoach import RVCBridge
 async def main():
     bridge = RVCBridge()
     await bridge.connect()
-    
+
     async for message in bridge.messages():
         print(f"DGN: {message.dgn}, Data: {message.data.hex()}")
 
@@ -379,23 +380,23 @@ librecoach:
     interface: can0
     bitrate: 250000
     filters:
-      - dgn: 0x1FFDC  # DC Source Status 1
-      - dgn: 0x1FED9  # Battery Status
-      
+      - dgn: 0x1FFDC # DC Source Status 1
+      - dgn: 0x1FED9 # Battery Status
+
   mqtt:
     host: localhost
     port: 1883
     username: librecoach
     password: secret
     discovery_prefix: homeassistant
-    
+
   entities:
     - type: sensor
       name: House Battery
       dgn: 0x1FED9
       instance: 1
       value_template: "{{ value.voltage }}"
-      
+
   logging:
     level: INFO
     file: /var/log/librecoach.log
@@ -409,30 +410,30 @@ librecoach:
 
 ### Basic Table
 
-| DGN | Name | Description |
-|-----|------|-------------|
+| DGN     | Name               | Description                 |
+| ------- | ------------------ | --------------------------- |
 | 0x1FFDC | DC Source Status 1 | Battery voltage and current |
-| 0x1FED9 | Battery Status | SOC, temperature, capacity |
-| 0x1FEDB | Charger Status | Charging state and current |
-| 0x1FEF7 | Generator Status | Generator running state |
+| 0x1FED9 | Battery Status     | SOC, temperature, capacity  |
+| 0x1FEDB | Charger Status     | Charging state and current  |
+| 0x1FEF7 | Generator Status   | Generator running state     |
 
 ### Aligned Table
 
-| Setting | Type | Default | Description |
-|:--------|:----:|--------:|:------------|
-| `bitrate` | int | 250000 | CAN bus bitrate |
-| `interface` | string | `can0` | CAN interface name |
-| `discovery` | bool | true | Enable MQTT discovery |
-| `retry_count` | int | 3 | Connection retry attempts |
+| Setting       |  Type  | Default | Description               |
+| :------------ | :----: | ------: | :------------------------ |
+| `bitrate`     |  int   |  250000 | CAN bus bitrate           |
+| `interface`   | string |  `can0` | CAN interface name        |
+| `discovery`   |  bool  |    true | Enable MQTT discovery     |
+| `retry_count` |  int   |       3 | Connection retry attempts |
 
 ### Complex Table
 
-| Component | Voltage Range | Protocol | Notes |
-|-----------|--------------|----------|-------|
-| House Battery | 10.5V - 14.4V | RV-C | Primary DC source |
-| Chassis Battery | 10.5V - 14.4V | RV-C | Engine starting |
-| Inverter/Charger | 120V AC / 12V DC | Victron VE.Bus | MultiPlus II 3000 |
-| Solar Controller | 12V - 150V DC | Victron VE.Direct | MPPT 100/30 |
+| Component        | Voltage Range    | Protocol          | Notes             |
+| ---------------- | ---------------- | ----------------- | ----------------- |
+| House Battery    | 10.5V - 14.4V    | RV-C              | Primary DC source |
+| Chassis Battery  | 10.5V - 14.4V    | RV-C              | Engine starting   |
+| Inverter/Charger | 120V AC / 12V DC | Victron VE.Bus    | MultiPlus II 3000 |
+| Solar Controller | 12V - 150V DC    | Victron VE.Direct | MPPT 100/30       |
 
 ---
 
@@ -440,7 +441,7 @@ librecoach:
 
 ### Basic Image
 
-![LibreCoach Architecture](../../../assets/architecture-diagram.png)
+![LibreCoach Architecture](../../../assets/architecture-diagram.webp)
 
 ### Image with Alt Text
 
@@ -488,11 +489,11 @@ Use three or more dashes, asterisks, or underscores:
 
 Content after a horizontal rule.
 
-***
+---
 
 Another section break.
 
-___
+---
 
 Yet another way to create a rule.
 
@@ -549,10 +550,10 @@ The <mark>highlighted text</mark> shows the important part.
 
 These options are for advanced users only:
 
-| Option | Description |
-|--------|-------------|
-| `raw_mode` | Disable message parsing |
-| `debug_can` | Log all CAN frames |
+| Option       | Description             |
+| ------------ | ----------------------- |
+| `raw_mode`   | Disable message parsing |
+| `debug_can`  | Log all CAN frames      |
 | `custom_dgn` | Add custom DGN handlers |
 
 </details>
@@ -563,7 +564,7 @@ These options are for advanced users only:
 
 **LibreCoach**
 
-*Open-source RV automation*
+_Open-source RV automation_
 
 <a href="https://github.com/backroads4me" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://librecoach.io" target="_blank" rel="noopener noreferrer">Documentation</a>
 
@@ -600,6 +601,7 @@ Starlight supports emoji shortcodes (if configured) and Unicode emoji:
 Unicode emoji: 🚐 ⚡ 🔋 🌡️ 💡 🔌 📡 ⚙️
 
 Common uses:
+
 - ✅ Task complete
 - ❌ Error or failure
 - ⚠️ Warning
@@ -633,7 +635,7 @@ HTML comments are not rendered but remain in the source:
 
 <!-- This is a comment that won't appear in the rendered output -->
 
-<!-- 
+<!--
   Multi-line comment
   for documentation purposes
 -->

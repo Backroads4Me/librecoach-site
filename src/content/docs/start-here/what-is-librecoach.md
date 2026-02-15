@@ -68,7 +68,7 @@ LibreCoach is built on **Home Assistant**, the world’s most popular open-sourc
 
 ## How It Works
 
-![LibreCoach System Architecture](../../../assets/architecture-diagram.png)
+![LibreCoach System Architecture](../../../assets/architecture-diagram.webp)
 
 1. **Hardware Bridge**  
    A Raspberry Pi with a CAN HAT physically connects to your RV’s CAN bus wiring.

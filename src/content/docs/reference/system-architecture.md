@@ -15,7 +15,7 @@ LibreCoach acts as a translator between the RV-C bus and Home Assistant, convert
 
 ### High-Level Block Diagram
 
-![LibreCoach System Architecture](../../../assets/architecture-diagram.png)
+![LibreCoach System Architecture](../../../assets/architecture-diagram.webp)
 
 ---
 
