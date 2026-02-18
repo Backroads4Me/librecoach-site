@@ -41,6 +41,18 @@ LibreCoach integrates several open-source Home Assistant apps to create a seamle
 - **<a href="https://mosquitto.org/" target="_blank" rel="noopener noreferrer">Mosquitto</a>:** The lightweight MQTT broker that acts as the "nervous system," passing messages between the RV-C bus and Home Assistant.
 - **<a href="https://nodered.org/" target="_blank" rel="noopener noreferrer">Node-RED</a>:** The visual programming tool that handles the complex logic of translating raw industrial CAN messages into smart home entities.
 
+
+## Community Integrations
+
+We believe in giving credit where credit is due. The following projects provided the foundation for specific device integrations within LibreCoach:
+
+### Micro-Air EasyTouch
+
+The Micro-Air EasyTouch Bluetooth integration was built with BLE protocol reference from the work of:
+
+- **k3vmcd** — <a href="https://github.com/k3vmcd/ha-micro-air-easytouch" target="_blank" rel="noopener noreferrer">ha-micro-air-easytouch</a>
+- **mlefevre** — <a href="https://github.com/mlefevre/ha_EasyTouchRV_MicroAir_MZ" target="_blank" rel="noopener noreferrer">ha_EasyTouchRV_MicroAir_MZ</a>
+
 ---
 
 To all the developers, contributors, and visionaries who have made this journey possible:
