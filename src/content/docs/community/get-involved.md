@@ -17,6 +17,7 @@ You don’t need to be a programmer to make a meaningful contribution. Here are 
 - **Testing**: Try new releases on your hardware and report what works (or doesn’t).
 - **Support**: Answer questions on the <a href="https://forum.librecoach.com" target="_blank" rel="noopener noreferrer">Forum</a>, <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a>, or <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook</a>.
 - **Showcases**: Share your dashboard layouts, automations, and setup idea
+- **Star the Project**: <a href="https://github.com/Backroads4Me/ha-addons" target="_blank" rel="noopener noreferrer">⭐ Star this repository</a> on GitHub to help others find us.
 
 ---
 
