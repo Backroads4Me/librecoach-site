@@ -32,16 +32,22 @@ You will need a GitHub account to set up HACS, as it downloads files directly fr
 
 ## Examples of What You Can Add
 
-Here are just two examples of the powerful enhancements available through HACS:
+Here are just a few examples of the powerful enhancements available through HACS:
+
+_📌 All of the integrations below are used in the LibreCoach dashboard screenshots._
 
 ### 1. Mushroom Cards
 
 **<a href="https://github.com/piitaya/lovelace-mushroom" target="_blank" rel="noopener">Mushroom</a>** is a collection of cards for your dashboard that look modern, clean, and fit perfectly with the LibreCoach aesthetic. They are easy to configure and designed to be touch-friendly for mobile devices and wall tablets.
 
-_📌 Mushroom cards are used in the LibreCoach dashboard screenshots._
-
 ### 2. Power Flow Card Plus
 
 **[Power Flow Card Plus](https://github.com/flixlix/power-flow-card-plus)** allows you to visualize your RV’s energy usage in real-time.
 
-_📌 Power Flow Card Plus is used in the LibreCoach dashboard screenshots._
+### 3. Button Card
+
+**[Button Card](https://github.com/custom-cards/button-card)** allows you to create highly customizable buttons with templates for your dashboard.
+
+### 4. Card Mod
+
+**[Card Mod](https://github.com/thomasloven/lovelace-card-mod)** allows you to apply CSS styles to other cards, giving you fine-grained control over their appearance.

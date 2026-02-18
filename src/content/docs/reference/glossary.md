@@ -21,7 +21,7 @@ draft: false
 
 - **Home Assistant (HA)**: The open-source smart home platform that provides the user interface and automation engine for LibreCoach.
 - **HAOS (Home Assistant Operating System)**: A purpose-built, "turnkey" operating system designed to make Home Assistant feel like a dedicated appliance rather than a complex computer project. It handles the difficult parts of system ownership—like security patches, driver updates, and database backups—automatically through a simple interface. For RVers, this provides a "set it and forget it" reliability that ensures your lights and sensors stay functional without needing to use a command line or manage individual Docker containers.
-- **App** (formerly Add-on): A containerized service managed by Home Assistant (via Docker) used to extend functionality, such as LibreCoach, CAN to MQTT Bridge and Node-RED.
+- **App** (formerly Add-on): A containerized service managed by Home Assistant (via Docker) used to extend functionality, such as LibreCoach, Mosquitto, and Node-RED.
 - **Entity**: A single point of data or control in Home Assistant, such as `light.bedroom` or `sensor.fresh_water`.
 - **MQTT (Mosquitto)**: The lightweight messaging protocol LibreCoach uses to pass data between the CAN bridge, Node-RED, and Home Assistant.
 - **Dashboard / Lovelace**: The visual interface you use on your phone or tablet to control your RV.

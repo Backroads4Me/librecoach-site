@@ -36,52 +36,52 @@ If you want to use WiFi instead of ethernet:
 9. Click **wlan0** under **Configure network interfaces**
 10. Select your WiFi network then scroll down and select one of the security options (likely **WPA-PSK**) and enter the password
 
-## Install LibreCoach Add-on
+## Install LibreCoach
 
-The LibreCoach add-on automatically installs and configures the following required apps:
+The LibreCoach app automatically installs and configures the following required apps:
 
-- LibreCoach
-- CAN-to-MQTT Bridge
-- Node-RED with
+- LibreCoach (includes built-in CAN and Bluetooth bridge)
+- Node-RED
 - Mosquitto MQTT broker
 
 ### Add the Repository
 
-Click the button below to add the LibreCoach add-on repository:
+Click the button below to add the LibreCoach app repository:
 
 [![Open your Home Assistant instance and show the add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fbackroads4me%2Fha-addons)
 
 Or manually:
 
-- Go to **Settings** → **Add-ons** → **Add-on Store**
+- Go to **Settings** → **Apps**
 - Click the three dots (⋮) in the top right → **Repositories**
 - Add: `https://github.com/backroads4me/ha-addons`
 - Click **Add** → **Close**
 
-### Install the Add-on
+### Install the App
 
-11. In the Add-on Store (Settings → Add-ons), find **LibreCoach** in the repository list
-    ![LibreCoach add-on in repository list](../../../assets/software/software_0.webp)
+11. In the Apps section (**Settings** → **Apps**), find **LibreCoach** in the repository list
+    ![LibreCoach in the Apps repository list](../../../assets/software/software_0.webp)
 12. Open it and click **Install**
-    ![Installing LibreCoach add-on](../../../assets/software/software_1.webp)
+    ![Installing LibreCoach](../../../assets/software/software_1.webp)
 13. After installation, go to the **Info** tab and click **Start**
-    ![Starting LibreCoach add-on](../../../assets/software/software_2.webp)
+    ![Starting LibreCoach](../../../assets/software/software_2.webp)
 14. After starting, go to the **Log** tab to monitor installation progress
 15. LibreCoach will automatically install several components, then pause, requiring user intervention.
     ![LibreCoach installation log showing pause for user intervention](../../../assets/software/software_3.webp)
 16. Follow the instructions in the log and go to **Settings** → **Devices & Services**, then find **MQTT** and click **Add**
     ![Adding MQTT integration](../../../assets/software/software_4.webp)
-17. Return to **Settings** → **Add-ons** → **LibreCoach** and click **Start**, then monitor the remaining installation progress in the log
+17. Return to **Settings** → **Apps** → **LibreCoach** and click **Start**, then monitor the remaining installation progress in the log
     ![LibreCoach installation log showing installation complete](../../../assets/software/software_5.webp)
 
 ## Verify Installation
 
-18. In Home Assistant, go to **Settings** → **Add-ons**
+18. In Home Assistant, go to **Settings** → **Apps**
 19. You should see:
     - **Mosquitto broker** (running)
-    - **CAN-to-MQTT Bridge** (running)
     - **Node-RED** (running)
-    - **LibreCoach** (stopped/grayed out after initial setup - this is normal)
+    - **LibreCoach** (running)
+
+    CAN and Bluetooth communication run as built-in services inside LibreCoach — no separate app required.
 
 ### LibreCoach is now installed!
 

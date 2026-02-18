@@ -33,8 +33,8 @@ Most RV owners find a hybrid approach works best: primary tabs by function, with
 
 1. Go to **Settings** → **Dashboards**
 2. Click **+ Add Dashboard** in the bottom right
-3. Choose a name (e.g., "My RV")
-4. Select **Start with an empty dashboard**
+3. Select **New dashboard from scratch**
+4. Give it a name (e.g., "My RV") and click **Create**
 
 ### Step 3: Add Views (Tabs)
 
@@ -47,8 +47,6 @@ Create tabs for different areas:
    - Climate
    - Water & Tanks
    - Power & Batteries
-   - Security
-   - Systems
 
 ### Step 4: Add Cards
 
@@ -70,7 +68,15 @@ Home Assistant supports two methods for creating dashboards:
 - Easy to copy/paste and share
 - Requires learning YAML syntax
 
-**Pro Tip**: Start with the visual editor, then switch to YAML when you want to fine-tune or share your configuration.
+**Pro Tip**: Start with the visual editor, then switch to YAML when you want to fine-tune or share.
+
+## LibreCoach Example Dashboard
+
+The LibreCoach Dashboard is a ready-to-use example built specifically for RVs. It's a good starting point — use it as-is, or pull out the parts that fit your rig.
+
+**<a href="https://github.com/Backroads4Me/librecoach-dashboard" target="_blank" rel="noopener noreferrer">View the LibreCoach Dashboard on GitHub →</a>**
+
+The dashboard has 10 views covering lights, shades, doors, locks, climate, energy, and tanks. Each view includes a navigation bar at the bottom so you can jump between sections from any screen.
 
 ## Exporting Your Dashboard
 
@@ -89,16 +95,15 @@ To use a dashboard shared by the community:
 
 1. Go to **Settings** → **Dashboards**
 2. Click **+ Add Dashboard**
-3. Give it a name
-4. Click **Create**
-5. Click **✏️ Edit**
-6. Click the **⋮** menu → **Raw configuration editor**
-7. Paste the YAML configuration
-8. Click **Save**
+3. Select **New dashboard from scratch**
+4. Give it a name and click **Create**
+5. Open your new dashboard
+6. Click the **✏️ Edit** button
+7. Click the **⋮** menu → **Raw configuration editor**
+8. Paste the YAML configuration
+9. Click **Save**
 
-:::note[Entity IDs Must Match]
-When importing a dashboard from someone else, you'll need to update the entity IDs to match your system. For example, if their dashboard has `light.switch_12` assigned to Kitchen Lights but your Kitchen Lights are on `light.switch_33`, you'll need to find and replace those entity IDs.
-:::
+_📌 When importing a dashboard, you'll need to update the entity IDs to match your system._
 
 ## Community Dashboard Sharing
 

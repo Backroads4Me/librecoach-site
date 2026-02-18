@@ -3,8 +3,8 @@ filename: victron-mqtt
 title: Victron GX Integration
 description: Enable MQTT on your Victron Cerbo GX or other GX device so LibreCoach can monitor your electrical system.
 sidebar:
-  order: 7
-  label: Victron GX (Optional)
+  order: 6
+  label: Victron GX
 draft: false
 ---
 
@@ -16,7 +16,17 @@ If your RV has a **Victron Cerbo GX** (or another Victron GX device), you can co
 - The GX device connected to the same network as your LibreCoach system (Wi-Fi or Ethernet)
 - Access to the GX device's touchscreen or Remote Console
 
-## Step 1: Set the Network Security Profile
+
+## Step 1: Enable in LibreCoach
+
+The Victron integration is enabled by default, but it's good to verify it's active.
+
+1.  In Home Assistant, go to **Settings → Apps → LibreCoach**.
+2.  Click on the **Configuration** tab.
+3.  Ensure **Enable Victron Integration** is set to **active** (green).
+4.  Click **Save** (and **Restart** if you changed it).
+
+## Step 2: Set the Network Security Profile
 
 The GX device has a security setting that controls how other devices connect to it. For the simplest setup, you'll set this to allow local connections without encryption.
 
@@ -26,7 +36,7 @@ The GX device has a security setting that controls how other devices connect to 
 
 Set it to **Unsecured**.
 
-## Step 2: Enable MQTT
+## Step 3: Enable MQTT
 
 Now tell the GX device to share its data over MQTT.
 
@@ -38,7 +48,7 @@ Toggle it to **Enabled**.
 
 That's it — your Victron GX device is now broadcasting data that LibreCoach can pick up.
 
-## Step 3: Restart Node-RED
+## Step 4: Restart Node-RED
 
 After enabling MQTT on the GX device, restart Node-RED so LibreCoach picks up the new connection.
 

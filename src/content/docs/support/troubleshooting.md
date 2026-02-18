@@ -30,7 +30,7 @@ Having trouble with LibreCoach? Check these common issues and solutions before a
 
 ### CAN Interface Not Found
 
-**Symptom**: CAN-to-MQTT Bridge shows `can0: interface not found` in logs
+**Symptom**: LibreCoach logs show `can0: interface not found`
 
 **Solutions**:
 
@@ -40,7 +40,7 @@ Having trouble with LibreCoach? Check these common issues and solutions before a
 
 ### Apps Won't Start
 
-**Symptom**: Mosquitto, Node-RED, or CAN-to-MQTT Bridge won't start
+**Symptom**: Mosquitto or Node-RED won't start
 
 **Solutions**:
 
@@ -60,11 +60,11 @@ Having trouble with LibreCoach? Check these common issues and solutions before a
 
 1. **Check RV power**: Ensure your RV's 12V system is on
 2. **Check CAN connection**: Verify CAN cable is connected to your RV
-3. **Check bitrate**: Try changing from 250k to 125k (or vice versa) in CAN-to-MQTT Bridge configuration
+3. **Check bitrate**: Try changing from 250k to 125k (or vice versa) in LibreCoach Configuration tab
 4. **Check termination**: Verify CAN HAT jumpers are configured correctly
 5. **Toggle switches**: Physically toggle switches in your RV to generate CAN traffic
 6. **Check logs**:
-   - CAN-to-MQTT Bridge: Should show incoming CAN messages
+   - LibreCoach: Should show incoming CAN messages
    - Node-RED debug: Should show decoded messages
    - MQTT integration: Should show discovery messages
 
@@ -75,7 +75,7 @@ Having trouble with LibreCoach? Check these common issues and solutions before a
 **Solutions**:
 
 1. **Check bidirectional communication**: Verify Node-RED flows include both receive and send logic
-2. **Check MQTT send topic**: Ensure CAN-to-MQTT Bridge is listening on the correct send topic
+2. **Check MQTT send topic**: Ensure LibreCoach and Node-RED are using matching MQTT topics
 3. **Check entity state**: In Home Assistant, verify the entity changes state when you toggle the physical switch
 4. **Check Node-RED flows**: Ensure flows are deployed (solid blue dot, not hollow)
 5. **Check for errors**: Node-RED debug should show messages being sent
@@ -246,7 +246,7 @@ Having trouble with LibreCoach? Check these common issues and solutions before a
 
 1. **Check Mosquitto**: Ensure it's running
 2. **Check credentials**: Verify username/password in all apps
-3. **Check topics**: Ensure CAN-to-MQTT and Node-RED use matching topics
+3. **Check topics**: Ensure LibreCoach and Node-RED use matching MQTT topics
 4. **Check discovery prefix**: Should be `homeassistant` (default)
 5. **Check firewall**: Some networks block MQTT ports
 
@@ -259,7 +259,7 @@ If you've tried these solutions and still have issues:
 Before asking for help, collect:
 - Home Assistant version
 - App versions
-- Relevant logs (CAN-to-MQTT Bridge, Node-RED, Mosquitto)
+- Relevant logs (LibreCoach, Node-RED, Mosquitto)
 - Screenshots of errors
 - Description of what you expected vs. what happened
 
