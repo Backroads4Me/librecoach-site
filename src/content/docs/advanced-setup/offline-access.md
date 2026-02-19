@@ -3,10 +3,11 @@ filename: offline-access
 title: Access Without Internet
 description: Access Home Assistant locally without internet or Wi-Fi fighting your phone
 sidebar:
-  order: 9
+  order: 7
   label: Offline Access
 draft: false
 ---
+
 # Offline-Local Wi-Fi Network for Home Assistant
 
 **Goal:** Access Home Assistant reliably from your phone **without** needing working internet and **without** your phone fighting the Wi-Fi connection.

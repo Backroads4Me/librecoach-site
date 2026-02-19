@@ -7,54 +7,47 @@ sidebar:
 draft: false
 ---
 
-LibreCoach was built from the ground up, designed entirely in-house, yet it stands on the foundation laid by pioneers in RV-C integration and open-source automation. We’re proud of our work and grateful to those who made it possible. This page recognizes the ideas and projects that inspired LibreCoach, and the open-source tools that make it possible.
+LibreCoach was designed and developed in-house, but it builds on the foundation laid by pioneers in RV-C integration and open-source automation. This page recognizes the ideas that inspired LibreCoach and the projects that make it possible.
 
 ## The Pioneer: CoachProxy
 
-LibreCoach was developed independently but draws inspiration from the ideas behind Michael J. Kidd’s CoachProxy project.
+LibreCoach was developed independently but was informed by the ideas behind Michael J. Kidd's CoachProxy project.
 
-**Michael J. Kidd** (known as `linuxkidd` on GitHub) created **CoachProxy**, a commercial hardware product years ahead of its time. His later open-sourcing of the project provided the RV and open-source communities with invaluable insight into bridging industrial RV-C networks to consumer devices.
-
-We are grateful for his trailblazing work in decoding the protocol and proving that this kind of integration was possible.
+**Michael J. Kidd** (known as linuxkidd on GitHub) created **CoachProxy**, a commercial hardware solution that was ahead of its time. His later decision to open-source the project gave the RV and open-source communities valuable insight into bridging industrial RV-C networks with consumer automation systems.
 
 - <a href="https://coachproxy.com/" target="_blank" rel="noopener noreferrer">CoachProxy Website (Archive)</a>
-- <a href="https://github.com/linuxkidd/rvc-proxy" target="_blank" rel="noopener noreferrer">GitHub: rvc-proxy</a>
-- <a href="https://github.com/linuxkidd/rvc-monitor-py" target="_blank" rel="noopener noreferrer">GitHub: rvc-monitor-py</a>
+- <a href="https://github.com/linuxkidd/coachproxy-os" target="_blank" rel="noopener noreferrer">GitHub: coachproxy-os</a>
 
 ## The Foundation: Home Assistant
 
-LibreCoach is built on **Home Assistant** to leverage its local-first, privacy-focused architecture, making RV automation reliable and extensible.
+LibreCoach is built on **Home Assistant**, providing a reliable and flexible foundation for RV automation. Beyond RV-C, it supports thousands of integrations and apps, enabling extensive customization across a wide range of devices and workflows.
 
-We chose this foundation because it aligns perfectly with the needs of RVers:
-
-- **Local First:** It works without the internet, keeping your data inside your rig.
-- **Massive Community:** It supports thousands of integrations beyond just RV-C.
-
-We are indebted to the thousands of contributors who have made Home Assistant the gold standard for open-source automation.
+We are grateful to the global community of contributors who have made Home Assistant a leading open-source automation platform.
 
 - <a href="https://www.home-assistant.io/" target="_blank" rel="noopener noreferrer">Home Assistant</a>
 
-## Essential Apps
+## Essential Applications
 
-LibreCoach integrates several open-source Home Assistant apps to create a seamless RV automation experience. We recommend and rely on these excellent tools:
+LibreCoach relies on several core open-source tools:
 
-- **<a href="https://mosquitto.org/" target="_blank" rel="noopener noreferrer">Mosquitto</a>:** The lightweight MQTT broker that acts as the "nervous system," passing messages between the RV-C bus and Home Assistant.
-- **<a href="https://nodered.org/" target="_blank" rel="noopener noreferrer">Node-RED</a>:** The visual programming tool that handles the complex logic of translating raw industrial CAN messages into smart home entities.
-
+- **<a href="https://mosquitto.org/" target="_blank" rel="noopener noreferrer">Mosquitto</a>:** A lightweight MQTT broker that serves as the messaging backbone between the RV-C bus and Home Assistant.
+- **<a href="https://nodered.org/" target="_blank" rel="noopener noreferrer">Node-RED</a>:** A visual programming environment used to translate industrial CAN messages into structured automation entities.
 
 ## Community Integrations
 
-We believe in giving credit where credit is due. The following projects provided the foundation for specific device integrations within LibreCoach:
+Certain device integrations were developed with reference to existing open-source work.
 
 ### Micro-Air EasyTouch
 
-The Micro-Air EasyTouch Bluetooth integration was built with BLE protocol reference from the work of:
+The Micro-Air EasyTouch Bluetooth integration was implemented using BLE protocol references from:
 
-- **k3vmcd** — <a href="https://github.com/k3vmcd/ha-micro-air-easytouch" target="_blank" rel="noopener noreferrer">ha-micro-air-easytouch</a>
-- **mlefevre** — <a href="https://github.com/mlefevre/ha_EasyTouchRV_MicroAir_MZ" target="_blank" rel="noopener noreferrer">ha_EasyTouchRV_MicroAir_MZ</a>
+- **k3vmcd** &mdash; <a href="https://github.com/k3vmcd/ha-micro-air-easytouch" target="_blank" rel="noopener noreferrer">ha-micro-air-easytouch</a>
+- **mlefevre** &mdash; <a href="https://github.com/mlefevre/ha_EasyTouchRV_MicroAir_MZ" target="_blank" rel="noopener noreferrer">ha_EasyTouchRV_MicroAir_MZ</a>
 
 ---
 
 To all the developers, contributors, and visionaries who have made this journey possible:
 
-_“If I have seen further, it is by standing on the shoulders of giants.” — Isaac Newton_
+_"If I have seen further, it is by standing on the shoulders of giants." — Isaac Newton_
+
+LibreCoach is our contribution back to this ecosystem — we look forward to seeing what others build upon it.

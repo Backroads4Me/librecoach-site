@@ -3,7 +3,7 @@ filename: hacs
 title: HACS
 description: Access thousands of community-built integrations and frontend cards.
 sidebar:
-  order: 7
+  order: 4
 draft: false
 ---
 
@@ -27,7 +27,7 @@ We don't duplicate the installation instructions here because HACS is actively d
 - Visit the <a href="https://hacs.xyz/" target="_blank" rel="noopener">Official HACS website</a> for more information.
 
 :::note
-You will need a GitHub account to set up HACS, as it downloads files directly from GitHub repositories.
+You will need a GitHub account to set up HACS. <a href="https://github.com/signup" target="_blank" rel="noopener">Sign up for GitHub</a>
 :::
 
 ## Examples of What You Can Add

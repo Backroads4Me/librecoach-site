@@ -3,7 +3,7 @@ filename: apps
 title: Apps
 description: Recommended Home Assistant apps to extend your LibreCoach system with useful utilities.
 sidebar:
-  order: 6
+  order: 3
 draft: false
 ---
 

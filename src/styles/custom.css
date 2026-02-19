@@ -58,19 +58,46 @@ html {
   --six-hero-bg: url("/hero-light.svg");
 }
 
+/* Light Mode */
+html:not([data-theme="dark"]) {
+  --background: #111827;
+}
+
+/* Light Mode */
+html:not([data-theme="dark"]) {
+  --background: #f7f6f3;
+}
+
+/* Dark Mode */
+html[data-theme="dark"] {
+  --background: #0F172A;
+}
+
 /* Dark mode */
 html[data-theme="dark"] {
   --six-hero-bg: url("/hero-dark.svg");
 }
 
 /* Hide light image in dark mode */
-[data-theme="dark"] img[src*="dashboard_light"] {
+[data-theme="dark"] img[src*="dashboard_light"],
+[data-theme="dark"] img[src*="dash_light"] {
   display: none;
 }
 
 /* Hide dark image in light mode */
-:root:not([data-theme="dark"]) img[src*="dashboard_dark"] {
+:root:not([data-theme="dark"]) img[src*="dashboard_dark"],
+:root:not([data-theme="dark"]) img[src*="dash_dark"] {
   display: none;
+}
+
+/* Dashboard image presentation */
+img[src*="dashboard_light"],
+img[src*="dashboard_dark"],
+img[src*="dash_light"],
+img[src*="dash_dark"] {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--sl-color-gray-5);
 }
 
 /* Responsive hero padding (replaces inline px prop) */

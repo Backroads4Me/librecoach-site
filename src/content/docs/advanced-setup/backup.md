@@ -11,14 +11,14 @@ Your LibreCoach configuration represents hours of setup work — dashboards, aut
 
 ## Cloud Options Compared
 
-| Feature                        | Nabu Casa                   | Cloudflare R2          |
-| ------------------------------ | --------------------------- | ---------------------- |
-| **Cost**                       | $65/year (or $6.50/month)   | Free                   |
-| **Setup Difficulty**           | Very Easy                   | Moderate               |
-| **Automatic Backups**          | Yes                         | Yes                    |
-| **Encrypted**                  | Yes                         | Yes                    |
-| **Also Includes Remote Access**| Yes                         | No                     |
-| **Supports HA Development**    | Yes                         | No                     |
+| Feature                         | Nabu Casa                 | Cloudflare R2 |
+| ------------------------------- | ------------------------- | ------------- |
+| **Cost**                        | $65/year (or $6.50/month) | Free          |
+| **Setup Difficulty**            | Very Easy                 | Moderate      |
+| **Automatic Backups**           | Yes                       | Yes           |
+| **Encrypted**                   | Yes                       | Yes           |
+| **Also Includes Remote Access** | Yes                       | No            |
+| **Supports HA Development**     | Yes                       | No            |
 
 ## Our Recommendation
 
@@ -46,7 +46,7 @@ Your LibreCoach configuration represents hours of setup work — dashboards, aut
 Home Assistant's built-in backup system is your first line of defense. It captures everything — Node-RED flows, Mosquitto settings, dashboards, automations, and entity customizations — and stores it on the Pi.
 
 :::caution
-Local backups are lost if your Pi fails or is stolen. Always pair them with a cloud solution.
+Local backups are lost if your Pi hard drive fails. Always pair them with a cloud solution.
 :::
 
 ### Creating a Manual Backup

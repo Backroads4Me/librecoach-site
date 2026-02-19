@@ -92,7 +92,8 @@ If it speaks RV-C, LibreCoach can usually see it — and often control it:
 - **Plumbing**: Water pumps, fresh/grey/black tanks, LPG
 - **Power**: Inverters, chargers, generators
 
-_Some manufacturers expose fewer command channels than others. Visibility is almost universal; control depends on how the RV was implemented._
+![LibreCoach dashboard](../../../assets/dashboards/dash_light.webp)
+![LibreCoach dashboard](../../../assets/dashboards/dash_dark.webp)
 
 ---
 

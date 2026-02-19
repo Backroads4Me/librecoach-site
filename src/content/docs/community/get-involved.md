@@ -60,9 +60,3 @@ If you find LibreCoach valuable and want to support its development (and coffee 
 - <a href="https://buymeacoffee.com/backroads4me" target="_blank" rel="noopener noreferrer">**Buy Me a Coffee**</a> (One-time donation)
 
 Your support helps cover test hardware and infrastructure costs.
-
----
-
-## Code of Conduct
-
-We are here to build cool stuff for our RVs. Be respectful, be constructive, and assume positive intent. Harassment or trolling will not be tolerated.
