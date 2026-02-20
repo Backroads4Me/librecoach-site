@@ -23,7 +23,7 @@ Follow this step-by-step guide to assemble your LibreCoach hardware. Take your t
 ### Apply Thermal Pads
 
 1. Remove the thermal pads from the Waveshare PCIe to M.2 Adapter (E) packaging
-2. Remove the thin plastic backing from the thermal transfer pads and apply them to the CPU (central, largest chip), the PMIC (power management chip, bottom left), and the Wi-Fi module (right side). Use the thinner pads for the CPU and Wi-Fi, and the thicker pad for the PMIC.
+2. Remove the thin plastic backing from the thermal transfer pads and apply them to the CPU (central, largest chip), the PMIC (power management chip, bottom left), and the Wi-Fi module (right side).
    ![Thermal pads installed](../../../assets/assembly/assembly_1.webp)
 
 ### Mount PCIe adapter
