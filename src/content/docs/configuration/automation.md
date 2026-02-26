@@ -3,7 +3,7 @@ filename: automation
 title: Automation Examples
 description: Learn how to create simple automations in Home Assistant, with a library of RV-specific examples.
 sidebar:
-  order: 4
+  order: 8
   label: Automation
 draft: false
 ---

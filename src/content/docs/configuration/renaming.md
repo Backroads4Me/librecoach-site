@@ -1,5 +1,5 @@
 ---
-filename: renaming-entities
+filename: renaming
 title: Renaming Entities
 description: Best practices for naming Home Assistant entities so dashboards, voice control, and automations work correctly.
 sidebar:

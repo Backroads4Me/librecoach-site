@@ -38,6 +38,12 @@ HACS provides access to thousands of community-created integrations, themes, and
 
 - **[HACS](/advanced-setup/hacs/)** - Installation and recommended components
 
+## Reverse-Engineering Unknown Devices
+
+Want to integrate an unsupported or proprietary device in your RV? Use the built-in RV-C logging tool to record its traffic and reverse-engineer how it communicates.
+
+- **[Decoding Unknown Devices](/advanced-setup/reverse-engineering/)** - How to capture unknown RV-C messages
+
 ## Community Recommendations
 
 Have an app or integration that works great with LibreCoach? Share it on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>!

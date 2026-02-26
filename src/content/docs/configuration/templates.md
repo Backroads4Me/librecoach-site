@@ -2,7 +2,7 @@
 title: Configuration Templates
 description: Learn how to share your LibreCoach configuration templates.
 sidebar:
-  order: 8
+  order: 9
   label: Templates
 ---
 

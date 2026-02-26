@@ -1,10 +1,10 @@
 ---
-filename: victron-mqtt
+filename: victron
 title: Victron GX Integration
 description: Enable MQTT on your Victron Cerbo GX or other GX device so LibreCoach can monitor your electrical system.
 sidebar:
-  order: 6
-  label: Victron GX
+  order: 5
+  label: Victron
 draft: false
 ---
 
@@ -15,7 +15,6 @@ If your RV has a **Victron Cerbo GX** (or another Victron GX device), you can co
 - A Victron GX device (Cerbo GX, Ekrano GX, Venus GX, etc.)
 - The GX device connected to the same network as your LibreCoach system (Wi-Fi or Ethernet)
 - Access to the GX device's touchscreen or Remote Console
-
 
 ## Step 1: Enable in LibreCoach
 

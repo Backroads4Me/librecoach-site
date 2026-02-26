@@ -3,7 +3,7 @@ filename: mobile
 title: Mobile Device Setup
 description: Setting up the Home Assistant Companion App for remote control and sensors.
 sidebar:
-  order: 5
+  order: 4
   label: Mobile App
 draft: false
 ---
