@@ -114,7 +114,7 @@ No dealer tools. No reprogramming. No vendor dependencies.
 
 ## Two Ways to Get Started
 
-### 1. DIY Build (Recommended)
+### 1. DIY Build
 
 Build the hardware yourself using standard parts from Amazon or AliExpress. This is the fastest and most affordable way to get started.
 
@@ -122,11 +122,11 @@ Build the hardware yourself using standard parts from Amazon or AliExpress. This
 - **Time**: 2-3 hours
 - **Difficulty**: Medium (requires basic assembly and software flashing)
 
-[View the Bill of Materials & Assembly Guide →](/build/overview/)
+[View the Hardware & Assembly Guide →](/build/hardware/)
 
 ### 2. Pre-Assembled Kit (Interest Check)
 
-We are gauging interest in a small batch of pre-assembled, "plug-and-play" units. These would be hand-built, tested, and pre-flashed with the latest software.
+I'm gauging interest in a small batch of pre-assembled, "plug-and-play" units — hand-built, tested, and pre-flashed with the latest software.
 
 **Interested?**
 I am currently collecting names to see if there is enough demand to build a batch.
@@ -137,18 +137,7 @@ _Note: This is not a commitment to buy, just an interest check._
 
 ---
 
-## Consulting & Custom Installs
-
-For owners seeking a turnkey LibreCoach system or integrating non-standard devices, I take on a limited number of custom projects.
-
-- **Remote Commissioning** – Set up your dashboard and system remotely.
-- **Custom Integration** – Add devices like Victron, and other non-standard systems.
-
-[Contact me](mailto:hello@librecoach.com?subject=LibreCoach%20Consulting) to discuss your project.
-
----
-
 ## Need Help?
 
-- Join us on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>
+- Join the <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>
 - Report issues or contribute on <a href="https://github.com/backroads4me/ha-addons/tree/main/librecoach" target="_blank" rel="noopener noreferrer">GitHub</a>

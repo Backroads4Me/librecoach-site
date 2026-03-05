@@ -54,10 +54,6 @@ Edit Home Assistant configuration files directly from your browser without needi
 | `scripts.yaml`       | Script definitions         |
 | `secrets.yaml`       | Passwords and API keys     |
 
-:::tip
-Always backup before editing critical files.
-:::
-
 ---
 
 ### Tailscale

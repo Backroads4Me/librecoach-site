@@ -1,0 +1,137 @@
+{
+  "export_date": "2026-02-28T18:07:18.810Z",
+  "rv_info": {
+    "manufacturer": "Entegra",
+    "model": "Vision XL 36A",
+    "year": "2023",
+    "other": "Unknown"
+  },
+  "entities": {
+    "light.switch_1": {
+      "entity_id": "light.switch_1",
+      "original_name": "Switch 1",
+      "friendly_name": "Water Pump",
+      "device_class": "light",
+      "instance": 1
+    },
+    "light.switch_2": {
+      "entity_id": "light.switch_2",
+      "original_name": "Switch 2",
+      "friendly_name": "Rear Furnace",
+      "device_class": "light",
+      "instance": 2
+    },
+    "light.switch_3": {
+      "entity_id": "light.switch_3",
+      "original_name": "Switch 3",
+      "friendly_name": "Awning Extend",
+      "device_class": "light",
+      "instance": 3
+    },
+    "light.switch_4": {
+      "entity_id": "light.switch_4",
+      "original_name": "Switch 4",
+      "friendly_name": "Awning Retract",
+      "device_class": "light",
+      "instance": 4
+    },
+    "light.switch_6": {
+      "entity_id": "light.switch_6",
+      "original_name": "Switch 6",
+      "friendly_name": "Tank Heater 1",
+      "device_class": "light",
+      "instance": 6
+    },
+    "light.switch_7": {
+      "entity_id": "light.switch_7",
+      "original_name": "Switch 7",
+      "friendly_name": "Tank Heater 2",
+      "device_class": "light",
+      "instance": 7
+    },
+    "light.switch_8": {
+      "entity_id": "light.switch_8",
+      "original_name": "Switch 8",
+      "friendly_name": "Tank Heater 3",
+      "device_class": "light",
+      "instance": 8
+    },
+    "light.switch_9": {
+      "entity_id": "light.switch_9",
+      "original_name": "Switch 9",
+      "friendly_name": "Front AC - Cool",
+      "device_class": "light",
+      "instance": 9
+    },
+    "light.switch_10": {
+      "entity_id": "light.switch_10",
+      "original_name": "Switch 10",
+      "friendly_name": "Front AC - Heat Pump",
+      "device_class": "light",
+      "instance": 10
+    },
+    "light.switch_11": {
+      "entity_id": "light.switch_11",
+      "original_name": "Switch 11",
+      "friendly_name": "Front AC - High Fan",
+      "device_class": "light",
+      "instance": 11
+    },
+    "light.switch_12": {
+      "entity_id": "light.switch_12",
+      "original_name": "Switch 12",
+      "friendly_name": "Front AC - Low Fan",
+      "device_class": "light",
+      "instance": 12
+    },
+    "light.switch_13": {
+      "entity_id": "light.switch_13",
+      "original_name": "Switch 13",
+      "friendly_name": "Rear AC - Cool",
+      "device_class": "light",
+      "instance": 13
+    },
+    "light.switch_15": {
+      "entity_id": "light.switch_15",
+      "original_name": "Switch 15",
+      "friendly_name": "Rear AC - High Fan",
+      "device_class": "light",
+      "instance": 15
+    },
+    "light.switch_16": {
+      "entity_id": "light.switch_16",
+      "original_name": "Switch 16",
+      "friendly_name": "Rear AC - Low Fan",
+      "device_class": "light",
+      "instance": 16
+    },
+    "light.switch_38": {
+      "entity_id": "light.switch_38",
+      "original_name": "Switch 38",
+      "friendly_name": "Water Heater Gas",
+      "device_class": "light",
+      "instance": 38
+    },
+    "light.switch_39": {
+      "entity_id": "light.switch_39",
+      "original_name": "Switch 39",
+      "friendly_name": "Front Furnace",
+      "device_class": "light",
+      "instance": 39
+    },
+    "light.switch_41": {
+      "entity_id": "light.switch_41",
+      "original_name": "Switch 41",
+      "friendly_name": "Bathroom Fan",
+      "device_class": "light",
+      "instance": 41
+    },
+    "light.switch_42": {
+      "entity_id": "light.switch_42",
+      "original_name": "Switch 42",
+      "friendly_name": "Rear Bathroom Fan",
+      "device_class": "light",
+      "instance": 42
+    }
+  }
+}

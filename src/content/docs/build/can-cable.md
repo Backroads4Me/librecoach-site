@@ -13,11 +13,11 @@ draft: false
 - NMEA 2000 Backbone/Drop Cable <a href="https://amzn.to/4tbb3YZ" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
 - _Specs_: 22AWG/2C and 24AWG/2C, shielded.
 
-These instructions will guide you in creating a high-quality, shielded twisted-pair cable to connect your LibreCoach device to the RV's CAN bus. While other cabling methods are possible, we recommend this approach for its reliability, proper wire gauge, and ease of assembly. The recommended cable uses 22AWG wires, which are suitable for carrying the 12V power supply to the Pi. If you intend to power the Pi using a separate USB-C power supply, wire size is less critical, and alternatives like ethernet cable will work perfectly. You could also run two separate, dedicated wires for power if preferred.
+These instructions will guide you in creating a high-quality, shielded twisted-pair cable to connect your LibreCoach device to the RV's CAN bus. While other cabling methods are possible, this approach is recommended for its reliability, proper wire gauge, and ease of assembly. The recommended cable uses 22AWG wires, which are suitable for carrying the 12V power supply to the Pi. If you intend to power the Pi using a separate USB-C power supply, wire size is less critical, and alternatives like ethernet cable will work perfectly. You could also run two separate, dedicated wires for power if preferred.
 
 ## Prepare the Cable
 
-1.  Cut the connectors off both ends of the NMEA 2000 cable. We will only be using the raw cable.
+1.  Cut the connectors off both ends of the NMEA 2000 cable. Only the raw cable is needed.
 
 ## Prepare End A
 

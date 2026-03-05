@@ -22,7 +22,7 @@ While Home Assistant provides official integrations for major devices, HACS allo
 
 ## Installation
 
-We don't duplicate the installation instructions here because HACS is actively developed and the process can change.
+Installation instructions aren't duplicated here because HACS is actively developed and the process can change.
 
 - Visit the <a href="https://hacs.xyz/" target="_blank" rel="noopener">Official HACS website</a> for more information.
 

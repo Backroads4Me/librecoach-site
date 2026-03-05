@@ -19,7 +19,7 @@ Remote access lets you check on your RV from anywhere—monitor battery levels w
 | **Phone App Required**      | Yes (Tailscale app + VPN enabled) | No                      |
 | **Supports HA Development** | No                                | Yes                     |
 
-## Our Recommendation
+## Recommendation
 
 **If you're okay with a small subscription, Nabu Casa is the clear winner.** It's simpler to set up, more reliable, includes voice assistant integration, and directly supports Home Assistant development. You install it, log in, and it just works.
 

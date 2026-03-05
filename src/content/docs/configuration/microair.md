@@ -3,7 +3,7 @@ filename: microair
 title: MicroAir EasyTouch
 description: Integrate your MicroAir EasyTouch thermostat with LibreCoach via Bluetooth.
 sidebar:
-  order: 6
+  order: 7
   label: MicroAir EasyTouch
 ---
 
@@ -11,7 +11,7 @@ LibreCoach supports the **MicroAir EasyTouch RV** thermostat, allowing you to co
 
 ## Requirements
 
-1.  **MicroAir EasyTouch RV Thermostat** (Model 350 or similar with Bluetooth support).
+1.  **MicroAir EasyTouch RV Thermostat** (Model with Bluetooth support).
 2.  **Bluetooth Adapter** on your Home Assistant host device.
     - **Raspberry Pi:** The built-in Bluetooth usually works well if the thermostat is within range.
     - **Mini PC / NUC:** You may need a USB Bluetooth dongle or an external antenna if the case blocks the signal.
@@ -29,7 +29,7 @@ The MicroAir integration is disabled by default to save resources for users who 
 4.  Click **Save**.
 5.  Go to the **Info** tab and click **Restart** to apply the changes.
 
-### 1b. Account Credentials (if required)
+### 1b. Account Credentials
 
 Some MicroAir EasyTouch units require a password to allow Bluetooth access. If your thermostat has a password set:
 
@@ -49,23 +49,15 @@ Once LibreCoach restarts, it will automatically scan for Bluetooth Low Energy (B
     - **Climate:** Control mode (Cool/Heat/Auto/Off), target temperature, and fan speed.
     - **Sensors:** Inside temperature, outside temperature (if equipped).
 
-## Usage
-
-The thermostat behaves like a standard Home Assistant climate entity. You can:
-
-- Change **Modes**: Cool, Heat, Auto, Fan Only, Dry, Off.
-- Set **Target Temperature**: Adjust the setpoint for the active mode.
-- Adjust **Fan Speed**: Low, High, or Auto (depending on your AC unit's capabilities).
-
 ## Troubleshooting
 
 ### "Unavailable" or Intermittent Connection
 
 Bluetooth signals can be easily blocked by metal RV walls or appliance casings.
 
-- **Normal brief dropouts:** LibreCoach uses a 3-attempt rule before marking the thermostat "Unavailable", so short Bluetooth interruptions (such as when the thermostat is in a low-power state) won't immediately flip the status. If the entity shows Unavailable for an extended period, there's likely a persistent connection issue.
+- **Normal brief dropouts:** LibreCoach uses a 3-attempt rule before marking the thermostat "Unavailable", so short Bluetooth interruptions won't immediately flip the status. If the entity shows Unavailable for an extended period, there's likely a persistent connection issue.
 - **Move Closer:** Try temporarily moving your Home Assistant host closer to the thermostat to rule out range issues.
-- **External Antenna:** If using a Pi in a metal case, consider an external USB Bluetooth adapter with an antenna extension.
+- **External Antenna:** Consider an external USB Bluetooth adapter with an antenna extension.
 - **Interference:** Other 2.4GHz devices (Wi-Fi routers, microwaves) can interfere with Bluetooth. Try to keep the host away from these sources.
 
 ### Thermostat Not Found

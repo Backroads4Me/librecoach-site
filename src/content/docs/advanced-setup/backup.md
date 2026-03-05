@@ -20,7 +20,7 @@ Your LibreCoach configuration represents hours of setup work — dashboards, aut
 | **Also Includes Remote Access** | Yes                       | No            |
 | **Supports HA Development**     | Yes                       | No            |
 
-## Our Recommendation
+## Recommendation
 
 **If you're okay with a small subscription, Nabu Casa is the clear winner.** Encrypted cloud backups are included — just check a box and you're done. You also get remote access and voice assistant support in the same subscription. No buckets, no API keys, no configuration.
 

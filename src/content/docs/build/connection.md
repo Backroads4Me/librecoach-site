@@ -31,6 +31,10 @@ The first step is finding where to plug in the hardware. Your RV-C network runs 
 
 ## Connection
 
-Plug the 3M connector into the port and connect the screw terminals to the Pi. Once connected, the Pi should start up automatically. Return to Home Assistant.
+Plug the 3M connector into the port and connect the screw terminals to the CAN HAT. Once connected, power on the Pi — it should boot into Home Assistant automatically.
 
 _Once satisfied with the location, secure the Pi and wires for travel._
+
+## What Happens Next
+
+Within a few minutes of connecting to the RV-C network, LibreCoach will begin auto-discovering your RV's devices. Switches, lights, tanks, and other entities will start appearing in Home Assistant. Head to the [Identifying Your Devices](/configuration/identify-devices/) guide to map them to their physical controls.

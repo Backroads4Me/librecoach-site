@@ -3,7 +3,7 @@ filename: victron
 title: Victron GX Integration
 description: Enable MQTT on your Victron Cerbo GX or other GX device so LibreCoach can monitor your electrical system.
 sidebar:
-  order: 5
+  order: 6
   label: Victron
 draft: false
 ---

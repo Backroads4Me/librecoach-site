@@ -3,7 +3,7 @@ filename: gps
 title: Automated Location Updates
 description: Automatically update Home Assistant's core location, timezone, and elevation based on your GPS.
 sidebar:
-  order: 7
+  order: 5
   label: GPS Updates
 draft: false
 ---
@@ -26,7 +26,7 @@ Common GPS-enabled device trackers:
 
 You can enable and configure Automated Location Updates directly from the LibreCoach Add-on Configuration tab in Home Assistant.
 
-1. Navigate to **Settings → Add-ons → LibreCoach**.
+1. Navigate to **Settings → Apps → LibreCoach**.
 2. Click the **Configuration** tab.
 3. Toggle **Enable Automated Location Updates**.
 
@@ -49,6 +49,4 @@ _(Optional)_ The `entity_id` of a backup GPS tracker. If your Primary tracker go
 
 ### Update Threshold (miles)
 
-The minimum distance (in miles) the RV must move before LibreCoach updates Home Assistant’s core configuration.
-
-Because updating Home Assistant’s core location triggers a system-wide restart of location-bound integrations (like Sun and Weather), you do not want updates for every small movement. Default: 10 miles
+The minimum distance (in miles) the RV must move before LibreCoach updates Home Assistant’s core configuration. Default: 10 miles

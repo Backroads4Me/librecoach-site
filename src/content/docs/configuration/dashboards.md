@@ -12,10 +12,12 @@ Once you've [identified your devices](/configuration/identify-devices/), it's ti
 
 ### Customized LibreCoach Dashboard
 
-_Note: The dashboard below uses additional integrations and cards. See [Advanced Setup](/advanced-setup/) to learn more._
-
 ![LibreCoach dashboard](../../../assets/dashboards/librecoach_dashboard_light.webp)
 ![LibreCoach dashboard](../../../assets/dashboards/librecoach_dashboard_dark.webp)
+
+:::note
+The dashboard above uses custom cards and integrations from [HACS](/advanced-setup/hacs/) that go well beyond what Home Assistant includes out of the box. The built-in cards are functional but basic — don't worry if your first dashboard doesn't look like these screenshots. Start simple, get comfortable with the visual editor, and add custom cards when you're ready.
+:::
 
 ## Creating Your First Dashboard
 
@@ -72,11 +74,18 @@ Home Assistant supports two methods for creating dashboards:
 
 ## LibreCoach Example Dashboard
 
-The LibreCoach Dashboard is a ready-to-use example built specifically for RVs. It's a good starting point — use it as-is, or pull out the parts that fit your rig.
+The LibreCoach Dashboard is a fully built example designed specifically for RVs. It uses custom cards and advanced layouts to show what's possible with Home Assistant — browse it for inspiration, or pull out the parts that fit your rig.
 
 **<a href="https://github.com/Backroads4Me/librecoach-dashboard" target="_blank" rel="noopener noreferrer">View the LibreCoach Dashboard on GitHub →</a>**
 
 The dashboard has 10 views covering lights, shades, doors, locks, climate, energy, and tanks. Each view includes a navigation bar at the bottom so you can jump between sections from any screen.
+
+## Tips for Great Dashboards
+
+1. **Keep it simple**: Don't overwhelm yourself with too many cards
+2. **Use icons**: Visual icons are faster to recognize than text
+3. **Test on mobile**: Most RV owners use tablets or phones
+4. **Iterate**: Your first dashboard won't be perfect—refine as you use it
 
 ## Exporting Your Dashboard
 
@@ -105,15 +114,6 @@ To use a dashboard shared by the community:
 
 _📌 When importing a dashboard, you'll need to update the entity IDs to match your system._
 
-## Community Dashboard Sharing
-
-### Finding Dashboards for Your RV
-
-1. Check <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>
-2. Search for your RV manufacturer (e.g., Newmar, Tiffin, Entegra)
-3. Look for posts about your model and year
-4. Download YAML files shared by other users
-
 ### Sharing Your Dashboard
 
 Help grow the community by sharing your dashboard:
@@ -122,16 +122,6 @@ Help grow the community by sharing your dashboard:
 2. Take screenshots of each view
 3. Post on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>
 4. Include:
-   - RV make, model, and year
-   - Description of your layout
    - Screenshots
    - YAML file (as an attachment or code block)
    - Any custom cards or integrations required
-
-## Tips for Great Dashboards
-
-1. **Keep it simple**: Don't overwhelm yourself with too many cards
-2. **Group logically**: Put related controls together
-3. **Use icons**: Visual icons are faster to recognize than text
-4. **Test on mobile**: Most RV owners use tablets or phones
-5. **Iterate**: Your first dashboard won't be perfect—refine as you use it

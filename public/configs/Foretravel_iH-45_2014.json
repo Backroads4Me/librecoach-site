@@ -1,0 +1,438 @@
+{
+  "export_date": "2026-02-14T11:35:23.118Z",
+  "rv_info": {
+    "manufacturer": "Foretravel",
+    "model": "iH-45",
+    "year": "2014",
+    "vin": null
+  },
+  "entities": {
+    "light.switch_30": {
+      "entity_id": "light.switch_30",
+      "original_name": "Switch 30",
+      "friendly_name": "Vent",
+      "device_class": "light",
+      "instance": 30
+    },
+    "light.switch_52": {
+      "entity_id": "light.switch_52",
+      "original_name": "Switch 52",
+      "friendly_name": "Sconce drvr",
+      "device_class": "light",
+      "instance": 52
+    },
+    "light.switch_1": {
+      "entity_id": "light.switch_1",
+      "original_name": "Switch 1",
+      "friendly_name": "Awning",
+      "device_class": "light",
+      "instance": 1
+    },
+    "light.switch_3": {
+      "entity_id": "light.switch_3",
+      "original_name": "Switch 3",
+      "friendly_name": "Docking",
+      "device_class": "light",
+      "instance": 3
+    },
+    "light.switch_48": {
+      "entity_id": "light.switch_48",
+      "original_name": "Switch 48",
+      "friendly_name": "Vent",
+      "device_class": "light",
+      "instance": 48
+    },
+    "light.switch_58": {
+      "entity_id": "light.switch_58",
+      "original_name": "Switch 58",
+      "friendly_name": "Porch",
+      "device_class": "light",
+      "instance": 58
+    },
+    "light.switch_10": {
+      "entity_id": "light.switch_10",
+      "original_name": "Switch 10",
+      "friendly_name": "Sconce psngr",
+      "device_class": "light",
+      "instance": 10
+    },
+    "light.switch_49": {
+      "entity_id": "light.switch_49",
+      "original_name": "Switch 49",
+      "friendly_name": "S/O drvr",
+      "device_class": "light",
+      "instance": 49
+    },
+    "light.switch_9": {
+      "entity_id": "light.switch_9",
+      "original_name": "Switch 9",
+      "friendly_name": "Desk",
+      "device_class": "light",
+      "instance": 9
+    },
+    "light.switch_26": {
+      "entity_id": "light.switch_26",
+      "original_name": "Switch 26",
+      "friendly_name": "Ceiling",
+      "device_class": "light",
+      "instance": 26
+    },
+    "light.switch_11": {
+      "entity_id": "light.switch_11",
+      "original_name": "Switch 11",
+      "friendly_name": "Sink",
+      "device_class": "light",
+      "instance": 11
+    },
+    "light.switch_27": {
+      "entity_id": "light.switch_27",
+      "original_name": "Switch 27",
+      "friendly_name": "Shower",
+      "device_class": "light",
+      "instance": 27
+    },
+    "light.switch_12": {
+      "entity_id": "light.switch_12",
+      "original_name": "Switch 12",
+      "friendly_name": "Floor",
+      "device_class": "light",
+      "instance": 12
+    },
+    "light.switch_28": {
+      "entity_id": "light.switch_28",
+      "original_name": "Switch 28",
+      "friendly_name": "Bath door open",
+      "device_class": "light",
+      "instance": 28
+    },
+    "light.switch_13": {
+      "entity_id": "light.switch_13",
+      "original_name": "Switch 13",
+      "friendly_name": "S/O psngr",
+      "device_class": "light",
+      "instance": 13
+    },
+    "light.switch_31": {
+      "entity_id": "light.switch_31",
+      "original_name": "Switch 31",
+      "friendly_name": "Bath door close",
+      "device_class": "light",
+      "instance": 31
+    },
+    "light.switch_57": {
+      "entity_id": "light.switch_57",
+      "original_name": "Switch 57",
+      "friendly_name": "Battery Disconnect",
+      "device_class": "light",
+      "instance": 57
+    },
+    "light.switch_4": {
+      "entity_id": "light.switch_4",
+      "original_name": "Switch 4",
+      "friendly_name": "Entry",
+      "device_class": "light",
+      "instance": 4
+    },
+    "light.switch_5": {
+      "entity_id": "light.switch_5",
+      "original_name": "Switch 5",
+      "friendly_name": "Entry",
+      "device_class": "light",
+      "instance": 5
+    },
+    "light.switch_6": {
+      "entity_id": "light.switch_6",
+      "original_name": "Switch 6",
+      "friendly_name": "Ceiling",
+      "device_class": "light",
+      "instance": 6
+    },
+    "light.switch_7": {
+      "entity_id": "light.switch_7",
+      "original_name": "Switch 7",
+      "friendly_name": "Living Room",
+      "device_class": "light",
+      "instance": 7
+    },
+    "light.switch_8": {
+      "entity_id": "light.switch_8",
+      "original_name": "Switch 8",
+      "friendly_name": "Mirror",
+      "device_class": "light",
+      "instance": 8
+    },
+    "light.switch_33": {
+      "entity_id": "light.switch_33",
+      "original_name": "Switch 33",
+      "friendly_name": "Sconce",
+      "device_class": "light",
+      "instance": 33
+    },
+    "light.switch_50": {
+      "entity_id": "light.switch_50",
+      "original_name": "Switch 50",
+      "friendly_name": "Dinette",
+      "device_class": "light",
+      "instance": 50
+    },
+    "light.switch_34": {
+      "entity_id": "light.switch_34",
+      "original_name": "Switch 34",
+      "friendly_name": "Bed",
+      "device_class": "light",
+      "instance": 34
+    },
+    "light.switch_36": {
+      "entity_id": "light.switch_36",
+      "original_name": "Switch 36",
+      "friendly_name": "Reading J",
+      "device_class": "light",
+      "instance": 36
+    },
+    "light.switch_37": {
+      "entity_id": "light.switch_37",
+      "original_name": "Switch 37",
+      "friendly_name": "Reading T",
+      "device_class": "light",
+      "instance": 37
+    },
+    "light.switch_53": {
+      "entity_id": "light.switch_53",
+      "original_name": "Switch 53",
+      "friendly_name": "Hutch",
+      "device_class": "light",
+      "instance": 53
+    },
+    "light.switch_38": {
+      "entity_id": "light.switch_38",
+      "original_name": "Switch 38",
+      "friendly_name": "Bed door open",
+      "device_class": "light",
+      "instance": 38
+    },
+    "light.switch_39": {
+      "entity_id": "light.switch_39",
+      "original_name": "Switch 39",
+      "friendly_name": "Bed door close",
+      "device_class": "light",
+      "instance": 39
+    },
+    "light.switch_41": {
+      "entity_id": "light.switch_41",
+      "original_name": "Switch 41",
+      "friendly_name": "Potty",
+      "device_class": "light",
+      "instance": 41
+    },
+    "light.switch_17": {
+      "entity_id": "light.switch_17",
+      "original_name": "Switch 17",
+      "friendly_name": "Bath",
+      "device_class": "light",
+      "instance": 17
+    },
+    "light.switch_42": {
+      "entity_id": "light.switch_42",
+      "original_name": "Switch 42",
+      "friendly_name": "Ceiling",
+      "device_class": "light",
+      "instance": 42
+    },
+    "light.switch_18": {
+      "entity_id": "light.switch_18",
+      "original_name": "Switch 18",
+      "friendly_name": "Vanity",
+      "device_class": "light",
+      "instance": 18
+    },
+    "light.switch_43": {
+      "entity_id": "light.switch_43",
+      "original_name": "Switch 43",
+      "friendly_name": "Cabinet",
+      "device_class": "light",
+      "instance": 43
+    },
+    "light.switch_19": {
+      "entity_id": "light.switch_19",
+      "original_name": "Switch 19",
+      "friendly_name": "Dresser",
+      "device_class": "light",
+      "instance": 19
+    },
+    "light.switch_44": {
+      "entity_id": "light.switch_44",
+      "original_name": "Switch 44",
+      "friendly_name": "Hall",
+      "device_class": "light",
+      "instance": 44
+    },
+    "light.switch_20": {
+      "entity_id": "light.switch_20",
+      "original_name": "Switch 20",
+      "friendly_name": "Dresser",
+      "device_class": "light",
+      "instance": 20
+    },
+    "light.switch_45": {
+      "entity_id": "light.switch_45",
+      "original_name": "Switch 45",
+      "friendly_name": "Ceiling",
+      "device_class": "light",
+      "instance": 45
+    },
+    "light.switch_46": {
+      "entity_id": "light.switch_46",
+      "original_name": "Switch 46",
+      "friendly_name": "Mirror",
+      "device_class": "light",
+      "instance": 46
+    },
+    "light.switch_47": {
+      "entity_id": "light.switch_47",
+      "original_name": "Switch 47",
+      "friendly_name": "Ceiling",
+      "device_class": "light",
+      "instance": 47
+    },
+    "cover.shade_10": {
+      "entity_id": "cover.shade_10",
+      "original_name": "Shade 10",
+      "friendly_name": "Passenger S/O day",
+      "device_class": "cover",
+      "instance": 10
+    },
+    "cover.shade_55": {
+      "entity_id": "cover.shade_55",
+      "original_name": "Shade 55",
+      "friendly_name": "Driver S/O back window night",
+      "device_class": "cover",
+      "instance": 55
+    },
+    "cover.shade_14": {
+      "entity_id": "cover.shade_14",
+      "original_name": "Shade 14",
+      "friendly_name": "Passenger S/O night",
+      "device_class": "cover",
+      "instance": 14
+    },
+    "cover.shade_5": {
+      "entity_id": "cover.shade_5",
+      "original_name": "Shade 5",
+      "friendly_name": "Entry",
+      "device_class": "cover",
+      "instance": 5
+    },
+    "cover.shade_49": {
+      "entity_id": "cover.shade_49",
+      "original_name": "Shade 49",
+      "friendly_name": "Driver S/O front window day",
+      "device_class": "cover",
+      "instance": 49
+    },
+    "cover.shade_6": {
+      "entity_id": "cover.shade_6",
+      "original_name": "Shade 6",
+      "friendly_name": "Driver night",
+      "device_class": "cover",
+      "instance": 6
+    },
+    "cover.shade_50": {
+      "entity_id": "cover.shade_50",
+      "original_name": "Shade 50",
+      "friendly_name": "Driver S/O side window day",
+      "device_class": "cover",
+      "instance": 50
+    },
+    "cover.shade_7": {
+      "entity_id": "cover.shade_7",
+      "original_name": "Shade 7",
+      "friendly_name": "Windshield night",
+      "device_class": "cover",
+      "instance": 7
+    },
+    "cover.shade_51": {
+      "entity_id": "cover.shade_51",
+      "original_name": "Shade 51",
+      "friendly_name": "Driver S/O back window day",
+      "device_class": "cover",
+      "instance": 51
+    },
+    "cover.shade_8": {
+      "entity_id": "cover.shade_8",
+      "original_name": "Shade 8",
+      "friendly_name": "Passenger night",
+      "device_class": "cover",
+      "instance": 8
+    },
+    "cover.shade_1": {
+      "entity_id": "cover.shade_1",
+      "original_name": "Shade 1",
+      "friendly_name": "Driver day",
+      "device_class": "cover",
+      "instance": 1
+    },
+    "cover.shade_52": {
+      "entity_id": "cover.shade_52",
+      "original_name": "Shade 52",
+      "friendly_name": "Dinette",
+      "device_class": "cover",
+      "instance": 52
+    },
+    "cover.shade_2": {
+      "entity_id": "cover.shade_2",
+      "original_name": "Shade 2",
+      "friendly_name": "Windshield day",
+      "device_class": "cover",
+      "instance": 2
+    },
+    "cover.shade_53": {
+      "entity_id": "cover.shade_53",
+      "original_name": "Shade 53",
+      "friendly_name": "Driver S/O front window night",
+      "device_class": "cover",
+      "instance": 53
+    },
+    "cover.shade_3": {
+      "entity_id": "cover.shade_3",
+      "original_name": "Shade 3",
+      "friendly_name": "Passenger day",
+      "device_class": "cover",
+      "instance": 3
+    },
+    "cover.shade_54": {
+      "entity_id": "cover.shade_54",
+      "original_name": "Shade 54",
+      "friendly_name": "Driver S/O side window night",
+      "device_class": "cover",
+      "instance": 54
+    },
+    "cover.shade_21": {
+      "entity_id": "cover.shade_21",
+      "original_name": "Shade 21",
+      "friendly_name": "Dresser night",
+      "device_class": "cover",
+      "instance": 21
+    },
+    "lock.lock_3": {
+      "entity_id": "lock.lock_3",
+      "original_name": "Lock 3",
+      "friendly_name": "Cargo passenger",
+      "device_class": "lock",
+      "instance": 3
+    },
+    "lock.lock_1": {
+      "entity_id": "lock.lock_1",
+      "original_name": "Lock 1",
+      "friendly_name": "Entry",
+      "device_class": "lock",
+      "instance": 1
+    },
+    "cover.shade_17": {
+      "entity_id": "cover.shade_17",
+      "original_name": "Shade 17",
+      "friendly_name": "Dresser day",
+      "device_class": "cover",
+      "instance": 17
+    }
+  }
+}

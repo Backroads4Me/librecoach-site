@@ -15,7 +15,7 @@ LibreCoach can detect that switches exist on your RV-C network, but it has no wa
 
 ## The Process
 
-### Open the Overview Dashboard
+### Step 1: Open the Overview Dashboard
 
 1. In Home Assistant, go to **Settings** → **Dashboards**
 2. Find the **Overview** dashboard (this is where all auto-discovered switches appear)
@@ -48,6 +48,18 @@ Physical Switch          →  Home Assistant Entity  →  What It Controls
 - **Toggle twice**: Be absolutely sure of your naming
 - **Unidentified Switches**: You will likely have unidentified switches. This is normal. DO NOT switch them on and off without knowing what they are. It could be master power, dump valve, ejection seat.
 
+## Step 3: Rename Your Entities
+
+Once you've identified a switch:
+
+1. In Home Assistant, click on the switch name, not the toggle, and it will open
+2. Click the gear icon (⚙️) in the top right
+3. Change the **Name** to something meaningful like `Kitchen Light`
+4. Optional, but recomended, disable "Use device area" and enter a name (e.g., “Bedroom”)
+5. You can also disable unused switches that you want to hide on this same screen.
+
+_📌 Before renaming everything by hand, check if someone has already shared a LibreCoach configuration for your RV model in the [Configuration Library](/configuration/config-library/)._
+
 ### Teach LibreCoach Which Lights Can Dim
 
 Some of your switches may control lights that support dimming. LibreCoach can learn this automatically — you just need to show it.
@@ -61,43 +73,6 @@ Once you've identified a switch that controls a dimmable light:
 
 ### Multiple switches turn on at once
 
-- RV-C zone lighting: Multiple lights are grouped into a single zone
-- This is normal RV-C behavior
-- You can rename the entity to reflect the zone (e.g., "Living Area Lights")
-
-## Step 3: Rename Your Entities
-
-Once you've identified a switch:
-
-1. In Home Assistant, click on the switch name, not the toggle, and it will open
-2. Click the gear icon (⚙️) in the top right
-3. Change the **Name** to something meaningful like `Kitchen Light`
-4. You can also disable switches that you want to hide on this same screen.
-
-## Sharing Your Configuration
-
-Once you've identified all your switches, consider sharing your configuration with the community!
-
-### Why Share?
-
-- **Help others**: Someone with your RV model can use your mapping
-- **Build community**: Contribute to the collective knowledge
-- **Get feedback**: Others might catch mistakes or suggest improvements
-
-### How to Share
-
-1. Export your dashboard YAML (see [Creating Dashboards](/configuration/dashboards/))
-2. Share on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>
-3. Include:
-   - Your RV make, model, and year
-   - Screenshots of your dashboard
-   - The YAML configuration
-   - Any notes or tips
-
-### Finding Existing Configurations
-
-Before starting from scratch, check if someone with your RV model has already shared their configuration:
-
-1. Check <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>
-2. Search for your model and year
-3. Download the YAML and import it into Home Assistant
+- Some physical switches control more than one entity in Home Assistant. This is common with paired lights — for example, living room sconces on the driver's side and passenger's side. The wall switch turns both on simultaneously, but they are separate entities.
+- You can control them individually or create a light group to manage them together.
+- Settings → Devices & Services → Helpers → + Create Helper → Group → Light group, then add both entities to the group.

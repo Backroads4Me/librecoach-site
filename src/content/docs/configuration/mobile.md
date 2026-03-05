@@ -49,7 +49,7 @@ The app can send data about your phone to Home Assistant. This is useful for aut
 
 ### "Unable to connect"
 
-- **Check Wi-Fi**: Are you on the same network? Mobile data (LTE/5G) will **not** work unless you have set up remote access (like Nabu Casa or a VPN).
+- **Check Wi-Fi**: Are you on the same network? Mobile data (LTE/5G) will **not** work unless you have set up remote access (like Nabu Casa or a Tailscale).
 - **Try IP Address**: DNS names like `homeassistant.local` sometimes fail on certain routers. Find your Pi's IP address (check your router's admin page) and use that instead.
 
 ### "404 Not Found"

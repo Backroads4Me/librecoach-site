@@ -1,14 +1,12 @@
 ---
 filename: hardware
-title: Hardware
+title: Hardware Options and Upgrades
 description: Bill of Materials, upgrade options, and vendors for LibreCoach.
 sidebar:
   order: 2
   label: Hardware
 draft: false
 ---
-
-## Hardware Options and Upgrades
 
 The Raspberry Pi ecosystem is highly flexible, and LibreCoach hardware could be built in many different ways.
 
@@ -20,7 +18,7 @@ That said, the components recommended here were chosen deliberately: they’re h
 
 ## Recommended Bill of Materials
 
-We provide Amazon links purely for convenience. Other vendor options are listed below to help shop around.
+Amazon links are provided purely for convenience. Other vendor options are listed below to help shop around.
 
 _Disclosure: This site uses affiliate links. If you make a purchase through these links, I may earn a small commission at no additional cost to you. As an Amazon Associate, I earn from qualifying purchases._
 
@@ -52,7 +50,7 @@ Items that aren't strictly required but nice to have.
 | Component             | Price | Link                                                                                                                                                                                                                                                            | Why                                        |
 | :-------------------- | :---- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------- |
 | Larger NVMe drive     | ~$50+ | <a href="https://amzn.to/4aerBqy" target="_blank" rel="noopener noreferrer">256GB</a> <a href="https://amzn.to/4qavH8T" target="_blank" rel="noopener noreferrer">512GB</a> <a href="https://amzn.to/4qUwBaT" target="_blank" rel="noopener noreferrer">2TB</a> | Additional storage.                        |
-| Raspberry Pi 5 (8GB)  | ~$125  | <a href="https://amzn.to/4q9FPik" target="_blank" rel="noopener noreferrer">Amazon</a>                                                                                                                                                                          | More RAM for future proofing.              |
+| Raspberry Pi 5 (8GB)  | ~$125 | <a href="https://amzn.to/4q9FPik" target="_blank" rel="noopener noreferrer">Amazon</a>                                                                                                                                                                          | More RAM for future proofing.              |
 | Raspberry Pi 5 (16GB) | ~$160 | <a href="https://ameridroid.com/products/raspberrypi-5?variant=50055407108375" target="_blank" rel="noopener noreferrer">16GB</a>                                                                                                                               | 16GB of RAM. Exceeds typical requirements. |
 
 ---

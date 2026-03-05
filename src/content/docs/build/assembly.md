@@ -60,7 +60,7 @@ Follow this step-by-step guide to assemble your LibreCoach hardware. Take your t
 
 ## Secure the Pi to the case
 
-_Note: We will not use the screws or hardware that came with the CAN HAT and instead use the hardware from the case kit._
+_Note: Do not use the screws or hardware that came with the CAN HAT — use the hardware from the case kit instead._
 
 15. Install the shortest standoffs to all 4 corners of the case using the shortest screws
     ![Short standoffs installed in case base](../../../assets/assembly/assembly_10.webp)
@@ -76,7 +76,7 @@ _Note: We will not use the screws or hardware that came with the CAN HAT and ins
 19. Configure the 120Ω Termination Jumpers
 
 :::note[Important]
-The CAN HAT has jumpers for 120Ω termination resistors. They arrive in the On position and we need them in the Off position. Pull the jumper off and move it to the Off position:
+The CAN HAT has jumpers for 120Ω termination resistors. They arrive in the On position and need to be moved to the Off position. Pull the jumper off and move it to the Off position:
 
 - **Left jumper**: Incorrect position (resistor installed)
 - **Right jumper**: Correct position (off)

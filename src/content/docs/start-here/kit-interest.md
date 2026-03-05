@@ -12,9 +12,9 @@ draft: false
 **This is currently an interest check only.** There are currently no kits for sale at this time.
 :::
 
-Building your own hardware isn't for everyone. We are exploring the possibility of offering a **Turn-Key Kit** for those who want the power of LibreCoach without the DIY assembly and software flashing.
+Building your own hardware isn't for everyone. I'm exploring the possibility of offering a **Turn-Key Kit** for those who want the power of LibreCoach without the DIY assembly and software flashing.
 
-If there is enough community interest, we will organize a manufacturing run.
+If there is enough community interest, I'll organize a manufacturing run.
 
 ### The Goal: True Plug & Play
 
@@ -27,13 +27,13 @@ The kit is designed to be a "ready-to-mount" hub that gets you up and running in
 
 ### Estimated Pricing
 
-To maintain high-performance components (like the Pi 5 and NVMe storage) and cover assembly and shipping, we are targeting a price point of **$350 – $400**.
+To maintain high-performance components (like the Pi 5 and NVMe storage) and cover assembly and shipping, the target price point is **$350 – $400**.
 
 ---
 
 ### Express Your Interest
 
-If you would be interested in purchasing a kit, please let us know. There is no commitment to buy; your feedback simply helps us determine if a production run is viable.
+If you'd be interested in purchasing a kit, please reach out. There is no commitment to buy — your feedback simply helps determine if a production run is viable.
 
 <a href="mailto:hello@librecoach.com?subject=LibreCoach%20Kit%20Interest" target="_blank" rel="noopener noreferrer">**Click Here to Send an Interest Email**</a>
 

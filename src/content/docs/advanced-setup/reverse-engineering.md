@@ -3,7 +3,7 @@ filename: reverse-engineering
 title: Reverse-Engineering
 description: Capture and analyze RV-C messages to reverse-engineer commands and expand your system’s capabilities.
 sidebar:
-  order: 8
+  order: 6
   label: Reverse-Engineering
 draft: false
 ---

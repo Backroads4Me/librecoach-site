@@ -2,7 +2,7 @@
 title: Config Settings
 description: LibreCoach configuration options for flow protection, beta features, and troubleshooting.
 sidebar:
-  order: 6
+  order: 8
   label: Config Settings
 draft: false
 ---
