@@ -1,11 +1,147 @@
+/* =========================== */
+/* Declare cascade layers first */
+/* =========================== */
+@layer starlight, six, librecoach;
+
+/* Sidebar text — in starlight layer to beat Six !important */
+@layer starlight {
+  /* Inactive links: darker gray, heavier weight in light mode */
+  :root[data-theme="light"] .entry-link {
+    color: #1f1f1f !important;
+    font-weight: 400 !important;
+  }
+  /* Active page + hover: always white (higher specificity) */
+  :root[data-theme="light"] .entry-link[aria-current="page"],
+  :root[data-theme="light"] .entry-link[aria-current="true"],
+  :root .entry-link:hover {
+    color: #ffffff !important;
+  }
+}
+
+/* =========================== */
+/* Theme overrides (librecoach) */
+/* =========================== */
+@layer librecoach {
+
+  /* LibreCoach brand colors — override Six theme defaults */
+  :root:root[data-theme="dark"] {
+    --primary: #0b85aa;
+    --primary-foreground: #ffffff;
+    --accent: #0b85aa;
+    --accent-foreground: #ffffff;
+    --foreground: #d1d5db;
+    --sl-color-text: #d1d5db;
+    --muted-foreground: #a1a1aa;
+    --sl-color-accent-low: #00273d;
+    --sl-color-accent: #0071a7;
+    --sl-color-accent-high: #92d1fe;
+  }
+
+  :root:root[data-theme="light"] {
+    --primary: #0b85aa;
+    --primary-foreground: #ffffff;
+    --accent: #0b85aa;
+    --accent-foreground: #ffffff;
+    --sl-color-accent-low: #b0deff;
+    --sl-color-accent: #0073aa;
+    --sl-color-accent-high: #003653;
+  }
+
+  /* =========================== */
+  /* Hero Title & Tagline */
+  /* =========================== */
+  .six-hero-title {
+    font-size: clamp(2rem, 5vw, 3rem) !important;
+  }
+
+  .six-hero-tagline {
+    font-size: clamp(1rem, 2vw, 1.5rem) !important;
+  }
+
+  /* =========================== */
+  /* Card adjustments */
+  /* =========================== */
+  .starlight-card__content p {
+    margin: 0;
+  }
+
+  .starlight-card__title {
+    gap: 0.5rem;
+    margin-block-start: 0;
+    margin-block-end: 0.25rem;
+  }
+
+  .starlight-card {
+    padding: 1.75rem;
+    border-radius: 0.5rem;
+  }
+
+  /* =========================== */
+  /* Hero Background Override */
+  /* =========================== */
+  :where(.six-hero.six-hero-with-background),
+  .six-hero.six-hero-with-background {
+    background-image: var(--six-hero-bg) !important;
+    border: 2px solid var(--sl-color-gray-3);
+    border-radius: 2rem;
+    box-sizing: border-box;
+  }
+
+}
+
+
+/* Sidebar section titles — readable in both modes */
+.entry-title {
+  color: var(--foreground-light) !important;
+}
+
+/* Light mode body and heading text */
+:root[data-theme="light"] {
+  --sl-color-text: #1f1f1f;
+  --foreground: #1f1f1f;
+  --foreground-light: #111111;
+  --muted-foreground: #555555;
+}
+
+/* =========================== */
+/* Hero Button (outside layer to beat Starlight reset) */
+/* =========================== */
+html body .six-hero-actions a.primary {
+  height: 2.5rem !important;
+  font-size: clamp(1rem, 1.5vw, 1.25rem) !important;
+}
+
+/* =========================== */
+/* Brand color overrides (unlayered to beat scoped Astro styles) */
+/* =========================== */
+:root[data-theme="dark"] {
+  --primary: #0b85aa !important;
+  --primary-foreground: #ffffff !important;
+  --card: #086a84 !important;
+}
+:root[data-theme="light"] {
+  --primary: #0b85aa !important;
+  --primary-foreground: #ffffff !important;
+  --card: #086a84 !important;
+}
+:root:not([data-theme]) {
+  --primary: #0b85aa !important;
+  --primary-foreground: #ffffff !important;
+  --card: #086a84 !important;
+}
+
+/* =========================== */
+/* Global styles (outside layer) */
+/* =========================== */
+
 /* Constrain landing page content width */
-main>.markdown-wrapper>.sl-markdown-content {
+main > .markdown-wrapper > .sl-markdown-content {
   max-width: 90rem;
   margin-inline: auto;
   padding-inline: 1.5rem;
 }
 
-/* Logo height to 80% of header */
+/* Logo height */
 .site-title .logo-size {
   height: calc(var(--sl-nav-height) * 0.7);
   width: auto;
@@ -19,62 +155,20 @@ main>.markdown-wrapper>.sl-markdown-content {
   width: auto;
 }
 
-/* Remove default paragraph margin inside card */
-.starlight-card__content p {
-  margin: 0;
-}
+/* =========================== */
+/* Light & Dark Mode variables */
+/* =========================== */
 
-/* Remove top margin on card title */
-.starlight-card__title {
-  gap: 0.5rem;
-  margin-block-start: 0;
-  margin-block-end: 0.25rem;
-}
-
-/* Reduce internal padding around card content */
-.starlight-card {
-  padding: 1.75rem;
-  border-radius: 0.5rem;
-}
-
-/* Larger hero title */
-.six-hero-title {
-  font-size: clamp(2rem, 5vw, 3rem) !important;
-}
-
-/* Larger hero tagline */
-.six-hero-tagline {
-  font-size: clamp(1rem, 2vw, 1.5rem) !important;
-}
-
-/* Larger hero button */
-.six-hero-actions a.primary {
-  font-size: clamp(1rem, 1.5vw, 1.25rem) !important;
-  padding: clamp(0.5rem, 1vw, 0.75rem) clamp(1rem, 2vw, 1.5rem);
-}
-
-/* Default (light mode) */
 html {
   --six-hero-bg: url("/hero-light.svg");
 }
 
-/* Light Mode */
-html:not([data-theme="dark"]) {
-  --background: #111827;
-}
-
-/* Light Mode */
 html:not([data-theme="dark"]) {
   --background: #f7f6f3;
 }
 
-/* Dark Mode */
 html[data-theme="dark"] {
   --background: #0F172A;
-}
-
-/* Dark mode */
-html[data-theme="dark"] {
   --six-hero-bg: url("/hero-dark.svg");
 }
 
@@ -100,7 +194,9 @@ img[src*="dash_dark"] {
   border: 1px solid var(--sl-color-gray-5);
 }
 
-/* Responsive hero padding (replaces inline px prop) */
+/* =========================== */
+/* Responsive hero padding */
+/* =========================== */
 .six-hero-content-overlay {
   padding-inline: 1.5rem !important;
 }
@@ -118,39 +214,13 @@ img[src*="dash_dark"] {
 }
 
 @media (max-width: 1024px) {
-
-  /* Shift hero image to the right to prevent overlap with text on smaller screens */
   .six-hero.six-hero-with-background {
     background-position: right -150px center !important;
   }
 }
 
 @media (max-width: 660px) {
-
-  /* Progressive shift for small screens: more aggressive slide to the right */
   .six-hero.six-hero-with-background {
     background-position: right calc(100vw - 810px) center !important;
   }
-}
-
-/* Override HeroX inline background */
-:where(.six-hero.six-hero-with-background) {
-  background-image: var(--six-hero-bg) !important;
-}
-
-.six-hero.six-hero-with-background {
-  background-image: var(--six-hero-bg) !important;
-  border: 2px solid var(--sl-color-gray-3);
-  border-radius: 2rem;
-  /* match your HeroX radius */
-  box-sizing: border-box;
-}
-
-/* Override Six theme button size */
-a.primary {
-  height: 2.5rem;
-}
-
-a.secondary {
-  height: 2.5rem !important;
 }

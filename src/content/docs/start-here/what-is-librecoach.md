@@ -9,7 +9,7 @@ draft: false
 
 LibreCoach turns your RV into a truly smart vehicle — one that you control and can evolve over time. It connects your RV’s **RV-C (CAN bus)** network (Firefly, Spyder, etc.) to **Home Assistant**, bringing lighting, climate, tanks, slides, and power systems into a modern, open, and extensible platform.
 
-_Note:_ Older or fully analog RVs may not be compatible. LibreCoach does **not** replace your factory systems. It listens first, integrates safely, and only sends commands when you choose to.
+_📌 Older or fully analog RVs may not be compatible. LibreCoach does **not** replace your factory systems. It listens first, integrates safely, and only sends commands when you choose to._
 
 ---
 
@@ -79,7 +79,7 @@ LibreCoach is built on **Home Assistant**, the world’s most popular open-sourc
 3. **LibreCoach Core**  
    Intelligent flows decode those messages and automatically create entities inside Home Assistant.
 
-_By default, LibreCoach listens passively. You can explore and identify devices before enabling any control._
+_📌 By default, LibreCoach listens passively. You can explore and identify devices before enabling any control._
 
 ---
 
@@ -133,7 +133,7 @@ I am currently collecting names to see if there is enough demand to build a batc
 
 **[Email me at hello@librecoach.com](mailto:hello@librecoach.com?subject=Libre%20Coach%20Interest)**
 
-_Note: This is not a commitment to buy, just an interest check._
+_📌 This is not a commitment to buy, just an interest check._
 
 ---
 
