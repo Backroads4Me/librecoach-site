@@ -7,6 +7,8 @@ import starlightThemeSix from "@six-tech/starlight-theme-six";
 
 import sitemap from "@astrojs/sitemap";
 
+const isDev = process.argv.includes("dev");
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://LibreCoach.com",
@@ -112,10 +114,9 @@ export default defineConfig({
     }),
   ],
 
-  adapter: cloudflare({
-    platformProxy: {
-      enabled: true,
-    },
-    imageService: "compile",
-  }),
+  adapter: isDev
+    ? undefined
+    : cloudflare({
+        imageService: "compile",
+      }),
 });
