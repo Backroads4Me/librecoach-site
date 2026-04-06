@@ -141,6 +141,26 @@ main > .markdown-wrapper > .sl-markdown-content {
   padding-inline: 1.5rem;
 }
 
+/* Keep the docs sidebar pinned on desktop and let it scroll internally. */
+@media (min-width: 768px) {
+  .container-wrapper-main > .aside .sidebar {
+    position: sticky !important;
+    top: 0 !important;
+    width: auto !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    overflow-y: auto !important;
+    overflow-x: hidden;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+  }
+
+  .container-wrapper-main > .aside .sidebar:hover {
+    overflow-y: auto !important;
+  }
+}
+
 /* Logo height */
 .site-title .logo-size {
   height: calc(var(--sl-nav-height) * 0.7);

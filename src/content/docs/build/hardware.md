@@ -24,22 +24,22 @@ _Disclosure: This site uses affiliate links. If you make a purchase through thes
 
 #### The build guide assumes the following components.
 
-1.  Raspberry Pi 5 (4GB): <a href="https://amzn.to/46q7PHd" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
+1.  Raspberry Pi 5 (4GB): <a href="https://amzn.to/4dwlm4A" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
 2.  Waveshare Isolated RS485 CAN HAT (B): <a href="https://amzn.to/4r1H444" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
-3.  Waveshare PCIe to M.2 Adapter (E): <a href="https://amzn.to/3ZdR6D8" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
-4.  NVMe SSD: <a href="https://amzn.to/4aovvy7" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> <a href="https://amzn.to/3NQ3wP5" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> (M key 2230 or 2242 format)
+3.  Waveshare PCIe to M.2 Adapter (E): <a href="https://amzn.to/41Oqda5" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
+4.  NVMe SSD: <a href="https://amzn.to/3NQ3wP5" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> <a href="https://amzn.to/4aovvy7" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> (M key 2230 or 2242 format)
 5.  Case: <a href="https://amzn.to/3LVEvl5" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
 6.  Power Supply: <a href="https://amzn.to/3LH7toM" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> (USB-C 27W+)
 7.  USB NVMe Enclosure: <a href="https://amzn.to/46lNDGo" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
 8.  CAN bus Cable: <a href="https://amzn.to/4tbb3YZ" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
-9.  3M connector: <a href="https://www.digikey.com/en/products/detail/3m/37104-A206-00E-MB/1855698" target="_blank" rel="noopener">DigiKey</a> or <a href="https://www.mouser.com/ProductDetail/3M-Electronic-Solutions-Division/37104-A206-00E-MB" target="_blank" rel="noopener">Mouser</a>
+9.  3M connector: <a href="https://www.digikey.com/short/33rz8qwt" target="_blank" rel="noopener">DigiKey</a> or <a href="https://mou.sr/4tt7vAH" target="_blank" rel="noopener">Mouser</a>
 
 #### Additional items that are useful
 
 1. Thin Gauge Wire strippers: <a href="https://amzn.to/3LN2zXj" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
 2. Micro HDMI to HDMI cable: <a href="https://amzn.to/4rtNvNr" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> (allows connecting Pi to regular PC monitor)
 
-_Pricing fluctuates, but this path typically costs $200-$250._
+_AI driven demand is pushing prices up, but this path currently costs less than $300._
 
 ---
 
@@ -49,9 +49,9 @@ Items that aren't strictly required but nice to have.
 
 | Component             | Price | Link                                                                                                                                                                                                                                                            | Why                                        |
 | :-------------------- | :---- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------- |
-| Larger NVMe drive     | ~$50+ | <a href="https://amzn.to/4aerBqy" target="_blank" rel="noopener noreferrer">256GB</a> <a href="https://amzn.to/4qavH8T" target="_blank" rel="noopener noreferrer">512GB</a> <a href="https://amzn.to/4qUwBaT" target="_blank" rel="noopener noreferrer">2TB</a> | Additional storage.                        |
-| Raspberry Pi 5 (8GB)  | ~$125 | <a href="https://amzn.to/4q9FPik" target="_blank" rel="noopener noreferrer">Amazon</a>                                                                                                                                                                          | More RAM for future proofing.              |
-| Raspberry Pi 5 (16GB) | ~$160 | <a href="https://ameridroid.com/products/raspberrypi-5?variant=50055407108375" target="_blank" rel="noopener noreferrer">16GB</a>                                                                                                                               | 16GB of RAM. Exceeds typical requirements. |
+| Larger NVMe drive     | ~$85+ | <a href="https://amzn.to/4qavH8T" target="_blank" rel="noopener noreferrer">512GB</a> <a href="https://amzn.to/3ObuO2O" target="_blank" rel="noopener noreferrer">1TB</a> | Additional storage.                        |
+| Raspberry Pi 5 (8GB)  | ~$175 | <a href="https://amzn.to/4q9FPik" target="_blank" rel="noopener noreferrer">Amazon</a>                                                                                                                                                                          | More RAM for future proofing.              |
+| Raspberry Pi 5 (16GB) | ~$200+ | <a href="https://www.digikey.com/short/48t9vq3w" target="_blank" rel="noopener noreferrer">16GB</a>                                                                                                                               | 16GB of RAM. Exceeds typical requirements. |
 
 ---
 
