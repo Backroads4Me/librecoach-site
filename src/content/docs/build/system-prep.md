@@ -94,21 +94,67 @@ After Step 1 completes, the disk will be automatically disconnected from the PC.
     ```
 18. Safely eject the NVMe drive from your computer
 
-#### Mac/Linux Instructions
+#### Linux Instructions
 
-> **Note:** These instructions are untested (author uses Windows). Mac/Linux users: please confirm or suggest corrections.
-
-1. The boot partition (system) should auto-mount after flashing
-2. Open a terminal and navigate to the mounted partition
-3. Edit `config.txt` with any text editor:
-   ```bash
-   sudo nano /Volumes/hassos-boot/config.txt
+1. Open a terminal and list the attached disks:
    ```
-   (adjust the path based on your mount point)
-4. Add the following lines at the end of the file, below `[all]`:
+   lsblk
    ```
-   # --- LibreCoach: Enable Waveshare CAN HAT ---
-   dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25,spimaxfrequency=2000000
+2. Identify your NVMe drive and boot partition (typically sdb). The boot partition is usually the small 64MB partition on the newly attached disk.
+   Example Output:
    ```
-5. Save and exit (Ctrl+X, Y, Enter in nano)
-6. Unmount/eject the drive safely
+   NAME   SIZE TYPE
+   sda    1.8T disk
+   ├─sda1 ...
+   └─sda2 ...
+   sdb           8:16   0 238.5G  0 disk 
+   ├─sdb1        8:17   0    64M  0 part    ← ← ← BOOT partition (this is the one we need)
+   ├─sdb2        8:18   0    24M  0 part /media/username/disk
+   ├─sdb3        8:19   0   256M  0 part /media/username/50f54421-6e3e-4f78-9d50-a2385e5e7635
+   ├─sdb4        8:20   0    24M  0 part 
+   ├─sdb5        8:21   0   256M  0 part 
+   ├─sdb6        8:22   0     8M  0 part 
+   ├─sdb7        8:23   0    96M  0 part /media/username/hassos-overlay
+   └─sdb8        8:24   0   1.3G  0 part /media/username/hassos-data
+   ```
+3. Create a mount location:
+   ```
+   sudo mkdir -p /mnt/hass-boot
+   ```
+4. Mount the boot partition (replace `/dev/sdb1` with the partition you identified in Step 2):
+   ```
+   sudo mount /dev/sdb1 /mnt/hass-boot
+   ```
+5. Verify that `config.txt` exists:
+   ```
+   ls /mnt/hass-boot
+   ```
+   You should see:
+   ```
+   config.txt
+   cmdline.txt
+   ```
+6. Open `config.txt`:
+   ```
+   sudo nano /mnt/hass-boot/config.txt
+   ```
+7. Add the following lines at the end of the file, below `[all]`:
+   ```
+    # --- LibreCoach: Enable Waveshare CAN HAT ---
+    dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25,spimaxfrequency=2000000
+    ```
+8. Save and exit nano:
+   ```text
+   Ctrl+S
+   Enter
+   Ctrl+X
+   ```
+9. Flush pending writes:
+   ```
+   sudo sync
+   ```
+10. Unmount the boot partition:
+    ```
+    sudo umount /mnt/hass-boot
+    ```
+11. Safely eject the NVMe drive from your computer
