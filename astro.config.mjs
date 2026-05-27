@@ -87,27 +87,27 @@ export default defineConfig({
         sidebar: [
           {
             label: "Start Here",
-            autogenerate: { directory: "start-here" },
+            items: [{ autogenerate: { directory: "start-here" } }],
           },
           {
             label: "Build",
-            autogenerate: { directory: "build" },
+            items: [{ autogenerate: { directory: "build" } }],
           },
           {
             label: "Configuration",
-            autogenerate: { directory: "configuration" },
+            items: [{ autogenerate: { directory: "configuration" } }],
           },
           {
             label: "Advanced Setup",
-            autogenerate: { directory: "advanced-setup" },
+            items: [{ autogenerate: { directory: "advanced-setup" } }],
           },
           {
             label: "Community",
-            autogenerate: { directory: "community" },
+            items: [{ autogenerate: { directory: "community" } }],
           },
           {
             label: "Reference",
-            autogenerate: { directory: "reference" },
+            items: [{ autogenerate: { directory: "reference" } }],
           },
         ],
       },
