@@ -22,9 +22,10 @@ You don’t need to be a programmer to make a meaningful contribution. Here are 
 
 ## Support the Project
 
-If you find LibreCoach valuable and want to support its development (and coffee consumption), you can become a sponsor:
+If LibreCoach has been useful to you, the best way to support it right now is to star the repository so other RV owners can find it.
 
-- <a href="https://github.com/sponsors/backroads4me" target="_blank" rel="noopener noreferrer">**GitHub Sponsors**</a> (Monthly support)
-- <a href="https://buymeacoffee.com/backroads4me" target="_blank" rel="noopener noreferrer">**Buy Me a Coffee**</a> (One-time donation)
+- <a href="https://github.com/Backroads4Me/ha-addons" target="_blank" rel="noopener noreferrer">**⭐ Star on GitHub**</a>
 
-Your support helps cover test hardware and infrastructure costs.
+Sponsorships are appreciated, but never expected:
+
+- <a href="https://github.com/sponsors/Backroads4Me" target="_blank" rel="noopener noreferrer">**GitHub Sponsors**</a>
