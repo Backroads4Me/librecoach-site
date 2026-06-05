@@ -90,7 +90,7 @@ If it speaks RV-C, LibreCoach can usually see it — and often control it:
 - **Lighting**: Interior, exterior and patio lights
 - **Climate**: Thermostats, heat pumps, roof fans, floor heat
 - **Plumbing**: Water pumps, fresh/grey/black tanks, LPG
-- **Power**: Inverters, chargers, generators
+- **Power**: Inverters, chargers, generators, supported solar controllers
 
 ![LibreCoach dashboard](../../../assets/dashboards/dash_light.webp)
 ![LibreCoach dashboard](../../../assets/dashboards/dash_dark.webp)

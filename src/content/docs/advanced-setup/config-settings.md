@@ -38,6 +38,12 @@ Enables experimental features that are still in development. These may be incomp
 
 Toggle **Enable Beta Testing** on if you'd like to try upcoming features early and are comfortable with the occasional rough edge.
 
+## RV-C Network Time Sync
+
+Periodically broadcasts the current system time to the RV-C network. Some RV-C devices use this to keep their internal clocks synchronized.
+
+This is **disabled by default**. Enable it only if your devices have clock drift issues or if your RV manufacturer recommends time sync on the CAN bus.
+
 ## Enable Debug Logging
 
 Enables verbose output in the LibreCoach app log. Normally the log only shows important events. With this on, it adds detailed step-by-step output useful for diagnosing problems.
