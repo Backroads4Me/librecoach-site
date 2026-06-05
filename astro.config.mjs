@@ -117,6 +117,6 @@ export default defineConfig({
   adapter: isDev
     ? undefined
     : cloudflare({
-        imageService: "passthrough",
+        imageService: "compile",
       }),
 });
