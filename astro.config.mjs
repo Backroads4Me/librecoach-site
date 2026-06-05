@@ -2,16 +2,14 @@
 import { defineConfig } from "astro/config";
 import Icons from "starlight-plugin-icons";
 import UnoCSS from "unocss/astro";
-import cloudflare from "@astrojs/cloudflare";
 import starlightThemeSix from "@six-tech/starlight-theme-six";
 
 import sitemap from "@astrojs/sitemap";
 
-const isDev = process.argv.includes("dev");
-
 // https://astro.build/config
 export default defineConfig({
   site: "https://LibreCoach.com",
+  output: "static",
 
   integrations: [
     sitemap(),
@@ -114,9 +112,4 @@ export default defineConfig({
     }),
   ],
 
-  adapter: isDev
-    ? undefined
-    : cloudflare({
-        imageService: "compile",
-      }),
 });
