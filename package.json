@@ -6,10 +6,10 @@
 		"dev": "astro dev",
 		"start": "astro dev",
 		"build": "npm rebuild sharp --update-binary && astro build",
-		"preview": "astro build && wrangler dev --config dist/server/wrangler.json",
+		"preview": "astro build && wrangler dev --config wrangler.jsonc",
 		"dev:wrangler": "wrangler dev",
 		"astro": "astro",
-		"deploy": "astro build && wrangler deploy --config dist/server/wrangler.json",
+		"deploy": "astro build && wrangler deploy --config wrangler.jsonc",
 		"cf-typegen": "wrangler types"
 	},
 	"dependencies": {
