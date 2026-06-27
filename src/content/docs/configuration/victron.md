@@ -18,11 +18,11 @@ If your RV has a **Victron Cerbo GX** (or another Victron GX device), you can co
 
 ## Step 1: Enable in LibreCoach
 
-The Victron integration is enabled by default, but it's good to verify it's active.
+The Victron integration is disabled by default. Enable it when your RV has a supported GX device.
 
 1.  In Home Assistant, go to **Settings → Apps → LibreCoach**.
 2.  Click on the **Configuration** tab.
-3.  Ensure **Enable Victron Integration** is set to **active** (green).
+3.  Set **Enable Victron Integration** to **active** (green).
 4.  Click **Save** (and **Restart** if you changed it).
 
 ## Step 2: Set the Network Security Profile

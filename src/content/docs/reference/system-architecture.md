@@ -7,7 +7,7 @@ sidebar:
 draft: false
 ---
 
-LibreCoach translates between your RV's systems and Home Assistant using two communication paths: the **RV-C CAN bus** for most RV systems, and **Bluetooth Low Energy** for devices like the MicroAir EasyTouch thermostat.
+LibreCoach translates between your RV's systems and Home Assistant using two communication paths: the **RV-C CAN bus** for most RV systems, and **Bluetooth Low Energy** for devices like the MicroAir EasyTouch thermostat and the Hughes Power Watchdog surge protector.
 
 ![LibreCoach System Architecture](../../../assets/architecture-diagram.webp)
 

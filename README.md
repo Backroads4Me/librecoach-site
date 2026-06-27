@@ -24,12 +24,12 @@ npm run dev
 Pull requests are welcome! Please ensure any new content follows the existing structure and images are added to `src/assets/`.
 
 ---
+
 ## Support LibreCoach
+
 LibreCoach is free and open source.
 
 If it helped you understand or install LibreCoach, the best way to support the project right now is to star the main add-on repository so other RV and Home Assistant users can find it.
-
-Sponsorships are appreciated, but never expected.
 
 [![Star Repository](https://img.shields.io/badge/%E2%AD%90%20Star%20ha--addons-GitHub-lightgrey?logo=github&logoColor=black)](https://github.com/Backroads4Me/ha-addons)
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-EA4AAA?logo=github-sponsors&logoColor=white)](https://github.com/sponsors/Backroads4Me)
