@@ -7,7 +7,7 @@ sidebar:
 draft: false
 ---
 
-Follow this step-by-step guide to assemble your LibreCoach hardware. Take your time—proper assembly ensures reliable operation.
+Follow this step-by-step guide to assemble your LibreCoach hardware. Take your time; proper assembly ensures reliable operation.
 
 ## Required Tools
 
@@ -60,7 +60,7 @@ Follow this step-by-step guide to assemble your LibreCoach hardware. Take your t
 
 ## Secure the Pi to the case
 
-_Note: Do not use the screws or hardware that came with the CAN HAT — use the hardware from the case kit instead._
+_Note: Do not use the screws or hardware that came with the CAN HAT. Use the hardware from the case kit instead._
 
 15. Install the shortest standoffs to all 4 corners of the case using the shortest screws
     ![Short standoffs installed in case base](../../../assets/assembly/assembly_10.webp)

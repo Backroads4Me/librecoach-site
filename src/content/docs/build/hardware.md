@@ -12,7 +12,7 @@ The Raspberry Pi ecosystem is highly flexible, and LibreCoach hardware could be 
 
 You could reduce cost by using an older-generation Pi, a different CAN HAT, or an SD card instead of NVMe. It’s even possible to run without a case or use basic, off-the-shelf cabling. On the other end of the spectrum, you could opt for more RAM and storage, alternate cases, or additional hardware for more complex builds.
 
-That said, the components recommended here were chosen deliberately: they’re high-quality, easy to assemble, readily available, and—most importantly—personally tested. This configuration aims to provide a reliable, repeatable build with minimal friction for first-time users.
+That said, the components recommended here were chosen deliberately: they’re high-quality, easy to assemble, readily available, and personally tested. This configuration aims to provide a reliable, repeatable build with minimal friction for first-time users.
 
 ---
 

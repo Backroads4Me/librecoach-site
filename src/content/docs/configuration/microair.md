@@ -5,6 +5,7 @@ description: Integrate your MicroAir EasyTouch thermostat with LibreCoach via Bl
 sidebar:
   order: 7
   label: MicroAir EasyTouch
+draft: false
 ---
 
 LibreCoach supports the **MicroAir EasyTouch RV** thermostat, allowing you to control your RV's climate directly from Home Assistant. This integration uses **Bluetooth** to communicate with the thermostat, enabling local control without relying on Wi-Fi or cloud services.
@@ -37,7 +38,7 @@ Some MicroAir EasyTouch units require a password to allow Bluetooth access. If y
 2.  Your **Micro-Air Account Email** is associated with the password on your account.
 3.  Click **Save** and **Restart**.
 
-Leave both fields blank if your unit has no password — most installations do not require them.
+Leave both fields blank if your unit has no password. Most installations do not require them.
 
 ### 2. Verify Connection
 

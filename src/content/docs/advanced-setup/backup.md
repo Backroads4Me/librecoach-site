@@ -7,7 +7,7 @@ sidebar:
 draft: false
 ---
 
-Your LibreCoach configuration represents hours of setup work — dashboards, automations, entity names, and customizations. A good backup strategy has two layers: **local backups** (built into Home Assistant) and **cloud backups** (off-site protection if the Pi dies or gets lost). Both matter in an RV.
+Your LibreCoach configuration represents hours of setup work: dashboards, automations, entity names, and customizations. A good backup strategy has two layers: **local backups** (built into Home Assistant) and **cloud backups** (off-site protection if the Pi dies or gets lost). Both matter in an RV.
 
 ## Cloud Options Compared
 
@@ -22,7 +22,7 @@ Your LibreCoach configuration represents hours of setup work — dashboards, aut
 
 ## Recommendation
 
-**If you're okay with a small subscription, Nabu Casa is the clear winner.** Encrypted cloud backups are included — just check a box and you're done. You also get remote access and voice assistant support in the same subscription. No buckets, no API keys, no configuration.
+**If you're okay with a small subscription, Nabu Casa is the clear winner.** Encrypted cloud backups are included; just check a box and you're done. You also get remote access and voice assistant support in the same subscription. No buckets, no API keys, no configuration.
 
 **Cloudflare R2 is for those who want free cloud storage** and are comfortable with a bit more setup. It's an excellent option if you already have a Cloudflare account or prefer not to pay for Nabu Casa.
 
@@ -43,7 +43,7 @@ Your LibreCoach configuration represents hours of setup work — dashboards, aut
 
 ## Built-in Home Assistant Backups
 
-Home Assistant's built-in backup system is your first line of defense. It captures everything — Node-RED flows, Mosquitto settings, dashboards, automations, and entity customizations — and stores it on the Pi.
+Home Assistant's built-in backup system is your first line of defense. It captures everything: Node-RED flows, Mosquitto settings, dashboards, automations, and entity customizations. Those backups are stored on the Pi.
 
 :::caution
 Local backups are lost if your Pi hard drive fails. Always pair them with a cloud solution.
@@ -86,7 +86,7 @@ _See the [Remote Access](/advanced-setup/remote-access/) page for the full list 
 
 ## Cloudflare R2
 
-The <a href="https://www.home-assistant.io/integrations/cloudflare_r2" target="_blank" rel="noopener noreferrer">Cloudflare R2 integration</a> stores your backups in Cloudflare's S3-compatible object storage. R2's free tier (10 GB) is more than enough for Home Assistant backups, and there are no egress fees — useful when restoring from an unfamiliar location.
+The <a href="https://www.home-assistant.io/integrations/cloudflare_r2" target="_blank" rel="noopener noreferrer">Cloudflare R2 integration</a> stores your backups in Cloudflare's S3-compatible object storage. R2's free tier (10 GB) is more than enough for Home Assistant backups, and there are no egress fees, which is useful when restoring from an unfamiliar location.
 
 ### 1. Create an R2 Bucket
 
@@ -100,7 +100,7 @@ The <a href="https://www.home-assistant.io/integrations/cloudflare_r2" target="_
 1. In the R2 section, click **Manage R2 API tokens**
 2. Click **Create API token**
 3. Set permissions to **Object Read & Write** for your bucket
-4. Copy the **Access Key ID** and **Secret Access Key** — you'll need these in the next step
+4. Copy the **Access Key ID** and **Secret Access Key**. You'll need these in the next step
 
 ### 3. Add the Integration in Home Assistant
 

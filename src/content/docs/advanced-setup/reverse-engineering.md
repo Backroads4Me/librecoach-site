@@ -10,7 +10,7 @@ draft: false
 
 LibreCoach supports many common RV devices out of the box. Most users won’t need to do anything beyond the built-in integrations, but if your RV has a unique component that doesn't show up yet, you can take the wheel.
 
-LibreCoach empowers you to explore your RV’s RV-C bus. With the built-in recording tool, you can capture unknown or undocumented messages, decode them, and understand exactly how your RV behaves.
+LibreCoach lets you explore your RV’s RV-C bus directly. With the built-in recording tool, you can capture unknown or undocumented messages, decode them, and understand exactly how your RV behaves.
 
 ## The "Sandwich" Method
 

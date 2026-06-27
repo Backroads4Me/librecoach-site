@@ -1,4 +1,5 @@
 ---
+filename: kit-interest
 title: Pre-Assembled Kit
 description: Express your interest in a pre-built LibreCoach plug-and-play kit.
 sidebar:
@@ -9,7 +10,7 @@ draft: false
 ---
 
 :::caution[Interest Check Only]
-**This is currently an interest check only.** There are currently no kits for sale at this time.
+**This is an interest check. No kits are for sale yet.**
 :::
 
 Building your own hardware isn't for everyone. I'm exploring the possibility of offering a **Turn-Key Kit** for those who want the power of LibreCoach without the DIY assembly and software flashing.
@@ -33,7 +34,7 @@ To maintain high-performance components (like the Pi 5 and NVMe storage) and cov
 
 ### Express Your Interest
 
-If you'd be interested in purchasing a kit, please reach out. There is no commitment to buy — your feedback simply helps determine if a production run is viable.
+If you'd be interested in purchasing a kit, please reach out. There is no commitment to buy; your feedback simply helps determine if a production run is viable.
 
 <a href="mailto:hello@librecoach.com?subject=LibreCoach%20Kit%20Interest" target="_blank" rel="noopener noreferrer">**Click Here to Send an Interest Email**</a>
 

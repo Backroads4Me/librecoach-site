@@ -14,35 +14,25 @@ One of the primary benefits of LibreCoach is that the system is fully extensible
 Get comfortable with the core LibreCoach system before adding enhancements. Each app increases complexity and potential points of failure.
 :::
 
-## Remote Access
+## [Remote Access](/advanced-setup/remote-access/)
 
-Access your RV from anywhere:
+Options for accessing your RV from anywhere.
 
-- **[Remote Access](/advanced-setup/remote-access/)** - Options for accessing your RV remotely
+## [Backups](/advanced-setup/backup/)
 
-## Backups
+Your LibreCoach setup reflects hours of work: dashboards, automations, and customizations. Local and cloud backups let you recover from hardware failures, updates, or mistakes.
 
-Your LibreCoach setup reflects hours of work—dashboards, automations, and customizations. Backing it up ensures you can recover from hardware failures, updates, or mistakes.
+## [Apps](/advanced-setup/apps/)
 
-- **[Backup](/advanced-setup/backup/)** - Local and cloud backup solutions
+Apps (formerly known as add-ons) extend LibreCoach with new features, integrations, and utilities.
 
-## Apps
+## [HACS](/advanced-setup/hacs/)
 
-Apps (formerly known as add-ons) extend LibreCoach by adding new features, integrations, or capabilities to enhance your setup.
+The Home Assistant Community Store provides thousands of community-created integrations, themes, and frontend cards that expand LibreCoach beyond the core features.
 
-- **[Apps](/advanced-setup/apps/)** - Recommended apps for LibreCoach
+## [Reverse-Engineering Unknown Devices](/advanced-setup/reverse-engineering/)
 
-## HACS (Home Assistant Community Store)
-
-HACS provides access to thousands of community-created integrations, themes, and frontend enhancements to expand LibreCoach beyond the core features.
-
-- **[HACS](/advanced-setup/hacs/)** - Installation and recommended components
-
-## Reverse-Engineering Unknown Devices
-
-Want to integrate an unsupported or proprietary device in your RV? Use the built-in RV-C logging tool to record its traffic and reverse-engineer how it communicates.
-
-- **[Decoding Unknown Devices](/advanced-setup/reverse-engineering/)** - How to capture unknown RV-C messages
+Want to integrate an unsupported or proprietary device? Use the built-in RV-C logging tool to record its traffic and reverse-engineer how it communicates.
 
 ## Community Recommendations
 

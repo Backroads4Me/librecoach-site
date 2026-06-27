@@ -31,7 +31,7 @@ The first step is finding where to plug in the hardware. Your RV-C network runs 
 
 ## Connection
 
-Plug the 3M connector into the port and connect the screw terminals to the CAN HAT. Once connected, power on the Pi — it should boot into Home Assistant automatically.
+Plug the 3M connector into the port and connect the screw terminals to the CAN HAT. Once connected, power on the Pi. It should boot into Home Assistant automatically.
 
 _Once satisfied with the location, secure the Pi and wires for travel._
 

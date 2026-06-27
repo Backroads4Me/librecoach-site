@@ -7,23 +7,25 @@ sidebar:
 draft: false
 ---
 
-Remote access lets you check on your RV from anywhere—monitor battery levels while at dinner, verify the water pump is off from work, or preheat before heading back to camp.
+Remote access lets you check on your RV from anywhere: monitor battery levels while at dinner, verify the water pump is off from work, or preheat before heading back to camp.
 
 ## Options Compared
 
 | Feature                     | Tailscale                         | Nabu Casa               |
 | --------------------------- | --------------------------------- | ----------------------- |
-| **Cost**                    | Free (personal use)               | $65/year                |
-| **Setup Difficulty**        | Moderate                          | Very Easy               |
-| **Voice Assistants**        | Requires manual setup             | Built-in Alexa & Google |
-| **Phone App Required**      | Yes (Tailscale app + VPN enabled) | No                      |
-| **Supports HA Development** | No                                | Yes                     |
+| **Cost**                    | Free (personal use)   | $65/year                |
+| **Setup Difficulty**        | Moderate              | Easy                    |
+| **Voice Assistants**        | Requires manual setup | Built-in Alexa & Google |
+| **Phone App Required**      | Yes (Tailscale app)   | No                      |
+| **Supports HA Development** | No                    | Yes                     |
 
 ## Recommendation
 
-**If you're okay with a small subscription, Nabu Casa is the clear winner.** It's simpler to set up, more reliable, includes voice assistant integration, and directly supports Home Assistant development. You install it, log in, and it just works.
+Both options give you secure remote access — the right one depends on what you value.
 
-**Tailscale is for tinkerers** who want a free option or need to access other devices on their RV network beyond Home Assistant. It requires installing the Tailscale app on every device you want to connect from, enabling its VPN, and managing the connection yourself.
+**Choose Nabu Casa if you want the least maintenance.** You install it, log in, and remote access, backups, and voice assistants are handled for you. It costs $65/year, which also funds Home Assistant's development.
+
+**Choose Tailscale if you want a free option** — or need to reach other devices on your RV network beyond Home Assistant. It's a VPN you manage yourself, which means more setup and a client app on each device.
 
 ### Choose Nabu Casa If:
 
@@ -48,7 +50,7 @@ Remote access lets you check on your RV from anywhere—monitor battery levels w
 ### Features
 
 - **Remote Access** - Access your Home Assistant from anywhere without complex configuration
-- **Seamless backup and restore** - Backs up your Home Assistant on a secure server
+- **Backup and restore** - Backs up your Home Assistant to a secure server
 - **Voice Assistant Integration** - Control your RV with Alexa or Google
 - **Support Home Assistant** - Subscription fees fund HA development
 
@@ -63,7 +65,7 @@ Visit <a href="https://www.home-assistant.io/cloud/" target="_blank" rel="noopen
 
 ## Tailscale
 
-Tailscale creates a secure private network between your devices, allowing you to access your LibreCoach system from anywhere—without exposing it to the public internet or configuring port forwarding.
+Tailscale creates a secure private network between your devices, allowing you to access your LibreCoach system from anywhere without exposing it to the public internet or configuring port forwarding.
 
 ### Why Tailscale?
 

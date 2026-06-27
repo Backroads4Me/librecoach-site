@@ -32,7 +32,7 @@ You will need a GitHub account to set up HACS. <a href="https://github.com/signu
 
 ## Examples of What You Can Add
 
-Here are just a few examples of the powerful enhancements available through HACS:
+Here are just a few examples of what HACS makes available:
 
 _📌 All of the integrations below are used in the LibreCoach dashboard screenshots._
 

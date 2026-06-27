@@ -8,7 +8,7 @@ sidebar:
 draft: false
 ---
 
-One of the biggest benefits of LibreCoach is the ability to automate your rig. Instead of just pressing buttons on a screen, your RV can react to its environment—notifying you when tanks are full, protecting your batteries, or locking up at night.
+One of the biggest benefits of LibreCoach is the ability to automate your rig. Instead of just pressing buttons on a screen, your RV can react to its environment: notifying you when tanks are full, protecting your batteries, or locking up at night.
 
 ## Creating Your First Automation
 
@@ -29,14 +29,14 @@ _Click **Add Trigger** and search for "Numeric state"_
 
 ### 2. Then do (Actions)
 
-**Action 1 — Send the notification:**
+**Action 1: Send the notification:**
 
 _Click **Add Action** and search for "Notifications"_
 
 - **Action**: `Send a notification` (or `notify.default_notifications`)
 - **Message**: `Black tank at 75%!`
 
-**Action 2 — Wait before it can fire again:**
+**Action 2: Wait before it can fire again:**
 
 _Click **Add Action** and search for "Wait for trigger"_
 

@@ -9,13 +9,13 @@ draft: false
 
 **Last Updated:** January 28, 2026
 
-Your motorhome's data belongs to you — not a cloud provider.
+Your motorhome's data belongs to you, not a cloud provider.
 
 ## Philosophy
 
 - **Local-First:** LibreCoach runs locally on your hardware. Your RV data stays inside your RV.
 - **No Tracking:** LibreCoach does not track your location, usage habits, or system data.
-- **Open Transparency:** The code is open-source — you can verify exactly how your data is handled at any time.
+- **Open Transparency:** The code is open-source, so you can verify exactly how your data is handled at any time.
 
 ## Data Collection
 

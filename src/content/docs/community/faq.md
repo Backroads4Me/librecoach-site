@@ -35,7 +35,7 @@ Yes! If you already run Home Assistant, you can add a CAN HAT and install LibreC
 
 ### Is it safe? Can it damage my RV?
 
-**LibreCoach is passive by default** — it monitors your RV-C network without sending commands unless you explicitly trigger them. The RV-C protocol has built-in safeguards, and your RV’s physical switches always work regardless of what LibreCoach is doing.
+**LibreCoach is passive by default.** It monitors your RV-C network without sending commands unless you explicitly trigger them. The RV-C protocol has built-in safeguards, and your RV’s physical switches always work regardless of what LibreCoach is doing.
 
 **Note:** As with any DIY project, proceed carefully and disconnect power when working on electrical systems.
 

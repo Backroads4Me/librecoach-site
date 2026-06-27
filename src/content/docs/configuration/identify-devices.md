@@ -5,6 +5,7 @@ description: Identify and map auto-discovered devices to their physical controls
 sidebar:
   order: 1
   label: Identify Devices
+draft: false
 ---
 
 After installing LibreCoach, your RV-C switches will be auto-discovered and appear in Home Assistant as generic entities like `switch_1`, `switch_2`, etc. This guide helps you identify what each switch controls.
@@ -62,7 +63,7 @@ _📌 Before renaming everything by hand, check if someone has already shared a 
 
 ### Teach LibreCoach Which Lights Can Dim
 
-Some of your switches may control lights that support dimming. LibreCoach can learn this automatically — you just need to show it.
+Some of your switches may control lights that support dimming. LibreCoach can learn this automatically; you just need to show it.
 
 Once you've identified a switch that controls a dimmable light:
 
@@ -73,6 +74,6 @@ Once you've identified a switch that controls a dimmable light:
 
 ### Multiple switches turn on at once
 
-- Some physical switches control more than one entity in Home Assistant. This is common with paired lights — for example, living room sconces on the driver's side and passenger's side. The wall switch turns both on simultaneously, but they are separate entities.
+- Some physical switches control more than one entity in Home Assistant. This is common with paired lights, such as living room sconces on the driver's side and passenger's side. The wall switch turns both on simultaneously, but they are separate entities.
 - You can control them individually or create a light group to manage them together.
 - Settings → Devices & Services → Helpers → + Create Helper → Group → Light group, then add both entities to the group.

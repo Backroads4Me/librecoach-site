@@ -7,7 +7,7 @@ sidebar:
 draft: false
 ---
 
-RV-C (Recreational Vehicle Controller Area Network) is the standard communication protocol used in modern RVs. It's based on CAN 2.0B — the same bus technology used in cars and trucks — running at 250 kbit/s over a twisted pair of wires (CAN-H and CAN-L).
+RV-C (Recreational Vehicle Controller Area Network) is the standard communication protocol used in modern RVs. It's based on CAN 2.0B, the same bus technology used in cars and trucks, running at 250 kbit/s over a twisted pair of wires (CAN-H and CAN-L).
 
 It's a peer-to-peer network with no master device. All nodes broadcast messages on the bus, and devices act only on the ones addressed to them. A single bus supports up to 172 nodes across 265 meters of wiring.
 
@@ -24,10 +24,10 @@ Every RV-C message uses a 29-bit extended CAN frame with 8 bytes of data. The fr
 | Field          | Bits | Purpose                                         |
 | -------------- | ---- | ----------------------------------------------- |
 | Priority       | 3    | Urgency level (0–7, typically 6 for status)     |
-| DGN            | 17   | Data Group Number — identifies the message type |
+| DGN            | 17   | Data Group Number; identifies the message type |
 | Source Address | 8    | Which device sent the message (0–253)           |
 
-The first data byte is usually the **instance** number, which distinguishes multiple devices of the same type. For example, a single lighting controller might manage 8 dimmable circuits — instances 1 through 8.
+The first data byte is usually the **instance** number, which distinguishes multiple devices of the same type. For example, a single lighting controller might manage 8 dimmable circuits, instances 1 through 8.
 
 ### Example
 
@@ -48,5 +48,5 @@ RV-C uses special byte values to indicate missing or unchanged data:
 
 ## Learn More
 
-- <a href="https://www.rvia.org/rv-c/rv-c-specification-document" target="_blank" rel="noopener noreferrer">RV-C Official Specification</a> — the full standard (technical)
-- [System Architecture](/reference/system-architecture/) — how LibreCoach processes RV-C messages
+- <a href="https://www.rvia.org/rv-c/rv-c-specification-document" target="_blank" rel="noopener noreferrer">RV-C Official Specification</a>: the full standard (technical)
+- [System Architecture](/reference/system-architecture/): how LibreCoach processes RV-C messages

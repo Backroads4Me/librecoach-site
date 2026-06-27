@@ -1,29 +1,30 @@
 ---
 filename: dashboards
 title: Custom Dashboards
-description: Create custom Home Assistant dashboards for your RV with examples, YAML configurations, and community-shared layouts.
+description: Build a Home Assistant dashboard for your RV by hand or with AI.
 sidebar:
   order: 3
   label: Dashboards
 draft: false
 ---
 
-Once you've [identified your devices](/configuration/identify-devices/), it's time to create beautiful dashboards tailored to your RV's layout.
-
-### Customized LibreCoach Dashboard
+Once you've [identified your devices](/configuration/identify-devices/), it's time to build a dashboard tailored to your RV.
 
 ![LibreCoach dashboard](../../../assets/dashboards/librecoach_dashboard_light.webp)
 ![LibreCoach dashboard](../../../assets/dashboards/librecoach_dashboard_dark.webp)
 
-:::note
-The dashboard above uses custom cards and integrations from [HACS](/advanced-setup/hacs/) that go well beyond what Home Assistant includes out of the box. The built-in cards are functional but basic — don't worry if your first dashboard doesn't look like these screenshots. Start simple, get comfortable with the visual editor, and add custom cards when you're ready.
+:::note[Want to see what's possible?]
+The dashboard above uses custom cards from [HACS](/advanced-setup/hacs/) that go well beyond the built-in cards. Browse the **<a href="https://github.com/Backroads4Me/librecoach-dashboard" target="_blank" rel="noopener noreferrer">LibreCoach example dashboard</a>** for inspiration. Don't worry if your first dashboard doesn't look like this. Start simple and add custom cards when you're ready.
 :::
 
-## Creating Your First Dashboard
+There are two ways to build a dashboard. Most people start with one and mix in the other over time:
 
-### Step 1: Plan Your Layout
+- **[Build it by hand](#build-it-by-hand)**: drag-and-drop in the visual editor. Best for learning.
+- **[Generate it with AI](#generate-it-with-ai)**: let an assistant build a full dashboard from your devices. Fastest way to a complete layout.
 
-Before diving into Home Assistant, sketch out what you want:
+## Plan Your Layout
+
+Whichever method you use, it helps to sketch out what you want first:
 
 - **By Function**: Lights, Climate, Water, Power
 - **By Location**: Bedroom, Living Area, Galley, Exterior
@@ -31,118 +32,62 @@ Before diving into Home Assistant, sketch out what you want:
 
 Most RV owners find a hybrid approach works best: primary tabs by function, with location-based sections within each tab.
 
-### Step 2: Create a New Dashboard
+A few things that hold up well over time:
 
-1. Go to **Settings** → **Dashboards**
-2. Click **+ Add Dashboard** in the bottom right
-3. Select **New dashboard from scratch**
-4. Give it a name (e.g., "My RV") and click **Create**
+1. **Keep it simple:** Don't overwhelm a view with too many cards.
+2. **Use icons:** They're faster to recognize than text.
+3. **Test on mobile:** Most RV owners use a tablet or phone.
+4. **Iterate:** Your first dashboard won't be perfect; refine it as you go.
 
-### Step 3: Add Views (Tabs)
+## Build It by Hand
 
-Create tabs for different areas:
+The **visual editor** is a drag-and-drop interface built into Home Assistant. No code required. It's the best way to learn how dashboards fit together.
 
-1. Click the **✏️ Edit** button
-2. Click the **+ Add View** button
-3. Create views for each area:
-   - Lighting
-   - Climate
-   - Water & Tanks
-   - Power & Batteries
+### 1. Create the dashboard
 
-### Step 4: Add Cards
+1. Go to **Settings** → **Dashboards**.
+2. Click **+ Add Dashboard** in the bottom right.
+3. Select **New dashboard from scratch**.
+4. Give it a name (e.g., "My RV") and click **Create**.
 
-For each view, add cards to display and control your devices.
+### 2. Add views (tabs)
 
-## Using YAML vs. Visual Editor
+1. Open your new dashboard and click the **✏️ Edit** button.
+2. Click **+ Add View**.
+3. Create a view for each area, for example: Lighting, Climate, Water & Tanks, Power & Batteries.
 
-Home Assistant supports two methods for creating dashboards:
+### 3. Add cards
 
-### Visual Editor (Recommended for Beginners)
+In each view, click **+ Add Card** and pick cards to display and control your devices. Start with the built-in cards; they're basic but functional. When you want more polish, add custom cards from [HACS](/advanced-setup/hacs/).
 
-- Click-and-drag interface
-- Easy to get started
-- Some limitations on advanced customization
+## Generate It with AI
 
-### YAML Mode (Recommended for Sharing)
+LibreCoach can generate a structured prompt that you hand to an AI assistant (ChatGPT, Claude, etc.) to build a complete dashboard tailored to your RV. The prompt includes your LibreCoach entity IDs, names, areas, units, and device types.
 
-- Full control over layout and styling
-- Easy to copy/paste and share
-- Requires learning YAML syntax
+Two variants are available:
 
-**Pro Tip**: Start with the visual editor, then switch to YAML when you want to fine-tune or share.
+- **Mushroom Cards**: polished card styles; requires [HACS cards](/advanced-setup/hacs/).
+- **Standard Cards**: native Home Assistant cards only; no extra installs needed.
 
-## AI-Assisted Dashboard Creation
+To generate a dashboard:
 
-LibreCoach can generate a structured prompt that you give to an AI assistant (ChatGPT, Claude, etc.) to create a dashboard tailored to your specific RV.
-
-The prompt includes your LibreCoach entity IDs, names, areas, units, and device types. Two prompt variants are available:
-
-- **Mushroom Cards** — polished card styles; requires [HACS cards](/advanced-setup/hacs/).
-- **Standard Cards** — native Home Assistant cards only; no extra installs needed.
-
-To export the prompt:
-
-1. Open the **LibreCoach Dashboard**.
-2. Go to the **Menu**.
-3. Click **Export AI Dashboard Prompt (Mushroom Cards)** or **Export AI Dashboard Prompt (Standard Cards)**.
-4. Open the Home Assistant notification and download the generated `.txt` file.
-5. Attach the file to a new AI chat and ask the assistant to follow its instructions.
-6. Review the generated YAML.
-7. Create a new dashboard (**Settings → Dashboards → + Add Dashboard → New dashboard from scratch**), open it, click **✏️ Edit → ⋮ → Raw configuration editor**, paste the YAML, and save.
+1. Open the **LibreCoach Dashboard** and go to the **Menu**.
+2. Click **Export AI Dashboard Prompt (Mushroom Cards)** or **Export AI Dashboard Prompt (Standard Cards)**.
+3. Open the Home Assistant notification and download the generated `.txt` file.
+4. Attach the file to a new AI chat and ask the assistant to follow its instructions.
+5. Review the YAML the assistant produces.
+6. Add it to Home Assistant using the **[Raw configuration editor](#add-a-dashboard-from-yaml)** below.
 
 See [Import & Export](/configuration/import-export/) for full details.
 
-## LibreCoach Example Dashboard
+## Add a Dashboard from YAML
 
-The LibreCoach Dashboard is a fully built example designed specifically for RVs. It uses custom cards and advanced layouts to show what's possible with Home Assistant — browse it for inspiration, or pull out the parts that fit your rig.
+A dashboard is just YAML under the hood. When the AI assistant gives you a dashboard's YAML, you paste it in through the **Raw configuration editor**. You won't usually write this YAML yourself; it's just how a finished dashboard gets in.
 
-**<a href="https://github.com/Backroads4Me/librecoach-dashboard" target="_blank" rel="noopener noreferrer">View the LibreCoach Dashboard on GitHub →</a>**
+1. Go to **Settings** → **Dashboards** → **+ Add Dashboard**.
+2. Select **New dashboard from scratch**, give it a name, and click **Create**.
+3. Open the dashboard and click **✏️ Edit**.
+4. Click the **⋮** menu (top right) → **Raw configuration editor**.
+5. Paste the YAML, then click **Save**.
 
-The dashboard has 10 views covering lights, shades, doors, locks, climate, energy, and tanks. Each view includes a navigation bar at the bottom so you can jump between sections from any screen.
-
-## Tips for Great Dashboards
-
-1. **Keep it simple**: Don't overwhelm yourself with too many cards
-2. **Use icons**: Visual icons are faster to recognize than text
-3. **Test on mobile**: Most RV owners use tablets or phones
-4. **Iterate**: Your first dashboard won't be perfect—refine as you use it
-
-## Exporting Your Dashboard
-
-To share your dashboard with the community:
-
-1. Open your dashboard
-2. Click **✏️ Edit**
-3. Click the **⋮** menu in the top right
-4. Select **Raw configuration editor**
-5. Copy the entire YAML configuration
-6. Save it to a file (e.g., `my-rv-dashboard.yaml`)
-
-## Importing a Dashboard
-
-To use a dashboard shared by the community:
-
-1. Go to **Settings** → **Dashboards**
-2. Click **+ Add Dashboard**
-3. Select **New dashboard from scratch**
-4. Give it a name and click **Create**
-5. Open your new dashboard
-6. Click the **✏️ Edit** button
-7. Click the **⋮** menu → **Raw configuration editor**
-8. Paste the YAML configuration
-9. Click **Save**
-
-_📌 When importing a dashboard, you'll need to update the entity IDs to match your system._
-
-### Sharing Your Dashboard
-
-Help grow the community by sharing your dashboard:
-
-1. Export your dashboard YAML
-2. Take screenshots of each view
-3. Post on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>
-4. Include:
-   - Screenshots
-   - YAML file (as an attachment or code block)
-   - Any custom cards or integrations required
+_📌 You'll usually need to update the entity IDs in the pasted YAML to match your system._

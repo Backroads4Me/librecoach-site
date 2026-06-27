@@ -81,7 +81,7 @@ Or manually:
     - **Node-RED** (running)
     - **LibreCoach** (running)
 
-    CAN and Bluetooth communication run as built-in services inside LibreCoach — no separate app required.
+    CAN and Bluetooth communication run as built-in services inside LibreCoach. No separate app required.
 
 ### LibreCoach is now installed!
 

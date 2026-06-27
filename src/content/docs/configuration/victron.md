@@ -8,7 +8,7 @@ sidebar:
 draft: false
 ---
 
-If your RV has a **Victron Cerbo GX** (or another Victron GX device), you can connect it to LibreCoach through MQTT. This lets you monitor battery voltage, current, solar production, inverter status, and more — all from your Home Assistant dashboard.
+If your RV has a **Victron Cerbo GX** (or another Victron GX device), you can connect it to LibreCoach through MQTT. This lets you monitor battery voltage, current, solar production, inverter status, and more from your Home Assistant dashboard.
 
 ## What You'll Need
 
@@ -45,7 +45,7 @@ Now tell the GX device to share its data over MQTT.
 
 Toggle it to **Enabled**.
 
-That's it — your Victron GX device is now broadcasting data that LibreCoach can pick up.
+That's it. Your Victron GX device is now broadcasting data that LibreCoach can pick up.
 
 ## Step 4: Restart Node-RED
 

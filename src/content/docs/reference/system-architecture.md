@@ -15,8 +15,8 @@ LibreCoach translates between your RV's systems and Home Assistant using two com
 
 LibreCoach runs on commodity hardware that's easy to source and replace.
 
-- **Raspberry Pi 5** — Host computer with NVMe storage support.
-- **CAN HAT** — Adds a CAN controller to the Pi so it can talk to the RV-C network.
+- **Raspberry Pi 5**: Host computer with NVMe storage support.
+- **CAN HAT**: Adds a CAN controller to the Pi so it can talk to the RV-C network.
 
 ## Software Stack
 
@@ -24,18 +24,18 @@ The software runs as a set of Home Assistant Apps, managed by the Home Assistant
 
 ### 1. Home Assistant OS
 
-The full OS version provides a Supervisor that manages updates, networking, and apps — keeping the system appliance-like and resilient.
+The full OS version provides a Supervisor that manages updates, networking, and apps, keeping the system appliance-like and resilient.
 
 ### 2. MQTT Broker
 
-The messaging layer that decouples all components. The Vehicle Bridge and Node-RED don't talk to each other directly — they share messages through MQTT.
+The messaging layer that decouples all components. The Vehicle Bridge and Node-RED don't talk to each other directly; they share messages through MQTT.
 
 ### 3. Vehicle Bridge
 
 A background service inside the LibreCoach app that handles all hardware communication:
 
-- **CAN Bus** — Reads raw RV-C frames from the wire, publishes them to MQTT, and writes commands back to the bus.
-- **Bluetooth** — Discovers and maintains persistent connections to supported BLE devices, publishing state and receiving commands through the same MQTT topics.
+- **CAN Bus**: Reads raw RV-C frames from the wire, publishes them to MQTT, and writes commands back to the bus.
+- **Bluetooth**: Discovers and maintains persistent connections to supported BLE devices, publishing state and receiving commands through the same MQTT topics.
 
 ### 4. Node-RED
 

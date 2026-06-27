@@ -18,8 +18,8 @@ LibreCoach can generate a structured prompt that you give to an AI assistant (Ch
 
 There are two variants:
 
-- **Mushroom Cards** — uses HACS custom cards for a polished visual style. Requires the [HACS cards](/advanced-setup/hacs/) to be installed.
-- **Standard Cards** — uses only native Home Assistant cards. Works out of the box with no additional installs.
+- **Mushroom Cards**: uses HACS custom cards for a polished visual style. Requires the [HACS cards](/advanced-setup/hacs/) to be installed.
+- **Standard Cards**: uses only native Home Assistant cards. Works out of the box with no additional installs.
 
 ### How to Export an AI Prompt
 

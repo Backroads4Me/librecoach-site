@@ -8,7 +8,7 @@ sidebar:
 draft: false
 ---
 
-The **Home Assistant Companion App** is the best way to control your RV from your phone or tablet. It not only gives you a native interface for your dashboard but also allows your device to become a sensor itself—reporting battery level, location, and connection status back to LibreCoach.
+The **Home Assistant Companion App** is the best way to control your RV from your phone or tablet. It not only gives you a native interface for your dashboard but also allows your device to become a sensor itself, reporting battery level, location, and connection status back to LibreCoach.
 
 ## 1. Install the App
 

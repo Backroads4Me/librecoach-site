@@ -8,7 +8,7 @@ sidebar:
 draft: false
 ---
 
-LibreCoach integrates with the **Hughes Power Watchdog** surge protector over **Bluetooth**, bringing your shore-power readings directly into Home Assistant. You can monitor line voltage, current, power, energy use, and frequency, and get alerted to faults like low voltage, surges, or open neutral — without opening the Hughes app.
+LibreCoach integrates with the **Hughes Power Watchdog** surge protector over **Bluetooth**, bringing your shore-power readings directly into Home Assistant. You can monitor line voltage, current, power, energy use, and frequency, and get alerted to faults like low voltage, surges, or open neutral without opening the Hughes app.
 
 This integration is local-only. It talks to the Watchdog directly over Bluetooth, with no Wi-Fi or cloud account required.
 
@@ -40,11 +40,11 @@ During first-time pairing, keep only your Watchdog powered on and nearby. If sev
 
 Once connected, LibreCoach exposes the Watchdog's readings as Home Assistant entities. Depending on your model you'll see:
 
-- **Voltage** — per line (L1 / L2)
-- **Current** — per line (L1 / L2)
-- **Power** — per line and combined
-- **Energy** — cumulative kWh
-- **Frequency** — line frequency in Hz
-- **Fault / error status** — a human-readable description of any active faults
+- **Voltage**: per line (L1 / L2)
+- **Current**: per line (L1 / L2)
+- **Power**: per line and combined
+- **Energy**: cumulative kWh
+- **Frequency**: line frequency in Hz
+- **Fault / error status**: a human-readable description of any active faults
 
-If entities don't appear after a few minutes, confirm the Watchdog is powered, within range, and not actively connected in the Hughes mobile app — an active app connection can prevent LibreCoach from connecting.
+If entities don't appear after a few minutes, confirm the Watchdog is powered, within range, and not actively connected in the Hughes mobile app. An active app connection can prevent LibreCoach from connecting.
