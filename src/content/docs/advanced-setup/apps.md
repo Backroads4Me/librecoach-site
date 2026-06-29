@@ -7,7 +7,7 @@ sidebar:
 draft: false
 ---
 
-Apps (formerly known as add-ons) extend Home Assistant by installing additional applications that run alongside your system. They provide utilities for editing files, terminal access, debugging, and more.
+Apps extend Home Assistant by installing additional applications that run alongside your system. They provide utilities for editing files, terminal access, debugging, and more.
 
 Visit <a href="https://www.home-assistant.io/addons/" target="_blank" rel="noopener">Home Assistant Apps</a> for official documentation.
 

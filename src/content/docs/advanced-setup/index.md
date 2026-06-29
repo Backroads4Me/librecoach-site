@@ -24,7 +24,7 @@ Your LibreCoach setup reflects hours of work: dashboards, automations, and custo
 
 ## [Apps](/advanced-setup/apps/)
 
-Apps (formerly known as add-ons) extend LibreCoach with new features, integrations, and utilities.
+Apps extend LibreCoach with new features, integrations, and utilities.
 
 ## [HACS](/advanced-setup/hacs/)
 

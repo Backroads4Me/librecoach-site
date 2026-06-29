@@ -9,8 +9,20 @@ draft: false
 ---
 
 :::caution[Safety First]
-Working with your RV's electrical system carries risks. While the RV-C network is low voltage (12V), accidental shorts can damage sensitive electronics or blow fuses. If you are uncomfortable working with wiring, consult a qualified RV technician.
+Working with your RV's electrical system carries risks. The RV-C network is low voltage, but accidental shorts, reversed wiring, or poor connections can damage sensitive electronics or blow fuses. If you are not comfortable identifying and connecting to RV wiring, consult a qualified RV technician.
 :::
+
+## Before You Connect
+
+Confirm these items before plugging LibreCoach into the RV-C network:
+
+- The LibreCoach app and supporting services have been installed and verified in Home Assistant.
+- The Pi has been shut down before connecting the CAN cable.
+- The CAN HAT termination jumpers are in the Off position unless you have a specific reason to add termination.
+- The CAN high, CAN low, positive, and ground wires match the connector and CAN HAT terminals.
+- The cable is routed and secured so it cannot pull loose or rub while driving.
+
+LibreCoach is intended for monitoring and convenience control. Keep the RV's original switches, panels, and manual procedures available for essential systems.
 
 ## Locating Your RV-C Network
 

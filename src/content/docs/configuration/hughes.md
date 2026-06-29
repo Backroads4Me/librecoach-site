@@ -18,7 +18,7 @@ This integration is local-only. It talks to the Watchdog directly over Bluetooth
 2.  A **Bluetooth adapter** on your Home Assistant host.
     - **Raspberry Pi:** The built-in Bluetooth usually works if the Watchdog is within range.
     - **Mini PC / NUC:** You may need a USB Bluetooth dongle or external antenna if the case blocks the signal.
-3.  **Proximity:** The host must stay within Bluetooth range of the Watchdog (typically within 15–30 feet, depending on walls and obstructions).
+3.  **Proximity:** The host must stay within Bluetooth range of the Watchdog (typically within 15-30 feet, depending on walls and obstructions).
 
 ## Setup
 

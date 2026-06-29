@@ -32,4 +32,4 @@ For security disclosures or administrative matters, email **hello@librecoach.com
 
 ## Community Guidelines
 
-This community is here to build cool stuff for RVs. Be respectful, be constructive, and assume positive intent. Help others when you can; someone helped you get started too.
+Be respectful, be constructive, and assume positive intent. Help others when you can; someone helped you get started too.

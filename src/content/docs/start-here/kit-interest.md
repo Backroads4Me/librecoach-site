@@ -28,7 +28,7 @@ The kit is designed to be a "ready-to-mount" hub that gets you up and running in
 
 ### Estimated Pricing
 
-To maintain high-performance components (like the Pi 5 and NVMe storage) and cover assembly and shipping, the target price point is **$350 – $400**.
+To maintain high-performance components (like the Pi 5 and NVMe storage) and cover assembly and shipping, the target price point is **$350 - $400**.
 
 ---
 

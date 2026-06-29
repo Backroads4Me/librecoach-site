@@ -8,26 +8,26 @@ sidebar:
 draft: false
 ---
 
-LibreCoach has two types of exports: **Configuration Export** (entity names for sharing with other owners) and **AI Prompt Export** (a structured prompt for AI-assisted dashboard creation).
+LibreCoach has two types of exports: **Configuration Export** (entity names for sharing with other owners) and **Dashboard Prompt Export** (a structured prompt for dashboard creation).
 
 ---
 
-## AI Prompt Export
+## Dashboard Prompt Export
 
-LibreCoach can generate a structured prompt that you give to an AI assistant (ChatGPT, Claude, etc.) to have it write a Home Assistant dashboard for your specific RV. The prompt includes your LibreCoach entity IDs, names, areas, units, and device types.
+LibreCoach can generate a structured prompt from your actual devices. You can use that prompt with tools like ChatGPT or Claude to create a Home Assistant dashboard for your specific RV. The prompt includes your LibreCoach entity IDs, names, areas, units, and device types.
 
 There are two variants:
 
 - **Mushroom Cards**: uses HACS custom cards for a polished visual style. Requires the [HACS cards](/advanced-setup/hacs/) to be installed.
 - **Standard Cards**: uses only native Home Assistant cards. Works out of the box with no additional installs.
 
-### How to Export an AI Prompt
+### How to Export a Dashboard Prompt
 
 1. Open your **LibreCoach Dashboard**.
 2. Navigate to the **Menu**.
 3. Click **Export AI Dashboard Prompt (Mushroom Cards)** or **Export AI Dashboard Prompt (Standard Cards)**.
 4. Open the Home Assistant notification and download the generated `.txt` file.
-5. Attach the file to a new AI chat and ask the assistant to follow its instructions.
+5. Attach the file to a new chat in your preferred tool and ask it to follow the prompt.
 6. Review the resulting YAML.
 7. In Home Assistant, go to **Settings → Dashboards → + Add Dashboard → New dashboard from scratch**, give it a name, and click **Create**.
 8. Open the new dashboard, click **✏️ Edit**, then **⋮ → Raw configuration editor**, paste the YAML, and click **Save**.

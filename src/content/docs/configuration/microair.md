@@ -64,4 +64,4 @@ Bluetooth signals can be easily blocked by metal RV walls or appliance casings.
 ### Thermostat Not Found
 
 - Ensure the thermostat screen is **on** and not in a deep sleep mode (though normally it advertises BLE constantly).
-- Check the **LibreCoach Add-on Logs** for any Bluetooth-related errors (e.g., "Bluetooth adapter not found").
+- Check the **LibreCoach app logs** for any Bluetooth-related errors (e.g., "Bluetooth adapter not found").

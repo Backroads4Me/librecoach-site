@@ -7,15 +7,15 @@ sidebar:
 draft: false
 ---
 
-LibreCoach connects your RV’s **control network** (RV-C systems like Firefly, Spyder, etc.) to **Home Assistant**, so lights, climate, tanks, slides, and power systems can be monitored and controlled from hardware you own.
+LibreCoach connects your RV's **RV-C based CAN network** to **Home Assistant**, so lights, climate, tanks, slides, and power systems can be monitored and controlled from hardware you own.
 
-_📌 Older or fully analog RVs may not be compatible. LibreCoach does **not** replace your factory systems; it integrates with them._
+_📌 Older or fully analog RVs may not be compatible. LibreCoach does **not** replace your factory systems or safety-critical controls; it integrates with them for monitoring and convenience control._
 
 ---
 
 ## The RV Tech Problem
 
-If you own a modern RV, you’ve probably met the so-called “smart coach.” You may have also discovered how quickly it stops being smart.
+If you own a modern RV, you've probably met the so-called "smart coach." You may have also discovered how quickly it stops being smart.
 
 - **Abandonment**: RV manufacturers routinely drop support for proprietary systems. When the touchscreen fails or the company disappears, updates stop forever.
 
@@ -25,7 +25,7 @@ If you own a modern RV, you’ve probably met the so-called “smart coach.” Y
 
 - **Fragmentation**: Lights, tanks, inverter, and climate often live on separate panels or apps that barely talk to each other.
 
-- **No Context or Automation**: Your RV doesn’t know the weather, your location, or your routines. It reacts only when you press a button.
+- **No Context or Automation**: Your RV doesn't know the weather, your location, or your routines. It reacts only when you press a button.
 
 The result is a system that's disconnected, hard to repair, and costly to keep running.
 
@@ -33,16 +33,19 @@ The result is a system that's disconnected, hard to repair, and costly to keep r
 
 ## The LibreCoach Solution
 
-LibreCoach breaks this cycle by replacing proprietary black boxes with **open standards** and **software you control**.
+LibreCoach improves this experience by connecting your RV's existing control network to **open standards** and **software you control**.
 
 - **Auto-Discovery**  
   Plug it in and power up. LibreCoach listens to the RV-C network and automatically discovers lights, switches, tanks, and controllers. No manual templates required.
 
 - **RV-C Compatibility**  
-  LibreCoach speaks native RV-C, the industry-standard CAN protocol used by many Firefly, Spyder, and other coach control systems.
+  LibreCoach is designed for RVs with RV-C based CAN networks, including many motorhomes with Firefly, Spyder, and similar multiplexed control systems.
 
 - **Control From Any Screen**  
   Control your rig from an iPhone, iPad, Android device, wall tablet, or any modern web browser.
+
+- **Original Controls Remain**  
+  LibreCoach is an addition to your RV, not a replacement for the factory switches and panels you rely on.
 
 - **Standard Parts, Lower Replacement Cost**  
   A complete DIY LibreCoach system typically costs **under $350**, compared to thousands for proprietary replacements that still lock you in.
@@ -59,7 +62,7 @@ LibreCoach is built on **Home Assistant**, a widely used open-source home automa
 - **Actively Maintained**  
   Home Assistant has millions of users and an active development community. Even if LibreCoach development stopped tomorrow, your system would continue receiving updates and security patches.
 
-- **Your System, Not a Vendor’s**  
+- **Your System, Not a Vendor's**  
   Your automation logic lives in Home Assistant, not a vendor-locked touchscreen. You can upgrade hardware, migrate systems, and export your configuration.
 
 ---
@@ -69,7 +72,7 @@ LibreCoach is built on **Home Assistant**, a widely used open-source home automa
 ![LibreCoach System Architecture](../../../assets/architecture-diagram.webp)
 
 1. **Hardware Bridge**  
-   A Raspberry Pi with a CAN HAT physically connects to your RV’s CAN bus wiring.
+   A Raspberry Pi with a CAN HAT physically connects to your RV's CAN bus wiring.
 
 2. **CAN-to-MQTT Translation**  
    Raw RV-C messages are converted into MQTT events.
@@ -102,7 +105,7 @@ Your workflow is intentionally simple:
 1. A device like `switch_3` is created
 2. You identify it as the kitchen light
 3. You rename it **Kitchen Light**
-4. Done. It’s now a fully integrated smart entity
+4. Done. It's now a fully integrated smart entity
 
 No dealer tools. No reprogramming. No vendor dependencies.
 
@@ -110,7 +113,7 @@ No dealer tools. No reprogramming. No vendor dependencies.
 
 ## Two Ways to Get Started
 
-You can build the hardware yourself from standard parts (~$350, 2–3 hours, basic assembly and software flashing), or join the interest list for a possible pre-assembled kit.
+You can build the hardware yourself from standard parts (~$350, a few hours of basic assembly and software flashing), or join the interest list for a possible pre-assembled kit.
 
 [View the Hardware & Assembly Guide](/build/hardware/)
 

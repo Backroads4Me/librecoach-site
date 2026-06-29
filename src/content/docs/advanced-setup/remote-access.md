@@ -17,15 +17,15 @@ Remote access lets you check on your RV from anywhere: monitor battery levels wh
 | **Setup Difficulty**        | Moderate              | Easy                    |
 | **Voice Assistants**        | Requires manual setup | Built-in Alexa & Google |
 | **Phone App Required**      | Yes (Tailscale app)   | No                      |
-| **Supports HA Development** | No                    | Yes                     |
+| **Supports Home Assistant Development** | No                    | Yes                     |
 
 ## Recommendation
 
-Both options give you secure remote access — the right one depends on what you value.
+Both options give you secure remote access, the right one depends on what you value.
 
 **Choose Nabu Casa if you want the least maintenance.** You install it, log in, and remote access, backups, and voice assistants are handled for you. It costs $65/year, which also funds Home Assistant's development.
 
-**Choose Tailscale if you want a free option** — or need to reach other devices on your RV network beyond Home Assistant. It's a VPN you manage yourself, which means more setup and a client app on each device.
+**Choose Tailscale if you want a free option**, or need to reach other devices on your RV network beyond Home Assistant. It's a VPN you manage yourself, which means more setup and a client app on each device.
 
 ### Choose Nabu Casa If:
 
@@ -52,7 +52,7 @@ Both options give you secure remote access — the right one depends on what you
 - **Remote Access** - Access your Home Assistant from anywhere without complex configuration
 - **Backup and restore** - Backs up your Home Assistant to a secure server
 - **Voice Assistant Integration** - Control your RV with Alexa or Google
-- **Support Home Assistant** - Subscription fees fund HA development
+- **Support Home Assistant** - Subscription fees fund Home Assistant development
 
 ### Pricing
 
@@ -134,7 +134,7 @@ To get an auth key:
 
 Update the app to use your Tailscale IP:
 
-1. Open the HA Companion app
+1. Open the Home Assistant Companion app
 2. Go to **Settings** > **Companion App** > **Server**
 3. Add your Tailscale URL as an **External URL**: `http://100.x.x.x:8123`
 

@@ -1,7 +1,7 @@
 ---
 filename: hardware
-title: Hardware Options and Upgrades
-description: Bill of Materials, upgrade options, and vendors for LibreCoach.
+title: Hardware Options
+description: Bill of Materials and vendors for LibreCoach.
 sidebar:
   order: 2
   label: Hardware
@@ -10,9 +10,9 @@ draft: false
 
 The Raspberry Pi ecosystem is highly flexible, and LibreCoach hardware could be built in many different ways.
 
-You could reduce cost by using an older-generation Pi, a different CAN HAT, or an SD card instead of NVMe. It’s even possible to run without a case or use basic, off-the-shelf cabling. On the other end of the spectrum, you could opt for more RAM and storage, alternate cases, or additional hardware for more complex builds.
+You could reduce cost by using an older-generation Pi, a different CAN HAT, or an SD card instead of NVMe. It's even possible to run without a case or use basic, off-the-shelf cabling. On the other end of the spectrum, you could opt for more RAM and storage, alternate cases, or additional hardware for more complex builds.
 
-That said, the components recommended here were chosen deliberately: they’re high-quality, easy to assemble, readily available, and personally tested. This configuration aims to provide a reliable, repeatable build with minimal friction for first-time users.
+That said, the components recommended here were chosen deliberately: they're high-quality, easy to assemble, readily available, and personally tested. This configuration aims to provide a reliable, repeatable build with minimal friction for first-time users.
 
 ---
 

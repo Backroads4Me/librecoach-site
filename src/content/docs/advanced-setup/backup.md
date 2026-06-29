@@ -18,7 +18,7 @@ Your LibreCoach configuration represents hours of setup work: dashboards, automa
 | **Automatic Backups**           | Yes                       | Yes           |
 | **Encrypted**                   | Yes                       | Yes           |
 | **Also Includes Remote Access** | Yes                       | No            |
-| **Supports HA Development**     | Yes                       | No            |
+| **Supports Home Assistant Development** | Yes                       | No            |
 
 ## Recommendation
 
@@ -63,7 +63,7 @@ Local backups are lost if your Pi hard drive fails. Always pair them with a clou
 2. Click the gear icon
 3. Enable **Automatic backups**
 4. Set the schedule (daily recommended)
-5. Set retention (3–7 backups is a reasonable range)
+5. Set retention (3-7 backups is a reasonable range)
 
 ---
 

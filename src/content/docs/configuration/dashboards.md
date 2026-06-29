@@ -1,7 +1,7 @@
 ---
 filename: dashboards
 title: Custom Dashboards
-description: Build a Home Assistant dashboard for your RV by hand or with AI.
+description: Build a Home Assistant dashboard for your RV by hand or with Dashboard Prompt Export.
 sidebar:
   order: 3
   label: Dashboards
@@ -20,7 +20,7 @@ The dashboard above uses custom cards from [HACS](/advanced-setup/hacs/) that go
 There are two ways to build a dashboard. Most people start with one and mix in the other over time:
 
 - **[Build it by hand](#build-it-by-hand)**: drag-and-drop in the visual editor. Best for learning.
-- **[Generate it with AI](#generate-it-with-ai)**: let an assistant build a full dashboard from your devices. Fastest way to a complete layout.
+- **[Use Dashboard Prompt Export](#dashboard-prompt-export)**: export a structured prompt from your devices and use it to generate a complete layout.
 
 ## Plan Your Layout
 
@@ -60,29 +60,29 @@ The **visual editor** is a drag-and-drop interface built into Home Assistant. No
 
 In each view, click **+ Add Card** and pick cards to display and control your devices. Start with the built-in cards; they're basic but functional. When you want more polish, add custom cards from [HACS](/advanced-setup/hacs/).
 
-## Generate It with AI
+## Dashboard Prompt Export
 
-LibreCoach can generate a structured prompt that you hand to an AI assistant (ChatGPT, Claude, etc.) to build a complete dashboard tailored to your RV. The prompt includes your LibreCoach entity IDs, names, areas, units, and device types.
+LibreCoach can generate a structured dashboard prompt from your actual devices. You can use that prompt with tools like ChatGPT or Claude to create a Home Assistant dashboard tailored to your RV. The prompt includes your LibreCoach entity IDs, names, areas, units, and device types.
 
 Two variants are available:
 
 - **Mushroom Cards**: polished card styles; requires [HACS cards](/advanced-setup/hacs/).
 - **Standard Cards**: native Home Assistant cards only; no extra installs needed.
 
-To generate a dashboard:
+To export a dashboard prompt:
 
 1. Open the **LibreCoach Dashboard** and go to the **Menu**.
 2. Click **Export AI Dashboard Prompt (Mushroom Cards)** or **Export AI Dashboard Prompt (Standard Cards)**.
 3. Open the Home Assistant notification and download the generated `.txt` file.
-4. Attach the file to a new AI chat and ask the assistant to follow its instructions.
-5. Review the YAML the assistant produces.
+4. Attach the file to a new chat in your preferred tool and ask it to follow the prompt.
+5. Review the generated YAML.
 6. Add it to Home Assistant using the **[Raw configuration editor](#add-a-dashboard-from-yaml)** below.
 
 See [Import & Export](/configuration/import-export/) for full details.
 
 ## Add a Dashboard from YAML
 
-A dashboard is just YAML under the hood. When the AI assistant gives you a dashboard's YAML, you paste it in through the **Raw configuration editor**. You won't usually write this YAML yourself; it's just how a finished dashboard gets in.
+A dashboard is just YAML under the hood. When you have generated dashboard YAML, paste it in through the **Raw configuration editor**. You won't usually write this YAML yourself; it's just how a finished dashboard gets in.
 
 1. Go to **Settings** → **Dashboards** → **+ Add Dashboard**.
 2. Select **New dashboard from scratch**, give it a name, and click **Create**.

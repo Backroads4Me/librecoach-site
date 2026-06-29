@@ -8,9 +8,9 @@ sidebar:
 draft: false
 ---
 
-Home Assistant’s core systems (sun, weather, timezone, elevation) rely on a fixed central location. For a typical smart home, you set this once. But because your RV moves, LibreCoach can automatically keep Home Assistant’s core location in sync with your RV’s GPS.
+Home Assistant's core systems (sun, weather, timezone, elevation) rely on a fixed central location. For a typical smart home, you set this once. But because your RV moves, LibreCoach can automatically keep Home Assistant's core location in sync with your RV's GPS.
 
-Using the **GPS Bridge**, LibreCoach monitors your GPS-enabled device trackers and updates Home Assistant’s core location, timezone, and elevation whenever your RV moves beyond a configured distance. This ensures that automations relying on sunset, weather, or location-based conditions always reflect your RV’s actual position on the road.
+Using the **GPS Bridge**, LibreCoach monitors your GPS-enabled device trackers and updates Home Assistant's core location, timezone, and elevation whenever your RV moves beyond a configured distance. This ensures that automations relying on sunset, weather, or location-based conditions always reflect your RV's actual position on the road.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ Common GPS-enabled device trackers:
 
 ## Configuration
 
-You can enable and configure Automated Location Updates directly from the LibreCoach Add-on Configuration tab in Home Assistant.
+You can enable and configure Automated Location Updates directly from the LibreCoach app Configuration tab in Home Assistant.
 
 1. Navigate to **Settings → Apps → LibreCoach**.
 2. Click the **Configuration** tab.
@@ -49,4 +49,4 @@ _(Optional)_ The `entity_id` of a backup GPS tracker. If your Primary tracker go
 
 ### Update Threshold (miles)
 
-The minimum distance (in miles) the RV must move before LibreCoach updates Home Assistant’s core configuration. Default: 10 miles
+The minimum distance (in miles) the RV must move before LibreCoach updates Home Assistant's core configuration. Default: 10 miles

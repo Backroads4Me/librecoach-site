@@ -11,7 +11,7 @@ draft: false
 
 ### Which RVs are compatible?
 
-LibreCoach works with any RV that uses the **RV-C protocol** on a CAN bus network. This includes most modern motorhomes.
+LibreCoach is designed for RVs with **RV-C based CAN networks**, including many motorhomes with Firefly, Spyder, and similar multiplexed control systems.
 
 If your RV uses a smart or multiplexed CAN bus system (rather than traditional mechanical switches), it likely supports RV-C.
 
@@ -21,7 +21,7 @@ Most travel trailers and fifth wheels do **not** use RV-C, as they usually have 
 
 ### What if my RV doesn't use RV-C?
 
-LibreCoach is specifically designed for RV-C networks.
+Then LibreCoach won't work for your rig. It depends on the RV-C network to discover and communicate with your devices, so RVs with traditional relay or mechanical-switch wiring aren't supported. There is no workaround that adds RV-C to a coach that wasn't built with it.
 
 ## Technical Questions
 
@@ -31,14 +31,14 @@ LibreCoach is specifically designed for RV-C networks.
 
 ### Can I use LibreCoach with my existing Home Assistant setup?
 
-Yes! If you already run Home Assistant, you can add a CAN HAT and install LibreCoach (which includes Node-RED and all required bridges). See the [Installation Guide](/build/software/).
+Yes! If you already run Home Assistant, you can add a CAN HAT and install LibreCoach, including its Node-RED and Mosquitto supporting services. See the [Installation Guide](/build/software/).
 
-### Is it safe? Can it damage my RV?
+### Is it safe to use?
 
-**LibreCoach is passive by default.** It monitors your RV-C network without sending commands unless you explicitly trigger them. The RV-C protocol has built-in safeguards, and your RV’s physical switches always work regardless of what LibreCoach is doing.
+LibreCoach is designed for monitoring and convenience control, not safety-critical operation. It listens to the RV-C network by default and only sends commands when you explicitly trigger an action through Home Assistant.
 
-**Note:** As with any DIY project, proceed carefully and disconnect power when working on electrical systems.
+Physical switches and factory panels should remain available as your primary fallback. As with any DIY project involving RV wiring, proceed carefully, verify connections before powering on, and disconnect power when working on electrical systems.
 
 ### What happens if my Raspberry Pi fails?
 
-Your RV continues to function normally using its original physical controls. LibreCoach is an addition to your RV's systems, not a replacement. If the Pi dies, you simply lose the smart features until you replace it.
+LibreCoach is an addition to your RV's systems, not a replacement for the original controls. If the Pi fails, the expected result is that you lose LibreCoach monitoring and smart-control features until the hardware is repaired or replaced. Your original physical controls should remain your fallback.

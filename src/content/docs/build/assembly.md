@@ -26,7 +26,7 @@ Follow this step-by-step guide to assemble your LibreCoach hardware. Take your t
 2. Remove the thin plastic backing from the thermal transfer pads and apply them to the CPU (central, largest chip), the PMIC (power management chip, bottom left), and the Wi-Fi module (right side).
    ![Thermal pads installed](../../../assets/assembly/assembly_1.webp)
 
-### Mount PCIe adapter
+### Mount the PCIe Adapter
 
 3. Be sure to remove the thin plastic backing from the top of thermal pads first
 4. Place the PCIe adapter on the thermal pads
@@ -52,13 +52,13 @@ Follow this step-by-step guide to assemble your LibreCoach hardware. Take your t
 12. Connect the fan cable to the fan connector on the Raspberry Pi
     ![Fan cable connected to Pi](../../../assets/assembly/assembly_8.webp)
 
-### Mount the NVME Drive
+### Mount the NVMe Drive
 
-13. Insert your NVME drive into the M.2 slot on the Waveshare PCIe adapter at a 30-degree angle
+13. Insert your NVMe drive into the M.2 slot on the Waveshare PCIe adapter at a 30-degree angle
 14. Press down gently and secure with the included screw
-    ![NVME drive secured with screw](../../../assets/assembly/assembly_9.webp)
+    ![NVMe drive secured with screw](../../../assets/assembly/assembly_9.webp)
 
-## Secure the Pi to the case
+## Secure the Pi to the Case
 
 _Note: Do not use the screws or hardware that came with the CAN HAT. Use the hardware from the case kit instead._
 
@@ -83,12 +83,12 @@ The CAN HAT has jumpers for 120Ω termination resistors. They arrive in the On p
   ![Termination jumper configuration](../../../assets/assembly/assembly_14.webp)
   :::
 
-### Connect NVME Additional Power Supply
+### Connect NVMe Additional Power Supply
 
 20. The Waveshare PCIe TO M.2 Board (E) came with a small loose two wire power cable. Using wire cutters, clip off just the tip of both wire connectors. The goal is to remove the plastic at the end without cutting the metal connector inside. Perform a test of step 21 to understand why.
     ![Modifying the power cable connectors](../../../assets/assembly/assembly_15.webp)
-21. Connect the small power wires via the single small connector to the NVME board as shown
-    ![Power cable connected to NVME adapter](../../../assets/assembly/assembly_16.webp)
+21. Connect the small power wires via the single small connector to the NVMe board as shown
+    ![Power cable connected to NVMe adapter](../../../assets/assembly/assembly_16.webp)
 22. Connect the ends of the wires you clipped in step 19 to the GPIO pins labeled GND (black) and 5V (red). There are multiple pins of each available, it does not matter which ones are used.
     ![Power wires connected to GPIO pins](../../../assets/assembly/assembly_17.webp)
 

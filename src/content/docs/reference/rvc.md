@@ -23,9 +23,9 @@ Every RV-C message uses a 29-bit extended CAN frame with 8 bytes of data. The fr
 
 | Field          | Bits | Purpose                                         |
 | -------------- | ---- | ----------------------------------------------- |
-| Priority       | 3    | Urgency level (0–7, typically 6 for status)     |
+| Priority       | 3    | Urgency level (0-7, typically 6 for status)     |
 | DGN            | 17   | Data Group Number; identifies the message type |
-| Source Address | 8    | Which device sent the message (0–253)           |
+| Source Address | 8    | Which device sent the message (0-253)           |
 
 The first data byte is usually the **instance** number, which distinguishes multiple devices of the same type. For example, a single lighting controller might manage 8 dimmable circuits, instances 1 through 8.
 

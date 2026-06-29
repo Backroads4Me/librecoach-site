@@ -11,7 +11,7 @@ draft: false
 ## First Boot
 
 :::note[Ethernet Required]
-The initial startup requires a **wired ethernet** connection for initial access to Home Assistant. You'll configure WiFi through the Home Assistant interface, then you can disconnect ethernet. The hardware does not yet need to be connected to your RV.
+The initial startup requires a **wired ethernet** connection for initial access to Home Assistant. You'll configure Wi-Fi through the Home Assistant interface, then you can disconnect ethernet. The hardware does not yet need to be connected to your RV.
 :::
 
 1. Connect the Pi to your router via ethernet cable
@@ -26,19 +26,19 @@ The initial startup requires a **wired ethernet** connection for initial access 
    - If that doesn't work, find the Pi's IP address in your router's admin page and use `http://<IP_ADDRESS>:8123`
 7. Follow the Home Assistant onboarding wizard
 
-## Configure WiFi (optional)
+## Configure Wi-Fi (optional)
 
 _Note: Where possible, a hardwired ethernet connection is more reliable._
 
-If you want to use WiFi instead of ethernet:
+If you want to use Wi-Fi instead of ethernet:
 
 8. Go to **Settings** → **System** → **Network**
 9. Click **wlan0** under **Configure network interfaces**
-10. Select your WiFi network then scroll down and select one of the security options (likely **WPA-PSK**) and enter the password
+10. Select your Wi-Fi network then scroll down and select one of the security options (likely **WPA-PSK**) and enter the password
 
 ## Install LibreCoach
 
-The LibreCoach app automatically installs and configures the following required apps:
+The LibreCoach app automatically installs and configures the following supporting services:
 
 - LibreCoach (includes built-in CAN and Bluetooth bridge)
 - Node-RED
@@ -48,7 +48,7 @@ The LibreCoach app automatically installs and configures the following required 
 
 Click the button below to add the LibreCoach app repository:
 
-[![Open your Home Assistant instance and show the add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fbackroads4me%2Fha-addons)
+[![Open your Home Assistant instance and show the app repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fbackroads4me%2Fha-addons)
 
 Or manually:
 

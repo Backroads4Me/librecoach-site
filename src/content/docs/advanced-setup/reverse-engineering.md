@@ -1,22 +1,22 @@
 ---
 filename: reverse-engineering
 title: Reverse-Engineering
-description: Capture and analyze RV-C messages to reverse-engineer commands and expand your system’s capabilities.
+description: Capture and analyze RV-C messages to reverse-engineer commands and expand your system's capabilities.
 sidebar:
   order: 6
   label: Reverse-Engineering
 draft: false
 ---
 
-LibreCoach supports many common RV devices out of the box. Most users won’t need to do anything beyond the built-in integrations, but if your RV has a unique component that doesn't show up yet, you can take the wheel.
+LibreCoach supports many common RV devices out of the box. Most users won't need anything beyond the built-in integrations, but the recording tool can help you investigate unique components that do not appear automatically.
 
-LibreCoach lets you explore your RV’s RV-C bus directly. With the built-in recording tool, you can capture unknown or undocumented messages, decode them, and understand exactly how your RV behaves.
+LibreCoach lets you explore your RV's RV-C bus directly. With the built-in recording tool, you can capture unknown or undocumented messages, decode them, and understand exactly how your RV behaves.
 
 ## The "Sandwich" Method
 
-The secret to successful reverse-engineering is the **Sandwich Method**. Because the RV-C bus is extremely "chatty," the best way to find a specific needle in the haystack is to wrap it in actions you already recognize.
+The **Sandwich Method** makes RV-C recordings easier to analyze. Because the RV-C bus is very active, the goal is to bracket an unknown action with known actions you can recognize later.
 
-By performing a **Known Action** (like toggling a light from Home Assistant) immediately before and after your **Unknown Action** (pressing a physical button in the RV), you create a "landmark" in the data. When you look at the log later, you just find your known light command, and you know the next message is the one you’re looking for.
+Perform a **Known Action** (such as toggling a light from Home Assistant), then perform the **Unknown Action** you want to capture, then repeat the known action. This creates clear landmarks in the log so the message you care about is easier to isolate.
 
 ### Step-by-Step Recording
 
@@ -24,7 +24,7 @@ By performing a **Known Action** (like toggling a light from Home Assistant) imm
 2. **Perform a known action:** Perform an action you know works (e.g., turn a light **ON** from Home Assistant).
 3. **Perform the unknown action:** Press the physical button or trigger the device you want to capture.
 4. **Perform a known action:** Perform another known action (e.g., turn that same light **OFF** from Home Assistant).
-5. **Repeat as desired:** If you have more buttons to map, just keep building sandwiches:
+5. **Repeat as desired:** If you have more buttons to map, repeat the same known/unknown/known pattern:
    - _Known_ → _Fan High_ → _Known_
    - _Known_ → _Fan Low_ → _Known_
 6. **Stop recording:** Toggle **OFF** the **Record Unknown Commands** switch.

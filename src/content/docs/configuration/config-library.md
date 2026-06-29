@@ -1,14 +1,14 @@
 ---
 filename: config-library
-title: Configuration Library
+title: Shared Configurations
 description: Download community-shared LibreCoach configurations for different RV models.
 sidebar:
   order: 10
-  label: Configuration Library
+  label: Shared Configurations
 draft: false
 ---
 
-Community members have shared their LibreCoach configurations so owners of similar RV models can get up and running quickly. Each file contains pre-configured entity names specific to a manufacturer, model, and year.
+Community members have shared LibreCoach configurations so owners of similar RV models can get up and running quickly. Each file contains pre-configured entity names specific to a manufacturer, model, and year.
 
 To learn how to import these files, see the [Import & Export](/configuration/import-export/) guide.
 

@@ -42,7 +42,7 @@ _📌 All of the integrations below are used in the LibreCoach dashboard screens
 
 ### 2. Power Flow Card Plus
 
-**[Power Flow Card Plus](https://github.com/flixlix/power-flow-card-plus)** allows you to visualize your RV’s energy usage in real-time.
+**[Power Flow Card Plus](https://github.com/flixlix/power-flow-card-plus)** allows you to visualize your RV's energy usage in real-time.
 
 ### 3. Button Card
 
