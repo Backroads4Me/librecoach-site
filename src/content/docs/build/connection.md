@@ -33,6 +33,7 @@ The first step is finding where to plug in the hardware. Your RV-C network runs 
 - **Tiffin**: Often found behind the panel above the driver's seat or in the main electrical bay in the basement. Look for the "Spyder" controls.
 - **Newmar**: Typically located in the main electrical cabinet (often in the bathroom or bedroom) or near the cord reel bay.
 - **Entegra**: Frequently found behind the panel above the entry door or in the basement near the precision circuit board.
+- **Brinkley**: 2026+ G and Gx models with the Firefly control system will typically have a control panel with open ports in the storage compartment behind a removable panel.  
 - **Other Brands**: Common spots include behind the main control panel keypad or in the electrical bay.
 
 ### What you're looking for
