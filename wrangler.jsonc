@@ -20,10 +20,6 @@
 		{
 			"pattern": "librecoach.com",
 			"custom_domain": true
-		},
-		{
-			"pattern": "www.librecoach.com",
-			"custom_domain": true
 		}
 	]
 	/**
