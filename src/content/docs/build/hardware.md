@@ -39,7 +39,7 @@ _Disclosure: This site uses affiliate links. If you make a purchase through thes
 1. Thin Gauge Wire strippers: <a href="https://amzn.to/3LN2zXj" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
 2. Micro HDMI to HDMI cable: <a href="https://amzn.to/4rtNvNr" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> (allows connecting Pi to regular PC monitor)
 
-_AI driven demand is really driving prices up, but this path currently costs around $350._
+_AI driven demand is really pushing prices up, but this path currently costs around $350._
 
 ---
 
