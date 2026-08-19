@@ -15,7 +15,7 @@ These settings are found in the LibreCoach **Configuration** tab in Home Assista
 Each optional integration is **disabled by default**. Enable the ones your RV uses on the **Configuration** tab, click **Save**, then restart from the **Info** tab. Each has a dedicated page with full setup steps.
 
 - **Enable Victron Energy Integration**: Monitors a Victron GX device's electrical system over MQTT. See [Victron](/configuration/victron/).
-- **Enable Hughes Power Watchdog Integration**: Monitors a Hughes Power Watchdog surge protector over Bluetooth. See [Hughes Power Watchdog](/configuration/hughes/).
+- **Enable Hughes Power Watchdog Integration**: Monitors a Hughes Power Watchdog over Bluetooth and controls supported Gen 2 models. See [Hughes Power Watchdog](/configuration/hughes/).
 - **Enable Micro-Air EasyTouch Thermostat Integration**: Controls a MicroAir EasyTouch thermostat over Bluetooth. See [MicroAir EasyTouch](/configuration/microair/).
 - **Enable Automated Location Updates**: Updates Home Assistant's location, timezone, and elevation from a device tracker. See [GPS](/configuration/gps/).
 
