@@ -6,10 +6,37 @@ import starlightThemeSix from "@six-tech/starlight-theme-six";
 
 import sitemap from "@astrojs/sitemap";
 
+// @six-tech/starlight-theme-six (latest as of 1.0.16) ships an invalid
+// selector in styles/base.css: `:after :before` where it intends the
+// pseudo-element reset `*::before, *::after`. lightningcss (Vite's CSS
+// minifier) rejects it and fails the build, so correct the rule before it
+// reaches the minifier. Remove this once fixed upstream.
+function fixThemeSixBaseCss() {
+  return {
+    name: "fix-theme-six-base-css",
+    enforce: "pre",
+    transform(code, id) {
+      if (!id.includes("starlight-theme-six") || !id.endsWith("base.css")) {
+        return;
+      }
+      if (!code.includes(":after :before")) {
+        return;
+      }
+      return {
+        code: code.replace(/:after\s+:before/g, "*::before,\n  *::after"),
+        map: null,
+      };
+    },
+  };
+}
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://LibreCoach.com",
   output: "static",
+  vite: {
+    plugins: [fixThemeSixBaseCss()],
+  },
 
   integrations: [
     sitemap(),
