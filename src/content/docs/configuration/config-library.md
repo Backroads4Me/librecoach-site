@@ -27,4 +27,4 @@ To learn how to import these files, see the [Import & Export](/configuration/imp
 If you've fully configured your RV and want to share your setup:
 
 1. Open **Menu** → **Export LibreCoach Configuration** from your dashboard.
-2. Email the exported `.json` file to [hello@LibreCoach.com](mailto:hello@LibreCoach.com).
+2. Email the exported `.json` file to [ted@librecoach.com](mailto:ted@librecoach.com).

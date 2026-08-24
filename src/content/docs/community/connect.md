@@ -28,7 +28,7 @@ Open an issue or pull request on <a href="https://github.com/backroads4me" targe
 
 ## Private Inquiries
 
-For security disclosures or administrative matters, email **hello@librecoach.com**.
+For security disclosures or administrative matters, email **ted@librecoach.com**.
 
 ## Community Guidelines
 

@@ -36,6 +36,6 @@ To maintain high-performance components (like the Pi 5 and NVMe storage) and cov
 
 If you'd be interested in purchasing a kit, please reach out. There is no commitment to buy; your feedback simply helps determine if a production run is viable.
 
-<a href="mailto:hello@librecoach.com?subject=LibreCoach%20Kit%20Interest" target="_blank" rel="noopener noreferrer">**Click Here to Send an Interest Email**</a>
+<a href="mailto:ted@librecoach.com?subject=LibreCoach%20Kit%20Interest" target="_blank" rel="noopener noreferrer">**Click Here to Send an Interest Email**</a>
 
-_Alternatively, send an email to **hello@librecoach.com**_
+_Alternatively, send an email to **ted@librecoach.com**_
