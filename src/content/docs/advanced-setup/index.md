@@ -34,6 +34,10 @@ The Home Assistant Community Store provides thousands of community-created integ
 
 Want to integrate an unsupported or proprietary device? Use the built-in RV-C logging tool to record its traffic and reverse-engineer how it communicates.
 
+## [Diagnostic Entities](/advanced-setup/diagnostic-entities/)
+
+Some entities are hidden from device pages by default, and digital inputs arrive numbered rather than named. Here's why, and how to label the ones your coach uses.
+
 ## Community Recommendations
 
 Have an app or integration that works great with LibreCoach? Share it on <a href="https://discord.gg/VZCAESHn2h" target="_blank" rel="noopener noreferrer">Discord</a> or the <a href="https://www.facebook.com/groups/librecoach/" target="_blank" rel="noopener noreferrer">Facebook Group</a>!
