@@ -36,7 +36,7 @@ Want to integrate an unsupported or proprietary device? Use the built-in RV-C lo
 
 ## [Diagnostic Entities](/advanced-setup/diagnostic-entities/)
 
-Some entities are hidden from device pages by default, and digital inputs arrive numbered rather than named. Here's why, and how to label the ones your coach uses.
+Your coach may report entities that Home Assistant hides by default, including digital inputs that arrive numbered rather than named. Here's how to find them and label the ones you use.
 
 ## Community Recommendations
 
