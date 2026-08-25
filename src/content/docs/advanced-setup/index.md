@@ -34,9 +34,9 @@ The Home Assistant Community Store provides thousands of community-created integ
 
 Want to integrate an unsupported or proprietary device? Use the built-in RV-C logging tool to record its traffic and reverse-engineer how it communicates.
 
-## [Diagnostic Entities](/advanced-setup/diagnostic-entities/)
+## [Digital Inputs](/advanced-setup/digital-inputs/)
 
-Your coach may report entities that Home Assistant hides by default, including digital inputs that arrive numbered rather than named. Here's how to find them and label the ones you use.
+Switch and sensor inputs your coach's control module reports arrive numbered rather than named. Here's how to work out which is which and label them for what they actually do.
 
 ## Community Recommendations
 
