@@ -43,9 +43,11 @@ Your LibreCoach configuration represents hours of setup work: dashboards, automa
 
 ## Built-in Home Assistant Backups
 
-Home Assistant's built-in backup system is your first line of defense. It captures everything: Node-RED flows, Mosquitto settings, dashboards, automations, and entity customizations. Those backups are stored on the Pi.
+Home Assistant's built-in backup system is your first line of defense. It captures the data you select, including Node-RED flows, Mosquitto settings, dashboards, automations, and entity customizations. Those backups are stored on the Pi.
 
 :::caution
+The **Share folder** is not included by default, but LibreCoach relies on important files stored there. Enable **Share folder** under **Backup data** when configuring your backups.
+
 Local backups are lost if your Pi hard drive fails. Always pair them with a cloud solution.
 :::
 
@@ -62,8 +64,9 @@ Local backups are lost if your Pi hard drive fails. Always pair them with a clou
 1. Go to **Settings** → **System** → **Backups**
 2. Click the gear icon
 3. Enable **Automatic backups**
-4. Set the schedule (daily recommended)
-5. Set retention (3-7 backups is a reasonable range)
+4. Under **Backup data**, enable **Share folder**
+5. Set the schedule (daily recommended)
+6. Set retention (3-7 backups is a reasonable range)
 
 ---
 
