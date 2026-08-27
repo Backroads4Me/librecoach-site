@@ -25,5 +25,5 @@ Connect your Pi to the router via ethernet. Connect your phone to the `HA-Local`
 
 ## Tips
 
-- **Use IP addresses, not hostnames**: `http://192.168.1.123:8123` is more reliable than `http://homeassistant.local:8123` on a local-only network
+- **Use IP addresses, not hostnames**: `http://192.168.1.123` is more reliable than `http://homeassistant.local` on a local-only network. Include the configured port if the address that works in your browser contains one.
 - **Assign a static IP** to Home Assistant so the address doesn't change

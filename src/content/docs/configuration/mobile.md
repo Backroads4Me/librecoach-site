@@ -25,9 +25,10 @@ Ensure your mobile device is connected to the same Wi-Fi network as your LibreCo
 2.  Tap **Continue**. The app will scan your network for a Home Assistant instance.
     - **Found it?** Tap your instance (e.g., `librecoach` or `homeassistant`).
     - **Not found?** Tap **Enter Address Manually**.
-3.  Enter your address:
-    - **Standard URL**: `http://homeassistant.local:8123`
-    - **Alternate (IP Address)**: If the name doesn't work, use your Pi's IP address, e.g., `http://192.168.1.100:8123`.
+3.  Enter the same address that works in your web browser:
+    - **Standard URL**: `http://homeassistant.local`
+    - **Alternate (IP Address)**: If the name doesn't work, use your Pi's IP address, e.g., `http://192.168.1.100`.
+    - **Custom port**: If Home Assistant is configured to use a custom web server port, include it in the address, e.g., `http://192.168.1.100:8123`.
 4.  Log in with the username and password you created during [initial setup](/build/software/).
 5.  Follow the prompts to grant permissions (Local Network, Notifications, Location).
 
@@ -54,4 +55,4 @@ The app can send data about your phone to Home Assistant. This is useful for aut
 
 ### "404 Not Found"
 
-- Check that you included the port number `:8123` at the end of the URL.
+- Open Home Assistant in a web browser and copy the working address exactly, including the port number if one is present.

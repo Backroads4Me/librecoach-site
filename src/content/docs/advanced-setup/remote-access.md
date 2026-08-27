@@ -136,7 +136,7 @@ Update the app to use your Tailscale IP:
 
 1. Open the Home Assistant Companion app
 2. Go to **Settings** > **Companion App** > **Server**
-3. Add your Tailscale URL as an **External URL**: `http://100.x.x.x:8123`
+3. Add your Tailscale URL as an **External URL**: `http://100.x.x.x`. If Home Assistant uses a custom web server port, include it in the URL.
 
 ### Using MagicDNS
 
@@ -144,7 +144,7 @@ Tailscale's MagicDNS gives your devices friendly names:
 
 1. In Tailscale Admin Console, go to **DNS**
 2. Enable **MagicDNS**
-3. Access Home Assistant at `http://homeassistant.your-tailnet-name.ts.net:8123`
+3. Access Home Assistant at `http://homeassistant.your-tailnet-name.ts.net`. If Home Assistant uses a custom web server port, include it in the URL.
 
 ### Subnet Routing (Advanced)
 

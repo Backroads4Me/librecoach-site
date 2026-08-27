@@ -22,8 +22,9 @@ The initial startup requires a **wired ethernet** connection for initial access 
 ## Access Home Assistant
 
 5. Open a web browser on a device connected to the same network
-6. Navigate to: <a href="http://homeassistant.local:8123" target="_blank" rel="noopener">http://homeassistant.local:8123</a>
-   - If that doesn't work, find the Pi's IP address in your router's admin page and use `http://<IP_ADDRESS>:8123`
+6. Navigate to: <a href="http://homeassistant.local" target="_blank" rel="noopener">http://homeassistant.local</a>
+   - If that doesn't work, find the Pi's IP address in your router's admin page and use `http://<IP_ADDRESS>`
+   - If Home Assistant is configured to use a custom web server port, append it to the address, for example `http://<IP_ADDRESS>:8123`
 7. Follow the Home Assistant onboarding wizard
 
 ## Configure Wi-Fi (optional)
