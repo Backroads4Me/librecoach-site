@@ -107,13 +107,13 @@ After Step 1 completes, the disk will be automatically disconnected from the PC.
    sda    1.8T disk
    ├─sda1 ...
    └─sda2 ...
-   sdb           8:16   0 238.5G  0 disk 
+   sdb           8:16   0 238.5G  0 disk
    ├─sdb1        8:17   0    64M  0 part    ← ← ← BOOT partition (this is the one we need)
    ├─sdb2        8:18   0    24M  0 part /media/username/disk
    ├─sdb3        8:19   0   256M  0 part /media/username/50f54421-6e3e-4f78-9d50-a2385e5e7635
-   ├─sdb4        8:20   0    24M  0 part 
-   ├─sdb5        8:21   0   256M  0 part 
-   ├─sdb6        8:22   0     8M  0 part 
+   ├─sdb4        8:20   0    24M  0 part
+   ├─sdb5        8:21   0   256M  0 part
+   ├─sdb6        8:22   0     8M  0 part
    ├─sdb7        8:23   0    96M  0 part /media/username/hassos-overlay
    └─sdb8        8:24   0   1.3G  0 part /media/username/hassos-data
    ```
@@ -142,11 +142,10 @@ After Step 1 completes, the disk will be automatically disconnected from the PC.
    ```
     # --- LibreCoach: Enable Waveshare CAN HAT ---
     dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25,spimaxfrequency=2000000
-    ```
+   ```
 8. Save and exit nano:
    ```text
    Ctrl+S
-   Enter
    Ctrl+X
    ```
 9. Flush pending writes:
@@ -157,4 +156,8 @@ After Step 1 completes, the disk will be automatically disconnected from the PC.
     ```
     sudo umount /mnt/hass-boot
     ```
-11. Safely eject the NVMe drive from your computer
+11. Remove the temporary mount point:
+    ```
+    sudo rmdir /mnt/hass-boot
+    ```
+12. Safely eject the NVMe drive from your computer
