@@ -10,7 +10,7 @@ draft: false
 
 Many coaches have a control module that operates house systems — the water pump, the fresh water autofill, generator start — and it watches a set of on/off inputs to do it. If yours reports those inputs on the network, LibreCoach publishes each one as a sensor.
 
-Whether you get any depends on your coach. Some modules report their inputs, some don't, and some report them only while the ignition is on.
+Whether you get any depends on your coach. Some modules report their inputs and some don't, and a module that only carries chassis signals — parking brake, check engine, washer fluid — is left alone, because those are not coach systems LibreCoach covers.
 
 ## They arrive numbered, not named
 
@@ -38,6 +38,12 @@ Inputs commonly carry things like:
 - Water pump switch and pump bypass detection
 - Fresh water fill switch
 - Water pressure detection
+
+## When the module stops reporting
+
+An input reads **Unavailable** when its module stops answering — the coach is powered down, the module lost power, or it has been removed. That is the honest answer: an input that kept showing its last reading would look current when nothing is behind it.
+
+They come back on their own once the module reports again. Nothing to reset.
 
 ## Not every input is connected
 
