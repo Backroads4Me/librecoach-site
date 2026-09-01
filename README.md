@@ -1,16 +1,27 @@
-# LibreCoach Site
+# LibreCoach Documentation
 
-The documentation and website for LibreCoach, a project that bridges RV-C CAN networks with Home Assistant.
+The source for [LibreCoach.com](https://librecoach.com/), the installation and
+configuration guide for bringing RV-C systems into Home Assistant.
+
+[Read the documentation](https://librecoach.com/) ·
+[Learn how LibreCoach works](https://librecoach.com/start-here/what-is-librecoach/) ·
+[Install LibreCoach](https://github.com/Backroads4Me/ha-addons) ·
+[Community and support](https://librecoach.com/community/connect/)
+
+![LibreCoach dashboards showing lighting, tanks, climate, and power](src/assets/dashboards/dash_light.webp)
 
 ## Overview
 
-This site connects the hardware (Raspberry Pi + CAN HAT) and software (Home Assistant + Node-RED) aspects of the LibreCoach project into a cohesive guide.
+This site connects the hardware (Raspberry Pi and CAN HAT) and software (Home
+Assistant, MQTT, and Node-RED) into a cohesive build and operating guide.
 
 It is built with [Astro](https://astro.build) and the [Starlight](https://starlight.astro.build) documentation theme.
 
 ## Content Scope
 
-This site is the canonical user-facing documentation for installing, configuring, and understanding LibreCoach.
+This repository owns the canonical user-facing documentation for installing,
+configuring, and understanding LibreCoach. The stable add-on is published from
+the [ha-addons repository](https://github.com/Backroads4Me/ha-addons).
 
 ## Local Development
 
@@ -21,7 +32,10 @@ npm run dev
 
 ## Contributing
 
-Pull requests are welcome! Please ensure any new content follows the existing structure and images are added to `src/assets/`.
+Bug reports, documentation corrections, and pull requests are welcome. Use
+[GitHub Issues](https://github.com/Backroads4Me/librecoach-site/issues) to
+describe a problem or proposed addition. New content follows the existing
+structure, and documentation images belong in `src/assets/`.
 
 ---
 
