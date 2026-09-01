@@ -1,0 +1,1448 @@
+views:
+  - type: masonry
+    path: lights
+    title: Lights
+    icon: mdi:lightbulb
+    cards:
+      - type: vertical-stack
+        cards:
+          - square: false
+            type: grid
+            cards:
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                entity: light.switch_4
+                show_brightness_control: true
+                fill_container: false
+                use_light_color: false
+                collapsible_controls: false
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                show_brightness_control: false
+                entity: light.switch_g_1
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                entity: light.switch_12
+                name: Floor
+                show_brightness_control: true
+            columns: 2
+        title: Entry
+      - type: vertical-stack
+        cards:
+          - square: false
+            type: grid
+            cards:
+              - type: custom:mushroom-light-card
+                name: Ceiling
+                secondary_info: none
+                entity: light.switch_6
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                entity: light.switch_9
+                secondary_info: none
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                name: Mirror
+                secondary_info: none
+                entity: light.switch_8
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                name: Dinette
+                secondary_info: none
+                entity: light.switch_50
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                entity: light.switch_52
+                name: Sconce drvr
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                entity: light.switch_10
+                secondary_info: none
+                name: Sconce psngr
+                show_brightness_control: true
+            columns: 2
+        title: Living Room
+      - type: vertical-stack
+        cards:
+          - square: false
+            type: grid
+            cards:
+              - type: custom:mushroom-light-card
+                name: Ceiling
+                secondary_info: none
+                entity: light.switch_47
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                entity: light.switch_44
+                secondary_info: none
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                entity: light.switch_53
+                secondary_info: none
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                entity: light.switch_11
+                show_brightness_control: true
+            columns: 2
+        title: Kitchen
+      - type: vertical-stack
+        cards:
+          - square: false
+            type: grid
+            cards:
+              - type: custom:mushroom-light-card
+                name: Ceiling
+                secondary_info: none
+                entity: light.switch_42
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                name: Cabinet
+                secondary_info: none
+                entity: light.switch_43
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                entity: light.switch_48
+                show_brightness_control: true
+            columns: 2
+        title: Potty
+      - type: vertical-stack
+        cards:
+          - square: false
+            type: grid
+            cards:
+              - type: custom:mushroom-light-card
+                entity: light.switch_45
+                secondary_info: none
+                name: Ceiling
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                entity: light.switch_46
+                name: Mirror
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                entity: light.switch_20
+                secondary_info: none
+                name: Dresser
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                entity: light.switch_33
+                name: Sconce
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                entity: light.switch_36
+                secondary_info: none
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                entity: light.switch_37
+                secondary_info: none
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                show_brightness_control: false
+                entity: light.switch_g_2
+            columns: 2
+        title: Bedroom
+      - type: vertical-stack
+        cards:
+          - square: false
+            type: grid
+            cards:
+              - type: custom:mushroom-light-card
+                name: Ceiling
+                secondary_info: none
+                entity: light.switch_26
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                entity: light.switch_18
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                name: Shower
+                secondary_info: none
+                entity: light.switch_27
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                entity: light.switch_30
+                show_brightness_control: true
+            columns: 2
+        title: Bath
+      - type: vertical-stack
+        cards:
+          - square: false
+            type: grid
+            cards:
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                entity: light.switch_5
+                name: Entry
+                show_brightness_control: false
+              - type: custom:mushroom-light-card
+                name: Living Room
+                secondary_info: none
+                entity: light.switch_7
+                show_brightness_control: false
+              - type: custom:mushroom-light-card
+                entity: light.switch_49
+                secondary_info: none
+                name: S/O drvr
+                show_brightness_control: false
+              - type: custom:mushroom-light-card
+                entity: light.switch_13
+                secondary_info: none
+                name: S/O psngr
+                show_brightness_control: false
+              - type: custom:mushroom-light-card
+                entity: light.switch_41
+                secondary_info: none
+                name: Potty
+                show_brightness_control: false
+              - type: custom:mushroom-light-card
+                name: Bath
+                secondary_info: none
+                entity: light.switch_17
+                show_brightness_control: false
+              - type: custom:mushroom-light-card
+                name: Bed
+                secondary_info: none
+                entity: light.switch_34
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                entity: light.switch_19
+                secondary_info: none
+                name: Dresser
+                show_brightness_control: true
+            columns: 2
+        title: Accents
+      - type: vertical-stack
+        cards:
+          - square: false
+            type: grid
+            cards:
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                entity: light.switch_3
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                entity: light.switch_58
+                show_brightness_control: true
+              - type: custom:mushroom-light-card
+                secondary_info: none
+                entity: light.switch_1
+                show_brightness_control: false
+            columns: 2
+        title: Exterior
+    badges:
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: AC
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/ac
+        show_entity_picture: false
+        icon: mdi:air-conditioner
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Heat
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/heat
+        show_entity_picture: false
+        icon: mdi:heat-wave
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Shades
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/shades
+        show_entity_picture: false
+        icon: mdi:roller-shade
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Locks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/locks
+        show_entity_picture: false
+        icon: mdi:lock
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Tanks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/tanks
+        show_entity_picture: false
+        icon: mdi:water
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Energy
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/energy
+        show_entity_picture: false
+        icon: mdi:transmission-tower
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Misc
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/misc
+        show_entity_picture: false
+        icon: mdi:cog-outline
+        entity: zone.home
+    subview: false
+  - type: sections
+    max_columns: 4
+    title: AC
+    path: ac
+    icon: mdi:air-conditioner
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            heading: MicroAir Zones
+            heading_style: title
+            icon: mdi:air-conditioner
+          - type: tile
+            entity: climate.librecoach_climate_microair_zone_1
+            name: Zone 1
+            features:
+              - type: climate-hvac-modes
+              - type: target-temperature
+            grid_options:
+              columns: 6
+              rows: 3
+          - type: tile
+            entity: climate.librecoach_climate_microair_zone_2
+            name: Zone 2
+            features:
+              - type: climate-hvac-modes
+              - type: target-temperature
+            grid_options:
+              columns: 6
+              rows: 3
+          - type: tile
+            entity: climate.librecoach_climate_microair_zone_3
+            name: Zone 3
+            features:
+              - type: climate-hvac-modes
+              - type: target-temperature
+          - type: tile
+            entity: climate.librecoach_climate_microair_zone_4
+            name: Zone 4
+            features:
+              - type: climate-hvac-modes
+              - type: target-temperature
+          - show_name: true
+            show_icon: false
+            show_state: true
+            type: glance
+            entities:
+              - entity: sensor.cal_living_room_temp
+                name:
+                  type: area
+              - entity: sensor.cal_bedroom_temp
+                name:
+                  type: area
+              - entity: sensor.cal_bathroom_temp
+                name:
+                  type: area
+          - show_name: true
+            show_icon: false
+            show_state: true
+            type: glance
+            entities:
+              - entity: sensor.living_room_humidity
+                name:
+                  type: area
+              - entity: sensor.bedroom_temp_humidity
+                name:
+                  type: area
+              - entity: sensor.bathroom_temp_humidity
+                name:
+                  type: area
+    badges:
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Lights
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/lights
+        show_entity_picture: false
+        icon: mdi:light-recessed
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Heat
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/heat
+        show_entity_picture: false
+        icon: mdi:heat-wave
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Shades
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/shades
+        show_entity_picture: false
+        icon: mdi:roller-shade
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Locks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/locks
+        show_entity_picture: false
+        icon: mdi:lock
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Tanks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/tanks
+        show_entity_picture: false
+        icon: mdi:water
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Energy
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/energy
+        show_entity_picture: false
+        icon: mdi:transmission-tower
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Misc
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/misc
+        show_entity_picture: false
+        icon: mdi:cog-outline
+        entity: zone.home
+  - type: sections
+    max_columns: 4
+    title: Heat
+    path: heat
+    icon: mdi:heat-wave
+    badges:
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Lights
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/lights
+        show_entity_picture: false
+        icon: mdi:light-recessed
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: AC
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/ac
+        show_entity_picture: false
+        icon: mdi:air-conditioner
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Shades
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/shades
+        show_entity_picture: false
+        icon: mdi:roller-shade
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Locks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/locks
+        show_entity_picture: false
+        icon: mdi:lock
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Tanks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/tanks
+        show_entity_picture: false
+        icon: mdi:water
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Energy
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/energy
+        show_entity_picture: false
+        icon: mdi:transmission-tower
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Misc
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/misc
+        show_entity_picture: false
+        icon: mdi:cog-outline
+        entity: zone.home
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            heading: Aqua-Hot
+            heading_style: title
+            icon: mdi:water-boiler
+          - type: vertical-stack
+            cards:
+              - square: false
+                type: grid
+                cards:
+                  - type: custom:mushroom-light-card
+                    name: AC Element 1
+                    secondary_info: none
+                    entity: light.aquahot_ac_1
+                  - type: custom:mushroom-light-card
+                    name: Diesel Burner
+                    secondary_info: none
+                    entity: light.aquahot_burner
+                  - type: custom:mushroom-light-card
+                    name: AC Element 2
+                    secondary_info: none
+                    entity: light.aquahot_ac_2
+                  - type: custom:mushroom-light-card
+                    secondary_info: none
+                    entity: light.aquahot_engine
+                    name: Engine Pre-heat
+                columns: 2
+        column_span: 1
+      - type: grid
+        cards:
+          - type: heading
+            heading: Floor Heat
+            heading_style: title
+            icon: mdi:heating-coil
+          - type: tile
+            grid_options:
+              columns: 6
+              rows: 3
+            entity: climate.floor_heat_1
+            name: Living Room
+            vertical: false
+            features:
+              - type: climate-hvac-modes
+              - type: climate-preset-modes
+                style: dropdown
+            features_position: bottom
+          - type: tile
+            grid_options:
+              columns: 6
+              rows: 3
+            entity: climate.floor_heat_2
+            name: Kitchen
+            vertical: false
+            features:
+              - type: climate-hvac-modes
+              - type: climate-preset-modes
+                style: dropdown
+            features_position: bottom
+          - type: tile
+            grid_options:
+              columns: 6
+              rows: 3
+            entity: climate.floor_heat_3
+            name: Bedroom
+            vertical: false
+            features:
+              - type: climate-hvac-modes
+              - type: climate-preset-modes
+                style: dropdown
+            features_position: bottom
+        column_span: 1
+  - type: masonry
+    path: shades
+    title: Shades
+    cards:
+      - type: vertical-stack
+        cards:
+          - type: horizontal-stack
+            cards:
+              - type: horizontal-stack
+                cards:
+                  - type: custom:mushroom-template-card
+                    primary: Night
+                    icon: mdi:moon-waning-crescent
+                    features_position: bottom
+                    grid_options:
+                      columns: 6
+                      rows: 1
+                    color: yellow
+              - type: custom:mushroom-template-card
+                primary: Day
+                icon: mdi:white-balance-sunny
+                features_position: bottom
+                grid_options:
+                  columns: 6
+                  rows: 1
+                color: yellow
+        title: Shades
+      - type: vertical-stack
+        cards:
+          - type: horizontal-stack
+            cards:
+              - type: custom:mushroom-cover-card
+                entity: cover.all_night
+                icon: mdi:moon-waning-crescent
+                secondary_info: none
+                fill_container: true
+                primary_info: name
+              - type: custom:mushroom-cover-card
+                entity: cover.all_day
+                icon: mdi:white-balance-sunny
+                secondary_info: none
+        title: All
+      - type: vertical-stack
+        cards:
+          - type: horizontal-stack
+            cards:
+              - type: custom:mushroom-cover-card
+                entity: cover.shade_7
+                icon: mdi:moon-waning-crescent
+                secondary_info: none
+                fill_container: true
+                primary_info: name
+              - type: custom:mushroom-cover-card
+                entity: cover.shade_2
+                icon: mdi:white-balance-sunny
+                secondary_info: none
+          - type: horizontal-stack
+            cards:
+              - type: custom:mushroom-cover-card
+                entity: cover.shade_6
+                icon: mdi:moon-waning-crescent
+                secondary_info: none
+                fill_container: true
+                primary_info: name
+              - type: custom:mushroom-cover-card
+                entity: cover.shade_1
+                icon: mdi:white-balance-sunny
+                secondary_info: none
+          - type: horizontal-stack
+            cards:
+              - type: custom:mushroom-cover-card
+                icon: mdi:moon-waning-crescent
+                secondary_info: none
+                fill_container: true
+                primary_info: name
+                entity: cover.shade_8
+              - type: custom:mushroom-cover-card
+                icon: mdi:white-balance-sunny
+                secondary_info: none
+                entity: cover.shade_3
+          - type: custom:mushroom-cover-card
+            entity: cover.shade_5
+            icon: mdi:moon-waning-crescent
+            secondary_info: none
+            fill_container: true
+            primary_info: name
+        title: Entry
+      - type: vertical-stack
+        cards:
+          - type: horizontal-stack
+            cards:
+              - type: custom:mushroom-cover-card
+                entity: cover.shade_21
+                icon: mdi:moon-waning-crescent
+                secondary_info: none
+                fill_container: true
+                primary_info: name
+              - type: custom:mushroom-cover-card
+                entity: cover.shade_17
+                icon: mdi:white-balance-sunny
+                secondary_info: none
+        title: Bedroom
+      - type: vertical-stack
+        cards:
+          - type: horizontal-stack
+            cards:
+              - type: custom:mushroom-cover-card
+                entity: cover.shade_53
+                icon: mdi:moon-waning-crescent
+                secondary_info: none
+                fill_container: true
+                primary_info: name
+              - type: custom:mushroom-cover-card
+                entity: cover.shade_49
+                icon: mdi:white-balance-sunny
+                secondary_info: none
+          - type: horizontal-stack
+            cards:
+              - type: custom:mushroom-cover-card
+                entity: cover.shade_55
+                icon: mdi:moon-waning-crescent
+                secondary_info: none
+                fill_container: true
+                primary_info: name
+              - type: custom:mushroom-cover-card
+                entity: cover.shade_51
+                icon: mdi:white-balance-sunny
+                secondary_info: none
+          - type: horizontal-stack
+            cards:
+              - type: custom:mushroom-cover-card
+                icon: mdi:moon-waning-crescent
+                secondary_info: none
+                fill_container: true
+                primary_info: name
+                entity: cover.shade_54
+              - type: custom:mushroom-cover-card
+                icon: mdi:white-balance-sunny
+                secondary_info: none
+                entity: cover.shade_50
+          - type: horizontal-stack
+            cards:
+              - type: custom:mushroom-cover-card
+                icon: mdi:moon-waning-crescent
+                secondary_info: none
+                fill_container: true
+                primary_info: name
+                entity: cover.shade_14
+              - type: custom:mushroom-cover-card
+                icon: mdi:white-balance-sunny
+                secondary_info: none
+                entity: cover.shade_10
+        title: Living Room
+    badges:
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Lights
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/lights
+        show_entity_picture: false
+        icon: mdi:light-recessed
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: AC
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/ac
+        show_entity_picture: false
+        icon: mdi:air-conditioner
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Heat
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/heat
+        show_entity_picture: false
+        icon: mdi:heat-wave
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Locks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/locks
+        show_entity_picture: false
+        icon: mdi:lock
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Tanks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/tanks
+        show_entity_picture: false
+        icon: mdi:water
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Energy
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/energy
+        show_entity_picture: false
+        icon: mdi:transmission-tower
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Misc
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/misc
+        show_entity_picture: false
+        icon: mdi:cog-outline
+        entity: zone.home
+    icon: mdi:roller-shade
+  - type: sections
+    max_columns: 4
+    title: Locks
+    path: locks
+    sections:
+      - type: grid
+        cards:
+          - show_name: true
+            show_icon: true
+            type: button
+            grid_options:
+              columns: 6
+              rows: 2
+            name: All
+            tap_action:
+              action: toggle
+            entity: lock.lock_0
+          - show_name: true
+            show_icon: true
+            type: button
+            entity: lock.lock_1
+            grid_options:
+              columns: 6
+              rows: 2
+            tap_action:
+              action: toggle
+          - type: horizontal-stack
+            cards:
+              - show_name: true
+                show_icon: true
+                type: button
+                entity: lock.lock_2
+                tap_action:
+                  action: toggle
+              - show_name: true
+                show_icon: true
+                type: button
+                entity: lock.lock_3
+                tap_action:
+                  action: toggle
+    icon: mdi:lock
+    badges:
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Lights
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/lights
+        show_entity_picture: false
+        icon: mdi:light-recessed
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: AC
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/ac
+        show_entity_picture: false
+        icon: mdi:air-conditioner
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Heat
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/heat
+        show_entity_picture: false
+        icon: mdi:heat-wave
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Shades
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/shades
+        show_entity_picture: false
+        icon: mdi:roller-shade
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Tanks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/tanks
+        show_entity_picture: false
+        icon: mdi:water
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Energy
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/energy
+        show_entity_picture: false
+        icon: mdi:transmission-tower
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Misc
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/misc
+        show_entity_picture: false
+        icon: mdi:cog-outline
+        entity: zone.home
+  - type: sections
+    max_columns: 4
+    title: Tanks
+    path: tanks
+    icon: mdi:water
+    sections:
+      - type: grid
+        cards:
+          - type: custom:mushroom-entity-card
+            entity: switch.water_pump
+            grid_options:
+              columns: 6
+              rows: 1
+            fill_container: false
+            primary_info: name
+            secondary_info: none
+            tap_action:
+              action: toggle
+          - type: custom:mushroom-entity-card
+            entity: switch.autofill
+            grid_options:
+              columns: 6
+              rows: 1
+            fill_container: false
+            primary_info: name
+            secondary_info: none
+            tap_action:
+              action: toggle
+          - type: gauge
+            entity: sensor.tank_fresh
+            name: Fresh Tank
+            severity:
+              green: 60
+              yellow: 40
+              red: 0
+          - type: gauge
+            name: Black Tank
+            needle: false
+            severity:
+              green: 0
+              yellow: 50
+              red: 60
+            entity: sensor.tank_black
+    badges:
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Lights
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/lights
+        show_entity_picture: false
+        icon: mdi:light-recessed
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: AC
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/ac
+        show_entity_picture: false
+        icon: mdi:air-conditioner
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Heat
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/heat
+        show_entity_picture: false
+        icon: mdi:heat-wave
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Shades
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/shades
+        show_entity_picture: false
+        icon: mdi:roller-shade
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Locks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/locks
+        show_entity_picture: false
+        icon: mdi:lock
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Energy
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/energy
+        show_entity_picture: false
+        icon: mdi:transmission-tower
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Misc
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/misc
+        show_entity_picture: false
+        icon: mdi:cog-outline
+        entity: zone.home
+  - type: sections
+    max_columns: 4
+    title: Energy
+    path: energy
+    icon: mdi:transmission-tower
+    sections:
+      - type: grid
+        cards:
+          - type: horizontal-stack
+            cards:
+              - type: gauge
+                min: 0
+                max: 100
+                needle: true
+                severity:
+                  green: 75
+                  yellow: 25
+                  red: 0
+                name: House
+                grid_options:
+                  columns: 6
+                  rows: auto
+                entity: sensor.librecoach_victron_system_0_dc_battery_soc
+              - type: gauge
+                needle: true
+                severity:
+                  green: 12
+                  yellow: 14.2
+                  red: 0
+                min: 11.5
+                max: 14.5
+                name: Starter
+                grid_options:
+                  columns: 6
+                  rows: auto
+                entity: sensor.librecoach_victron_smartshunt_ip65_277_dc_1_voltage
+            title: Batteries
+      - type: grid
+        cards:
+          - type: entities
+            entities:
+              - entity: switch.generator_control
+                name: Generator
+              - entity: sensor.generator_ac_current
+              - entity: sensor.ats_source
+              - entity: binary_sensor.generator_running
+              - entity: sensor.generator_status
+            grid_options:
+              columns: 12
+              rows: auto
+            title: Generator
+            show_header_toggle: false
+          - type: custom:power-flow-card-plus
+            entities:
+              battery:
+                entity: sensor.librecoach_victron_multiplus_ii_276_dc_0_power
+                invert_state: true
+                name: 12V System
+                icon: mdi:current-dc
+                display_state: two_way
+                secondary_info: {}
+              grid:
+                secondary_info: {}
+                display_state: two_way
+                invert_state: false
+                name: Shore
+                icon: mdi:transmission-tower
+                entity: sensor.librecoach_victron_system_0_ac_grid_total_power
+              home:
+                secondary_info: {}
+                icon: mdi:rv-truck
+                circle_animation: true
+                subtract_individual: false
+                override_state: false
+                use_metadata: false
+              individual:
+                - entity: sensor.librecoach_victron_energy_meter_0_ac_total_power
+                  secondary_info: {}
+                  icon: mdi:lightbulb
+                  name: Essential
+              solar:
+                secondary_info: {}
+                icon: ""
+              fossil_fuel_percentage:
+                secondary_info: {}
+            clickable_entities: false
+            display_zero_lines:
+              mode: hide
+              transparency: 50
+              grey_color:
+                - 189
+                - 189
+                - 189
+            use_new_flow_rate_model: true
+            max_flow_rate: 6
+            max_expected_power: 10000
+            min_expected_power: 0.01
+            transparency_zero_lines: 0
+            sort_individual_devices: false
+            min_flow_rate: 1
+            kilo_threshold: 1000
+            base_decimals: 0
+            kilo_decimals: 1
+            title: 120V Power Flow
+          - type: custom:power-flow-card-plus
+            entities:
+              battery:
+                invert_state: true
+                icon: mdi:car-battery
+                use_metadata: false
+                show_state_of_charge: true
+                state_of_charge: sensor.librecoach_victron_system_0_dc_battery_soc
+                state_of_charge_unit_white_space: true
+                secondary_info:
+                  entity: sensor.librecoach_victron_system_0_dc_battery_timetogo
+                entity: sensor.librecoach_victron_system_0_dc_battery_power
+              grid:
+                secondary_info: {}
+                display_state: two_way
+                invert_state: false
+                icon: mdi:transmission-tower
+                name: Charger/Inverter
+                use_metadata: false
+                entity: sensor.librecoach_victron_multiplus_ii_276_dc_0_power
+              home:
+                secondary_info: {}
+                icon: mdi:rv-truck
+                circle_animation: true
+                subtract_individual: false
+                name: DC Loads
+              individual: []
+              fossil_fuel_percentage:
+                secondary_info: {}
+            clickable_entities: true
+            display_zero_lines:
+              mode: transparency
+              transparency: 50
+              grey_color:
+                - 189
+                - 189
+                - 189
+            use_new_flow_rate_model: true
+            max_flow_rate: 6
+            max_expected_power: 10000
+            min_expected_power: 0.01
+            transparency_zero_lines: 0
+            sort_individual_devices: false
+            min_flow_rate: 1
+            kilo_threshold: 1000
+            base_decimals: 0
+            kilo_decimals: 1
+            title: 12V Power Flow
+    badges:
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Lights
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/lights
+        show_entity_picture: false
+        icon: mdi:light-recessed
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: AC
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/ac
+        show_entity_picture: false
+        icon: mdi:air-conditioner
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Heat
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/heat
+        show_entity_picture: false
+        icon: mdi:heat-wave
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Shades
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/shades
+        show_entity_picture: false
+        icon: mdi:roller-shade
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Locks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/locks
+        show_entity_picture: false
+        icon: mdi:lock
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Tanks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/tanks
+        show_entity_picture: false
+        icon: mdi:water
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Misc
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/misc
+        show_entity_picture: false
+        icon: mdi:cog-outline
+        entity: zone.home
+  - type: sections
+    max_columns: 4
+    title: Misc
+    path: misc
+    sections:
+      - type: grid
+        cards:
+          - type: vertical-stack
+            cards:
+              - type: entities
+                entities:
+                  - entity: sensor.geo_timezone
+                  - entity: sensor.geo_city
+                  - entity: sensor.geo_state
+            title: Here We Are
+      - type: grid
+        cards:
+          - type: vertical-stack
+            cards:
+              - type: entities
+                entities:
+                  - entity: button.librecoach_export_entities
+                    name:
+                      type: entity
+                  - entity: button.librecoach_export_entities_default
+                    name:
+                      type: entity
+                  - entity: text.rv_manufacturer
+                  - entity: text.rv_model
+                  - entity: text.rv_year
+                  - entity: text.rv_other
+                  - entity: button.librecoach_import_config
+                    name:
+                      type: entity
+                  - entity: button.librecoach_export_config
+                    name:
+                      type: entity
+                  - entity: switch.librecoach_record_unknown
+                    name:
+                      type: entity
+                  - entity: button.librecoach_export_unknown
+                    name:
+                      type: entity
+            title: LibreCoach Tools
+    icon: mdi:cog-outline
+    badges:
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Lights
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/lights
+        show_entity_picture: false
+        icon: mdi:light-recessed
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: AC
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/ac
+        show_entity_picture: false
+        icon: mdi:air-conditioner
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Heat
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/heat
+        show_entity_picture: false
+        icon: mdi:heat-wave
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Shades
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/shades
+        show_entity_picture: false
+        icon: mdi:roller-shade
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Locks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/locks
+        show_entity_picture: false
+        icon: mdi:lock
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Tanks
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/tanks
+        show_entity_picture: false
+        icon: mdi:water
+        entity: zone.home
+      - type: entity
+        show_name: true
+        show_state: false
+        show_icon: true
+        name: Energy
+        tap_action:
+          action: navigate
+          navigation_path: /dashboard-librecoach/energy
+        show_entity_picture: false
+        icon: mdi:transmission-tower
+        entity: zone.home

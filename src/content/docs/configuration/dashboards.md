@@ -14,13 +14,33 @@ Once you've [identified your devices](/configuration/identify-devices/), it's ti
 ![LibreCoach dashboard](../../../assets/dashboards/librecoach_dashboard_dark.webp)
 
 :::note[Want to see what's possible?]
-The dashboard above uses custom cards from [HACS](/advanced-setup/hacs/) that go well beyond the built-in cards. Browse the **<a href="https://github.com/Backroads4Me/librecoach-dashboard" target="_blank" rel="noopener noreferrer">LibreCoach example dashboard</a>** for inspiration. Don't worry if your first dashboard doesn't look like this. Start simple and add custom cards when you're ready.
+The dashboard above uses custom cards from [HACS](/advanced-setup/hacs/) that go well beyond the built-in cards. Download the complete example below for inspiration or as a starting point. Don't worry if your first dashboard doesn't look like this. Start simple and refine it as you learn what works for your RV.
 :::
 
-There are two ways to build a dashboard. Most people start with one and mix in the other over time:
+There are three ways to build a dashboard. Most people start with one and mix in the others over time:
 
+- **[Download the example](#download-the-example-dashboard)**: start with the dashboard shown above and adapt its entity IDs to your RV.
 - **[Build it by hand](#build-it-by-hand)**: drag-and-drop in the visual editor. Best for learning.
 - **[Use Dashboard Prompt Export](#dashboard-prompt-export)**: export a structured prompt from your devices and use it to generate a complete layout.
+
+## Download the Example Dashboard
+
+The example is a complete dashboard with lighting, climate, shades, locks, tanks, energy, and LibreCoach tools. Its entity IDs come from one coach, so use the layout as a starting point and replace entities that do not exist in your Home Assistant installation.
+
+**<a href="/downloads/librecoach-dashboard.yml" download="librecoach-dashboard.yml">Download the LibreCoach dashboard YAML</a>** · [View the YAML](/downloads/librecoach-dashboard.yml)
+
+The example requires these HACS frontend cards:
+
+- [Mushroom](https://github.com/piitaya/lovelace-mushroom) for the light, shade, and entity cards.
+- [Power Flow Card Plus](https://github.com/flixlix/power-flow-card-plus) for the AC and DC energy diagrams.
+
+Install both cards through [HACS](/advanced-setup/hacs/) and reload your browser before importing the YAML.
+
+:::caution[Use the dashboard URL `librecoach`]
+The example's navigation links use `/dashboard-librecoach/...`. Set the new Home Assistant dashboard's URL to **`librecoach`** so its navigation buttons work.
+:::
+
+After downloading the file, open it in a text editor, copy the YAML, and follow [Add a Dashboard from YAML](#add-a-dashboard-from-yaml).
 
 ## Plan Your Layout
 
@@ -85,7 +105,7 @@ See [Import & Export](/configuration/import-export/) for full details.
 A dashboard is just YAML under the hood. When you have generated dashboard YAML, paste it in through the **Raw configuration editor**. You won't usually write this YAML yourself; it's just how a finished dashboard gets in.
 
 1. Go to **Settings** → **Dashboards** → **+ Add Dashboard**.
-2. Select **New dashboard from scratch**, give it a name, and click **Create**.
+2. Select **New dashboard from scratch**, give it a name, and set its URL to `librecoach` when using the downloadable example.
 3. Open the dashboard and click **✏️ Edit**.
 4. Click the **⋮** menu (top right) → **Raw configuration editor**.
 5. Paste the YAML, then click **Save**.
