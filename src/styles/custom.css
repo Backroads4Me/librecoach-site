@@ -254,8 +254,20 @@ img[src*="dash_dark"] {
   }
 }
 
+/* Phones: swap in the portrait-cropped hero art instead of shifting the
+   ultra-wide banner around, which framed differently at every width. */
 @media (max-width: 660px) {
+  html {
+    --six-hero-bg: url("/hero-light-mobile.svg");
+  }
+
+  html[data-theme="dark"] {
+    --six-hero-bg: url("/hero-dark-mobile.svg");
+  }
+
   .six-hero.six-hero-with-background {
-    background-position: right calc(100vw - 810px) center !important;
+    background-position: center bottom !important;
+    height: 280px !important;
+    min-height: 280px !important;
   }
 }
