@@ -265,9 +265,20 @@ img[src*="dash_dark"] {
     --six-hero-bg: url("/hero-dark-mobile.svg");
   }
 
+  /* Let the hero grow if the content needs it, rather than pinning a height. */
   .six-hero.six-hero-with-background {
     background-position: center bottom !important;
-    height: 280px !important;
+    height: auto !important;
     min-height: 280px !important;
+  }
+
+  /* The theme pins the CTA to one nowrap line; on narrow screens let it wrap
+     to two rows and grow instead of overflowing. */
+  html body .six-hero-actions a.primary {
+    height: auto !important;
+    min-height: 2.5rem !important;
+    white-space: normal !important;
+    text-align: center;
+    padding-block: 0.5rem !important;
   }
 }
