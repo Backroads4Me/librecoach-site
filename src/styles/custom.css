@@ -272,6 +272,17 @@ img[src*="dash_dark"] {
     min-height: 280px !important;
   }
 
+  /* Tighter page gutters: 1.5rem of content padding plus the hero container's
+     inline 1rem left 40px of dead space either side on a ~390px screen. */
+  main > .markdown-wrapper > .sl-markdown-content {
+    padding-inline: 0.75rem;
+  }
+
+  .sl-markdown-content .container {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
   /* The theme pins the CTA to one nowrap line; on narrow screens let it wrap
      to two rows and grow instead of overflowing. */
   html body .six-hero-actions a.primary {
