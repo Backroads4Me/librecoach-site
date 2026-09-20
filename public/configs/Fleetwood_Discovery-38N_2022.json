@@ -1,0 +1,221 @@
+{
+  "export_date": "2026-09-19T13:58:46.537Z",
+  "rv_info": {
+    "manufacturer": "Fleetwood",
+    "model": "Discovery",
+    "year": "2022",
+    "other": "38N"
+  },
+  "entities": {
+    "light.switch_1": {
+      "entity_id": "light.switch_1",
+      "original_name": "Switches Switch 1",
+      "friendly_name": "Entry",
+      "device_class": "light",
+      "instance": 1
+    },
+    "light.switch_2": {
+      "entity_id": "light.switch_2",
+      "original_name": "Switches Switch 2",
+      "friendly_name": "Dinnette",
+      "device_class": "light",
+      "instance": 2
+    },
+    "light.switch_3": {
+      "entity_id": "light.switch_3",
+      "original_name": "Switches Switch 3",
+      "friendly_name": "Gallery Ceiling",
+      "device_class": "light",
+      "instance": 3
+    },
+    "light.switch_4": {
+      "entity_id": "light.switch_4",
+      "original_name": "Switches Switch 4",
+      "friendly_name": "Living",
+      "device_class": "light",
+      "instance": 4
+    },
+    "light.switch_5": {
+      "entity_id": "light.switch_5",
+      "original_name": "Switches Switch 5",
+      "friendly_name": "Half Bath",
+      "device_class": "light",
+      "instance": 5
+    },
+    "light.switch_7": {
+      "entity_id": "light.switch_7",
+      "original_name": "Switches Switch 7",
+      "friendly_name": "Luggage",
+      "device_class": "light",
+      "instance": 7
+    },
+    "light.switch_8": {
+      "entity_id": "light.switch_8",
+      "original_name": "Switches Switch 8",
+      "friendly_name": "Master Bedroom",
+      "device_class": "light",
+      "instance": 8
+    },
+    "light.switch_13": {
+      "entity_id": "light.switch_13",
+      "original_name": "Switches Switch 13",
+      "friendly_name": "Under Coach",
+      "device_class": "light",
+      "instance": 13
+    },
+    "light.switch_17": {
+      "entity_id": "light.switch_17",
+      "original_name": "Switches Switch 17",
+      "friendly_name": "Front Accent",
+      "device_class": "light",
+      "instance": 17
+    },
+    "light.switch_18": {
+      "entity_id": "light.switch_18",
+      "original_name": "Switches Switch 18",
+      "friendly_name": "Lock Steps",
+      "device_class": "light",
+      "instance": 18
+    },
+    "light.switch_20": {
+      "entity_id": "light.switch_20",
+      "original_name": "Switches Switch 20",
+      "friendly_name": "Floor Heat",
+      "device_class": "light",
+      "instance": 20
+    },
+    "light.switch_6": {
+      "entity_id": "light.switch_6",
+      "original_name": "Switches Switch 6",
+      "friendly_name": "Rear Bath",
+      "device_class": "light",
+      "instance": 6
+    },
+    "light.switch_9": {
+      "entity_id": "light.switch_9",
+      "original_name": "Switches Switch 9",
+      "friendly_name": "Left Reading",
+      "device_class": "light",
+      "instance": 9
+    },
+    "light.switch_10": {
+      "entity_id": "light.switch_10",
+      "original_name": "Switches Switch 10",
+      "friendly_name": "Right Reading",
+      "device_class": "light",
+      "instance": 10
+    },
+    "light.switch_14": {
+      "entity_id": "light.switch_14",
+      "original_name": "Switches Switch 14",
+      "friendly_name": "Awning",
+      "device_class": "light",
+      "instance": 14
+    },
+    "light.switch_15": {
+      "entity_id": "light.switch_15",
+      "original_name": "Switches Switch 15",
+      "friendly_name": "Rear Bath Accent",
+      "device_class": "light",
+      "instance": 15
+    },
+    "light.switch_16": {
+      "entity_id": "light.switch_16",
+      "original_name": "Switches Switch 16",
+      "friendly_name": "Porch",
+      "device_class": "light",
+      "instance": 16
+    },
+    "light.switch_19": {
+      "entity_id": "light.switch_19",
+      "original_name": "Switches Switch 19",
+      "friendly_name": "Water Pump",
+      "device_class": "light",
+      "instance": 19
+    },
+    "light.switch_25": {
+      "entity_id": "light.switch_25",
+      "original_name": "Switches Switch 25",
+      "friendly_name": "Living Room Vent On",
+      "device_class": "light",
+      "instance": 25
+    },
+    "light.switch_26": {
+      "entity_id": "light.switch_26",
+      "original_name": "Switches Switch 26",
+      "friendly_name": "Mid Bath Vent On",
+      "device_class": "light",
+      "instance": 26
+    },
+    "light.switch_27": {
+      "entity_id": "light.switch_27",
+      "original_name": "Switches Switch 27",
+      "friendly_name": "Rear Bath Vent On",
+      "device_class": "light",
+      "instance": 27
+    },
+    "light.switch_28": {
+      "entity_id": "light.switch_28",
+      "original_name": "Switches Switch 28",
+      "friendly_name": "Living Room Vent Up",
+      "device_class": "light",
+      "instance": 28
+    },
+    "light.switch_29": {
+      "entity_id": "light.switch_29",
+      "original_name": "Switches Switch 29",
+      "friendly_name": "Living Room Vent Down",
+      "device_class": "light",
+      "instance": 29
+    },
+    "light.switch_30": {
+      "entity_id": "light.switch_30",
+      "original_name": "Switches Switch 30",
+      "friendly_name": "Mid Bath Vent Up",
+      "device_class": "light",
+      "instance": 30
+    },
+    "light.switch_31": {
+      "entity_id": "light.switch_31",
+      "original_name": "Switches Switch 31",
+      "friendly_name": "Mid Bath Vent Down",
+      "device_class": "light",
+      "instance": 31
+    },
+    "light.switch_32": {
+      "entity_id": "light.switch_32",
+      "original_name": "Switches Switch 32",
+      "friendly_name": "Rear Bath Vent Up",
+      "device_class": "light",
+      "instance": 32
+    },
+    "light.switch_33": {
+      "entity_id": "light.switch_33",
+      "original_name": "Switches Switch 33",
+      "friendly_name": "Rear Bath Vent Down",
+      "device_class": "light",
+      "instance": 33
+    },
+    "light.switch_34": {
+      "entity_id": "light.switch_34",
+      "original_name": "Switches Switch 34",
+      "friendly_name": "Generator",
+      "device_class": "light",
+      "instance": 34
+    },
+    "light.switch_35": {
+      "entity_id": "light.switch_35",
+      "original_name": "Switches Switch 35",
+      "friendly_name": "Generator Off",
+      "device_class": "light",
+      "instance": 35
+    },
+    "light.switch_36": {
+      "entity_id": "light.switch_36",
+      "original_name": "Switches Switch 36",
+      "friendly_name": "Accent",
+      "device_class": "light",
+      "instance": 36
+    }
+  }
+}

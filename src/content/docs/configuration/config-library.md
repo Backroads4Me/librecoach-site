@@ -18,6 +18,10 @@ To learn how to import these files, see the [Import & Export](/configuration/imp
 
 - [2023 Vision XL 36A](/configs/Entegra_Vision-XL-36A_2023.json)
 
+### Fleetwood
+
+- [2022 Discovery 38N](/configs/Fleetwood_Discovery-38N_2022.json)
+
 ### Foretravel
 
 - [2014 iH-45](/configs/Foretravel_iH-45_2014.json)
