@@ -9,8 +9,7 @@
 		"preview": "astro build && wrangler dev --config wrangler.jsonc",
 		"dev:wrangler": "wrangler dev",
 		"astro": "astro",
-		"deploy": "astro build && wrangler deploy --config wrangler.jsonc",
-		"cf-typegen": "wrangler types"
+		"deploy": "astro build && wrangler deploy --config wrangler.jsonc"
 	},
 	"dependencies": {
 		"@astrojs/sitemap": "^3.7.1",
