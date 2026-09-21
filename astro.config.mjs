@@ -91,6 +91,7 @@ export default defineConfig({
           replacesTitle: false,
         },
         lastUpdated: false,
+        disable404Route: true,
         editLink: {
           baseUrl: "https://github.com/backroads4me/librecoach-site/edit/main/",
         },
