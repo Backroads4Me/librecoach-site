@@ -11,10 +11,15 @@ import sitemap from "@astrojs/sitemap";
 // pseudo-element reset `*::before, *::after`. lightningcss (Vite's CSS
 // minifier) rejects it and fails the build, so correct the rule before it
 // reaches the minifier. Remove this once fixed upstream.
+/** @returns {import("vite").Plugin} */
 function fixThemeSixBaseCss() {
   return {
     name: "fix-theme-six-base-css",
     enforce: "pre",
+    /**
+     * @param {string} code
+     * @param {string} id
+     */
     transform(code, id) {
       if (!id.includes("starlight-theme-six") || !id.endsWith("base.css")) {
         return;
@@ -80,9 +85,6 @@ export default defineConfig({
           }),
         ],
         customCss: ["./src/styles/custom.css"],
-        components: {
-          Card: "starlight-plugin-icons/components/Card.astro",
-        },
         favicon: "/icons/favicon-64.png",
         logo: {
           src: "./public/logo.svg",
@@ -109,7 +111,10 @@ export default defineConfig({
             href: "https://discord.gg/VZCAESHn2h",
           },
         ],
-        sidebar: [
+        // starlight-plugin-icons types `sidebar` against an older Starlight
+        // schema that requires `label` on autogenerate entries. Starlight
+        // itself accepts this shape and rejects a labeled one.
+        sidebar: /** @type {any} */ ([
           {
             label: "Start Here",
             items: [{ autogenerate: { directory: "start-here" } }],
@@ -134,7 +139,7 @@ export default defineConfig({
             label: "Reference",
             items: [{ autogenerate: { directory: "reference" } }],
           },
-        ],
+        ]),
       },
     }),
   ],
