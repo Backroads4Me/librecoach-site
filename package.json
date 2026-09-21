@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
-		"build": "npm rebuild sharp --update-binary && astro build",
+		"build": "astro build",
 		"preview": "astro build && wrangler dev --config wrangler.jsonc",
 		"dev:wrangler": "wrangler dev",
 		"astro": "astro",
