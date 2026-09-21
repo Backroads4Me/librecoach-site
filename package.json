@@ -32,7 +32,6 @@
 		"wrangler": "^4.70.0"
 	},
 	"allowScripts": {
-		"sharp@0.34.5": true,
 		"esbuild@0.28.1": true,
 		"esbuild@0.28.2": true,
 		"workerd@1.20260918.1": true
