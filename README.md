@@ -1,7 +1,5 @@
 # LibreCoach Documentation
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Support-Buy%20Me%20a%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=000000)](https://buymeacoffee.com/Backroads4Me)
-
 The source for [LibreCoach.com](https://librecoach.com/), the installation and
 configuration guide for bringing RV-C systems into Home Assistant.
 
@@ -43,9 +41,7 @@ structure, and documentation images belong in `src/assets/`.
 
 ## Support LibreCoach
 
-LibreCoach is free and open source.
+If LibreCoach has been useful to you, and you'd like to help keep it going:
 
-If it helped you understand or install LibreCoach, the best way to support the project right now is to star the main app repository so other RV and Home Assistant users can find it.
-
-[![Star Repository](https://img.shields.io/badge/%E2%AD%90%20Star%20ha--addons-GitHub-lightgrey?logo=github&logoColor=black)](https://github.com/Backroads4Me/ha-addons)
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-EA4AAA?logo=github-sponsors&logoColor=white)](https://github.com/sponsors/Backroads4Me)
+[![Buy Me a Coffee](https://img.shields.io/badge/Support-Buy%20Me%20a%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=000000)](https://buymeacoffee.com/Backroads4Me)
+[![Star on GitHub](https://img.shields.io/badge/%E2%AD%90%20Star%20ha--addons-GitHub-lightgrey?logo=github&logoColor=black)](https://github.com/Backroads4Me/ha-addons)
