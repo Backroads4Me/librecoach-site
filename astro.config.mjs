@@ -85,6 +85,9 @@ export default defineConfig({
           }),
         ],
         customCss: ["./src/styles/custom.css"],
+        components: {
+          Sidebar: "./src/components/starlight/Sidebar.astro",
+        },
         favicon: "/icons/favicon-64.png",
         logo: {
           src: "./public/logo.svg",

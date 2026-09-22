@@ -1,0 +1,38 @@
+---
+// Renders the theme's sidebar and keeps its scroll position across page loads.
+// Starlight's own sidebar persists this, but the theme's replacement sidebar
+// does not.
+import ThemeSidebar from "@six-tech/starlight-theme-six/overrides/Sidebar.astro";
+---
+
+<ThemeSidebar />
+
+<script is:inline>
+  (() => {
+    const key = "librecoach-sidebar-scroll";
+    const sidebar = document.currentScript?.parentElement?.querySelector(":scope > .sidebar");
+    if (!sidebar) return;
+
+    // Runs while the page is still parsing, so the menu is in place before first paint.
+    try {
+      const saved = Number(sessionStorage.getItem(key));
+      if (saved > 0) sidebar.scrollTop = saved;
+    } catch {}
+
+    const current = sidebar.querySelector('[aria-current="page"]');
+    if (current) {
+      const menu = sidebar.getBoundingClientRect();
+      const link = current.getBoundingClientRect();
+      if (link.top < menu.top || link.bottom > menu.bottom) {
+        // Adjust only the menu; scrollIntoView would also scroll the page.
+        sidebar.scrollTop += link.top - menu.top - (menu.height - link.height) / 2;
+      }
+    }
+
+    addEventListener("pagehide", () => {
+      try {
+        sessionStorage.setItem(key, String(sidebar.scrollTop));
+      } catch {}
+    });
+  })();
+</script>

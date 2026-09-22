@@ -293,3 +293,21 @@ img[src*="dash_dark"] {
     padding-block: 0.5rem !important;
   }
 }
+
+/* The page description is for search results and link previews; the theme
+   also renders it as a subtitle under the page title. */
+h1#_top + p {
+  display: none;
+}
+
+/* The theme adds this spacing to open menu groups only after page load; applying
+   it up front keeps menu positions stable for the sidebar scroll restore. */
+.container-sidebar-entry:not(.collapsed) {
+  margin-bottom: 1rem;
+}
+
+/* Keeps the current page on screen until the next one is ready, so the
+   header logo does not blank out between pages. */
+@view-transition {
+  navigation: auto;
+}
