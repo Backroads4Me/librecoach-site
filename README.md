@@ -1,5 +1,7 @@
 # LibreCoach Documentation
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Support-Buy%20Me%20a%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=000000)](https://buymeacoffee.com/Backroads4Me)
+
 The source for [LibreCoach.com](https://librecoach.com/), the installation and
 configuration guide for bringing RV-C systems into Home Assistant.
 
