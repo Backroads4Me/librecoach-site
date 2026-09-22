@@ -29,5 +29,6 @@ I also built **Postmarked**, a self-hosted way for us to share photos and travel
 
 If LibreCoach has been useful to you, and you'd like to help keep it going:
 
-- <a href="https://buymeacoffee.com/Backroads4Me" target="_blank" rel="noopener noreferrer">**☕ Buy me a coffee**</a>
-- <a href="https://github.com/Backroads4Me/ha-addons" target="_blank" rel="noopener noreferrer">**⭐ Star the project on GitHub**</a>
+<a href="https://buymeacoffee.com/Backroads4Me" target="_blank" rel="noopener noreferrer"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me a Coffee" width="180" /></a>
+
+<a href="https://github.com/Backroads4Me/ha-addons" target="_blank" rel="noopener noreferrer">**⭐ Star the project on GitHub**</a>
