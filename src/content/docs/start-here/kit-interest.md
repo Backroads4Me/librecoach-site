@@ -1,7 +1,7 @@
 ---
 filename: kit-interest
 title: Pre-Assembled Kit
-description: Express your interest in a pre-built LibreCoach plug-and-play kit.
+description: Let me know if you'd be interested in a ready-to-install LibreCoach kit.
 sidebar:
   hidden: true
 prev: false
@@ -13,29 +13,25 @@ draft: false
 **This is an interest check. No kits are for sale yet.**
 :::
 
-Building your own hardware isn't for everyone. I'm exploring the possibility of offering a **Turn-Key Kit** for those who want the power of LibreCoach without the DIY assembly and software flashing.
+Building the hardware isn't for everyone, and a few people have asked whether I'd sell LibreCoach ready to go. I'm considering it. If enough people are interested, I'll put together a small production run.
 
-If there is enough community interest, I'll organize a manufacturing run.
+### What the Kit Would Include
 
-### The Goal: True Plug & Play
+The idea is a unit you mount, plug in, and start using:
 
-The kit is designed to be a "ready-to-mount" hub that gets you up and running in minutes:
+- **Hardware:** The same parts I recommend for the DIY build: a Raspberry Pi 5, NVMe drive, and CAN HAT.
+- **Software:** Home Assistant and LibreCoach installed and set up before it ships.
+- **Cables:** The RV-C cable needed to connect to your coach.
+- **Testing:** I'd test each unit before it ships.
 
-- **Premium Hardware:** Raspberry Pi 5 + high-speed NVMe Drive + CAN HAT.
-- **Pre-Flashed:** All software installed and pre-configured out of the box.
-- **Cables Included:** Includes the necessary RV-C drop cables for your rig.
-- **Bench Tested:** Each unit is manually tested to ensure hardware integrity before shipping.
+### Estimated Price
 
-### Estimated Pricing
+Between the parts, assembly, and shipping, I expect the price to land around **$350 - $400**.
 
-To maintain high-performance components (like the Pi 5 and NVMe storage) and cover assembly and shipping, the target price point is **$350 - $400**.
+### Let Me Know
 
----
+If you'd be interested in a kit, send me an email. There's no commitment to buy. Hearing from you just helps me decide whether a production run makes sense.
 
-### Express Your Interest
+<a href="mailto:ted@librecoach.com?subject=LibreCoach%20Kit%20Interest" target="_blank" rel="noopener noreferrer">**Send an interest email**</a>
 
-If you'd be interested in purchasing a kit, please reach out. There is no commitment to buy; your feedback simply helps determine if a production run is viable.
-
-<a href="mailto:ted@librecoach.com?subject=LibreCoach%20Kit%20Interest" target="_blank" rel="noopener noreferrer">**Click Here to Send an Interest Email**</a>
-
-_Alternatively, send an email to **ted@librecoach.com**_
+_Or email **ted@librecoach.com** directly._

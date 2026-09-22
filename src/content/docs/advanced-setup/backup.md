@@ -39,8 +39,6 @@ Your LibreCoach configuration represents hours of setup work: dashboards, automa
 - You already use Cloudflare
 - You're comfortable with API keys and cloud consoles
 
----
-
 ## Built-in Home Assistant Backups
 
 Home Assistant's built-in backup system is your first line of defense. It captures the data you select, including Node-RED flows, Mosquitto settings, dashboards, automations, and entity customizations. Those backups are stored on the Pi.
@@ -68,8 +66,6 @@ Local backups are lost if your Pi hard drive fails. Always pair them with a clou
 5. Set the schedule (daily recommended)
 6. Set retention (3-7 backups is a reasonable range)
 
----
-
 ## Nabu Casa
 
 If you subscribe to **Home Assistant Cloud** (Nabu Casa), encrypted cloud backups are included with no additional setup. Your backups are stored on Nabu Casa's servers, encrypted with a key only you hold.
@@ -84,8 +80,6 @@ If you subscribe to **Home Assistant Cloud** (Nabu Casa), encrypted cloud backup
 That's it. Backups run automatically and are retrievable from the Nabu Casa dashboard or directly in Home Assistant.
 
 _See the [Remote Access](/advanced-setup/remote-access/) page for the full list of Nabu Casa features._
-
----
 
 ## Cloudflare R2
 

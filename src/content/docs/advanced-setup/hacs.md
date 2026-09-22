@@ -15,7 +15,7 @@ While Home Assistant provides official integrations for major devices, HACS allo
 
 ## Why Use HACS?
 
-- **Frontend Upgrades**: Install beautiful custom dashboards and cards (like <a href="https://github.com/piitaya/lovelace-mushroom" target="_blank" rel="noopener">Mushroom</a>).
+- **Frontend Upgrades**: Install custom dashboards and cards (like <a href="https://github.com/piitaya/lovelace-mushroom" target="_blank" rel="noopener">Mushroom</a>).
 - **Custom Integrations**: Connect to devices that don't have official Home Assistant support yet.
 - **Easy Updates**: HACS handles downloading updates for these custom components with a single click.
 - **Discovery**: Browse and discover new ways to extend your RV's capabilities directly from your dashboard.
@@ -32,13 +32,13 @@ You will need a GitHub account to set up HACS. <a href="https://github.com/signu
 
 ## Examples of What You Can Add
 
-Here are just a few examples of what HACS makes available:
+A few examples of what HACS makes available:
 
 _📌 All of the integrations below are used in the LibreCoach dashboard screenshots._
 
 ### 1. Mushroom Cards
 
-**<a href="https://github.com/piitaya/lovelace-mushroom" target="_blank" rel="noopener">Mushroom</a>** is a collection of cards for your dashboard that look modern, clean, and fit perfectly with the LibreCoach aesthetic. They are easy to configure and designed to be touch-friendly for mobile devices and wall tablets.
+**<a href="https://github.com/piitaya/lovelace-mushroom" target="_blank" rel="noopener">Mushroom</a>** is a collection of clean, simple dashboard cards. They're easy to configure and work well on phones and wall tablets. Most of the LibreCoach dashboard is built with them.
 
 ### 2. Power Flow Card Plus
 

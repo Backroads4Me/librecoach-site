@@ -42,6 +42,6 @@ This end will connect to the screw terminals on the Waveshare CAN HAT.
 7.  Insert the stripped wires into the CAN HAT terminal connectors exactly as shown and tighten the screw.
     ![Wires connected to terminal block](../../../assets/cable/cable_5.webp)
 8.  The terminal connectors will plug into the CAN HAT later when installed in the RV. (not necessary now)
-    ![Finished cable assembly connectd to Pi](../../../assets/cable/cable_6.webp)
+    ![Finished cable assembly connected to Pi](../../../assets/cable/cable_6.webp)
 
 ### Your CAN cable is now ready!

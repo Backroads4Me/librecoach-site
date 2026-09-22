@@ -10,8 +10,6 @@ draft: false
 
 LibreCoach has two types of exports: **Configuration Export** (entity names for sharing with other owners) and **Dashboard Prompt Export** (a structured prompt for dashboard creation).
 
----
-
 ## Dashboard Prompt Export
 
 LibreCoach can generate a structured prompt from your actual devices. You can use that prompt with tools like ChatGPT or Claude to create a Home Assistant dashboard for your specific RV. The prompt includes your LibreCoach entity IDs, names, areas, units, and device types.
@@ -31,8 +29,6 @@ There are two variants:
 6. Review the resulting YAML.
 7. In Home Assistant, go to **Settings → Dashboards → + Add Dashboard → New dashboard from scratch**, give it a name, and click **Create**.
 8. Open the new dashboard, click **✏️ Edit**, then **⋮ → Raw configuration editor**, paste the YAML, and click **Save**.
-
----
 
 ## Configuration Export
 

@@ -12,9 +12,7 @@ The Raspberry Pi ecosystem is highly flexible, and LibreCoach hardware could be 
 
 You could reduce cost by using an older-generation Pi, a different CAN HAT, or an SD card instead of NVMe. It's even possible to run without a case or use basic, off-the-shelf cabling. On the other end of the spectrum, you could opt for more RAM and storage, alternate cases, or additional hardware for more complex builds.
 
-That said, the components recommended here were chosen deliberately: they're high-quality, easy to assemble, readily available, and personally tested. This configuration aims to provide a reliable, repeatable build with minimal friction for first-time users.
-
----
+That said, the components recommended here were chosen deliberately: they're good quality, easy to assemble, and readily available, and I run this exact setup in my own coach. It's the most reliable path for a first build.
 
 ## Recommended Bill of Materials
 
@@ -39,9 +37,7 @@ _Disclosure: This site uses affiliate links. If you make a purchase through thes
 1. Thin Gauge Wire strippers: <a href="https://amzn.to/3LN2zXj" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a>
 2. Micro HDMI to HDMI cable: <a href="https://amzn.to/4rtNvNr" target="_blank" rel="noopener noreferrer nofollow sponsored">Amazon</a> (allows connecting Pi to regular PC monitor)
 
-_AI driven demand is really pushing prices up, but this path currently costs around $350._
-
----
+_Prices change often, but this build currently costs around $350._
 
 ### Recommended Vendors in No Particular Order
 

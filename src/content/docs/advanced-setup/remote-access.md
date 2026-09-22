@@ -41,8 +41,6 @@ Both options give you secure remote access, the right one depends on what you va
 - You need to access other devices on your RV network
 - You're comfortable managing VPN connections
 
----
-
 ## Nabu Casa
 
 **Home Assistant Cloud** is the official cloud service from Home Assistant provided by their partner **Nabu Casa**. It provides easy remote access, backups, and voice assistant integration while supporting the continued development of Home Assistant.
@@ -60,8 +58,6 @@ Both options give you secure remote access, the right one depends on what you va
 - $6.50/month or $65/year
 
 Visit <a href="https://www.home-assistant.io/cloud/" target="_blank" rel="noopener">Home Assistant Cloud</a> or <a href="https://www.nabucasa.com/" target="_blank" rel="noopener noreferrer">Nabu Casa</a> for official documentation.
-
----
 
 ## Tailscale
 

@@ -86,7 +86,7 @@ Or manually:
 
 ### LibreCoach is now installed!
 
-### Shutdown the Pi and connect to RV
+### Shut down the Pi and connect to the RV
 
 20. **Settings** → **System**, **Power Button** (top right), **Advanced options**, **Shutdown system**
     ![System shutdown options](../../../assets/software/software_6.webp)

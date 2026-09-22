@@ -8,7 +8,7 @@ sidebar:
 draft: false
 ---
 
-One of the primary benefits of LibreCoach is that the system is fully extensible and customizable. Once your core system is running smoothly, you can extend it with additional capabilities. This section covers common enhancements that complement LibreCoach.
+Once your core system is running smoothly, you can build on it. This section covers the add-ons and extras that work well with LibreCoach.
 
 :::note[Start Slow]
 Get comfortable with the core LibreCoach system before adding enhancements. Each app increases complexity and potential points of failure.

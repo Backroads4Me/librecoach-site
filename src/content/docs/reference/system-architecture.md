@@ -1,7 +1,7 @@
 ---
 filename: system-architecture
 title: System Architecture
-description: A deep dive into how LibreCoach bridges the physical world of RV-C with the digital world of Home Assistant.
+description: How LibreCoach connects your RV's RV-C network and Bluetooth devices to Home Assistant.
 sidebar:
   order: 1
 draft: false

@@ -1,20 +1,33 @@
 ---
 filename: about
 title: About LibreCoach
-description: The mission and philosophy behind LibreCoach, the open-source RV automation project.
+description: Why I built LibreCoach, and how you can help keep it going.
 sidebar:
   order: 1
 draft: false
 ---
 
-I live full-time in a 2014 coach, and like a lot of RVers, I got frustrated watching the factory "smart" features age out. The touchscreen got slower, the app stopped getting updates, and the manufacturer moved on. The hardware underneath was still fine; it just needed better software.
+I live full-time in a 2014 coach, and eventually I got tired of watching the factory "smart" features become less smart.
 
-So I built my own. LibreCoach started as a personal project to replace that aging factory panel with something I could actually control and improve. It runs on Home Assistant and connects directly to your RV-C network, with no new wiring and no proprietary hardware.
+The touchscreen got slower. The app stopped getting updates. The manufacturer moved on to newer coaches. But the hardware underneath was fine. It just depended on software that was no longer being maintained.
 
-I open-sourced it because I think RV owners shouldn't have to depend on a manufacturer's software timeline. Everything is transparent: you can see how it works, modify it to fit your rig, or just use it as-is. It works with older coaches and newer ones alike.
+So I decided to replace the software myself.
 
-I come from a mechanical engineering background with a lifelong habit of taking things apart to see how they work. Cars, motorcycles, boats, RVs: that hands-on mindset eventually carried over into software, where the same instinct to understand and improve complex systems applies just as well.
+LibreCoach started as a personal project to give me a better way to monitor and control my coach. It runs on Home Assistant and talks directly to the RV-C network, so there's no new wiring, no proprietary hardware, and no cloud dependency. I can see what the coach is doing, change things when I need to, and add features the original system never had.
 
-LibreCoach is developed and tested on the road, often in places where the hiking boots and bikes come out after the laptop gets closed. My hope is that it grows into something bigger: a community of RV owners sharing configurations, solving problems together, and making their rigs work the way they want.
+Once I had it working on my own rig, I decided to open-source it. If I was going to decode all of this anyway, there was no reason for the work to stay locked up on one coach. Other models have their own quirks, and other owners have useful things to add.
 
-I also created **Postmarked**, a self-hosted app to share travel photos and updates with family and friends along the way. You can see it on <a href="https://github.com/Backroads4Me/postmarked" target="_blank" rel="noopener noreferrer">GitHub</a> or follow along on my own trips at <a href="https://werehere.app" target="_blank" rel="noopener noreferrer">werehere.app</a>.
+I'm a mechanical engineer by training, but I've always been the person who takes things apart to see how they work, and usually fixes something while I'm in there. Cars, motorcycles, boats, and eventually a 45-foot motorhome. Software turned out to be just one more thing to open up.
+
+LibreCoach is built and tested on the road. Sometimes I'm working on it from a campsite; sometimes the laptop gets closed because it's time to hike or get the bikes out.
+
+My hope is that LibreCoach grows into a community where owners share configurations and help each other solve the weird problems that come with different coaches.
+
+I also built **Postmarked**, a self-hosted way for us to share photos and travel updates with family and friends while on the road. You can find both projects on <a href="https://github.com/Backroads4Me" target="_blank" rel="noopener noreferrer">GitHub</a>, or follow along with our travels at <a href="https://werehere.app" target="_blank" rel="noopener noreferrer">WereHere.app</a>.
+
+## Support LibreCoach
+
+If LibreCoach has been useful to you, and you'd like to help keep it going:
+
+- <a href="https://buymeacoffee.com/Backroads4Me" target="_blank" rel="noopener noreferrer">**☕ Buy me a coffee**</a>
+- <a href="https://github.com/Backroads4Me/ha-addons" target="_blank" rel="noopener noreferrer">**⭐ Star the project on GitHub**</a>

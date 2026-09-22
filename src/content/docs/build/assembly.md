@@ -85,11 +85,11 @@ The CAN HAT has jumpers for 120Ω termination resistors. They arrive in the On p
 
 ### Connect NVMe Additional Power Supply
 
-20. The Waveshare PCIe TO M.2 Board (E) came with a small loose two wire power cable. Using wire cutters, clip off just the tip of both wire connectors. The goal is to remove the plastic at the end without cutting the metal connector inside. Perform a test of step 21 to understand why.
+20. The Waveshare PCIe TO M.2 Board (E) came with a small loose two wire power cable. Using wire cutters, clip off just the tip of both wire connectors. The goal is to remove the plastic at the end without cutting the metal connector inside. Test-fit the connector from step 21 first to see how much to remove.
     ![Modifying the power cable connectors](../../../assets/assembly/assembly_15.webp)
 21. Connect the small power wires via the single small connector to the NVMe board as shown
     ![Power cable connected to NVMe adapter](../../../assets/assembly/assembly_16.webp)
-22. Connect the ends of the wires you clipped in step 19 to the GPIO pins labeled GND (black) and 5V (red). There are multiple pins of each available, it does not matter which ones are used.
+22. Connect the ends of the wires you clipped in step 20 to the GPIO pins labeled GND (black) and 5V (red). There are multiple pins of each available, it does not matter which ones are used.
     ![Power wires connected to GPIO pins](../../../assets/assembly/assembly_17.webp)
 
 ## Assemble the Case

@@ -50,7 +50,7 @@ After Step 1 completes, the disk will be automatically disconnected from the PC.
    ```
    select partition 1
    ```
-7. Assign a drive letter (any letter if you're using Z):
+7. Assign a drive letter (the examples below use Z; any unused letter works):
    ```
    assign letter=Z
    ```
@@ -72,7 +72,7 @@ After Step 1 completes, the disk will be automatically disconnected from the PC.
     ```
     diskpart
     ```
-13. Select the correct disk (replace X with your disk number):
+13. Select the correct disk (use the same disk number as before):
     ```
     select disk 1
     ```

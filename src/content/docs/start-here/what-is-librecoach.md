@@ -9,84 +9,49 @@ draft: false
 
 LibreCoach connects your RV's **RV-C based CAN network** to **Home Assistant**, so lights, climate, tanks, slides, and power systems can be monitored and controlled from hardware you own.
 
-_📌 Older or fully analog RVs may not be compatible. LibreCoach does **not** replace your factory systems or safety-critical controls; it integrates with them for monitoring and convenience control._
+_📌 Older or fully analog RVs may not be compatible. LibreCoach does **not** replace your factory systems or safety-critical controls; it works alongside them for monitoring and convenience control._
 
----
+## Why It Exists
 
-## The RV Tech Problem
+If you own a modern RV, you've probably met the so-called "smart coach." You may also have discovered how quickly it stops being smart.
 
-If you own a modern RV, you've probably met the so-called "smart coach." You may have also discovered how quickly it stops being smart.
+Manufacturers move on to new models and stop updating the software. When a control panel fails, the replacement can be an $1,800 dealer quote, sometimes for a simpler panel because the original part no longer exists. Lights, tanks, the inverter, and climate often live on separate panels that don't talk to each other. And the coach has no idea about the weather, your location, or your routines. It only reacts when you press a button.
 
-- **Abandonment**: RV manufacturers routinely drop support for proprietary systems. When the touchscreen fails or the company disappears, updates stop forever.
+The wiring and devices underneath are usually fine. What's missing is software you can keep running and improve.
 
-- **Expensive Failures**: A failed 5-year-old control panel can mean a $1,800 dealer quote, often replaced with a downgraded, non-smart panel because the original part no longer exists.
+## What LibreCoach Does
 
-- **Limited Customization**: Adding new components, dashboards, alerts, or integrations usually means working around the factory system instead of building on it.
+LibreCoach listens to your RV's existing control network and brings what it finds into Home Assistant.
 
-- **Fragmentation**: Lights, tanks, inverter, and climate often live on separate panels or apps that barely talk to each other.
+It discovers lights, switches, tanks, and controllers on its own as they show up on the network, so there are no templates to write. It's designed for RVs with RV-C networks, including many motorhomes with Firefly, Spyder, and similar multiplexed control systems.
 
-- **No Context or Automation**: Your RV doesn't know the weather, your location, or your routines. It reacts only when you press a button.
+You can then control the coach from a phone, tablet, wall-mounted screen, or any web browser. The factory switches and panels keep working exactly as before. LibreCoach adds to them; it doesn't replace them.
 
-The result is a system that's disconnected, hard to repair, and costly to keep running.
+The parts are standard and easy to replace. A complete DIY system typically costs **under $350**.
 
----
+## Why Home Assistant
 
-## The LibreCoach Solution
+LibreCoach is built on **Home Assistant**, a widely used open-source home automation platform. That choice matters for a few reasons:
 
-LibreCoach improves this experience by connecting your RV's existing control network to **open standards** and **software you control**.
-
-- **Auto-Discovery**  
-  Plug it in and power up. LibreCoach listens to the RV-C network and automatically discovers lights, switches, tanks, and controllers. No manual templates required.
-
-- **RV-C Compatibility**  
-  LibreCoach is designed for RVs with RV-C based CAN networks, including many motorhomes with Firefly, Spyder, and similar multiplexed control systems.
-
-- **Control From Any Screen**  
-  Control your rig from an iPhone, iPad, Android device, wall tablet, or any modern web browser.
-
-- **Original Controls Remain**  
-  LibreCoach is an addition to your RV, not a replacement for the factory switches and panels you rely on.
-
-- **Standard Parts, Lower Replacement Cost**  
-  A complete DIY LibreCoach system typically costs **under $350**, compared to thousands for proprietary replacements that still lock you in.
-
----
-
-## Built on a Proven Foundation
-
-LibreCoach is built on **Home Assistant**, a widely used open-source home automation platform.
-
-- **Home Assistant Integrations**  
-  Over 2,500 integrations: weather services, Starlink, voice assistants (Alexa / Google), energy, GPS-based automations, and more.
-
-- **Actively Maintained**  
-  Home Assistant has millions of users and an active development community. Even if LibreCoach development stopped tomorrow, your system would continue receiving updates and security patches.
-
-- **Your System, Not a Vendor's**  
-  Your automation logic lives in Home Assistant, not a vendor-locked touchscreen. You can upgrade hardware, migrate systems, and export your configuration.
-
----
+- It has over 2,500 integrations, including weather services, Starlink, Alexa and Google voice assistants, energy monitoring, and GPS-based automations.
+- It has millions of users and an active development community. Even if LibreCoach development stopped tomorrow, Home Assistant would keep receiving updates and security patches.
+- Your automations and settings live in Home Assistant, not in a vendor's touchscreen. You can upgrade hardware, move to a new system, and export your configuration.
 
 ## How It Works
 
 ![LibreCoach System Architecture](../../../assets/architecture-diagram.webp)
 
-1. **Hardware Bridge**  
-   A Raspberry Pi with a CAN HAT physically connects to your RV's CAN bus wiring.
+1. A Raspberry Pi with a CAN HAT connects to your RV's CAN bus wiring.
+2. The raw RV-C messages are passed along as MQTT messages.
+3. Node-RED flows decode those messages and create entities in Home Assistant automatically.
 
-2. **CAN-to-MQTT Translation**  
-   Raw RV-C messages are converted into MQTT events.
+For more detail, see [System Architecture](/reference/system-architecture/).
 
-3. **LibreCoach Core**  
-   Node-RED flows decode those messages and automatically create entities inside Home Assistant.
+## What You Can Control
 
----
+If a device speaks RV-C, LibreCoach can usually see it, and often control it:
 
-## What Can You Control?
-
-If it speaks RV-C, LibreCoach can usually see it, and often control it:
-
-- **Lighting**: Interior, exterior and patio lights
+- **Lighting**: Interior, exterior, and patio lights
 - **Climate**: Thermostats, heat pumps, roof fans, floor heat
 - **Plumbing**: Water pumps, fresh/grey/black tanks, LPG
 - **Power**: Inverters, chargers, generators, supported solar controllers
@@ -94,32 +59,19 @@ If it speaks RV-C, LibreCoach can usually see it, and often control it:
 ![LibreCoach dashboard](../../../assets/dashboards/dash_light.webp)
 ![LibreCoach dashboard](../../../assets/dashboards/dash_dark.webp)
 
----
+## What Setup Looks Like
 
-## Auto-Discovery in Action
+When LibreCoach first starts, it knows nothing about your coach. As it listens to the network, devices appear in Home Assistant with generic names like `switch_3`.
 
-When LibreCoach first boots, it starts as a blank slate. As it listens and learns your RV-C network, devices appear in real time.
+You walk through the coach, flip a switch, see which entity changes, and rename it to something like **Kitchen Light**. After that, it works like any other Home Assistant device. You don't need dealer tools or to reprogram anything in the coach. The [Identify Devices](/configuration/identify-devices/) guide walks through it.
 
-Your workflow is intentionally simple:
+## Getting Started
 
-1. A device like `switch_3` is created
-2. You identify it as the kitchen light
-3. You rename it **Kitchen Light**
-4. Done. It's now a fully integrated smart entity
-
-No dealer tools. No reprogramming. No vendor dependencies.
-
----
-
-## Two Ways to Get Started
-
-You can build the hardware yourself from standard parts (~$350, a few hours of basic assembly and software flashing), or join the interest list for a possible pre-assembled kit.
+You can build the hardware yourself from standard parts. Plan on about $350 and a few hours of assembly and setup. If you'd rather not build it, you can join the interest list for a possible pre-assembled kit.
 
 [View the Hardware & Assembly Guide](/build/hardware/)
 
 [Pre-Assembled Kit Interest List](/start-here/kit-interest/)
-
----
 
 ## Need Help?
 

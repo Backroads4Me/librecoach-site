@@ -56,7 +56,7 @@ Once you've identified a switch:
 1. In Home Assistant, click on the switch name, not the toggle, and it will open
 2. Click the gear icon (⚙️) in the top right
 3. Change the **Name** to something meaningful like `Kitchen Light`
-4. Optional, but recomended, disable "Use device area" and enter a name (e.g., "Bedroom")
+4. Optional, but recommended, disable "Use device area" and enter a name (e.g., "Bedroom")
 5. You can also disable unused switches that you want to hide on this same screen.
 
 _📌 Before renaming everything by hand, check if someone has already shared a LibreCoach configuration for your RV model in [Shared Configurations](/configuration/config-library/)._

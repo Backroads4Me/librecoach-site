@@ -12,7 +12,7 @@ One of the biggest benefits of LibreCoach is the ability to automate your rig. I
 
 ## Creating Your First Automation
 
-Modern Home Assistant makes this incredibly easy with natural language triggers. You don't need to write code; just tell it what you want to happen.
+Home Assistant's automation editor lets you build this with a few menus. You don't need to write code.
 
 **Example: Notify me when the Black Tank is full.**
 

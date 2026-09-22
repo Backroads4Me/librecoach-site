@@ -36,8 +36,6 @@ Perform a **Known Action** (such as toggling a light from Home Assistant), then 
 - **Always Running Baseline:** LibreCoach continuously tracks the steady state of your RV. The recording tool only logs changes, filtering out background noise.
 - **Auto-Stop:** Recording automatically stops after **10 minutes** or **1000 messages** to protect your system. If you hit the limit, simply save the log and start a new session.
 
----
-
 ## Analyzing the Output
 
 Open the `.json` file in any text editor. Each message is timestamped and structured like this:
