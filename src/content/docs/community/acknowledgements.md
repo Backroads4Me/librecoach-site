@@ -34,9 +34,3 @@ The MicroAir EasyTouch Bluetooth integration draws on protocol work from:
 The Hughes Power Watchdog Bluetooth integration draws on protocol work from:
 
 - **john-k-mcdowell**: <a href="https://github.com/john-k-mcdowell/My-Hughes-Power-Watchdog" target="_blank" rel="noopener noreferrer">My-Hughes-Power-Watchdog</a>
-
-## CoachProxy
-
-CoachProxy was one of the first projects to connect RV systems to modern automation tools. Its open-source release showed what was possible and has been a useful reference for everyone working in this space.
-
-- **linuxkidd**: <a href="https://github.com/linuxkidd/coachproxy-os" target="_blank" rel="noopener noreferrer">coachproxy-os</a>
