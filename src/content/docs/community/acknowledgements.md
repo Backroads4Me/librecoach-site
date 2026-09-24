@@ -28,8 +28,8 @@ Some device integrations started from other people's research into how those dev
 
 The MicroAir EasyTouch Bluetooth integration draws on protocol work from:
 
-- **k3vmcd**: <a href="https://github.com/k3vmcd/ha-micro-air-easytouch" target="_blank" rel="noopener noreferrer">ha-micro-air-easytouch</a>
-- **Spuds**: <a href="https://github.com/Spuds/ha_EasyTouchRV_MicroAir_MZ" target="_blank" rel="noopener noreferrer">ha_EasyTouchRV_MicroAir_MZ</a>
+- **Spuds**: <a href="https://github.com/Spuds/ha_EasyTouchRV_MicroAir_MZ" target="_blank" rel="noopener noreferrer">ha_EasyTouchRV_MicroAir_MZ</a>, a multi-zone fork of k3vmcd's integration and the direct source for LibreCoach's implementation
+- **k3vmcd**: <a href="https://github.com/k3vmcd/ha-micro-air-easytouch" target="_blank" rel="noopener noreferrer">ha-micro-air-easytouch</a>, the original integration, which now includes multi-zone support
 
 The Hughes Power Watchdog Bluetooth integration draws on protocol work from:
 
