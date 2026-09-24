@@ -29,7 +29,7 @@ Some device integrations started from other people's research into how those dev
 The MicroAir EasyTouch Bluetooth integration draws on protocol work from:
 
 - **k3vmcd**: <a href="https://github.com/k3vmcd/ha-micro-air-easytouch" target="_blank" rel="noopener noreferrer">ha-micro-air-easytouch</a>
-- **mlefevre**: <a href="https://github.com/mlefevre/ha_EasyTouchRV_MicroAir_MZ" target="_blank" rel="noopener noreferrer">ha_EasyTouchRV_MicroAir_MZ</a>
+- **Spuds**: <a href="https://github.com/Spuds/ha_EasyTouchRV_MicroAir_MZ" target="_blank" rel="noopener noreferrer">ha_EasyTouchRV_MicroAir_MZ</a>
 
 The Hughes Power Watchdog Bluetooth integration draws on protocol work from:
 
