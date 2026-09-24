@@ -34,3 +34,4 @@ The MicroAir EasyTouch Bluetooth integration draws on protocol work from:
 The Hughes Power Watchdog Bluetooth integration draws on protocol work from:
 
 - **john-k-mcdowell**: <a href="https://github.com/john-k-mcdowell/My-Hughes-Power-Watchdog" target="_blank" rel="noopener noreferrer">My-Hughes-Power-Watchdog</a>
+- **jdaleo23**: <a href="https://github.com/jdaleo23/ha-power-watchdog" target="_blank" rel="noopener noreferrer">ha-power-watchdog</a>
